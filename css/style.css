@@ -341,3 +341,16 @@ p {
 @media (min-width: 1400px) {
   .logo {
     padding: 0px 25px 30px 25px; } }
+
+/*Media Query 1440------------------------------------
+---------------------------------------------------*/
+@media (min-width: 1440px) {
+  .content {
+    max-width: 1360px;
+    margin-left: auto;
+    margin-right: auto; }
+  .footer-headline,
+  .footer-email {
+    max-width: 1300px;
+    margin-left: auto;
+    margin-right: auto; } }
