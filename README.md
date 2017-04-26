@@ -1,9 +1,32 @@
-## Installation
+## Jekyll Installation with Homebrew
 
 https://securityrat.github.io/mydoc_install_jekyll_on_mac.html
 
 ```
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+brew update
+brew install ruby
+which ruby
+which gem
+gem install jekyll
+gem install bundler
 jekyll serve
+```
+
+## Pattern Lab Installation with Homebrew
+
+http://blog.teamtreehouse.com/install-node-js-npm-mac
+
+```
+brew install node
+npm install
+npm install --global gulp-cli
+npm install gulp
+npm install gulp-sass
+npm install patternlab-node
+npm install browser-sync
+npm install minimist
+
 ```
 
 ### Layouts
