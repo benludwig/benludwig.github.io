@@ -1,33 +1,10 @@
-# minima
-
-*Minima is a one-size-fits-all Jekyll theme for writers*. It's Jekyll's default (and first) theme. It's what you get when you run `jekyll new`.
-
-[Theme preview](https://jekyll.github.io/minima/)
-
-![minima theme preview](/screenshot.png)
-
 ## Installation
 
-Add this line to your Jekyll site's Gemfile:
+https://securityrat.github.io/mydoc_install_jekyll_on_mac.html
 
-```ruby
-gem "minima"
 ```
-
-And add this line to your Jekyll site:
-
-```yaml
-theme: minima
+jekyll serve
 ```
-
-And then execute:
-
-    $ bundle
-
-
-## Contents At-A-Glance
-
-Minima has been scaffolded by the `jekyll new-theme` command and therefore has all the necessary files and directories to have a new Jekyll site up and running with zero-configuration.
 
 ### Layouts
 
@@ -53,10 +30,10 @@ Refers to snippets of code within the `_includes` directory that can be inserted
 
 Refers to `.scss` files within the `_sass` directory that define the theme's styles.
 
-  - `minima.scss` &mdash; The core file imported by preprocessed `main.scss`, it defines the variable defaults for the theme and also further imports sass partials to supplement itself.
-  - `minima/_base.scss` &mdash; Resets and defines base styles for various HTML elements.
-  - `minima/_layout.scss` &mdash; Defines the visual style for various layouts.
-  - `minima/_syntax-highlighting.scss` &mdash; Defines the styles for syntax-highlighting.
+  - `ludwig.scss` &mdash; The core file imported by preprocessed `main.scss`, it defines the variable defaults for the theme and also further imports sass partials to supplement itself.
+  - `ludwig/_base.scss` &mdash; Resets and defines base styles for various HTML elements.
+  - `ludwig/_layout.scss` &mdash; Defines the visual style for various layouts.
+  - `ludwig/_syntax-highlighting.scss` &mdash; Defines the styles for syntax-highlighting.
 
 ### Assets
 
