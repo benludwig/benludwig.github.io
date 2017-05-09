@@ -1,0 +1,194 @@
+/*Colors-------------------------------
+-------------------------------------*/
+
+$color-dark: #262d3f;
+$color-medium: #153659;
+$color-light: #d3d0cd;
+$color-neutral: #968d81;
+$color-warm: #ea6922;
+$color-hot: #e84950;
+$color-white: #ffffff;
+
+/*Font Files---------------------------
+-------------------------------------*/
+
+@font-face {
+  font-family: 'GTAmericaBold';
+  src: url('../fonts/GTAmerica/GTAmerica-Bold.eot'), /* IE9 Compat Modes */
+       url('../fonts/GTAmerica/GTAmerica-Bold.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/GTAmerica/GTAmerica-Bold.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/GTAmerica/GTAmerica-Bold.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/GTAmerica/GTAmerica-Bold.svg') format('svg'); /* Legacy iOS */
+       }
+
+@font-face {
+  font-family: 'GTAmerica-CompressedBold';
+  src: url('../fonts/GTAmerica/GTAmerica-CompressedBold.eot'), /* IE9 Compat Modes */
+       url('../fonts/GTAmerica/GTAmerica-CompressedBold.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/GTAmerica/GTAmerica-CompressedBold.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/GTAmerica/GTAmerica-CompressedBold.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/GTAmerica/GTAmerica-CompressedBold.svg') format('svg'); /* Legacy iOS */
+       }
+
+@font-face {
+  font-family: 'GTAmerica-CondensedBold';
+  src: url('../fonts/GTAmerica/GTAmerica-CondensedBold.eot'), /* IE9 Compat Modes */
+       url('../fonts/GTAmerica/GTAmerica-CondensedBold.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/GTAmerica/GTAmerica-CondensedBold.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/GTAmerica/GTAmerica-CondensedBold.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/GTAmerica/GTAmerica-CondensedBold.svg') format('svg'); /* Legacy iOS */
+       }
+
+@font-face {
+  font-family: 'GTAmerica-Medium';
+  src: url('../fonts/GTAmerica/GTAmerica-Medium.eot'), /* IE9 Compat Modes */
+       url('../fonts/GTAmerica/GTAmerica-Medium.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/GTAmerica/GTAmerica-Medium.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/GTAmerica/GTAmerica-Medium.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/GTAmerica/GTAmerica-Medium.svg') format('svg'); /* Legacy iOS */
+       }
+
+ /*Typography---------------------------
+ -------------------------------------*/
+
+ $font-primary : 'GTAmericaBold', serif;
+ $font-secondary : 'GTAmericaBold', serif;
+ $font-copy : 'GTAmericaBold', serif;
+ $font-weight-standard: 400;
+ $font-weight-bold: 700;
+ $font-size-standard: 13px;
+ $font-size-headline-larger: 32px;
+ $font-size-headline-large: 18px;
+ $font-size-headline-medium: 16px;
+ $font-size-headline-small: 14px;
+ $font-size-headline-smaller: 13px;
+ $font-size-headline-smallest: 12px;
+ $font-size-body-large: 15px;
+ $font-size-utility-small: 12px;
+ $font-size-utility-extra-small: 11px;
+ $font-size-caption: 11px;
+ $line-height-standard: 1.42857143;
+ $line-height-table-row: 18px;
+ $line-height-paragraph: 1em;
+ $letter-spacing-standard: 0.5px;
+
+ @mixin h1 {
+    font-family: $font-primary;
+    font-size: $font-size-headline-larger;
+    }
+
+@mixin p {
+    font-family: Georgia, serif;
+    font-style: normal;
+    font-weight: 400;
+    color: #000;
+    font-size: 16px;
+    line-height: 27px;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    letter-spacing: 0.1px;
+    margin: 0;
+    }
+
+
+ /*Shapes-------------------------------
+ -------------------------------------*/
+
+$border-radius: 4px;
+
+ /*Shadows------------------------------
+ -------------------------------------*/
+
+ @mixin box-shadow {
+     -webkit-box-shadow: 3px 3px 5px 0 rgba(0,0,0,.25);
+     -moz-box-shadow: 3px 3px 5px 0 rgba(0,0,0,.25);
+     box-shadow: 3px 3px 5px 0 rgba(0,0,0,.25);
+     }
+
+ /*Buttons------------------------------
+ -------------------------------------*/
+
+@mixin button {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    display: inline-block;
+    margin-bottom: 0;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid $color-dark;
+    border-radius: 0px;
+    position: relative;
+    background-color: rgba(255, 255, 255, 0);
+    font-size: 13px;
+    padding: 8px 15px;
+    }
+
+@mixin button-std {
+    @include button;
+    padding: 6px 12px;
+    font-size: $font-size-standard;
+    font-weight: $font-weight-standard;
+    line-height: $line-height-standard;
+    }
+
+@mixin button-small {
+    @include button;
+    padding: 2px 8px;
+    font-size: $font-size-utility-extra-small;
+    font-weight: $font-weight-standard;
+    line-height: $line-height-standard;
+    }
+
+/*Flexbox------------------------------
+-------------------------------------*/
+@mixin flex {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    }
+
+@mixin flex-direction-column {
+    -ms-flex-direction: column;
+    flex-direction: column;
+    }
+
+@mixin flex-justify-space-between {
+    -webkit-justify-content: space-between;
+    -ms-flex-pack:justify;
+    justify-content: space-between;
+    }
+
+@mixin flex-justify-flex-end {
+    -webkit-justify-content: flex-end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    }
+
+@mixin flex-justify-center {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    }
+
+ @mixin flex-align-center {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    }
+
+@mixin transition {
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+    }

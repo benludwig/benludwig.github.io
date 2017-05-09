@@ -1,0 +1,52 @@
+/*Imports------------------------------
+-------------------------------------*/
+
+@import "abstracts/variables";
+
+
+h1 {
+    @include h1;
+    color: $color-hot;
+    }
+
+button {
+    @include button;
+    }
+
+p {
+    @include p;
+    }
+
+.card {
+    background-color: blue;
+    position: relative;
+    width: 100%;
+    padding-top: 90%; /* 16:9 Aspect Ratio */
+    }
+
+  .card-top {
+    position:  absolute;
+    top: 0;
+    width: 100%;
+    height: 50%;
+    background-color:#333333;
+    }
+
+  .card-bottom {
+    position:  absolute;
+    bottom: 0;
+    width: 100%;
+    height:50%;
+    background-color: #ececec;
+    }
+
+/*Primary Nav--------------------------
+-------------------------------------*/
+
+.primary-nav {
+    @include flex;
+    @include flex-justify-space-between;
+    background-color: $color-dark;
+    color: $color-white;
+    padding: 15px;
+    }
