@@ -29,6 +29,15 @@ npm install minimist
 
 ```
 
+## Sending Styles to Jekyll from Pattern Lab
+
+```
+gulp copysass
+gulp copyvariables
+
+```
+
+
 ### Layouts
 
 Refers to files within the `_layouts` directory, that define the markup for your theme.
