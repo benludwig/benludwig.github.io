@@ -188,7 +188,32 @@ $border-radius: 4px;
     align-items: center;
     }
 
+@mixin flex-align-end {
+    -webkit-box-align: end;
+    -ms-flex-align: end;
+    align-items: flex-end;
+   }
+
 @mixin transition {
     -webkit-transition: all 0.2s ease;
     transition: all 0.2s ease;
+    }
+
+
+
+
+@mixin ratio16-9 {
+    padding-top: 56.25%;
+    }
+
+@mixin ratio4-3 {
+    padding-top: 66.66%;
+    }
+
+@mixin ratio8-5 {
+    padding-top: 62.5%;
+    }
+
+@mixin ratio1-1 {
+    padding-top: 100%;
     }

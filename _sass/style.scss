@@ -4,6 +4,16 @@
 @import "abstracts/variables";
 
 
+a,
+button {
+   outline: 0;
+}
+
+a:hover, a:active, a:focus {
+  /* styling for any way a link is about to be used */
+}
+
+
 h1 {
     @include h1;
     color: $color-hot;
@@ -11,8 +21,6 @@ h1 {
 
 button {
     @include button;
-    background-color: $color-hot;
-    color: $color-white;
     }
 
 p {
@@ -51,4 +59,61 @@ p {
     background-color: $color-dark;
     color: $color-white;
     padding: 15px;
+    }
+
+/*Comps--------------------------------
+-------------------------------------*/
+
+.comp01-top {
+    @include flex;
+    @include flex-align-center;
+    position: relative;
+    width: 100%;
+    }
+
+.comp01-top .comp01-left {
+    background-color: $color-dark;
+    width: 50%;
+    padding-top: 30%;
+    }
+
+.comp01-top .comp01-right {
+    position: absolute;
+    left: 10%;
+    width: 90%;
+    padding-top: 20%;
+    background-color: $color-neutral;
+    }
+
+.comp01-bottom {
+    @include flex;
+    @include flex-justify-center;
+    @include flex-align-end;
+    position: relative;
+    width: 100%;
+    padding: 0px 10%;
+    }
+
+.comp01-bottom .comp01-left {
+    background-color: grey;
+    width: 50%;
+    padding-top:30%;
+    }
+
+.comp01-bottom .comp01-right {
+    background-color: #1a1a1a;
+    width: 50%;
+    padding-top:20%;
+    }
+
+.comp01-gs .comp01-top .comp01-left {
+    background: $color-hot;
+    }
+
+
+/*George Street -----------------------
+-------------------------------------*/
+
+.gs .comp01-top .comp01-right {
+    background: #00ff00 url("../images/GS3.jpg") no-repeat center;
     }
