@@ -51,7 +51,7 @@ $color-white: #ffffff;
  /*Typography---------------------------
  -------------------------------------*/
 
- $font-primary : 'GTAmericaBold', serif;
+ $font-primary : 'GTAmerica-Medium', serif;
  $font-secondary : 'GTAmericaBold', serif;
  $font-copy : 'GTAmericaBold', serif;
  $font-weight-standard: 400;
@@ -199,8 +199,8 @@ $border-radius: 4px;
     transition: all 0.2s ease;
     }
 
-
-
+/*Image Aspect Ratios------------------
+-------------------------------------*/
 
 @mixin ratio16-9 {
     padding-top: 56.25%;
