@@ -72,16 +72,15 @@ $color-white: #ffffff;
  $line-height-paragraph: 1em;
  $letter-spacing-standard: 0.5px;
 
- @mixin h1 {
-    font-family: $font-primary;
-    font-size: $font-size-headline-larger;
-    }
+@mixin h1 {
+  font-family: $font-primary;
+  font-size: $font-size-headline-larger;
+  }
 
 @mixin p {
     font-family: Georgia, serif;
     font-style: normal;
     font-weight: 400;
-    color: #000;
     font-size: 16px;
     line-height: 27px;
     -moz-osx-font-smoothing: grayscale;
@@ -99,11 +98,11 @@ $border-radius: 4px;
  /*Shadows------------------------------
  -------------------------------------*/
 
- @mixin box-shadow {
-     -webkit-box-shadow: 3px 3px 5px 0 rgba(0,0,0,.25);
-     -moz-box-shadow: 3px 3px 5px 0 rgba(0,0,0,.25);
-     box-shadow: 3px 3px 5px 0 rgba(0,0,0,.25);
-     }
+@mixin box-shadow {
+   -webkit-box-shadow: 3px 3px 5px 0 rgba(0,0,0,.25);
+   -moz-box-shadow: 3px 3px 5px 0 rgba(0,0,0,.25);
+   box-shadow: 3px 3px 5px 0 rgba(0,0,0,.25);
+   }
 
  /*Buttons------------------------------
  -------------------------------------*/
@@ -187,6 +186,12 @@ $border-radius: 4px;
     -ms-flex-align: center;
     align-items: center;
     }
+
+@mixin flex-align-start {
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+   }
 
 @mixin flex-align-end {
     -webkit-box-align: end;

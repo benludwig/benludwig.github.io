@@ -39,27 +39,11 @@ p {
     @include p;
     }
 
-.card {
-    background-color: blue;
-    position: relative;
-    width: 100%;
-    padding-top: 90%; /* 16:9 Aspect Ratio */
-    }
-
-.card-top {
-    position:  absolute;
-    top: 0;
-    width: 100%;
-    height: 50%;
-    background-color:#333333;
-    }
-
-.card-bottom {
-    position:  absolute;
-    bottom: 0;
-    width: 100%;
-    height:50%;
-    background-color: #ececec;
+.small-caps,
+.footer-link {
+    font-size: $font-size-utility-small;
+    text-transform: uppercase;
+    margin-bottom: 8px;
     }
 
 /*Primary Nav--------------------------
@@ -85,20 +69,20 @@ p {
 /*Comps--------------------------------
 -------------------------------------*/
 
-.comp01-top {
+.overlap1-top {
     @include flex;
     @include flex-align-center;
     position: relative;
     width: 100%;
     }
 
-.comp01-top .comp01-left {
+.overlap1-top .overlap1-left {
     background-color: $color-dark;
     width: 50%;
     padding-top: 30%;
     }
 
-.comp01-top .comp01-right {
+.overlap1-top .overlap1-right {
     position: absolute;
     left: 10%;
     width: 90%;
@@ -106,7 +90,7 @@ p {
     background-color: $color-neutral;
     }
 
-.comp01-bottom {
+.overlap1-bottom {
     @include flex;
     @include flex-justify-center;
     @include flex-align-end;
@@ -115,25 +99,102 @@ p {
     padding: 0px 10%;
     }
 
-.comp01-bottom .comp01-left {
+.overlap1-bottom .overlap1-left {
     background-color: grey;
     width: 50%;
     padding-top:30%;
     }
 
-.comp01-bottom .comp01-right {
+.overlap1-bottom .overlap1-right {
     background-color: #1a1a1a;
     width: 50%;
     padding-top:20%;
     }
 
-.comp01-gs .comp01-top .comp01-left {
+.overlap1-gs .overlap1-top .overlap1-left {
     background: $color-hot;
     }
 
 /*George Street -----------------------
 -------------------------------------*/
 
-.gs .comp01-top .comp01-right {
+.gs .overlap1-top .overlap1-right {
     background: #00ff00 url("../images/GS3.jpg") no-repeat center;
+    }
+
+/*Footer-------------------------------
+-------------------------------------*/
+
+.footer {
+    background-color: $color-dark;
+    color: $color-white;
+    }
+
+.footer-inside {
+    padding: 30px 20px;
+    }
+
+.footer-link a {
+    color: $color-white;
+    }
+
+.footer-inside img {
+    display: block;
+    max-width: 20px;
+    }
+
+.footer .columns {
+    @include flex;
+    @include flex-align-start;
+    }
+
+.footer .column-second {
+    padding: 0 0 0 10px;
+    }
+
+@media screen and (max-width: 300px) {
+.footer-logo,
+.footer-third {
+    padding: 0 0 30px 0;
+    }
+    }
+
+@media screen and (max-width: 700px) and (min-width: 300px) {
+.footer-inside  {
+    @include flex;
+    @include flex-align-start;
+    }
+.footer-logo {
+    width: 10%;
+    }
+.footer-thirds {
+    width: 90%;
+    padding: 0 0 0 20px;
+    }
+.footer-third {
+    padding: 0 0 30px 0;
+    }
+    }
+
+@media screen and (min-width: 701px) {
+.footer-logo {
+    padding: 0 0 30px 0;
+    }
+.footer-thirds {
+    @include flex;
+    @include flex-align-start;
+    }
+.footer-third.first {
+    width: 20%;
+    }
+.footer-third.second {
+    width: 50%;
+    padding: 0 30px 0 0;
+    }
+.footer-third.third {
+    width: 30%;
+    }
+.footer .columns {
+    @include flex-justify-flex-end;
+    }
     }
