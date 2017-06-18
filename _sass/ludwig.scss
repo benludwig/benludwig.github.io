@@ -63,3 +63,16 @@ $on-laptop:        800px !default;
 .page-content {
     margin-top: 55px;
     }
+
+.grid {
+  width: 100%;
+  }
+    .grid-item {
+      box-sizing: border-box;
+      width: 50%;
+      padding: 10px;
+     }
+.grid-item img {
+  width: 100%;
+  height: auto;
+  }
