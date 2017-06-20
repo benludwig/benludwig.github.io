@@ -2,12 +2,9 @@
 layout: work
 title: SMNGA Architects
 image_path: http://res.cloudinary.com/benludwig/image/upload/f_auto/v1497727852/smnga-03-federico_uljq1s.jpg
-jsarr:
-     - imagesloaded.js
 ---
 
-<div class="grid" data-masonry='{ "itemSelector": ".grid-item" }'>
-<div class="grid-sizer"></div>
+<div class="grid">
 <div class="grid-item">
 <img src="http://res.cloudinary.com/benludwig/image/upload/f_auto/v1497728081/smnga-29-case-studies-animated_mu3qwl.gif" alt="SMNGA Architects">
 </div>

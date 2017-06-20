@@ -2,12 +2,9 @@
 layout: work
 title: Priester Aviation
 image_path: http://res.cloudinary.com/benludwig/image/upload/f_auto/v1497797100/priester-01-home_ihbvnc.jpg
-jsarr:
-     - imagesloaded.js
 ---
 
-<div class="grid" data-masonry='{ "itemSelector": ".grid-item" }'>
-<div class="grid-sizer"></div>
+<div class="grid">
 <div class="grid-item">
 <img src="http://res.cloudinary.com/benludwig/image/upload/f_auto/v1497797100/priester-01-home_ihbvnc.jpg" alt="Priester Aviation">
 </div>
