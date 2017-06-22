@@ -3,8 +3,9 @@ layout: work
 title: Priester Aviation
 image_path: http://res.cloudinary.com/benludwig/image/upload/f_auto/v1497797100/priester-01-home_ihbvnc.jpg
 ---
-
+<div class="grid-container">
 <div class="grid">
+<div class="grid-sizer"></div>
 <div class="grid-item">
 <img src="http://res.cloudinary.com/benludwig/image/upload/f_auto/v1497797100/priester-01-home_ihbvnc.jpg" alt="Priester Aviation">
 </div>
@@ -28,5 +29,6 @@ image_path: http://res.cloudinary.com/benludwig/image/upload/f_auto/v1497797100/
 </div>
 <div class="grid-item">
 <img src="http://res.cloudinary.com/benludwig/image/upload/f_auto/v1497797161/priester-15-boarding_fnkjmz.jpg" alt="Priester Aviation">
+</div>
 </div>
 </div>

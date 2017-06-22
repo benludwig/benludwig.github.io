@@ -1,12 +1,15 @@
 ---
-layout: page
-title: Work
+layout: archive
+title: Archive
 ---
+<div class="grid-container">
 <div class="grid">
+<div class="grid-sizer"></div>
 {% for work in site.work %}
   <div class="grid-item">
       <img src="{{ work.image_path }}" alt="page.title" />
       <h2><a href="{{ work.url }}">{{ work.title }}</a></h2>
   </div>
 {% endfor %}
+</div>
 </div>
