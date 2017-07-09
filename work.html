@@ -1,14 +1,16 @@
 ---
-layout: archive
-title: Archive
+layout: allwork
+title: Work
 ---
 <div class="grid-container">
 <div class="grid">
 <div class="grid-sizer"></div>
-{% for work in site.work %}
+{% assign sortedWork = site.work | sort: 'date' %}
+{% for work in sortedWork reversed %}
   <div class="grid-item">
-      <img src="{{ work.image_path }}" alt="page.title" />
+      <a href="{{ work.url }}"><img src="{{ work.image_path }}" alt="page.title" /></a>
       <h2><a href="{{ work.url }}">{{ work.title }}</a></h2>
+      <!-- <small>{{work.date | date: "%d %b %Y"}}</small> -->
   </div>
 {% endfor %}
 </div>

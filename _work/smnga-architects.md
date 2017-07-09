@@ -2,6 +2,7 @@
 layout: work
 title: SMNGA Architects
 image_path: http://res.cloudinary.com/benludwig/image/upload/f_auto/v1497727852/smnga-03-federico_uljq1s.jpg
+date:   2017-05-15
 ---
 <div class="grid-container">
 <div class="grid">
