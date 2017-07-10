@@ -33,8 +33,6 @@ dl, dd, ol, ul, figure {
   margin-top: 55px;
   }
 
-
-
 /*Homepage Top-------------------------
 -------------------------------------*/
 
@@ -50,54 +48,141 @@ dl, dd, ol, ul, figure {
 -------------------------------------*/
 
 .home-mid {
+  padding: 40px 0 20px 0;
+  }
+
+.home-work {
+  padding-bottom: 40px;
+  }
+
+.home-work.copy {
+  padding-left: 20px;
+  padding-right: 20px;
+  }
+
+.home-work.first .home-work-img {
+  padding: 0 20px 0 0;
+  }
+
+.home-work.second .home-work-img {
+  padding: 0 20px 0 20px;
+  }
+
+.home-work.third .home-work-img {
+  padding: 0 0 0 20px;
+  }
+
+.home-work.fourth .home-work-img {
+  padding: 0 20px 0 20px;
+  }
+
+.home-work .home-work-img a {
+  display: block;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  }
+
+.home-work.first .home-work-img a {
+  background-image: url('http://res.cloudinary.com/benludwig/image/upload/f_auto/v1497797100/priester-01-home_ihbvnc.jpg');
+  padding-top: 66.66%; /* 3:2 Aspect Ratio */
+  }
+
+.home-work.second .home-work-img a {
+  background-image: url('http://res.cloudinary.com/benludwig/image/upload/f_auto/v1497727852/smnga-03-federico_uljq1s.jpg');
+  padding-top: 100%; /* 1:1 Aspect Ratio */
+  }
+
+.home-work.third .home-work-img a {
+  background-image: url('http://res.cloudinary.com/benludwig/image/upload/f_auto/v1497727852/smnga-03-federico_uljq1s.jpg');
+  padding-top: 56.25%; /* 16:9 Aspect Ratio */
+  }
+
+.home-work.fourth .home-work-img a {
+  background-image: url('http://res.cloudinary.com/benludwig/image/upload/f_auto/v1497727852/smnga-03-federico_uljq1s.jpg');
+  padding-top: 75%; /* 4:3 Aspect Ratio */
+  }
+
+.home-work-link-group {
   padding: 20px;
   }
 
-.home-mid-top-left,
-.home-mid-top-right,
-.home-mid-center,
-.home-mid-bottom-left,
-.home-mid-bottom-right{
-  padding: 20px 0;
+
+
+
+
+
+
+@media (min-width:680px) {
+
+  .home-mid {
+    padding: 40px 20px 20px 20px;
+    }
+
+  .home-mid-top {
+    @include flex;
+    @include flex-align-center;
+    }
+
+  .home-mid-top-left,
+  .home-mid-top-right,
+  .home-mid-bottom-left,
+  .home-mid-bottom-right {
+    width: 50%;
+    }
+
+  .home-work.third .home-work-img a {
+    padding-top: 56.25%; /* 16:9 Aspect Ratio */
+    }
+
+  .home-mid-bottom {
+    @include flex;
+    @include flex-align-center;
+    }
+
+  .home-work,
+  .home-work.copy,
+  .home-work.first .home-work-img,
+  .home-work.second .home-work-img,
+  .home-work.third .home-work-img,
+  .home-work.fourth .home-work-img,
+  .home-work-link-group {
+    padding: 0px 0px 0px 0px;
+    }
+
+  .home-mid-top-left,
+  .home-mid-top-right,
+  .home-mid-center,
+  .home-mid-bottom-left,
+  .home-mid-bottom-right {
+    padding: 20px;
   }
 
+}
 
 
 
 
-.home-work-img {
-  width: 100%;
+@media (min-width:1100px) {
+
+  .home-mid {
+    padding: 80px 40px 40px 40px;
+    }
+
+  .home-mid-top-left,
+  .home-mid-top-right,
+  .home-mid-center,
+  .home-mid-bottom-left,
+  .home-mid-bottom-right {
+    padding: 40px;
   }
 
-.home-work-text {
+  .home-work.third .home-work-img a {
+    padding-top: 43%; /* 16:9 Aspect Ratio */
+    }
 
-  }
+}
 
-.home-work-button {
-
-  }
-
-
-.home-work-img.priester {
-  background-color: red;
-  padding-top: 60px;
-  }
-
-
-.home-work-img.second {
-  background-color: blue;
-  padding-top: 90px;
-  }
-
-.home-work-img.third {
-  background-color: pink;
-  padding-top: 30px;
-  }
-
-.home-work-img.fourth {
-  background-color: grey;
-  padding-top: 50px;
-  }
 
 
 
