@@ -7,7 +7,7 @@
   "style"
 ;
 
-/*Page Layout--------------------------
+/*Layout-------------------------------
 -------------------------------------*/
 
 body, h1, h2, h3, h4, h5, h6,
@@ -16,6 +16,11 @@ dl, dd, ol, ul, figure {
   margin: 0;
   padding: 0;
   }
+
+/*Color--------------------------------
+-------------------------------------*/
+
+
 
 /*Primary Nav--------------------------
 -------------------------------------*/
@@ -28,18 +33,16 @@ dl, dd, ol, ul, figure {
   z-index: 100;
   }
 
-.all-work .page-content
-.work .page-content {
-  margin-top: 55px;
+.all-work,
+.work {
+  padding-top: 55px;
   }
-
-
 
 /*Homepage Top-------------------------
 -------------------------------------*/
 
 .home-top {
-  height:95vh;
+  height:50vh;
   background-color: $color-medium;
   @include flex;
   @include flex-align-center;
@@ -50,56 +53,158 @@ dl, dd, ol, ul, figure {
 -------------------------------------*/
 
 .home-mid {
+  padding: 40px 0 20px 0;
+  background-color: #000;
+  }
+
+.home-work {
+  padding-bottom: 40px;
+  }
+
+.home-work.copy {
+  padding-left: 20px;
+  padding-right: 20px;
+  }
+
+.home-work.first .home-work-img {
+  padding: 0 20px 0 0;
+  }
+
+.home-work.second .home-work-img {
+  padding: 0 20px 0 20px;
+  }
+
+.home-work.third .home-work-img {
+  padding: 0 0 0 20px;
+  }
+
+.home-work.fourth .home-work-img {
+  padding: 0 20px 0 20px;
+  }
+
+.home-work .home-work-img a {
+  display: block;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  }
+
+.home-work.first .home-work-img a {
+  background-image: url('http://res.cloudinary.com/benludwig/image/upload/f_auto/v1497797118/priester-05-table_dqgrtb.jpg');
+  padding-top: 66.66%; /* 3:2 Aspect Ratio */
+  }
+
+.home-work.second .home-work-img a {
+  background-image: url('http://res.cloudinary.com/benludwig/image/upload/f_auto/v1497727852/smnga-03-federico_uljq1s.jpg');
+  padding-top: 100%; /* 1:1 Aspect Ratio */
+  }
+
+.home-work.third .home-work-img a {
+  background-image: url('http://res.cloudinary.com/benludwig/image/upload/f_auto/v1499734344/gs3_iopljd.jpg');
+  padding-top: 56.25%; /* 16:9 Aspect Ratio */
+  }
+
+.home-work.fourth .home-work-img a {
+  background-image: url('http://res.cloudinary.com/benludwig/image/upload/f_auto/v1499735419/expeditions-1_ysphai.jpg');
+  padding-top: 75%; /* 4:3 Aspect Ratio */
+  }
+
+.home-work-link-group {
   padding: 20px;
   }
 
-.home-mid-top-left,
-.home-mid-top-right,
-.home-mid-center,
-.home-mid-bottom-left,
-.home-mid-bottom-right{
-  padding: 20px 0;
+
+
+
+
+
+
+@media (min-width:680px) {
+
+  .home-mid {
+    padding: 40px 20px 20px 20px;
+    }
+
+  .home-mid-top {
+    @include flex;
+    @include flex-align-center;
+    }
+
+  .home-mid-top-left,
+  .home-mid-top-right,
+  .home-mid-bottom-left,
+  .home-mid-bottom-right {
+    width: 50%;
+    }
+
+  .home-work.third .home-work-img a {
+    padding-top: 56.25%; /* 16:9 Aspect Ratio */
+    }
+
+  .home-mid-bottom {
+    @include flex;
+    @include flex-align-center;
+    }
+
+  .home-work,
+  .home-work.copy,
+  .home-work.first .home-work-img,
+  .home-work.second .home-work-img,
+  .home-work.third .home-work-img,
+  .home-work.fourth .home-work-img,
+  .home-work-link-group {
+    padding: 0px 0px 0px 0px;
+    }
+
+  .home-mid-top-left,
+  .home-mid-top-right,
+  .home-mid-center,
+  .home-mid-bottom-left,
+  .home-mid-bottom-right {
+    padding: 20px;
+  }
+
+}
+
+
+
+
+@media (min-width:1100px) {
+
+  .home-mid {
+    padding: 80px 40px 40px 40px;
+    }
+
+  .home-mid-top-left,
+  .home-mid-top-right,
+  .home-mid-center,
+  .home-mid-bottom-left,
+  .home-mid-bottom-right {
+    padding: 40px;
+  }
+
+  .home-work.third .home-work-img a {
+    padding-top: 43%; /* 16:9 Aspect Ratio */
+    }
+
+}
+
+
+
+/*All Work-----------------------------
+-------------------------------------*/
+
+.all-work {
+  background-color: #000;
   }
 
 
+/*Work Detail--------------------------
+-------------------------------------*/
 
-
-
-.home-work-img {
-  width: 100%;
+.work {
+  background-color: #000;
   }
-
-.home-work-text {
-
-  }
-
-.home-work-button {
-
-  }
-
-
-.home-work-img.priester {
-  background-color: red;
-  padding-top: 60px;
-  }
-
-
-.home-work-img.second {
-  background-color: blue;
-  padding-top: 90px;
-  }
-
-.home-work-img.third {
-  background-color: pink;
-  padding-top: 30px;
-  }
-
-.home-work-img.fourth {
-  background-color: grey;
-  padding-top: 50px;
-  }
-
-
 
 /*Masonry Grid-------------------------
 -------------------------------------*/
@@ -118,20 +223,9 @@ html { overflow-y: scroll; }
   clear: both;
   }
 
-.all-work .grid-sizer,
-.all-work .grid-item {
-  width: 33%;
-  }
-
-.work .grid-sizer,
-.work .grid-item {
-  width: 50%;
-  }
-
 .grid-item {
   float: left;
   box-sizing: border-box;
-  padding: 5px;
   }
 
 .grid-item img {
@@ -139,13 +233,66 @@ html { overflow-y: scroll; }
   max-width: 100%;
   }
 
+/*All Work-----------------------------
+-------------------------------------*/
+
+.all-work {
+  background-color: #000;
+  }
+
+.all-work .grid-sizer,
+.all-work .grid-item {
+  width: 50%;
+  }
+
+.all-work .grid-item {
+  padding: 5px;
+  }
+
+@media (min-width:600px) {
+
+  .all-work .grid-item {
+    padding: 30px;
+    }
+
+}
+
+
+@media (min-width:800px) {
+
+  .all-work .grid-sizer,
+  .all-work .grid-item {
+    width: 33.33%;
+    }
+
+}
 
 
 
+/*Work Detail--------------------------
+-------------------------------------*/
 
+.work {
+  background-color: #000;
+  }
 
+.work .grid-sizer,
+.work .grid-item {
+  width: 100%;
+  }
 
+.work .grid-item {
+  padding: 5px;
+  }
 
+@media (min-width:800px) {
+
+  .work .grid-sizer,
+  .work .grid-item {
+    width: 50%;
+    }
+
+}
 
 
 
