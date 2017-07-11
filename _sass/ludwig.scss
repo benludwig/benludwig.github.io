@@ -90,7 +90,7 @@ dl, dd, ol, ul, figure {
   }
 
 .home-work.first .home-work-img a {
-  background-image: url('http://res.cloudinary.com/benludwig/image/upload/f_auto/v1497797118/priester-05-table_dqgrtb.jpg');
+  background-image: url('http://res.cloudinary.com/benludwig/image/upload/f_auto/v1497797100/priester-01-home_ihbvnc.jpg');
   padding-top: 66.66%; /* 3:2 Aspect Ratio */
   }
 
@@ -100,7 +100,7 @@ dl, dd, ol, ul, figure {
   }
 
 .home-work.third .home-work-img a {
-  background-image: url('http://res.cloudinary.com/benludwig/image/upload/f_auto/v1499734344/gs3_iopljd.jpg');
+  background-image: url('http://res.cloudinary.com/benludwig/image/upload/f_auto/v1497727852/smnga-03-federico_uljq1s.jpg');
   padding-top: 56.25%; /* 16:9 Aspect Ratio */
   }
 
@@ -169,6 +169,60 @@ dl, dd, ol, ul, figure {
 
 
 
+@media (min-width:680px) {
+
+  .home-mid {
+    padding: 40px 20px 20px 20px;
+    }
+
+  .home-mid-top {
+    @include flex;
+    @include flex-align-center;
+    }
+
+  .home-mid-top-left,
+  .home-mid-top-right,
+  .home-mid-bottom-left,
+  .home-mid-bottom-right {
+    width: 50%;
+    }
+
+  .home-work.third .home-work-img a {
+    padding-top: 56.25%; /* 16:9 Aspect Ratio */
+    }
+
+  .home-mid-bottom {
+    @include flex;
+    @include flex-align-center;
+    }
+
+  .home-work,
+  .home-work.copy,
+  .home-work.first .home-work-img,
+  .home-work.second .home-work-img,
+  .home-work.third .home-work-img,
+  .home-work.fourth .home-work-img,
+  .home-work-link-group {
+    padding: 0px 0px 0px 0px;
+    }
+
+  .home-mid-top-left,
+  .home-mid-top-right,
+  .home-mid-center,
+  .home-mid-bottom-left,
+  .home-mid-bottom-right {
+    padding: 40px;
+  }
+
+  .home-work.third .home-work-img a {
+    padding-top: 43%; /* 16:9 Aspect Ratio */
+    }
+
+}
+
+
+
+
 @media (min-width:1100px) {
 
   .home-mid {
@@ -189,14 +243,6 @@ dl, dd, ol, ul, figure {
 
 }
 
-
-
-/*All Work-----------------------------
--------------------------------------*/
-
-.all-work {
-  background-color: #000;
-  }
 
 
 /*Work Detail--------------------------
