@@ -42,8 +42,8 @@ dl, dd, ol, ul, figure {
 -------------------------------------*/
 
 .home-top {
-  height:50vh;
-  background-color: $color-medium;
+  height:90vh;
+  background-color: $color-dark;
   @include flex;
   @include flex-align-center;
   padding: 20px;
@@ -54,7 +54,7 @@ dl, dd, ol, ul, figure {
 
 .home-mid {
   padding: 40px 0 20px 0;
-  background-color: #000;
+  background-color: $color-dark;
   }
 
 .home-work {
@@ -100,7 +100,7 @@ dl, dd, ol, ul, figure {
   }
 
 .home-work.third .home-work-img a {
-  background-image: url('http://res.cloudinary.com/benludwig/image/upload/f_auto/v1497727852/smnga-03-federico_uljq1s.jpg');
+  background-image: url('http://res.cloudinary.com/benludwig/image/upload/f_auto/v1499734344/gs3_iopljd.jpg');
   padding-top: 56.25%; /* 16:9 Aspect Ratio */
   }
 
@@ -245,12 +245,7 @@ dl, dd, ol, ul, figure {
 
 
 
-/*Work Detail--------------------------
--------------------------------------*/
 
-.work {
-  background-color: #000;
-  }
 
 /*Masonry Grid-------------------------
 -------------------------------------*/
@@ -279,11 +274,15 @@ html { overflow-y: scroll; }
   max-width: 100%;
   }
 
+.grid-item h2 a {
+  color: $color-light;
+  }
+
 /*All Work-----------------------------
 -------------------------------------*/
 
 .all-work {
-  background-color: #000;
+  background-color: $color-dark;
   }
 
 .all-work .grid-sizer,
@@ -319,7 +318,7 @@ html { overflow-y: scroll; }
 -------------------------------------*/
 
 .work {
-  background-color: #000;
+  background-color: $color-dark;
   }
 
 .work .grid-sizer,

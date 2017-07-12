@@ -8,10 +8,13 @@ date:   2017-05-15
 <div class="grid">
 <div class="grid-sizer"></div>
 <div class="grid-item">
-<img src="http://res.cloudinary.com/benludwig/image/upload/f_auto/v1497728081/smnga-29-case-studies-animated_mu3qwl.gif" alt="SMNGA Architects">
+  <div class="copy-block">
+    <h1>Headline Text</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras eget erat ante. Maecenas quam urna, vehicula sed consectetur vitae, imperdiet id leo. Suspendisse potenti. Sed congue dui sit amet venenatis eleifend. Curabitur aliquet metus at nibh placerat dictum. Etiam tincidunt lacinia tempor.</p>
+  </div>
 </div>
 <div class="grid-item">
-<img src="http://res.cloudinary.com/benludwig/image/upload/f_auto/v1497727990/smnga-28-case-studies-mobile_ngf0pt.jpg" alt="SMNGA Architects">
+<img src="http://res.cloudinary.com/benludwig/image/upload/f_auto/v1497728081/smnga-29-case-studies-animated_mu3qwl.gif" alt="SMNGA Architects">
 </div>
 <div class="grid-item">
 <img src="http://res.cloudinary.com/benludwig/image/upload/f_auto/v1497727903/smnga-27-nav_tqts2n.gif" alt="SMNGA Architects">

@@ -26,9 +26,20 @@ img {
     height: auto;
     }
 
+
+h1.large {
+    @include h1-large;
+    color: $color-light;
+    }
+
 h1 {
     @include h1;
-    color: $color-hot;
+    color: $color-light;
+    }
+
+h2 {
+    @include h2;
+    color: $color-light;
     }
 
 button {
@@ -37,6 +48,7 @@ button {
 
 p {
     @include p;
+    color: $color-light;
     }
 
 .small-caps,
@@ -54,7 +66,7 @@ p {
     @include flex-justify-space-between;
     @include flex-align-center;
     background-color: $color-dark;
-    color: $color-white;
+    color: $color-light;
     padding: 15px;
     }
 
@@ -63,63 +75,7 @@ p {
     }
 
 .primary-nav-inside a {
-    color: $color-white;
-    }
-
-/*Comps--------------------------------
--------------------------------------*/
-
-.overlap1-top {
-    @include flex;
-    @include flex-align-center;
-    position: relative;
-    width: 100%;
-    }
-
-.overlap1-top .overlap1-left {
-    background-color: $color-dark;
-    width: 50%;
-    padding-top: 30%;
-    }
-
-.overlap1-top .overlap1-right {
-    position: absolute;
-    left: 10%;
-    width: 90%;
-    padding-top: 20%;
-    background-color: $color-neutral;
-    }
-
-.overlap1-bottom {
-    @include flex;
-    @include flex-justify-center;
-    @include flex-align-end;
-    position: relative;
-    width: 100%;
-    padding: 0px 10%;
-    }
-
-.overlap1-bottom .overlap1-left {
-    background-color: grey;
-    width: 50%;
-    padding-top:30%;
-    }
-
-.overlap1-bottom .overlap1-right {
-    background-color: #1a1a1a;
-    width: 50%;
-    padding-top:20%;
-    }
-
-.overlap1-gs .overlap1-top .overlap1-left {
-    background: $color-hot;
-    }
-
-/*George Street -----------------------
--------------------------------------*/
-
-.gs .overlap1-top .overlap1-right {
-    background: #00ff00 url("../images/GS3.jpg") no-repeat center;
+    color: $color-light;
     }
 
 /*Footer-------------------------------
@@ -127,7 +83,7 @@ p {
 
 .footer {
     background-color: $color-dark;
-    color: $color-white;
+    color: $color-light;
     }
 
 .footer-inside {
@@ -135,7 +91,7 @@ p {
     }
 
 .footer-link a {
-    color: $color-white;
+    color: $color-light;
     }
 
 .footer-inside img {

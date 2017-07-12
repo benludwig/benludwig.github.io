@@ -1,7 +1,7 @@
 /*Colors-------------------------------
 -------------------------------------*/
 
-$color-dark: #262d3f;
+$color-dark: #181818;
 $color-medium: #153659;
 $color-light: #d3d0cd;
 $color-neutral: #968d81;
@@ -72,9 +72,19 @@ $color-white: #ffffff;
  $line-height-paragraph: 1em;
  $letter-spacing-standard: 0.5px;
 
+@mixin h1-large {
+ font-family: $font-primary;
+ font-size: $font-size-headline-larger;
+ }
+
 @mixin h1 {
   font-family: $font-primary;
-  font-size: $font-size-headline-larger;
+  font-size: $font-size-headline-large;
+  }
+
+@mixin h2 {
+  font-family: $font-primary;
+  font-size: $font-size-headline-medium;
   }
 
 @mixin p {
@@ -124,10 +134,11 @@ $border-radius: 4px;
     -ms-user-select: none;
     user-select: none;
     background-image: none;
-    border: 1px solid $color-dark;
+    border: 1px solid $color-light;
     border-radius: 0px;
     position: relative;
     background-color: rgba(255, 255, 255, 0);
+    color: $color-light;
     font-size: 13px;
     padding: 8px 15px;
     }
