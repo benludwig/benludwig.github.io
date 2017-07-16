@@ -34,7 +34,8 @@ dl, dd, ol, ul, figure {
   }
 
 .all-work,
-.work {
+.work,
+.info {
   padding-top: 55px;
   }
 
@@ -42,11 +43,11 @@ dl, dd, ol, ul, figure {
 -------------------------------------*/
 
 .home-top {
-  height:90vh;
-  background-color: $color-dark;
+  height:200px;
+  background-color: $color-white;
   @include flex;
   @include flex-align-center;
-  padding: 20px;
+  padding: 30px;
   }
 
 /*Homepage Mid-------------------------
@@ -54,7 +55,7 @@ dl, dd, ol, ul, figure {
 
 .home-mid {
   padding: 40px 0 20px 0;
-  background-color: $color-dark;
+  background-color: #333333;
   }
 
 .home-work {
@@ -62,24 +63,32 @@ dl, dd, ol, ul, figure {
   }
 
 .home-work.copy {
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  }
+
+.home-work.copy h2 {
+  padding-bottom: 15px;
+  }
+
+.home-work-text {
+  padding-bottom: 10px;
   }
 
 .home-work.first .home-work-img {
-  padding: 0 20px 0 0;
+  padding: 0 30px 0 0;
   }
 
 .home-work.second .home-work-img {
-  padding: 0 20px 0 20px;
+  padding: 0 30px 0 30px;
   }
 
 .home-work.third .home-work-img {
-  padding: 0 0 0 20px;
+  padding: 0 0 0 30px;
   }
 
 .home-work.fourth .home-work-img {
-  padding: 0 20px 0 20px;
+  padding: 0 30px 0 30px;
   }
 
 .home-work .home-work-img a {
@@ -91,27 +100,32 @@ dl, dd, ol, ul, figure {
 
 .home-work.first .home-work-img a {
   background-image: url('http://res.cloudinary.com/benludwig/image/upload/f_auto/v1497797100/priester-01-home_ihbvnc.jpg');
-  padding-top: 66.66%; /* 3:2 Aspect Ratio */
+  padding-top: 66.66%;
   }
 
 .home-work.second .home-work-img a {
   background-image: url('http://res.cloudinary.com/benludwig/image/upload/f_auto/v1497727852/smnga-03-federico_uljq1s.jpg');
-  padding-top: 100%; /* 1:1 Aspect Ratio */
+  padding-top: 100%;
   }
 
 .home-work.third .home-work-img a {
   background-image: url('http://res.cloudinary.com/benludwig/image/upload/f_auto/v1499734344/gs3_iopljd.jpg');
-  padding-top: 56.25%; /* 16:9 Aspect Ratio */
+  padding-top: 56.25%;
   }
 
 .home-work.fourth .home-work-img a {
   background-image: url('http://res.cloudinary.com/benludwig/image/upload/f_auto/v1499735419/expeditions-1_ysphai.jpg');
-  padding-top: 75%; /* 4:3 Aspect Ratio */
+  padding-top: 75%;
   }
 
 .home-work-link-group {
-  padding: 20px;
+  padding: 15px 30px 20px 30px;
   }
+
+
+
+
+
 
 
 
@@ -122,7 +136,7 @@ dl, dd, ol, ul, figure {
 @media (min-width:680px) {
 
   .home-mid {
-    padding: 40px 20px 20px 20px;
+    padding: 40px 15px 20px 15px;
     }
 
   .home-mid-top {
@@ -137,8 +151,12 @@ dl, dd, ol, ul, figure {
     width: 50%;
     }
 
+  .home-work.second .home-work-img a {
+    padding-top: 133%;
+    }
+
   .home-work.third .home-work-img a {
-    padding-top: 56.25%; /* 16:9 Aspect Ratio */
+    padding-top: 43%;
     }
 
   .home-mid-bottom {
@@ -161,61 +179,19 @@ dl, dd, ol, ul, figure {
   .home-mid-center,
   .home-mid-bottom-left,
   .home-mid-bottom-right {
-    padding: 20px;
+    padding: 15px;
   }
 
-}
-
-
-
-
-@media (min-width:680px) {
-
-  .home-mid {
-    padding: 40px 20px 20px 20px;
+  .home-work.copy {
+    padding-bottom: 30px;
     }
 
-  .home-mid-top {
-    @include flex;
-    @include flex-align-center;
+  .home-work.copy h2 {
+    padding-bottom: 15px;
     }
 
-  .home-mid-top-left,
-  .home-mid-top-right,
-  .home-mid-bottom-left,
-  .home-mid-bottom-right {
-    width: 50%;
-    }
-
-  .home-work.third .home-work-img a {
-    padding-top: 56.25%; /* 16:9 Aspect Ratio */
-    }
-
-  .home-mid-bottom {
-    @include flex;
-    @include flex-align-center;
-    }
-
-  .home-work,
-  .home-work.copy,
-  .home-work.first .home-work-img,
-  .home-work.second .home-work-img,
-  .home-work.third .home-work-img,
-  .home-work.fourth .home-work-img,
-  .home-work-link-group {
-    padding: 0px 0px 0px 0px;
-    }
-
-  .home-mid-top-left,
-  .home-mid-top-right,
-  .home-mid-center,
-  .home-mid-bottom-left,
-  .home-mid-bottom-right {
-    padding: 40px;
-  }
-
-  .home-work.third .home-work-img a {
-    padding-top: 43%; /* 16:9 Aspect Ratio */
+  .home-work-text {
+    padding: 10px 0 10px 0;
     }
 
 }
@@ -238,7 +214,7 @@ dl, dd, ol, ul, figure {
   }
 
   .home-work.third .home-work-img a {
-    padding-top: 43%; /* 16:9 Aspect Ratio */
+    padding-top: 43%;
     }
 
 }
@@ -282,16 +258,12 @@ html { overflow-y: scroll; }
 -------------------------------------*/
 
 .all-work {
-  background-color: $color-dark;
+  background-color: #333333;
   }
 
 .all-work .grid-sizer,
 .all-work .grid-item {
   width: 50%;
-  }
-
-.all-work .grid-item {
-  padding: 5px;
   }
 
 @media (min-width:600px) {

@@ -1,8 +1,8 @@
 ---
 layout: work
 title: Torque
-image_path: http://res.cloudinary.com/benludwig/image/upload/f_auto/v1499733703/torque-08-post_sdgf3r.jpg
-date:   2017-06-12
+image_path: http://res.cloudinary.com/benludwig/image/upload/f_auto/v1499733708/torque-01-home_nmrkwl.jpg
+date:   2017-05-02
 ---
 <div class="grid-container">
 <div class="grid">
