@@ -1,7 +1,7 @@
 /*Colors-------------------------------
 -------------------------------------*/
 
-$color-dark: #181818;
+$color-dark: #282a2d;
 $color-medium: #153659;
 $color-light: #d3d0cd;
 $color-neutral: #968d81;
@@ -11,6 +11,20 @@ $color-white: #ffffff;
 
 /*Font Files---------------------------
 -------------------------------------*/
+
+
+@font-face {
+  font-family: 'Butler';
+  src: url('../fonts/Butler/butler_medium_stencil-webfont.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/Butler/butler_medium_stencil-webfont.woff') format('woff'); /* Pretty Modern Browsers */
+       }
+
+@font-face {
+ font-family: 'CircularBold';
+ src: url('../fonts/Circular/lineto-circular-bold.eot'), /* IE9 Compat Modes */
+      url('../fonts/Circular/lineto-circular-bold.woff2') format('woff2'), /* Super Modern Browsers */
+      url('../fonts/Circular/lineto-circular-bold.woff') format('woff'); /* Pretty Modern Browsers */
+      }
 
 @font-face {
   font-family: 'GTAmericaBold';
@@ -22,25 +36,7 @@ $color-white: #ffffff;
        }
 
 @font-face {
-  font-family: 'GTAmerica-CompressedBold';
-  src: url('../fonts/GTAmerica/GTAmerica-CompressedBold.eot'), /* IE9 Compat Modes */
-       url('../fonts/GTAmerica/GTAmerica-CompressedBold.woff2') format('woff2'), /* Super Modern Browsers */
-       url('../fonts/GTAmerica/GTAmerica-CompressedBold.woff') format('woff'), /* Pretty Modern Browsers */
-       url('../fonts/GTAmerica/GTAmerica-CompressedBold.ttf')  format('truetype'), /* Safari, Android, iOS */
-       url('../fonts/GTAmerica/GTAmerica-CompressedBold.svg') format('svg'); /* Legacy iOS */
-       }
-
-@font-face {
-  font-family: 'GTAmerica-CondensedBold';
-  src: url('../fonts/GTAmerica/GTAmerica-CondensedBold.eot'), /* IE9 Compat Modes */
-       url('../fonts/GTAmerica/GTAmerica-CondensedBold.woff2') format('woff2'), /* Super Modern Browsers */
-       url('../fonts/GTAmerica/GTAmerica-CondensedBold.woff') format('woff'), /* Pretty Modern Browsers */
-       url('../fonts/GTAmerica/GTAmerica-CondensedBold.ttf')  format('truetype'), /* Safari, Android, iOS */
-       url('../fonts/GTAmerica/GTAmerica-CondensedBold.svg') format('svg'); /* Legacy iOS */
-       }
-
-@font-face {
-  font-family: 'GTAmerica-Medium';
+  font-family: 'GTAmericaMedium';
   src: url('../fonts/GTAmerica/GTAmerica-Medium.eot'), /* IE9 Compat Modes */
        url('../fonts/GTAmerica/GTAmerica-Medium.woff2') format('woff2'), /* Super Modern Browsers */
        url('../fonts/GTAmerica/GTAmerica-Medium.woff') format('woff'), /* Pretty Modern Browsers */
@@ -51,54 +47,74 @@ $color-white: #ffffff;
  /*Typography---------------------------
  -------------------------------------*/
 
- $font-primary : 'GTAmerica-Medium', serif;
- $font-secondary : 'GTAmericaBold', serif;
- $font-copy : 'GTAmericaBold', serif;
- $font-weight-standard: 400;
- $font-weight-bold: 700;
- $font-size-standard: 13px;
- $font-size-headline-larger: 32px;
- $font-size-headline-large: 18px;
- $font-size-headline-medium: 16px;
- $font-size-headline-small: 14px;
- $font-size-headline-smaller: 13px;
- $font-size-headline-smallest: 12px;
- $font-size-body-large: 15px;
- $font-size-utility-small: 12px;
- $font-size-utility-extra-small: 11px;
- $font-size-caption: 11px;
- $line-height-standard: 1.42857143;
- $line-height-table-row: 18px;
- $line-height-paragraph: 1em;
- $letter-spacing-standard: 0.5px;
+ $font-primary : 'Butler', serif;
+ $font-secondary : 'CircularBold', sans-serif;
+ $font-copy : 'GTAmericaMedium', sans-serif;
 
 @mixin h1-large {
- font-family: $font-primary;
- font-size: $font-size-headline-larger;
- }
+  font-weight: normal;
+  font-style: normal;
+  font-family: $font-primary;
+  font-size: 92px;
+  line-height: 80px;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  }
 
 @mixin h1 {
+  font-weight: normal;
+  font-style: normal;
   font-family: $font-primary;
-  font-size: $font-size-headline-large;
+  font-size: 40px;
+  line-height: 40px;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
   }
 
 @mixin h2 {
+  font-weight: normal;
+  font-style: normal;
   font-family: $font-primary;
-  font-size: $font-size-headline-medium;
+  font-size: 30px;
+  line-height: 30px;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
   }
 
 @mixin p {
-    font-family: Georgia, serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 27px;
-    -moz-osx-font-smoothing: grayscale;
-    -webkit-font-smoothing: antialiased;
-    letter-spacing: 0.1px;
-    margin: 0;
-    }
+  font-weight: normal;
+  font-style: normal;
+  font-family: $font-copy;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: 0px;
+  margin: 0;
+  }
 
+@mixin small {
+  font-weight: normal;
+  font-style: normal;
+  font-family: $font-secondary;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.75px;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  }
+
+@mixin nav-link {
+  font-weight: normal;
+  font-style: normal;
+  font-family: $font-secondary;
+  font-size: 13px;
+  line-height: 18px;
+  letter-spacing: 0.25px;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  }
 
  /*Shapes-------------------------------
  -------------------------------------*/
@@ -146,17 +162,11 @@ $border-radius: 4px;
 @mixin button-std {
     @include button;
     padding: 6px 12px;
-    font-size: $font-size-standard;
-    font-weight: $font-weight-standard;
-    line-height: $line-height-standard;
     }
 
 @mixin button-small {
     @include button;
     padding: 2px 8px;
-    font-size: $font-size-utility-extra-small;
-    font-weight: $font-weight-standard;
-    line-height: $line-height-standard;
     }
 
 /*Flexbox------------------------------
@@ -213,23 +223,4 @@ $border-radius: 4px;
 @mixin transition {
     -webkit-transition: all 0.2s ease;
     transition: all 0.2s ease;
-    }
-
-/*Image Aspect Ratios------------------
--------------------------------------*/
-
-@mixin ratio16-9 {
-    padding-top: 56.25%;
-    }
-
-@mixin ratio4-3 {
-    padding-top: 66.66%;
-    }
-
-@mixin ratio8-5 {
-    padding-top: 62.5%;
-    }
-
-@mixin ratio1-1 {
-    padding-top: 100%;
     }

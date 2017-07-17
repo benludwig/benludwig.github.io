@@ -4,9 +4,8 @@
 @import "abstracts/variables";
 
 body {
-    font-family: $font-primary;
+    font-family: $font-copy;
     color: $color-dark;
-    font-weight: $font-weight-standard;
     }
 
 a,
@@ -14,7 +13,6 @@ button {
     outline: 0;
     text-decoration: none;
     color: $color-dark;
-    font-weight: $font-weight-standard;
     }
 
 a:hover, a:active, a:focus {
@@ -51,11 +49,10 @@ p {
     color: $color-light;
     }
 
-.small-caps,
+.small,
 .footer-link {
-    font-size: $font-size-utility-small;
-    text-transform: uppercase;
-    margin-bottom: 8px;
+    @include small;
+    padding-bottom: 10px;
     }
 
 /*Primary Nav--------------------------
@@ -67,15 +64,26 @@ p {
     @include flex-align-center;
     background-color: $color-dark;
     color: $color-light;
-    padding: 15px;
+    padding: 0px 30px 0px 30px;
     }
 
-.primary-nav-inside .logo {
-    max-width: 20px;
+.primary-nav-third {
+    @include flex;
+    @include flex-align-center;
+    }
+
+.primary-nav-inside .logo img {
+    max-width: 14px;
+    }
+
+.primary-nav-link {
+    @include nav-link;
     }
 
 .primary-nav-inside a {
-    color: $color-light;
+    color: $color-white;
+    display:block;
+    padding: 15px 0 15px 0;
     }
 
 /*Footer-------------------------------
@@ -87,16 +95,21 @@ p {
     }
 
 .footer-inside {
-    padding: 30px 20px;
+    padding: 40px 30px 30px 30px;
     }
 
 .footer-link a {
     color: $color-light;
+    @include transition;
+    }
+
+.footer-link a:hover {
+    color: $color-white;
     }
 
 .footer-inside img {
     display: block;
-    max-width: 20px;
+    max-width: 14px;
     }
 
 .footer .columns {
@@ -105,7 +118,7 @@ p {
     }
 
 .footer .column-second {
-    padding: 0 0 0 10px;
+    padding: 0 0 0 20px;
     }
 
 @media screen and (max-width: 300px) {

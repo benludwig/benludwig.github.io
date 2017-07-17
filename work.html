@@ -9,7 +9,7 @@ title: Work
 {% for work in sortedWork reversed %}
   <div class="grid-item">
       <a href="{{ work.url }}"><img src="{{ work.image_path }}" alt="page.title" /></a>
-      <h2><a href="{{ work.url }}">{{ work.title }}</a></h2>
+      <div class="work-title"><a href="{{ work.url }}">{{ work.title }}</a></div>
       <!-- <small>{{work.date | date: "%d %b %Y"}}</small> -->
   </div>
 {% endfor %}

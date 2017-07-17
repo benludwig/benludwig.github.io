@@ -1,9 +1,6 @@
 @charset "utf-8";
 
 @import
-  // "ludwig/base",
-  // "ludwig/layout",
-  // "ludwig/syntax-highlighting",
   "style"
 ;
 
@@ -20,8 +17,6 @@ dl, dd, ol, ul, figure {
 /*Color--------------------------------
 -------------------------------------*/
 
-
-
 /*Primary Nav--------------------------
 -------------------------------------*/
 
@@ -33,10 +28,13 @@ dl, dd, ol, ul, figure {
   z-index: 100;
   }
 
-.all-work,
 .work,
 .info {
-  padding-top: 55px;
+  padding: 125px 20px 100px 20px;
+  }
+
+.all-work {
+  padding: 55px 10px;
   }
 
 /*Homepage Top-------------------------
@@ -72,7 +70,7 @@ dl, dd, ol, ul, figure {
   }
 
 .home-work-text {
-  padding-bottom: 10px;
+  @include small;
   }
 
 .home-work.first .home-work-img {
@@ -121,17 +119,6 @@ dl, dd, ol, ul, figure {
 .home-work-link-group {
   padding: 15px 30px 20px 30px;
   }
-
-
-
-
-
-
-
-
-
-
-
 
 @media (min-width:680px) {
 
@@ -196,9 +183,6 @@ dl, dd, ol, ul, figure {
 
 }
 
-
-
-
 @media (min-width:1100px) {
 
   .home-mid {
@@ -218,10 +202,6 @@ dl, dd, ol, ul, figure {
     }
 
 }
-
-
-
-
 
 /*Masonry Grid-------------------------
 -------------------------------------*/
@@ -250,8 +230,9 @@ html { overflow-y: scroll; }
   max-width: 100%;
   }
 
-.grid-item h2 a {
-  color: $color-light;
+.grid-item .work-title a {
+  @include small;
+  color: $color-white;
   }
 
 /*All Work-----------------------------
@@ -266,14 +247,17 @@ html { overflow-y: scroll; }
   width: 50%;
   }
 
+.all-work .grid-item {
+  padding: 20px 15px;
+  }
+
 @media (min-width:600px) {
 
   .all-work .grid-item {
-    padding: 30px;
+    padding: 40px 15px;
     }
 
 }
-
 
 @media (min-width:800px) {
 
@@ -283,8 +267,6 @@ html { overflow-y: scroll; }
     }
 
 }
-
-
 
 /*Work Detail--------------------------
 -------------------------------------*/
@@ -302,6 +284,10 @@ html { overflow-y: scroll; }
   padding: 5px;
   }
 
+.work .copy-block {
+  padding: 20px 0 20px 0;
+  }
+
 @media (min-width:800px) {
 
   .work .grid-sizer,
@@ -311,47 +297,42 @@ html { overflow-y: scroll; }
 
 }
 
+/*Info--------------------------------
+-------------------------------------*/
 
+.info {
+  @include flex;
+  }
 
-// Define defaults for each variable.
+.info-left,
+.info-right {
+  width: 50%;
+  }
 
-// $base-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !default;
-// $base-font-size:   16px !default;
-// $base-font-weight: 400 !default;
-// $small-font-size:  $base-font-size * 0.875 !default;
-// $base-line-height: 1.5 !default;
-//
-// $spacing-unit:     30px !default;
-//
-// $text-color:       #111 !default;
-// $background-color: #fdfdfd !default;
-// $brand-color:      #2a7ae2 !default;
-//
-// $grey-color:       #828282 !default;
-// $grey-color-light: lighten($grey-color, 40%) !default;
-// $grey-color-dark:  darken($grey-color, 25%) !default;
+.info-left {
+  padding-right: 20px;
+  }
 
-// Width of the content area
-// $content-width:    800px !default;
-//
-// $on-palm:          600px !default;
-// $on-laptop:        800px !default;
+.info-right {
+  padding-left: 20px;
+  }
 
-// Use media queries like this:
-// @include media-query($on-palm) {
-//   .wrapper {
-//     padding-right: $spacing-unit / 2;
-//     padding-left: $spacing-unit / 2;
-//   }
-// }
-// @mixin media-query($device) {
-//   @media screen and (max-width: $device) {
-//     @content;
-//   }
-// }
-//
-// @mixin relative-font-size($ratio) {
-//   font-size: $base-font-size * $ratio;
-// }
+/*Info Blocks--------------------------
+-------------------------------------*/
 
-// Import partials.
+.info-list-block {
+  @include flex;
+  }
+
+.info-list-block .block-left {
+  width: 25%;
+  margin: 0 10px 0 0;
+  padding: 25px 0 0 0;
+  }
+
+.info-list-block .block-right {
+  width: 75%;
+  margin: 0 0 0 10px;
+  padding: 20px 0 0 0;
+  border-top: 1px solid #333;
+  }
