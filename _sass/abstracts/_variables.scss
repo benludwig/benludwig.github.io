@@ -179,6 +179,11 @@ $border-radius: 4px;
     display: flex;
     }
 
+@mixin flex-wrap {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    }
+
 @mixin flex-direction-column {
     -ms-flex-direction: column;
     flex-direction: column;
