@@ -33,13 +33,21 @@ h1 {
   z-index: 100;
   }
 
-.work {
-  padding: 125px 20px 100px 20px;
+.primary-nav-inside a {
+  padding: 15px 30px 15px 30px;
   }
 
-.all-work {
-  padding: 55px 10px;
-  }
+@media (min-width: 1100px){
+
+  // .primary-nav-inside {
+  //   background-color: rgba(40, 42, 45, 0);
+  //   }
+
+  // .primary-nav-inside a {
+  //   padding: 15px 22px;
+  //   }
+
+}
 
 /*Homepage Mid-------------------------
 -------------------------------------*/
@@ -100,7 +108,7 @@ h1 {
   }
 
 .home-work.first .home-work-img a {
-  background-image: url('http://res.cloudinary.com/benludwig/image/upload/f_auto/v1497797100/priester-01-home_ihbvnc.jpg');
+  background-image: url('http://res.cloudinary.com/benludwig/image/upload/f_auto/v1497797118/priester-05-table_dqgrtb.jpg');
   padding-top: 66.66%;
   }
 
@@ -189,7 +197,7 @@ h1 {
 @media (min-width:1100px) {
 
   .home-mid {
-    padding: 80px 20px 40px 20px;
+    padding: 80px 40px 40px 40px;
     }
 
   .home-mid-top-left,
@@ -213,10 +221,6 @@ h1 {
 
 html { overflow-y: scroll; }
 
-.grid-container {
-  padding: 5px;
-  }
-
 .grid:after {
   content: '';
   display: block;
@@ -233,15 +237,11 @@ html { overflow-y: scroll; }
   max-width: 100%;
   }
 
-.grid-item .work-title a {
-  @include small;
-  color: $color-white;
-  }
-
 /*All Work-----------------------------
 -------------------------------------*/
 
 .all-work {
+  padding: 75px 5px 0px 5px;
   background-color: $color-dark;
   }
 
@@ -251,10 +251,29 @@ html { overflow-y: scroll; }
   }
 
 .all-work .grid-item {
-  padding: 20px 15px;
+  padding: 0px 5px 9% 5px;
+  }
+
+.all-work .grid-item:nth-child(2) {
+    margin-top: 9%;
+  }
+
+.grid-item .work-title {
+  padding-top: 5px;
+  line-height: 0.75em;
+  }
+
+.grid-item .work-title a {
+  @include small;
+  color: $color-white;
   }
 
 @media (min-width:600px) {
+
+  .all-work {
+    padding: 75px 15px 0px 15px;
+    background-color: $color-dark;
+    }
 
   .all-work .grid-item {
     padding: 40px 15px;
@@ -269,6 +288,10 @@ html { overflow-y: scroll; }
     width: 33.33%;
     }
 
+  .all-work .grid-item:nth-child(2) {
+      margin-top: 0%;
+    }
+
 }
 
 /*Work Detail--------------------------
@@ -276,6 +299,7 @@ html { overflow-y: scroll; }
 
 .work {
   background-color: $color-dark;
+  padding: 85px 0 2px 0;
   }
 
 .work .grid-sizer,
@@ -284,11 +308,11 @@ html { overflow-y: scroll; }
   }
 
 .work .grid-item {
-  padding: 5px;
+  padding: 2px 4px;
   }
 
 .work .copy-block {
-  padding: 20px 0 20px 0;
+  padding: 20px 26px;
   }
 
 @media (min-width:800px) {
@@ -298,10 +322,60 @@ html { overflow-y: scroll; }
     width: 50%;
     }
 
+  .work {
+    padding: 85px 4px 4px 4px;
+    }
+
+  .work .grid-item {
+    padding: 4px 4px;
+    }
+
+  .work .copy-block {
+    padding: 20px 22px 40px 22px;
+    }
+
+    .work .copy-block h1,
+    .work .copy-block p {
+    max-width: 600px;
+    }
+
 }
 
 /*Info--------------------------------
 -------------------------------------*/
+
+.info {
+  padding: 100px 0px 30px 0px;
+  }
+
+.info-left-copy-block {
+  padding: 0px 30px 15px 30px;
+  }
+
+.info-left-image {
+  padding: 0px 30px 0px 0px;
+  }
+
+.info-left-image .caption {
+  @include small;
+  padding: 0px 0px 0px 30px;
+  color: $color-light;
+  }
+
+.info-left-copy-block p {
+  padding-bottom: 15px;
+  }
+
+.block-top {
+  padding: 30px 30px 10px 30px;
+  }
+
+.info-list-block {
+  padding: 20px 30px 20px 30px;
+  }
+
+
+
 
 @media (min-width:800px) {
 
@@ -309,7 +383,6 @@ html { overflow-y: scroll; }
 .info {
   @include flex;
   }
-
 
 .info {
   padding: 125px 80px 100px 80px;
@@ -370,3 +443,30 @@ html { overflow-y: scroll; }
   }
 
 }
+
+
+
+
+/*Footer-------------------------------
+-------------------------------------*/
+
+.footer {
+  background-color: #1a1a1a;
+  padding: 40px 30px 10px 30px;
+  }
+
+@media screen and (min-width: 701px) {
+
+  .footer {
+    padding: 40px 30px 40px 30px;
+    }
+
+  }
+
+@media screen and (min-width: 1020px) {
+
+  .footer {
+    padding: 40px 30px 80px 30px;
+    }
+
+  }

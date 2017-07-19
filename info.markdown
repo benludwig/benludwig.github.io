@@ -6,10 +6,15 @@ permalink: /info/
 
 <div class="info-left">
   <div class="info-left-copy-block">
-    <h1>Lorem Ipsum Dolor Sit</h1>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras eget erat ante. Maecenas quam urna, vehicula sed consectetur vitae, imperdiet id leo. Suspendisse potenti. Sed congue dui sit amet venenatis eleifend. Curabitur aliquet metus at nibh placerat dictum. Etiam tincidunt lacinia tempor.</p>
-    <img src="http://res.cloudinary.com/benludwig/image/upload/f_auto/v1500256901/benludwig_qtsuec.jpg" alt="Ben Ludwig">
+    <h1>During the last ten years &mdash;</h1>
+    <p>I've been fortunate to work with hundreds of clients creating iOS apps, exhibition installations, audio marketing campaigns, interactive videos, print material and responsive websites.</p>
+    <p>I'm now on the Innovation team at Rise Interactive where I focus on data visualization and building user interface components that scale across multiple analytics dashboards.</p>
   </div>
+  <div class="info-left-image">
+    <img src="http://res.cloudinary.com/benludwig/image/upload/f_auto/v1500256901/benludwig_qtsuec.jpg" alt="Ben Ludwig">
+    <div class="caption">Photo by Sophia Hubler</div>
+  </div>
+
 
   <div class="block-top">
       <h2>Updates</h2>
@@ -73,7 +78,7 @@ permalink: /info/
 </div>
 <div class="info-list-block">
 <div class="block-left">
-    <div class="small">August 2016 - Present</div>
+    <div class="small">August 2016 &ndash; Present</div>
 </div>
 <div class="block-right first">
     <p>Senior Interaction Designer<br>
@@ -82,7 +87,7 @@ permalink: /info/
 </div>
 <div class="info-list-block">
 <div class="block-left">
-    <div class="small">March 2015 - August 2016</div>
+    <div class="small">March 2015 &ndash; August 2016</div>
 </div>
 <div class="block-right">
     <p>Senior Interactive Designer<br>Torque, Chicago, IL</p>
@@ -90,7 +95,7 @@ permalink: /info/
 </div>
 <div class="info-list-block">
 <div class="block-left">
-    <div class="small">October 2013 - March 2016</div>
+    <div class="small">October 2013 &ndash; March 2016</div>
 </div>
 <div class="block-right">
     <p>UI/UX Designer & Developer<br>Torque, Chicago, IL</p>
@@ -98,7 +103,7 @@ permalink: /info/
 </div>
 <div class="info-list-block">
 <div class="block-left">
-    <div class="small">May 2011 - October 2013</div>
+    <div class="small">May 2011 &ndash; October 2013</div>
 </div>
 <div class="block-right">
     <p>Designer & Web Developer<br>The Field Museum, Chicago, IL</p>
@@ -106,7 +111,7 @@ permalink: /info/
 </div>
 <div class="info-list-block">
 <div class="block-left">
-    <div class="small">December 2009 - May 2011</div>
+    <div class="small">December 2009 &ndash; May 2011</div>
 </div>
 <div class="block-right">
     <p>Digital Coordinator<br>KPMG, Chicago, IL</p>
@@ -114,7 +119,7 @@ permalink: /info/
 </div>
 <div class="info-list-block">
 <div class="block-left">
-    <div class="small">November 2006 - December 2009</div>
+    <div class="small">November 2006 &ndash; December 2009</div>
 </div>
 <div class="block-right">
     <p>Audio Engineer<br>Varitalk, Chicago, IL</p>
