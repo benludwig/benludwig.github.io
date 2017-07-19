@@ -24,7 +24,6 @@ img {
     height: auto;
     }
 
-
 h1.large {
     @include h1-large;
     color: $color-light;
@@ -64,7 +63,6 @@ p {
     @include flex-align-center;
     background-color: $color-dark;
     color: $color-light;
-    padding: 0px 30px 0px 30px;
     }
 
 .primary-nav-third {
@@ -82,7 +80,7 @@ p {
 
 .primary-nav-inside a {
     color: $color-white;
-    display:block;
+    display: block;
     padding: 15px 0 15px 0;
     }
 
@@ -92,10 +90,6 @@ p {
 .footer {
     background-color: $color-dark;
     color: $color-light;
-    }
-
-.footer-inside {
-    padding: 40px 30px 30px 30px;
     }
 
 .footer-link a {

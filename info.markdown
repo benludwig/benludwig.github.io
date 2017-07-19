@@ -45,59 +45,81 @@ permalink: /info/
 </div>
 <div class="info-list-block">
 <div class="block-left">
-    <div class="small">Current</div>
+    <div class="small">Design</div>
 </div>
 <div class="block-right first">
-    <p>Illustrator CC, Photoshop CC, React.js, Styled Components, Gulp.js, D3.js, SASS, JavaScript ES6, ag-grid, Pattern Lab, Liquid, Mustache, Sketch, npm, yarn, InVision, GitHub, Jekyll</p>
+    <p>Illustrator, Sketch, Photoshop, Lightroom, InDesign, Premiere Pro, After Effects, Invision</p>
 </div>
 </div>
 <div class="info-list-block">
 <div class="block-left">
-    <div class="small">Past</div>
+    <div class="small">Dev</div>
 </div>
 <div class="block-right">
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras eget erat ante. Maecenas quam urna, vehicula sed consectetur vitae.</p>
+    <p>React.js, Styled Components, Gulp.js, D3.js, SASS, JavaScript ES6, ag-grid, Pattern Lab, Liquid, Mustache, npm, yarn, Visual Studio, Git CLI/Desktop, GitHub</p>
 </div>
 </div>
-
-
+<div class="info-list-block">
+<div class="block-left">
+    <div class="small">CMS</div>
+</div>
+<div class="block-right">
+    <p>Jekyll, Drupal, Wordpress, Magento, Shopify, Webflow</p>
+</div>
+</div>
 
 <div class="block-top">
     <h2>Experience</h2>
 </div>
 <div class="info-list-block">
 <div class="block-left">
-    <div class="small">2017 - Current</div>
+    <div class="small">August 2016 - Present</div>
 </div>
 <div class="block-right first">
-    <p>Lorem Ipsum Dolor</p>
+    <p>Senior Interaction Designer<br>
+    Rise Interactive, Chicago, IL</p>
 </div>
 </div>
 <div class="info-list-block">
 <div class="block-left">
-    <div class="small">2013 - 2016</div>
+    <div class="small">March 2015 - August 2016</div>
 </div>
 <div class="block-right">
-    <p>Cras Eget Erat Ante.</p>
+    <p>Senior Interactive Designer<br>Torque, Chicago, IL</p>
 </div>
 </div>
 <div class="info-list-block">
 <div class="block-left">
-    <div class="small">2017 - Current</div>
+    <div class="small">October 2013 - March 2016</div>
 </div>
 <div class="block-right">
-    <p>Lorem Ipsum Dolor</p>
+    <p>UI/UX Designer & Developer<br>Torque, Chicago, IL</p>
 </div>
 </div>
 <div class="info-list-block">
 <div class="block-left">
-    <div class="small">2013 - 2016</div>
+    <div class="small">May 2011 - October 2013</div>
 </div>
 <div class="block-right">
-    <p>Cras Eget Erat Ante.</p>
+    <p>Designer & Web Developer<br>The Field Museum, Chicago, IL</p>
 </div>
 </div>
-
+<div class="info-list-block">
+<div class="block-left">
+    <div class="small">December 2009 - May 2011</div>
+</div>
+<div class="block-right">
+    <p>Digital Coordinator<br>KPMG, Chicago, IL</p>
+</div>
+</div>
+<div class="info-list-block">
+<div class="block-left">
+    <div class="small">November 2006 - December 2009</div>
+</div>
+<div class="block-right">
+    <p>Audio Engineer<br>Varitalk, Chicago, IL</p>
+</div>
+</div>
 
 
 <div class="block-top">
@@ -105,10 +127,10 @@ permalink: /info/
 </div>
 <div class="info-list-block">
 <div class="block-left">
-    <div class="small">Current</div>
+    <div class="small">2011</div>
 </div>
 <div class="block-right first">
-    <p>Illustrator CC, Photoshop CC, React.js, Styled Components, Gulp.js, D3.js, SASS, JavaScript ES6, ag-grid, Pattern Lab, Liquid, Mustache, Sketch, npm, yarn, InVision, GitHub, Jekyll</p>
+    <p>Bachelor of Fine Arts in Graphic Design, Cum Laude<br>Columbia College Chicago</p>
 </div>
 </div>
 
@@ -118,19 +140,28 @@ permalink: /info/
 </div>
 <div class="info-list-block">
 <div class="block-left">
-    <div class="small">Current</div>
+    <div class="small">Awards</div>
 </div>
 <div class="block-right first">
-    <p>Illustrator CC, Photoshop CC, React.js, Styled Components, Gulp.js, D3.js, SASS, JavaScript ES6, ag-grid, Pattern Lab, Liquid, Mustache, Sketch, npm, yarn, InVision, GitHub, Jekyll</p>
+    <p>Webby Interactive Marketing, Webby People's Choice, IMA Best in Class Software, IMA Best in Class Film, Chicago Tribune CAMME Best Website, Horizon Interactive Gold, Hollywood Reporter Key Art Award</p>
 </div>
 </div>
 <div class="info-list-block">
 <div class="block-left">
-    <div class="small">Past</div>
+    <div class="small">Conferences</div>
 </div>
 <div class="block-right">
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras eget erat ante. Maecenas quam urna, vehicula sed consectetur vitae.</p>
+    <p>An Event Apart Chicago 2016: A Day Apart with Brad Frost, FITC Form Chicago 2015, DrupalCon Portland 2013, DrupalCon Denver 2012</p>
 </div>
 </div>
+<div class="info-list-block">
+<div class="block-left">
+    <div class="small">Selected Clients</div>
+</div>
+<div class="block-right">
+    <p>ADIDAS, Disney, Dreamworks, ESPN, Glaceau, GMC, Jameson Sotheby's, Kellogg's, Microsoft, NBC, Northwestern Medicine, Power Construction</p>
+</div>
+</div>
+
 
 </div>

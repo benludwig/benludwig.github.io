@@ -155,8 +155,15 @@ $border-radius: 4px;
     position: relative;
     background-color: rgba(255, 255, 255, 0);
     color: $color-light;
-    font-size: 13px;
-    padding: 8px 15px;
+    font-weight: normal;
+    font-style: normal;
+    font-family: $font-secondary;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.75px;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    padding: 7px 14px;
     }
 
 @mixin button-std {
