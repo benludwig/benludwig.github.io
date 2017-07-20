@@ -19,8 +19,26 @@ h1 {
   padding-bottom: 15px;
   }
 
-/*Color--------------------------------
+/*Links--------------------------------
 -------------------------------------*/
+
+.home-work.copy a {
+  color: $color-light;
+  border-bottom: 1px solid $color-light;
+  }
+
+/*Icons--------------------------------
+-------------------------------------*/
+
+span.icon svg {
+  color: $color-white;
+  width: 14px;
+  height: auto;
+  }
+
+.home-work.copy span.icon g {
+  fill: $color-light;
+  }
 
 /*Primary Nav--------------------------
 -------------------------------------*/

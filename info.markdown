@@ -53,7 +53,7 @@ permalink: /info/
     <div class="small">Design</div>
 </div>
 <div class="block-right first">
-    <p>Illustrator, Sketch, Photoshop, Lightroom, InDesign, Premiere Pro, After Effects, Invision</p>
+    <p>Illustrator, Sketch, Photoshop, Lightroom, InDesign, Premiere Pro, After Effects, Invision, Milanote</p>
 </div>
 </div>
 <div class="info-list-block">
@@ -167,6 +167,5 @@ permalink: /info/
     <p>ADIDAS, Disney, Dreamworks, ESPN, Glaceau, GMC, Jameson Sotheby's, Kellogg's, Microsoft, NBC, Northwestern Medicine, Power Construction</p>
 </div>
 </div>
-
 
 </div>

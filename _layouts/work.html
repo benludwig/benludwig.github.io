@@ -1,11 +1,11 @@
----
-layout: default
----
-
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+  {% include head.html %}
+  <body>
+    {% include work-nav.html %}
   <div class="work">
     {{ content }}
   </div>
-
 <script>
 var grid = document.querySelector('.grid');
 var msnry;
@@ -17,3 +17,6 @@ imagesLoaded( grid, function() {
   });
 });
 </script>
+{% include footer.html %}
+</body>
+</html>

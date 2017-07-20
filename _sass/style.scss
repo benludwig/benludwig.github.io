@@ -74,6 +74,27 @@ p {
     max-width: 14px;
     }
 
+.primary-nav-third.first {
+    width: calc(50% - 10px);
+    @include flex;
+    @include flex-justify-flex-start;
+    @include flex-align-center;
+    }
+
+.primary-nav-third.second {
+    width: 20px;
+    @include flex;
+    @include flex-justify-center;
+    @include flex-align-center;
+    }
+
+.primary-nav-third.third {
+    width: calc(50% - 10px);
+    @include flex;
+    @include flex-justify-flex-end;
+    @include flex-align-center;
+    }
+
 .primary-nav-link {
     @include nav-link;
     }
