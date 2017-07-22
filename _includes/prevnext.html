@@ -20,5 +20,5 @@ if (e.keyCode == '37') { window.location = '{{nexturl}}'; }
 if (e.keyCode == '39') { window.location = '{{prevurl}}'; }
 };
 </script>
-{% if nexturl %}<a href="{{nexturl}}" class="prev">Prev</a>{% endif %}
-{% if prevurl %}<a href="{{prevurl}}" class="next">Next</a>{% endif %}<br />
+{% if nexturl %}<a href="{{nexturl}}" class="primary-nav-link">Prev</a>{% endif %}
+{% if prevurl %}<a href="{{prevurl}}" class="primary-nav-link">Next</a>{% endif %}<br />

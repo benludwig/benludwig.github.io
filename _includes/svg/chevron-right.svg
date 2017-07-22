@@ -5,7 +5,7 @@
     <desc>Created with Sketch.</desc>
     <defs></defs>
     <g id="Octicons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="chevron-right" fill="#000000">
+        <g id="chevron-right">
             <polygon id="Shape" points="7.5 8 2.5 13 1 11.5 4.75 8 1 4.5 2.5 3"></polygon>
         </g>
     </g>

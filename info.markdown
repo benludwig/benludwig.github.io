@@ -5,12 +5,12 @@ permalink: /info/
 ---
 
 <div class="info-left">
-  <div class="info-left-copy-block">
+  <div class="info-copy-block">
     <h1>During the last ten years &mdash;</h1>
     <p>I've been fortunate to work with hundreds of clients creating iOS apps, exhibition installations, audio marketing campaigns, interactive videos, print material and responsive websites.</p>
     <p>I'm now on the Innovation team at Rise Interactive where I focus on data visualization and building user interface components that scale across multiple analytics dashboards.</p>
   </div>
-  <div class="info-left-image">
+  <div class="info-image">
     <img src="http://res.cloudinary.com/benludwig/image/upload/f_auto/v1500256901/benludwig_qtsuec.jpg" alt="Ben Ludwig">
     <div class="caption">Photo by Sophia Hubler</div>
   </div>
@@ -36,6 +36,64 @@ permalink: /info/
   </div>
   </div>
 
+
+
+  <div class="block-top first">
+      <h2>Experience</h2>
+  </div>
+  <div class="info-list-block">
+  <div class="block-left">
+      <div class="small">August 2016 &ndash; Present</div>
+  </div>
+  <div class="block-right first">
+      <p>Senior Interaction Designer<br>
+      Rise Interactive, Chicago, IL</p>
+  </div>
+  </div>
+  <div class="info-list-block">
+  <div class="block-left">
+      <div class="small">March 2015 &ndash; August 2016</div>
+  </div>
+  <div class="block-right">
+      <p>Senior Interactive Designer<br>Torque, Chicago, IL</p>
+  </div>
+  </div>
+  <div class="info-list-block">
+  <div class="block-left">
+      <div class="small">October 2013 &ndash; March 2016</div>
+  </div>
+  <div class="block-right">
+      <p>UI/UX Designer & Developer<br>Torque, Chicago, IL</p>
+  </div>
+  </div>
+  <div class="info-list-block">
+  <div class="block-left">
+      <div class="small">May 2011 &ndash; October 2013</div>
+  </div>
+  <div class="block-right">
+      <p>Designer & Web Developer<br>The Field Museum, Chicago, IL</p>
+  </div>
+  </div>
+  <div class="info-list-block">
+  <div class="block-left">
+      <div class="small">December 2009 &ndash; May 2011</div>
+  </div>
+  <div class="block-right">
+      <p>Digital Coordinator<br>KPMG, Chicago, IL</p>
+  </div>
+  </div>
+  <div class="info-list-block">
+  <div class="block-left">
+      <div class="small">November 2006 &ndash; December 2009</div>
+  </div>
+  <div class="block-right">
+      <p>Audio Engineer<br>Varitalk, Chicago, IL</p>
+  </div>
+  </div>
+
+
+
+
 </div>
 
 
@@ -44,6 +102,7 @@ permalink: /info/
 
 
 <div class="info-right">
+
 
 <div class="block-top">
     <h2>Tools</h2>
@@ -70,59 +129,6 @@ permalink: /info/
 </div>
 <div class="block-right">
     <p>Jekyll, Drupal, Wordpress, Magento, Shopify, Webflow</p>
-</div>
-</div>
-
-<div class="block-top">
-    <h2>Experience</h2>
-</div>
-<div class="info-list-block">
-<div class="block-left">
-    <div class="small">August 2016 &ndash; Present</div>
-</div>
-<div class="block-right first">
-    <p>Senior Interaction Designer<br>
-    Rise Interactive, Chicago, IL</p>
-</div>
-</div>
-<div class="info-list-block">
-<div class="block-left">
-    <div class="small">March 2015 &ndash; August 2016</div>
-</div>
-<div class="block-right">
-    <p>Senior Interactive Designer<br>Torque, Chicago, IL</p>
-</div>
-</div>
-<div class="info-list-block">
-<div class="block-left">
-    <div class="small">October 2013 &ndash; March 2016</div>
-</div>
-<div class="block-right">
-    <p>UI/UX Designer & Developer<br>Torque, Chicago, IL</p>
-</div>
-</div>
-<div class="info-list-block">
-<div class="block-left">
-    <div class="small">May 2011 &ndash; October 2013</div>
-</div>
-<div class="block-right">
-    <p>Designer & Web Developer<br>The Field Museum, Chicago, IL</p>
-</div>
-</div>
-<div class="info-list-block">
-<div class="block-left">
-    <div class="small">December 2009 &ndash; May 2011</div>
-</div>
-<div class="block-right">
-    <p>Digital Coordinator<br>KPMG, Chicago, IL</p>
-</div>
-</div>
-<div class="info-list-block">
-<div class="block-left">
-    <div class="small">November 2006 &ndash; December 2009</div>
-</div>
-<div class="block-right">
-    <p>Audio Engineer<br>Varitalk, Chicago, IL</p>
 </div>
 </div>
 
