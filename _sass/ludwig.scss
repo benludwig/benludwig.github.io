@@ -66,6 +66,15 @@ h1 {
   z-index: 100;
   }
 
+@media (min-width:400px) {
+
+  .primary-nav-inside {
+    padding-left: 16px;
+    padding-right: 16px;
+    }
+
+}
+
 .primary-nav-link {
   padding: 14px;
   }
@@ -412,13 +421,6 @@ html { overflow-y: scroll; }
   padding: 20px 30px 10px 30px;
   }
 
-
-
-
-
-
-
-
 @media (min-width:500px) {
 
 .info-copy-block {
@@ -429,27 +431,26 @@ html { overflow-y: scroll; }
   padding: 30px 30px 0px 160px;
   }
 
+.block-top h2 {
+  border-bottom: 1px solid $color-light;
+  }
+
 .info-list-block {
   padding: 20px 30px 10px 160px;
   }
 
 }
 
-
-
-
-
-
-
 @media (min-width:600px) {
 
 .info-list-block {
   @include flex;
+  @include flex-justify-space-between;
   @include flex-wrap;
   }
 
 .block-top {
-  padding: 60px 30px 0px 285px;
+  padding: 60px 30px 0px 270px;
   }
 
 .info-list-block {
@@ -457,28 +458,22 @@ html { overflow-y: scroll; }
   }
 
 .info-list-block .block-left {
-  width: 125px;
+  width: 80px;
   padding-top: 15px;
   }
 
 .info-list-block .block-right {
-  width: calc(100% - 145px);
+  width: calc(100% - 110px);
   padding-top: 10px;
   }
 
 }
 
-
-
-
-
-
-
 @media (min-width:700px) {
 
 .info {
   @include flex;
-  padding: 0px 20px 0px 20px;
+  padding: 0px 30px 0px 30px;
   }
 
 .info-left,
@@ -487,12 +482,14 @@ html { overflow-y: scroll; }
   }
 
 .info-left {
-  padding-right: 20px;
+  padding-right: 30px;
+  padding-bottom: 60px;
   }
 
 .info-right {
   padding-top: 100px;
-  padding-left: 20px;
+  padding-left: 30px;
+  padding-bottom: 60px;
   border-left: 1px solid $color-light;
   }
 
@@ -510,7 +507,12 @@ html { overflow-y: scroll; }
   }
 
 .block-top {
-  padding: 30px 30px 0px 125px;
+  padding: 30px 30px 0px 110px;
+  }
+
+.block-top h2 {
+  border-bottom: 0px solid $color-light;
+  padding-bottom: 0px;
   }
 
 .info-list-block {
@@ -518,8 +520,6 @@ html { overflow-y: scroll; }
   }
 
 }
-
-
 
 @media (min-width:935px) {
 
@@ -541,12 +541,35 @@ html { overflow-y: scroll; }
   padding: 100px 0px 15px 0px;
   }
 
-
 }
 
+@media (min-width:1100px) {
+
+.info {
+  padding: 40px 80px 0px 80px;
+  }
+
+.info-left {
+  padding-right: 60px;
+  }
+
+.info-right {
+  padding-top: 100px;
+  padding-left: 60px;
+  border-left: 0px solid $color-light;
+  }
+
+.block-top {
+  padding: 30px 0px 0px 110px;
+  }
+
+.block-top h2 {
+  border-bottom: 1px solid $color-light;
+  padding-bottom: 10px;
+  }
 
 
-
+}
 
 /*Footer-------------------------------
 -------------------------------------*/
@@ -556,10 +579,33 @@ html { overflow-y: scroll; }
   padding: 40px 30px 10px 30px;
   }
 
+.footer-logo {
+  padding-top: 3px;
+  }
+
+.footer-third.second a {
+  color: $color-light;
+  border-bottom: 1px solid $color-light;
+  @include transition;
+  }
+
+.footer-third.second a:hover {
+  color: $color-white;
+  border-bottom: 1px solid $color-white;
+  }
+
+@media (min-width:400px) {
+
+  .footer {
+    padding: 80px 30px 80px 30px;
+    }
+
+}
+
 @media screen and (min-width: 701px) {
 
   .footer {
-    padding: 40px 30px 40px 30px;
+    padding: 80px 30px 120px 30px;
     }
 
   }
@@ -567,7 +613,35 @@ html { overflow-y: scroll; }
 @media screen and (min-width: 1020px) {
 
   .footer {
-    padding: 40px 30px 80px 30px;
+    padding: 100px 30px 160px 30px;
+    }
+
+  .footer .column-second {
+    padding: 0 0 0 40px;
+    }
+
+  }
+
+
+@media screen and (min-width: 1020px) {
+
+  .footer {
+    padding: 100px 30px 160px 30px;
+    }
+
+  }
+
+
+@media screen and (min-width: 1200px) {
+
+  .footer-third.second p {
+    max-width: 500px;
+    }
+
+  .footer-third.third {
+    -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
     }
 
   }

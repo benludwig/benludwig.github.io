@@ -43,7 +43,7 @@ permalink: /info/
   </div>
   <div class="info-list-block">
   <div class="block-left">
-      <div class="small">August 2016 &ndash; Present</div>
+      <div class="small">Aug 2016 &ndash; Present</div>
   </div>
   <div class="block-right first">
       <p>Senior Interaction Designer<br>
@@ -52,7 +52,7 @@ permalink: /info/
   </div>
   <div class="info-list-block">
   <div class="block-left">
-      <div class="small">March 2015 &ndash; August 2016</div>
+      <div class="small">Mar 2015 &ndash; Aug 2016</div>
   </div>
   <div class="block-right">
       <p>Senior Interactive Designer<br>Torque, Chicago, IL</p>
@@ -60,7 +60,7 @@ permalink: /info/
   </div>
   <div class="info-list-block">
   <div class="block-left">
-      <div class="small">October 2013 &ndash; March 2016</div>
+      <div class="small">Oct 2013 &ndash; Mar 2016</div>
   </div>
   <div class="block-right">
       <p>UI/UX Designer & Developer<br>Torque, Chicago, IL</p>
@@ -68,7 +68,7 @@ permalink: /info/
   </div>
   <div class="info-list-block">
   <div class="block-left">
-      <div class="small">May 2011 &ndash; October 2013</div>
+      <div class="small">May 2011 &ndash; Oct 2013</div>
   </div>
   <div class="block-right">
       <p>Designer & Web Developer<br>The Field Museum, Chicago, IL</p>
@@ -76,7 +76,7 @@ permalink: /info/
   </div>
   <div class="info-list-block">
   <div class="block-left">
-      <div class="small">December 2009 &ndash; May 2011</div>
+      <div class="small">Dec 2009 &ndash; May 2011</div>
   </div>
   <div class="block-right">
       <p>Digital Coordinator<br>KPMG, Chicago, IL</p>
@@ -84,7 +84,7 @@ permalink: /info/
   </div>
   <div class="info-list-block">
   <div class="block-left">
-      <div class="small">November 2006 &ndash; December 2009</div>
+      <div class="small">Nov 2006 &ndash; Dec 2009</div>
   </div>
   <div class="block-right">
       <p>Audio Engineer<br>Varitalk, Chicago, IL</p>
