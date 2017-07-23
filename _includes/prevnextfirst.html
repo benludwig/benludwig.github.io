@@ -1,0 +1,24 @@
+{% capture work %}{{page.collection}}{% endcapture %}
+  {% if page.collection %}
+    {% assign  document = site[work]  %}
+  {% endif %}
+{% for links in document  %}
+  {% if links.title == page.title %}
+    {% unless forloop.first %}
+      {% assign prevurl = prev.url %}
+    {% endunless %}
+    {% unless forloop.last %}
+      {% assign next = document[forloop.index] %}
+      {% assign nexturl = next.url %}
+    {% endunless %}
+  {% endif %}
+  {% assign prev = links %}
+{% endfor %}
+<script>
+document.body.onkeyup = function(e){
+if (e.keyCode == '37') { window.location = '{{nexturl}}'; }
+if (e.keyCode == '39') { window.location = '{{prevurl}}'; }
+};
+</script>
+<a href="/work/30-rock/" class="primary-nav-link">Prev</a>
+{% if prevurl %}<a href="{{prevurl}}" class="primary-nav-link">Next</a>{% endif %}<br />
