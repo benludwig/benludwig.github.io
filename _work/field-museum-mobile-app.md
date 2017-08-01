@@ -1,7 +1,7 @@
 ---
 layout: work
 title: Field Museum Mobile App
-image_path: http://res.cloudinary.com/benludwig/image/upload/f_auto/v1499826700/fm-mobile-7_vxlv9q.jpg
+image_path: http://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto/v1499826700/fm-mobile-7_vxlv9q.jpg
 date:   2017-05-07
 ---
 <div class="grid-container">
@@ -14,13 +14,13 @@ date:   2017-05-07
   </div>
 </div>
 <div class="grid-item">
-<img src="http://res.cloudinary.com/benludwig/image/upload/f_auto/v1499826700/fm-mobile-7_vxlv9q.jpg" class="revealblock" alt="Field Museum Mobile App">
+<img src="http://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto/v1499826700/fm-mobile-7_vxlv9q.jpg" class="revealblock" alt="Field Museum Mobile App">
 </div>
 <div class="grid-item">
-<img src="http://res.cloudinary.com/benludwig/image/upload/f_auto/v1499826707/fm-mobile-8_krobhj.jpg" class="revealblock" alt="Field Museum Mobile App">
+<img src="http://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto/v1499826707/fm-mobile-8_krobhj.jpg" class="revealblock" alt="Field Museum Mobile App">
 </div>
 <div class="grid-item">
-<img src="http://res.cloudinary.com/benludwig/image/upload/f_auto/v1499826730/fm-mobile-9_tgo4ul.jpg" class="revealblock" alt="Field Museum Mobile App">
+<img src="http://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto/v1499826730/fm-mobile-9_tgo4ul.jpg" class="revealblock" alt="Field Museum Mobile App">
 </div>
 </div>
 </div>

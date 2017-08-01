@@ -1,7 +1,7 @@
 ---
 layout: work
 title: The Rookery
-image_path: http://res.cloudinary.com/benludwig/image/upload/f_auto/v1500058259/rookery-1_iwbwpl.jpg
+image_path: http://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto/v1500058259/rookery-1_iwbwpl.jpg
 date:   2017-04-29
 ---
 <div class="grid-container">
@@ -14,19 +14,19 @@ date:   2017-04-29
   </div>
 </div>
 <div class="grid-item">
-<img src="http://res.cloudinary.com/benludwig/image/upload/f_auto/v1500058261/rookery-4_fbkcba.jpg" class="revealblock" alt="The Rookery">
+<img src="http://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto/v1500058261/rookery-4_fbkcba.jpg" class="revealblock" alt="The Rookery">
 </div>
 <div class="grid-item">
-<img src="http://res.cloudinary.com/benludwig/image/upload/f_auto/v1500058259/rookery-1_iwbwpl.jpg" class="revealblock" alt="The Rookery">
+<img src="http://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto/v1500058259/rookery-1_iwbwpl.jpg" class="revealblock" alt="The Rookery">
 </div>
 <div class="grid-item">
-<img src="http://res.cloudinary.com/benludwig/image/upload/f_auto/v1500058265/rookery-5_tti82u.jpg" class="revealblock" alt="The Rookery">
+<img src="http://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto/v1500058265/rookery-5_tti82u.jpg" class="revealblock" alt="The Rookery">
 </div>
 <div class="grid-item">
-<img src="http://res.cloudinary.com/benludwig/image/upload/f_auto/v1500058251/rookery-6_li0y8o.jpg" class="revealblock" alt="The Rookery">
+<img src="http://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto/v1500058251/rookery-6_li0y8o.jpg" class="revealblock" alt="The Rookery">
 </div>
 <div class="grid-item">
-<img src="http://res.cloudinary.com/benludwig/image/upload/f_auto/v1500058271/rookery-3_jfrvo1.jpg" class="revealblock" alt="The Rookery">
+<img src="http://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto/v1500058271/rookery-3_jfrvo1.jpg" class="revealblock" alt="The Rookery">
 </div>
 </div>
 </div>

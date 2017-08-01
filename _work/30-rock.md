@@ -1,8 +1,9 @@
 ---
 layout: worklast
 title: 30 Rock
-image_path: http://res.cloudinary.com/benludwig/image/upload/f_auto/v1500156555/30rock-1_fhurbc.jpg
+image_path: http://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto/v1500156555/30rock-1_fhurbc.jpg
 date:   2017-04-15
+image_padding: 53.10%
 ---
 <div class="grid-container">
 <div class="grid">
@@ -16,8 +17,22 @@ date:   2017-04-15
     </audio>
   </div>
 </div>
+
+
 <div class="grid-item">
-<img src="http://res.cloudinary.com/benludwig/image/upload/f_auto/v1500156555/30rock-1_fhurbc.jpg" class="revealblock" alt="30 Rock">
+<div class="imgblock revealblock" style="padding-top: 75%">
+  <img src="http://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto/v1500156555/30rock-1_fhurbc.jpg" alt="{{ page.title }}">
 </div>
+</div>
+
+
+
+<div class="grid-item">
+<img src="http://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto/v1500156555/30rock-1_fhurbc.jpg" class="revealblock" alt="30 Rock">
+</div>
+
+
+
+
 </div>
 </div>

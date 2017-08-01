@@ -1,7 +1,7 @@
 ---
 layout: work
 title: Fitzgerald Architects
-image_path: http://res.cloudinary.com/benludwig/image/upload/f_auto/v1499827009/fitzgerald-2_noujuz.jpg
+image_path: http://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto/v1499827009/fitzgerald-2_noujuz.jpg
 date:   2017-05-06
 ---
 <div class="grid-container">
@@ -14,16 +14,16 @@ date:   2017-05-06
   </div>
 </div>
 <div class="grid-item">
-<img src="http://res.cloudinary.com/benludwig/image/upload/f_auto/v1499826940/fitzgerald-1_zpa0xr.jpg" class="revealblock" alt="Fitzgerald Architects">
+<img src="http://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto/v1499826940/fitzgerald-1_zpa0xr.jpg" class="revealblock" alt="Fitzgerald Architects">
 </div>
 <div class="grid-item">
-<img src="http://res.cloudinary.com/benludwig/image/upload/f_auto/v1499827009/fitzgerald-2_noujuz.jpg" class="revealblock" alt="Fitzgerald Architects">
+<img src="http://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto/v1499827009/fitzgerald-2_noujuz.jpg" class="revealblock" alt="Fitzgerald Architects">
 </div>
 <div class="grid-item">
-<img src="http://res.cloudinary.com/benludwig/image/upload/f_auto/v1499826945/fitzgerald-4_lt4sp0.jpg" class="revealblock" alt="Fitzgerald Architects">
+<img src="http://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto/v1499826945/fitzgerald-4_lt4sp0.jpg" class="revealblock" alt="Fitzgerald Architects">
 </div>
 <div class="grid-item">
-<img src="http://res.cloudinary.com/benludwig/image/upload/f_auto/v1499827020/fitzgerald-3_x3pe8q.jpg" class="revealblock" alt="Fitzgerald Architects">
+<img src="http://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto/v1499827020/fitzgerald-3_x3pe8q.jpg" class="revealblock" alt="Fitzgerald Architects">
 </div>
 </div>
 </div>

@@ -1,7 +1,7 @@
 ---
 layout: work
 title: Torque
-image_path: http://res.cloudinary.com/benludwig/image/upload/f_auto/v1499733708/torque-01-home_nmrkwl.jpg
+image_path: http://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto/v1499733708/torque-01-home_nmrkwl.jpg
 date:   2017-05-02
 ---
 <div class="grid-container">
@@ -14,19 +14,19 @@ date:   2017-05-02
   </div>
 </div>
 <div class="grid-item">
-<img src="http://res.cloudinary.com/benludwig/image/upload/f_auto/v1499733708/torque-01-home_nmrkwl.jpg" class="revealblock" alt="Torque">
+<img src="http://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto/v1499733708/torque-01-home_nmrkwl.jpg" class="revealblock" alt="Torque">
 </div>
 <div class="grid-item">
-<img src="http://res.cloudinary.com/benludwig/image/upload/f_auto/v1499733690/torque-04-contact_let0rv.jpg" class="revealblock" alt="Torque">
+<img src="http://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto/v1499733690/torque-04-contact_let0rv.jpg" class="revealblock" alt="Torque">
 </div>
 <div class="grid-item">
-<img src="http://res.cloudinary.com/benludwig/image/upload/f_auto/v1499733703/torque-06-team_ymtvcd.jpg" class="revealblock" alt="Torque">
+<img src="http://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto/v1499733703/torque-06-team_ymtvcd.jpg" class="revealblock" alt="Torque">
 </div>
 <div class="grid-item">
-<img src="http://res.cloudinary.com/benludwig/image/upload/f_auto/v1499733717/torque-07-case-study_yusslr.jpg" class="revealblock" alt="Torque">
+<img src="http://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto/v1499733717/torque-07-case-study_yusslr.jpg" class="revealblock" alt="Torque">
 </div>
 <div class="grid-item">
-<img src="http://res.cloudinary.com/benludwig/image/upload/f_auto/v1499733703/torque-08-post_sdgf3r.jpg" class="revealblock" alt="Torque">
+<img src="http://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto/v1499733703/torque-08-post_sdgf3r.jpg" class="revealblock" alt="Torque">
 </div>
 </div>
 </div>

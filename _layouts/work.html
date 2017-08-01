@@ -6,23 +6,23 @@
   <div class="work">
     {{ content }}
   </div>
-<script>
-var grid = document.querySelector('.grid');
-var msnry;
-imagesLoaded( grid, function() {
-  msnry = new Masonry( grid, {
-    itemSelector: '.grid-item',
-    columnWidth: '.grid-sizer',
-    percentPosition: true
-  });
-});
-</script>
-{% include footer.html %}
-<script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
-<script>
-// JavaScript
-window.sr = ScrollReveal();
-sr.reveal('.revealblock', { duration: 1000, distance: '2px', scale: 1 });
-</script>
+  <script>
+    var grid = document.querySelector('.grid');
+    var msnry = new Masonry( grid, {
+      itemSelector: '.grid-item',
+      columnWidth: '.grid-sizer',
+      percentPosition: true
+    });
+    imagesLoaded( grid ).on( 'progress', function() {
+      // layout Masonry after each image loads
+      msnry.layout();
+    });
+  </script>
+  {% include footer.html %}
+  <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+  <script>
+  window.sr = ScrollReveal();
+  sr.reveal('.revealblock', { duration: 1000, distance: '2px', scale: 1, viewFactor: 0.05 });
+  </script>
 </body>
 </html>

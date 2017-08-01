@@ -1,7 +1,7 @@
 ---
 layout: work
 title: Palmer Consulting
-image_path: http://res.cloudinary.com/benludwig/image/upload/f_auto/v1500154922/palmer-2_m0imw6.jpg
+image_path: http://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto/v1500154922/palmer-2_m0imw6.jpg
 date:   2017-04-22
 ---
 <div class="grid-container">
@@ -14,19 +14,19 @@ date:   2017-04-22
   </div>
 </div>
 <div class="grid-item">
-<img src="http://res.cloudinary.com/benludwig/image/upload/f_auto/v1500154921/palmer-1_mjxigb.jpg" class="revealblock" alt="Palmer Consulting">
+<img src="http://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto/v1500154921/palmer-1_mjxigb.jpg" class="revealblock" alt="Palmer Consulting">
 </div>
 <div class="grid-item">
-<img src="http://res.cloudinary.com/benludwig/image/upload/f_auto/v1500154922/palmer-2_m0imw6.jpg" class="revealblock" alt="Palmer Consulting">
+<img src="http://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto/v1500154922/palmer-2_m0imw6.jpg" class="revealblock" alt="Palmer Consulting">
 </div>
 <div class="grid-item">
-<img src="http://res.cloudinary.com/benludwig/image/upload/f_auto/v1500154918/palmer-3_ajreii.jpg" class="revealblock" alt="Palmer Consulting">
+<img src="http://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto/v1500154918/palmer-3_ajreii.jpg" class="revealblock" alt="Palmer Consulting">
 </div>
 <div class="grid-item">
-<img src="http://res.cloudinary.com/benludwig/image/upload/f_auto/v1500154925/palmer-4_uhqdyd.jpg" class="revealblock" alt="Palmer Consulting">
+<img src="http://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto/v1500154925/palmer-4_uhqdyd.jpg" class="revealblock" alt="Palmer Consulting">
 </div>
 <div class="grid-item">
-<img src="http://res.cloudinary.com/benludwig/image/upload/f_auto/v1500154919/palmer-5_u05hnj.jpg" class="revealblock" alt="Palmer Consulting">
+<img src="http://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto/v1500154919/palmer-5_u05hnj.jpg" class="revealblock" alt="Palmer Consulting">
 </div>
 </div>
 </div>

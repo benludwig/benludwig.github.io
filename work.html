@@ -7,11 +7,22 @@ title: Work
 <div class="grid-sizer"></div>
 {% assign sortedWork = site.work | sort: 'date' %}
 {% for work in sortedWork reversed %}
-  <div class="grid-item">
-      <a href="{{ work.url }}"><img src="{{ work.image_path }}" class="revealblock" alt="page.title" /></a>
-      <div class="work-title"><a href="{{ work.url }}" class="revealblock">{{ work.title }}</a></div>
-      <!-- <small>{{work.date | date: "%d %b %Y"}}</small> -->
-  </div>
+<div class="grid-item">
+  <a href="{{ work.url }}">
+    <div class="imgblock revealblock" style="padding-top: {{ work.image_padding }}">
+        <div class="imgpreview">
+        <img src="{{ work.image_blur_path }}">
+        </div>
+        <div class="signal"></div>
+        <div class="imgfull">
+        <img src="{{ work.image_path }}" alt="{{ work.title }}" onload="imgLoaded(this)">
+        </div>
+    </div>
+  </a>
+    <div class="work-title">
+      <a href="{{ work.url }}" class="revealblock">{{ work.title }}</a>
+    </div>
+</div>
 {% endfor %}
 </div>
 </div>
