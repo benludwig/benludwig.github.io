@@ -19,28 +19,36 @@ image_padding: 53.10%
 <div class="grid-item">
 <div class="imgblock revealblock" style="padding-top: 75%">
   <div class="signal"></div>
-  <img src="http://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto/v1499826420/fm-biomechanics-1_aw0gfv.jpg" alt="{{ page.title }}">
+  <div class="imgfull">
+  <img src="http://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto/v1499826420/fm-biomechanics-1_aw0gfv.jpg" alt="{{ page.title }}" onload="imgLoaded(this)">
+  </div>
 </div>
 </div>
 
 <div class="grid-item">
 <div class="imgblock revealblock" style="padding-top: 53.94%">
   <div class="signal"></div>
-  <img src="http://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto/v1499826429/fm-biomechanics-3_ozk9wx.jpg" alt="{{ page.title }}">
+  <div class="imgfull">
+  <img src="http://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto/v1499826429/fm-biomechanics-3_ozk9wx.jpg" alt="{{ page.title }}" onload="imgLoaded(this)">
+  </div>
 </div>
 </div>
 
 <div class="grid-item">
 <div class="imgblock revealblock" style="padding-top: 75%">
   <div class="signal"></div>
-  <img src="http://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto/v1499826423/fm-biomechanics-2_rjf6fr.jpg" alt="{{ page.title }}">
+  <div class="imgfull">
+  <img src="http://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto/v1499826423/fm-biomechanics-2_rjf6fr.jpg" alt="{{ page.title }}" onload="imgLoaded(this)">
+  </div>
 </div>
 </div>
 
 <div class="grid-item">
 <div class="imgblock revealblock" style="padding-top: 53.10%">
   <div class="signal"></div>
-  <img src="http://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto/v1499826431/fm-biomechanics-5_f7hmia.jpg" alt="{{ page.title }}">
+  <div class="imgfull">
+  <img src="http://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto/v1499826431/fm-biomechanics-5_f7hmia.jpg" alt="{{ page.title }}" onload="imgLoaded(this)">
+  </div>
 </div>
 </div>
 

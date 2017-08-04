@@ -18,21 +18,14 @@ image_padding: 53.10%
   </div>
 </div>
 
-
 <div class="grid-item">
-<div class="imgblock revealblock" style="padding-top: 75%">
-  <img src="http://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto/v1500156555/30rock-1_fhurbc.jpg" alt="{{ page.title }}">
+<div class="imgblock revealblock" style="padding-top: 53.10%">
+  <div class="signal"></div>
+  <div class="imgfull">
+  <img src="http://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto/v1500156555/30rock-1_fhurbc.jpg" alt="{{ page.title }}" onload="imgLoaded(this)">
+  </div>
 </div>
 </div>
-
-
-
-<div class="grid-item">
-<img src="http://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto/v1500156555/30rock-1_fhurbc.jpg" class="revealblock" alt="30 Rock">
-</div>
-
-
-
 
 </div>
 </div>
