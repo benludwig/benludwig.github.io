@@ -142,6 +142,33 @@ h1 {
 /*Work Nav-----------------------------
 -------------------------------------*/
 
+.primary-nav-third.third a {
+  @include flex;
+  @include flex-align-center;
+  }
+
+.primary-nav-third.third img {
+  width: 20px;
+  }
+
+.primary-nav-third.third span.prev,
+.primary-nav-third.third span.next {
+  display:none;
+  }
+
+@media (min-width:580px) {
+
+.primary-nav-third.third span.prev {
+  display: block;
+  padding-left: 4px;
+  }
+
+.primary-nav-third.third span.next {
+  display: block;
+  padding-right: 4px;
+  }
+
+}
 
 /*Homepage Mid-------------------------
 -------------------------------------*/
