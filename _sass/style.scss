@@ -1,18 +1,25 @@
-/*Imports------------------------------
--------------------------------------*/
 
 @import "abstracts/variables";
 
 body {
     font-family: $font-copy;
-    color: $color-dark;
+    color: $color-light;
+    background-color: $color-dark;
+    }
+
+::selection {
+    background: $color-hot; /* WebKit/Blink Browsers */
+    }
+
+::-moz-selection {
+    background: $color-hot; /* Gecko Browsers */
     }
 
 a,
 button {
     outline: 0;
     text-decoration: none;
-    color: $color-dark;
+    color: $color-light;
     }
 
 a:hover, a:active, a:focus {
@@ -24,19 +31,12 @@ img {
     height: auto;
     }
 
-h1.large {
-    @include h1-large;
-    color: $color-light;
-    }
-
 h1 {
     @include h1;
-    color: $color-light;
     }
 
 h2 {
     @include h2;
-    color: $color-light;
     }
 
 button {
@@ -45,7 +45,6 @@ button {
 
 p {
     @include p;
-    color: $color-light;
     }
 
 .small,
@@ -57,12 +56,14 @@ p {
 /*Primary Nav--------------------------
 -------------------------------------*/
 
+.primary-nav {
+    background-color: $color-dark;
+    }
+
 .primary-nav-inside {
     @include flex;
     @include flex-justify-space-between;
     @include flex-align-center;
-    background-color: $color-dark;
-    color: $color-light;
     }
 
 .primary-nav-third {
@@ -107,13 +108,7 @@ p {
 /*Footer-------------------------------
 -------------------------------------*/
 
-.footer {
-    background-color: $color-dark;
-    color: $color-light;
-    }
-
 .footer-link a {
-    color: $color-light;
     @include transition;
     }
 

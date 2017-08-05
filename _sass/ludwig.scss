@@ -4,6 +4,41 @@
   "style"
 ;
 
+/*Layout-------------------------------
+-------------------------------------*/
+
+html {
+  font-size: 100%;
+}
+
+body, h1, h2, h3, h4, h5, h6,
+p, blockquote, pre, hr,
+dl, dd, ol, ul, figure {
+  margin: 0;
+  padding: 0;
+  }
+
+/*Links--------------------------------
+-------------------------------------*/
+
+.home-work.copy a {
+  color: $color-light;
+  border-bottom: 1px solid $color-light;
+  }
+
+/*Icons--------------------------------
+-------------------------------------*/
+
+.home-work.copy span.icon g {
+  fill: $color-light;
+  }
+
+.home-work.copy span.icon svg {
+  color: $color-white;
+  width: 14px;
+  height: auto;
+  }
+
 /*Image Settings-----------------------
 -------------------------------------*/
 
@@ -66,45 +101,6 @@
   -moz-transition: opacity 500ms;
   -ms-transition: opacity 500ms;
   transition: opacity 500ms;
-  }
-
-/*Layout-------------------------------
--------------------------------------*/
-
-html {
-  font-size: 100%;
-}
-
-body, h1, h2, h3, h4, h5, h6,
-p, blockquote, pre, hr,
-dl, dd, ol, ul, figure {
-  margin: 0;
-  padding: 0;
-  }
-
-h1 {
-  padding-bottom: 15px;
-  }
-
-/*Links--------------------------------
--------------------------------------*/
-
-.home-work.copy a {
-  color: $color-light;
-  border-bottom: 1px solid $color-light;
-  }
-
-/*Icons--------------------------------
--------------------------------------*/
-
-.home-work.copy span.icon g {
-  fill: $color-light;
-  }
-
-.home-work.copy span.icon svg {
-  color: $color-white;
-  width: 14px;
-  height: auto;
   }
 
 
@@ -175,7 +171,6 @@ h1 {
 
 .home-mid {
   padding: 100px 0 20px 0;
-  background-color: $color-dark;
   }
 
 .home-work {
@@ -189,6 +184,15 @@ h1 {
 
 .home-work.copy h1 {
   color: $color-white;
+  padding-bottom: 15px;
+  }
+
+.home-work.copy h2 {
+  padding-bottom: 15px;
+  }
+
+.home-work-text {
+  padding: 10px 0 10px 0;
   }
 
 .home-work-text {
@@ -303,14 +307,6 @@ h1 {
 
   .home-work.copy {
     padding-bottom: 30px;
-    }
-
-  .home-work.copy h2 {
-    padding-bottom: 15px;
-    }
-
-  .home-work-text {
-    padding: 10px 0 10px 0;
     }
 
 }
@@ -464,6 +460,19 @@ html { overflow-y: scroll; }
 
 /*Info Styles--------------------------
 -------------------------------------*/
+
+.info {
+  background-color: $color-white;
+  }
+
+.info .small {
+  color: $color-dark;
+  }
+
+.info a {
+  color: $color-dark;
+  border-bottom: 1px solid $color-dark;
+  }
 
 .info h1,
 .info h2,

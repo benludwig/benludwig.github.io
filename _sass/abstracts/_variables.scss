@@ -1,8 +1,8 @@
 /*Colors-------------------------------
 -------------------------------------*/
 
+$color-darker: #1a1a1a;
 $color-dark: #282a2d;
-$color-medium: #153659;
 $color-light: #d3d0cd;
 $color-neutral: #968d81;
 $color-warm: #ea6922;
@@ -51,16 +51,6 @@ $color-white: #ffffff;
  $font-secondary : 'CircularBold', sans-serif;
  $font-copy : 'GTAmericaMedium', sans-serif;
 
-@mixin h1-large {
-  font-weight: normal;
-  font-style: normal;
-  font-family: $font-primary;
-  font-size: 92px;
-  line-height: 80px;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased;
-  }
-
 @mixin h1 {
   font-weight: normal;
   font-style: normal;
@@ -69,6 +59,7 @@ $color-white: #ffffff;
   line-height: 40px;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
+  padding-bottom: 15px;
   }
 
 @mixin h2 {
