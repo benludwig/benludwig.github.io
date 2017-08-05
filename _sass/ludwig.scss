@@ -18,6 +18,11 @@ dl, dd, ol, ul, figure {
   padding: 0;
   }
 
+h1,
+h2 {
+  padding-bottom: 15px;
+  }
+
 /*Links--------------------------------
 -------------------------------------*/
 
@@ -184,11 +189,6 @@ dl, dd, ol, ul, figure {
 
 .home-work.copy h1 {
   color: $color-white;
-  padding-bottom: 15px;
-  }
-
-.home-work.copy h2 {
-  padding-bottom: 15px;
   }
 
 .home-work-text {
