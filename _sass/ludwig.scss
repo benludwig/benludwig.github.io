@@ -31,19 +31,6 @@ h2 {
   border-bottom: 1px solid $color-light;
   }
 
-/*Icons--------------------------------
--------------------------------------*/
-
-.home-work.copy span.icon g {
-  fill: $color-light;
-  }
-
-.home-work.copy span.icon svg {
-  color: $color-white;
-  width: 14px;
-  height: auto;
-  }
-
 /*Image Settings-----------------------
 -------------------------------------*/
 
@@ -139,37 +126,6 @@ h2 {
   padding-bottom: 10px;
   text-align: center;
   }
-
-/*Work Nav-----------------------------
--------------------------------------*/
-
-.primary-nav-third.third a {
-  @include flex;
-  @include flex-align-center;
-  }
-
-.primary-nav-third.third img {
-  width: 20px;
-  }
-
-.primary-nav-third.third span.prev,
-.primary-nav-third.third span.next {
-  display:none;
-  }
-
-@media (min-width:580px) {
-
-.primary-nav-third.third span.prev {
-  display: block;
-  padding-left: 4px;
-  }
-
-.primary-nav-third.third span.next {
-  display: block;
-  padding-right: 4px;
-  }
-
-}
 
 /*Homepage Mid-------------------------
 -------------------------------------*/
@@ -364,7 +320,7 @@ html { overflow-y: scroll; }
 
 .all-work .grid-sizer,
 .all-work .grid-item {
-  width: 50%;
+  width: 100%;
   }
 
 .all-work .grid-item {
@@ -412,7 +368,11 @@ html { overflow-y: scroll; }
 
 .work {
   background-color: $color-dark;
-  padding: 85px 0 2px 0;
+  padding: 85px 0 0 0;
+  }
+
+.work .grid {
+  padding-bottom: 60px;
   }
 
 .work .grid-sizer,
@@ -454,6 +414,57 @@ html { overflow-y: scroll; }
   .work .copy-block h1,
   .work .copy-block p {
   max-width: 600px;
+  }
+
+}
+
+/*Work Cycle---------------------------
+-------------------------------------*/
+
+.work-cycle {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 60px;
+  background-color: rgba(26, 26, 26, 0.93);
+  @include flex;
+  @include flex-justify-space-between;
+  @include flex-align-center;
+  }
+
+.work-cycle a {
+  @include flex;
+  @include flex-align-center;
+  }
+
+.work-cycle img {
+  width: 20px;
+  }
+
+.work-cycle span.prev {
+  padding-left: 4px;
+  }
+
+.work-cycle span.next {
+  padding-right: 4px;
+  }
+
+.work-cycle .title {
+  font-weight: normal;
+  font-style: normal;
+  font-family: "CircularBold", sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  letter-spacing: 0.25px;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  }
+
+@media (max-width:468px) {
+
+  .work-cycle .title {
+  display: none;
   }
 
 }

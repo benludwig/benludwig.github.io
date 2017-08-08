@@ -2,7 +2,7 @@
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
   {% include head.html %}
   <body>
-    {% include work-nav-first.html %}
+    {% include primary-nav.html %}
   <div class="work">
     {{ content }}
   </div>
@@ -17,7 +17,9 @@
     msnry.layout();
   });
 </script>
-{% include footer.html %}
+<div class="work-cycle">
+  {% include prevnextfirst.html %}
+</div>
 <script type="text/javascript" src='{{ site.baseurl }}/js/scrollreveal.min.js'></script>
 <script>
 // JavaScript
