@@ -64,6 +64,7 @@ p {
     @include flex;
     @include flex-justify-space-between;
     @include flex-align-center;
+    height: 60px;
     }
 
 .primary-nav-third {
@@ -72,7 +73,7 @@ p {
     }
 
 .primary-nav-inside .logo img {
-    max-width: 14px;
+    max-width: 16px;
     }
 
 .primary-nav-third.first {
@@ -97,6 +98,10 @@ p {
     }
 
 .primary-nav-link {
+    @include nav-link;
+    }
+
+.work-cycle .title {
     @include nav-link;
     }
 
