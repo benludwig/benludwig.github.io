@@ -10,7 +10,8 @@ which ruby
 which gem
 gem install jekyll
 gem install bundler
-jekyll serve
+bundle install
+jekyll serve -or- bundle exec jekyll serve
 ```
 
 ## Pattern Lab Installation with Homebrew
