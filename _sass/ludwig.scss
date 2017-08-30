@@ -23,6 +23,11 @@ h2 {
   padding-bottom: 15px;
   }
 
+body {
+  background-color: $color-dark;
+  color: $color-light;
+}
+
 /*Links--------------------------------
 -------------------------------------*/
 
@@ -119,7 +124,7 @@ h2 {
   padding: 14px;
   }
 
-.primary-nav-third.second a {
+.primary-nav-third .first a img {
   display: block;
   width: 20px;
   padding-top: 10px;
@@ -450,17 +455,6 @@ html { overflow-y: scroll; }
   padding-right: 4px;
   }
 
-// .work-cycle .title {
-//   font-weight: normal;
-//   font-style: normal;
-//   font-family: "CircularBold", sans-serif;
-//   font-size: 13px;
-//   line-height: 18px;
-//   letter-spacing: 0.25px;
-//   -moz-osx-font-smoothing: grayscale;
-//   -webkit-font-smoothing: antialiased;
-//   }
-
 @media (max-width:468px) {
 
   .work-cycle .title {
@@ -673,6 +667,21 @@ html { overflow-y: scroll; }
 
 
 }
+
+@media (min-width:1450px) {
+
+.info {
+  @include flex;
+  @include flex-justify-center;
+  }
+
+.info-left,
+.info-right {
+  width: 50%;
+  max-width: 580px;
+  }
+
+ }
 
 /*Footer-------------------------------
 -------------------------------------*/

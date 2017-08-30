@@ -3,16 +3,16 @@
 
 body {
     font-family: $font-copy;
-    color: $color-light;
-    background-color: $color-dark;
     }
 
 ::selection {
-    background: $color-hot; /* WebKit/Blink Browsers */
+    background: #fcf113; /* WebKit/Blink Browsers */
+    color: $color-dark;
     }
 
 ::-moz-selection {
-    background: $color-hot; /* Gecko Browsers */
+    background: #fcf113; /* Gecko Browsers */
+    color: $color-dark;
     }
 
 a,
@@ -77,21 +77,12 @@ p {
     }
 
 .primary-nav-third.first {
-    width: calc(50% - 10px);
     @include flex;
     @include flex-justify-flex-start;
     @include flex-align-center;
     }
 
 .primary-nav-third.second {
-    width: 20px;
-    @include flex;
-    @include flex-justify-center;
-    @include flex-align-center;
-    }
-
-.primary-nav-third.third {
-    width: calc(50% - 10px);
     @include flex;
     @include flex-justify-flex-end;
     @include flex-align-center;
@@ -108,6 +99,7 @@ p {
 .primary-nav-inside a {
     color: $color-white;
     display: block;
+    padding: 10px;
     }
 
 /*Footer-------------------------------
