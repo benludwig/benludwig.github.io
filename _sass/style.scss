@@ -87,7 +87,7 @@ li {
     }
 
 .primary-nav-inside .logo img {
-    max-width: 16px;
+    max-width: 13px;
     }
 
 .primary-nav-third.first {
@@ -110,80 +110,31 @@ li {
     @include nav-link;
     }
 
-.primary-nav-inside a {
+.primary-nav-third.second a {
+    @include transition;
     color: $color-white;
     display: block;
-    padding: 10px;
+    padding: 5px 0px 3px 0px;
+    margin-left: 15px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0);
+    }
+
+.primary-nav-third.second a:hover {
+    @include transition;
+    color: $color-white;
+    display: block;
+    padding: 5px 0px 3px 0px;
+    margin-left: 15px;
+    border-bottom: 1px solid rgba(255, 255, 255, 1);
     }
 
 /*Footer-------------------------------
 -------------------------------------*/
 
-.footer-link a {
+.footer a {
     @include transition;
     }
 
-.footer-link a:hover {
+.footer a:hover {
     color: $color-white;
-    }
-
-.footer-inside img {
-    display: block;
-    max-width: 14px;
-    }
-
-.footer .columns {
-    @include flex;
-    @include flex-align-start;
-    }
-
-.footer .column-second {
-    padding: 0 0 0 20px;
-    }
-
-@media screen and (max-width: 300px) {
-.footer-logo,
-.footer-third {
-    padding: 0 0 30px 0;
-    }
-    }
-
-@media screen and (max-width: 700px) and (min-width: 300px) {
-.footer-inside  {
-    @include flex;
-    @include flex-align-start;
-    }
-.footer-logo {
-    width: 10%;
-    }
-.footer-thirds {
-    width: 90%;
-    padding: 0 0 0 20px;
-    }
-.footer-third {
-    padding: 0 0 30px 0;
-    }
-    }
-
-@media screen and (min-width: 701px) {
-.footer-logo {
-    padding: 0 0 30px 0;
-    }
-.footer-thirds {
-    @include flex;
-    @include flex-align-start;
-    }
-.footer-third.first {
-    width: 20%;
-    }
-.footer-third.second {
-    width: 50%;
-    padding: 0 30px 0 0;
-    }
-.footer-third.third {
-    width: 30%;
-    }
-.footer .columns {
-    @include flex-justify-flex-end;
-    }
     }

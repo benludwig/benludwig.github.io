@@ -4,7 +4,7 @@
   "style"
 ;
 
-/*Layout-------------------------------
+/*Global-------------------------------
 -------------------------------------*/
 
 html {
@@ -30,6 +30,22 @@ body {
 
 p {
     padding-bottom: 15px;
+    }
+
+.copy-block a {
+    border-bottom: 1px solid $color-light;
+    }
+
+.list-block a {
+    border-bottom: 0px solid $color-light;
+    }
+
+.list-block ul li a:after {
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    content: url('/assets/images/link.svg');
+    margin-left: 5px;
     }
 
 /*Links--------------------------------
@@ -115,26 +131,10 @@ p {
   z-index: 100;
   }
 
-@media (min-width:400px) {
-
-  .primary-nav-inside {
+.primary-nav-inside {
     padding-left: 16px;
     padding-right: 16px;
-    }
-
 }
-
-.primary-nav-link {
-  padding: 14px;
-  }
-
-.primary-nav-third .first a img {
-  display: block;
-  width: 20px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  text-align: center;
-  }
 
 /*Homepage Mid-------------------------
 -------------------------------------*/
@@ -406,6 +406,8 @@ html { overflow-y: scroll; }
   border-top: 1px solid $color-light;
   }
 
+ // <img src="/assets/images/arrowright.svg">
+
 @media (min-width:560px) {
 
     .work .list-blocks {
@@ -459,6 +461,8 @@ html { overflow-y: scroll; }
   bottom: 0;
   left: 0;
   width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
   height: 60px;
   background-color: rgba(26, 26, 26, 0.93);
   @include flex;
@@ -716,63 +720,13 @@ html { overflow-y: scroll; }
 
 .footer {
   background-color: #1a1a1a;
-  padding: 40px 30px 10px 30px;
   }
 
-.footer-logo {
-  padding-top: 3px;
-  }
-
-.footer-third.second a {
-  color: $color-light;
-  border-bottom: 1px solid $color-light;
-  @include transition;
-  }
-
-.footer-third.second a:hover {
-  color: $color-white;
-  border-bottom: 1px solid $color-white;
-  }
-
-@media (min-width:400px) {
-
-  .footer {
-    padding: 80px 30px 80px 30px;
+.footer-inside {
+    @include flex;
+    padding:100px 30px;
     }
 
-}
-
-@media screen and (min-width: 701px) {
-
-  .footer {
-    padding: 80px 30px 120px 30px;
+.footer-right {
+    padding-left: 30px;
     }
-
-  }
-
-@media screen and (min-width: 1100px) {
-
-  .footer {
-    padding: 100px 80px 160px 80px;
-    }
-
-  .footer .column-second {
-    padding: 0 0 0 40px;
-    }
-
-  }
-
-
-@media screen and (min-width: 1200px) {
-
-  .footer-third.second p {
-    max-width: 500px;
-    }
-
-  .footer-third.third {
-    -webkit-box-flex: 1;
-      -ms-flex-positive: 1;
-          flex-grow: 1;
-    }
-
-  }

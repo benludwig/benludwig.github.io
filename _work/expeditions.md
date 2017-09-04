@@ -57,7 +57,7 @@ image_padding: 78.24%
 <div class="grid-item">
   <div class="copy-block revealblock">
 
-    <p>Collaborating with Knoed, our team designed a central repository for scientific documentation. This allowed scientists to remotely access a content management system and add case studies with photography and geographic information. Each one is grouped under a theme and has a small preview to access deeper content about a particular story.</p>
+    <p>Collaborating with <a href="http://www.knoed.com/" target="_blank">Knoed</a>, our team designed a central repository for scientific documentation. This allowed scientists to remotely access a content management system and add case studies with photography and geographic information. Each one is grouped under a theme and has a small preview to access deeper content about a particular story.</p>
 
     <p>Strong, bright and dynamic color treatments present scientific research in a way that’s rarely seen. Large photography is complemented by a unique typeface that gives each expedition it’s own iconic image.</p>
 

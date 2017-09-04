@@ -117,7 +117,8 @@ src: url('../fonts/GTAmerica/GTAmerica-Regular.eot'), /* IE9 Compat Modes */
 @mixin nav-link {
   font-weight: normal;
   font-style: normal;
-  font-family: $font-secondary;
+  font-family: $font-copy;
+  font-weight: 400;
   font-size: 16px;
   line-height: 18px;
   letter-spacing: 0.25px;
