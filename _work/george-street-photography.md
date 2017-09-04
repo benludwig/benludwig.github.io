@@ -135,5 +135,58 @@ image_padding: 38.79%
 </div>
 </div>
 
+
+<div class="grid-item">
+  <div class="copy-block revealblock">
+    <div class="list-blocks">
+        <div class="list-block">
+            <div class="small">My Role</div>
+            <ul>
+              <li>UI/UX Design</li>
+              <li>Visual Design</li>
+              <li>Front-end Development</li>
+            </ul>
+        </div>
+        <div class="list-block">
+            <div class="small">Visual Design</div>
+            <ul>
+              <li><a href="https://www.druemccurdy.com/" target="_blank">Drue McCurdy</a></li>
+            </ul>
+        </div>
+        <div class="list-block">
+            <div class="small">Copywriting</div>
+            <ul>
+              <li>Nicole Montalvo</li>
+            </ul>
+        </div>
+        <div class="list-block">
+            <div class="small">Creative Direction</div>
+            <ul>
+              <li><a href="http://www.jpramirez.net/" target="_blank">JP Ramirez</a></li>
+            </ul>
+        </div>
+        <div class="list-block">
+            <div class="small">Front-end Development</div>
+            <ul>
+              <li><a href="http://www.strangeflock.com/" target="_blank">Strange Flock</a></li>
+            </ul>
+        </div>
+        <div class="list-block">
+            <div class="small">Back-end Development</div>
+            <ul>
+              <li><a href="http://www.wearesigma.com/ " target="_blank">Sigma</a></li>
+            </ul>
+        </div>
+        <div class="list-block">
+            <div class="small">Agency</div>
+            <ul>
+              <li><a href="https://torque.digital/" target="_blank">Torque</a></li>
+            </ul>
+        </div>
+    </div>
+  </div>
+</div>
+
+
 </div>
 </div>

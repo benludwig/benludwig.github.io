@@ -12,7 +12,8 @@ image_padding: 63.61%
 <div class="grid-item">
   <div class="copy-block revealblock">
     <h1>Torque</h1>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras eget erat ante. Maecenas quam urna, vehicula sed consectetur vitae, imperdiet id leo. Suspendisse potenti. Sed congue dui sit amet venenatis eleifend. Curabitur aliquet metus at nibh placerat dictum. Etiam tincidunt lacinia tempor.</p>
+    <p>In addition to client work at Torque, a digital marketing agency in Chicago, I also volunteered to redesign the entire agency website.</p>
+    <p>I was already familiar with the visual identity of the agency, having been there for a number of years, so the first step was a content audit to organize new and existing pages. Transferring existing content with the least amount of manual content entry was essential to keep the project on track.</p>
   </div>
 </div>
 
@@ -44,6 +45,14 @@ image_padding: 63.61%
 </div>
 
 <div class="grid-item">
+  <div class="copy-block revealblock">
+    <p>The bold color palette of red, black and white bring clarity and simplicity to each page. On the homepage, we enlarged and rotated the logo to form abstract shapes. A video showing glimpses of the studio is visible through each letter form. The interface for each case study is minimal, allowing the work to show through. Blog posts and pages about Torque’s services are specifically designed to accommodate updates.</p>
+    <p>During development, APIs were created to continuously migrate content from the then-live website to the new website as it was being designed. In-browser iterations were completed in parallel with front-end development while a team of writers, photographers and videographers added pages using the content management system.</p>
+    <p>Together, we were able to complete this internal project while still exceeding our projected client delivery goals. The website continues to grow as the team regularly adds new content.</p>
+  </div>
+</div>
+
+<div class="grid-item">
 <div class="imgblock revealblock" style="padding-top: 55.32%">
   <div class="signal"></div>
   <div class="imgfull">
@@ -59,6 +68,40 @@ image_padding: 63.61%
   <img src="http://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto/v1499733703/torque-08-post_sdgf3r.jpg" alt="{{ page.title }}" onload="imgLoaded(this)">
 </div>
 </div>
+</div>
+
+<div class="grid-item">
+  <div class="copy-block revealblock">
+    <div class="list-blocks">
+        <div class="list-block">
+            <div class="small">My Role</div>
+            <ul>
+              <li>Visual Design</li>
+              <li>UI/UX Design</li>
+              <li>Front-end Development</li>
+              <li>Back-end Development</li>
+            </ul>
+        </div>
+        <div class="list-block">
+            <div class="small">Motion Design</div>
+            <ul>
+              <li>Javad Khadivi</li>
+            </ul>
+        </div>
+        <div class="list-block">
+            <div class="small">Creative Direction</div>
+            <ul>
+              <li><a href="http://www.jpramirez.net/" target="_blank">JP Ramirez</a></li>
+            </ul>
+        </div>
+        <div class="list-block">
+            <div class="small">Agency</div>
+            <ul>
+              <li><a href="https://torque.digital/" target="_blank">Torque</a></li>
+            </ul>
+        </div>
+    </div>
+  </div>
 </div>
 
 </div>

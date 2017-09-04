@@ -12,7 +12,7 @@ image_padding: 96.52%
 <div class="grid-item">
   <div class="copy-block revealblock">
     <h1>Lifoam</h1>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras eget erat ante. Maecenas quam urna, vehicula sed consectetur vitae, imperdiet id leo. Suspendisse potenti. Sed congue dui sit amet venenatis eleifend. Curabitur aliquet metus at nibh placerat dictum. Etiam tincidunt lacinia tempor.</p>
+    <p>Lifoam began as a wholesaler of coolers to large retailers. As the market expanded, they needed to adjust their marketing strategy to include individual consumers as well. After our redesign, a business-to-business catalog website became a visually-engaging marketing resource.</p>
   </div>
 </div>
 
@@ -44,6 +44,12 @@ image_padding: 96.52%
 </div>
 
 <div class="grid-item">
+  <div class="copy-block revealblock">
+    <p>A bright color palette and friendly typography creates a more exciting experience while playful lifestyle photography gives personality to the brand. The design uses a lot of negative space, is responsive and features content telling the company’s story.</p>
+  </div>
+</div>
+
+<div class="grid-item">
 <div class="imgblock revealblock" style="padding-top: 49.51%">
   <div class="signal"></div>
   <div class="imgfull">
@@ -69,6 +75,39 @@ image_padding: 96.52%
 </div>
 </div>
 </div>
+
+<div class="grid-item">
+  <div class="copy-block revealblock">
+    <div class="list-blocks">
+        <div class="list-block">
+            <div class="small">My Role</div>
+            <ul>
+              <li>UI/UX Design</li>
+              <li>Front-end Development</li>
+            </ul>
+        </div>
+        <div class="list-block">
+            <div class="small">Visual Design</div>
+            <ul>
+              <li><a href="http://www.beckyrother.com/" target="_blank">Becky Rother</a></li>
+            </ul>
+        </div>
+        <div class="list-block">
+            <div class="small">Creative Direction</div>
+            <ul>
+              <li><a href="http://www.jpramirez.net/" target="_blank">JP Ramirez</a></li>
+            </ul>
+        </div>
+        <div class="list-block">
+            <div class="small">Agency</div>
+            <ul>
+              <li><a href="https://torque.digital/" target="_blank">Torque</a></li>
+            </ul>
+        </div>
+    </div>
+  </div>
+</div>
+
 
 </div>
 </div>

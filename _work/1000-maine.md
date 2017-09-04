@@ -12,7 +12,7 @@ image_padding: 64%
 <div class="grid-item">
   <div class="copy-block revealblock">
     <h1>1000 Maine</h1>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras eget erat ante. Maecenas quam urna, vehicula sed consectetur vitae, imperdiet id leo. Suspendisse potenti. Sed congue dui sit amet venenatis eleifend. Curabitur aliquet metus at nibh placerat dictum. Etiam tincidunt lacinia tempor.</p>
+    <p>1000 Maine is the latest addition to The Wharf, a $2 billion, mixed-use waterfront community in Washington D.C.’s Southwest Waterfront. A new website was designed to promote the building and provide leasing information for prospective tenants.</p>
   </div>
 </div>
 
@@ -44,6 +44,12 @@ image_padding: 64%
 </div>
 
 <div class="grid-item">
+  <div class="copy-block revealblock">
+    <p>Collaborating with the client during a series of workshops, we collectively developed the creative direction and structure of the site. Responsive prototypes were designed in the browser and sent for review following each meeting. We then built the content management system and applied the front-end design.</p>
+  </div>
+</div>
+
+<div class="grid-item">
 <div class="imgblock revealblock" style="padding-top: 57.14%">
   <div class="signal"></div>
   <div class="imgfull">
@@ -59,6 +65,12 @@ image_padding: 64%
   <img src="http://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto/v1499825985/1000-5_tdvr6o.jpg" alt="{{ page.title }}" onload="imgLoaded(this)">
   </div>
 </div>
+</div>
+
+<div class="grid-item">
+  <div class="copy-block revealblock">
+    <p>Rich photography is balanced by negative space throughout each page. A custom icon set and supplemental typographic treatments communicate a sense of craftsmanship and attention to detail.</p>
+  </div>
 </div>
 
 <div class="grid-item">
@@ -87,6 +99,35 @@ image_padding: 64%
   </div>
 </div>
 </div>
+
+<div class="grid-item">
+  <div class="copy-block revealblock">
+    <div class="list-blocks">
+        <div class="list-block">
+            <div class="small">My Role</div>
+            <ul>
+              <li>Visual Design</li>
+              <li>UI/UX Design</li>
+              <li>Front-end Development</li>
+              <li>Back-end Development</li>
+            </ul>
+        </div>
+        <div class="list-block">
+            <div class="small">Creative Direction</div>
+            <ul>
+              <li><a href="http://www.jpramirez.net/" target="_blank">JP Ramirez</a></li>
+            </ul>
+        </div>
+        <div class="list-block">
+            <div class="small">Agency</div>
+            <ul>
+              <li><a href="https://torque.digital/" target="_blank">Torque</a></li>
+            </ul>
+        </div>
+    </div>
+  </div>
+</div>
+
 
 </div>
 </div>

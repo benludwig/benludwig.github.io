@@ -12,7 +12,7 @@ image_padding: 70.30%
 <div class="grid-item">
   <div class="copy-block revealblock">
     <h1>Zoology at The Field Museum</h1>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras eget erat ante. Maecenas quam urna, vehicula sed consectetur vitae, imperdiet id leo. Suspendisse potenti. Sed congue dui sit amet venenatis eleifend. Curabitur aliquet metus at nibh placerat dictum. Etiam tincidunt lacinia tempor.</p>
+    <p>The first responsive website for the museum is a window into their scientific research for zoology. Four large vertical panels with striking photography are prominently featured on the homepage. Each is a category under which all website content is organized.</p>
   </div>
 </div>
 
@@ -35,6 +35,12 @@ image_padding: 70.30%
 </div>
 
 <div class="grid-item">
+  <div class="copy-block revealblock">
+    <p>Subpages are designed using a responsive grid with alternating content placed into specific columns. An emerging technology at the time, responsive design media queries offered new and exciting affordances during the design phase.</p>
+  </div>
+</div>
+
+<div class="grid-item">
 <div class="imgblock revealblock" style="padding-top: 67.15%">
   <div class="signal"></div>
   <div class="imgfull">
@@ -50,6 +56,12 @@ image_padding: 70.30%
   <img src="http://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto/v1499825507/fm4_lblkiv.jpg" alt="{{ page.title }}" onload="imgLoaded(this)">
 </div>
 </div>
+</div>
+
+<div class="grid-item">
+  <div class="copy-block revealblock">
+    <p>This site was presented at conferences around the world and referenced on a wide range of devices for scientific research. It also served as the new benchmark for all projects moving forward.</p>
+  </div>
 </div>
 
 <div class="grid-item">
@@ -69,6 +81,23 @@ image_padding: 70.30%
 </div>
 </div>
 </div>
+
+<div class="grid-item">
+  <div class="copy-block revealblock">
+    <div class="list-blocks">
+        <div class="list-block">
+            <div class="small">My Role</div>
+            <ul>
+              <li>Visual Design</li>
+              <li>UI/UX Design</li>
+              <li>Front-end Development</li>
+              <li>Back-end Development</li>
+            </ul>
+        </div>
+    </div>
+  </div>
+</div>
+
 
 </div>
 </div>

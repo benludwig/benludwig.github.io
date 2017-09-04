@@ -57,6 +57,10 @@ ul, menu, dir {
     -webkit-padding-start: 0px;
     }
 
+li {
+    @include p;
+    }
+
 .small,
 .footer-link {
     @include small;

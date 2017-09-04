@@ -12,7 +12,8 @@ image_padding: 100%
 <div class="grid-item">
   <div class="copy-block revealblock">
     <h1>Lightscapes</h1>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras eget erat ante. Maecenas quam urna, vehicula sed consectetur vitae, imperdiet id leo. Suspendisse potenti. Sed congue dui sit amet venenatis eleifend. Curabitur aliquet metus at nibh placerat dictum. Etiam tincidunt lacinia tempor.</p>
+    <p>The photoshoot for Polarizer’s album artwork was a collaboration with <a href="https://alexsheyn.com/" target="_blank">Alex Sheyn</a>
+and <a href="https://drewrios.com/" target="_blank">Drew Rios</a> held at the <a href="https://brightbrightgreat.com/" target="_blank">Bright Bright Great</a> studio in Chicago. The album’s theme of isolation visually connects to the photo of a woman floating in an unidentifiable space. The blue smoke adds to the surreal environment.</p>
   </div>
 </div>
 
@@ -41,6 +42,13 @@ image_padding: 100%
   <img src="http://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto/v1500156169/lightscapes-3_m7inop.jpg" alt="{{ page.title }}" onload="imgLoaded(this)">
 </div>
 </div>
+</div>
+
+<div class="grid-item">
+  <div class="copy-block revealblock">
+    <p>Music has always been one of my passions and I have been a drummer for 17 years.
+Creating album art is an opportunity to explore new design techniques. The resulting color palette and abundance of negative space can be seen in my subsequent visual design work.</p>
+  </div>
 </div>
 
 <div class="grid-item">

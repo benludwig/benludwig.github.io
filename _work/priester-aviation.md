@@ -12,7 +12,7 @@ image_padding: 61.50%
 <div class="grid-item">
   <div class="copy-block revealblock">
     <h1>Priester Aviation</h1>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras eget erat ante. Maecenas quam urna, vehicula sed consectetur vitae, imperdiet id leo. Suspendisse potenti. Sed congue dui sit amet venenatis eleifend. Curabitur aliquet metus at nibh placerat dictum. Etiam tincidunt lacinia tempor.</p>
+    <p>A clear navigation system and an intuitive interface design supports passengers booking flights and pilots reserving aircraft for Priester Aviation’s iOS app.</p>
   </div>
 </div>
 
@@ -69,6 +69,33 @@ image_padding: 61.50%
 </div>
 </div>
 </div>
+
+<div class="grid-item">
+  <div class="copy-block revealblock">
+    <div class="list-blocks">
+        <div class="list-block">
+            <div class="small">My Role</div>
+            <ul>
+              <li>Visual Design</li>
+              <li>UI/UX Design</li>
+            </ul>
+        </div>
+        <div class="list-block">
+            <div class="small">UX Design</div>
+            <ul>
+              <li>Lena Masek</li>
+            </ul>
+        </div>
+        <div class="list-block">
+            <div class="small">Agency</div>
+            <ul>
+              <li><a href="https://torque.digital/" target="_blank">Torque</a></li>
+            </ul>
+        </div>
+    </div>
+  </div>
+</div>
+
 
 </div>
 </div>

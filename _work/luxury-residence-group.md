@@ -12,7 +12,8 @@ image_padding: 66.65%
 <div class="grid-item">
   <div class="copy-block revealblock">
     <h1>Luxury Residence Group</h1>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras eget erat ante. Maecenas quam urna, vehicula sed consectetur vitae, imperdiet id leo. Suspendisse potenti. Sed congue dui sit amet venenatis eleifend. Curabitur aliquet metus at nibh placerat dictum. Etiam tincidunt lacinia tempor.</p>
+    <p>A landing page design for Power Construction’s Luxury Residence Group ultimately turned into a completely new website in three weeks.</p>
+    <p>Given the short timeline before an approaching conference, we maintained close collaboration with the client. Rapid prototyping in the browser proved to be essential during the design phase. The client was able to access the in-progress website on a variety of devices and quickly provide feedback to our team.</p>
   </div>
 </div>
 
@@ -53,6 +54,12 @@ image_padding: 66.65%
 </div>
 
 <div class="grid-item">
+  <div class="copy-block revealblock">
+    <p>The design process worked so well that we continued after the initial landing page was completed. Adding more content and sections resulted in a complete website in the same short timeframe. Additionally, analytics later showed the new site outperforming their previous one for both bounce rate and time on page.</p>
+  </div>
+</div>
+
+<div class="grid-item">
 <div class="imgblock revealblock" style="padding-top: 89.08%">
   <div class="signal"></div>
   <div class="imgfull">
@@ -89,6 +96,12 @@ image_padding: 66.65%
 </div>
 
 <div class="grid-item">
+  <div class="copy-block revealblock">
+    <p>Thin sans-serif type compliments the modern aesthetic and the understated luxury of their interior design work. Detailed granite and steel textures divide large imagery to form abstract patterns and provide a backdrop for each section’s theme.</p>
+  </div>
+</div>
+
+<div class="grid-item">
 <div class="imgblock revealblock" style="padding-top: 39.08%">
   <div class="signal"></div>
   <div class="imgfull">
@@ -113,6 +126,34 @@ image_padding: 66.65%
   <img src="http://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto/v1500057580/power-12_fmpqky.jpg" alt="{{ page.title }}" onload="imgLoaded(this)">
 </div>
 </div>
+</div>
+
+<div class="grid-item">
+  <div class="copy-block revealblock">
+    <div class="list-blocks">
+        <div class="list-block">
+            <div class="small">My Role</div>
+            <ul>
+              <li>Visual Design</li>
+              <li>UI/UX Design</li>
+              <li>Front-end Development</li>
+              <li>Back-end Development</li>
+            </ul>
+        </div>
+        <div class="list-block">
+            <div class="small">Front-end Development</div>
+            <ul>
+              <li><a href="http://www.strangeflock.com/" target="_blank">Strange Flock</a></li>
+            </ul>
+        </div>
+        <div class="list-block">
+            <div class="small">Agency</div>
+            <ul>
+              <li><a href="https://torque.digital/" target="_blank">Torque</a></li>
+            </ul>
+        </div>
+    </div>
+  </div>
 </div>
 
 </div>

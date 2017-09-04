@@ -12,7 +12,7 @@ image_padding: 57%
 <div class="grid-item">
   <div class="copy-block revealblock">
     <h1>Jarden</h1>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras eget erat ante. Maecenas quam urna, vehicula sed consectetur vitae, imperdiet id leo. Suspendisse potenti. Sed congue dui sit amet venenatis eleifend. Curabitur aliquet metus at nibh placerat dictum. Etiam tincidunt lacinia tempor.</p>
+    <p>The most ambitious projects are often the most rewarding. For Jarden, we designed a timeline of their medical products, from manufacturing to administering a patient. The interactive experience used animated SVG graphics controlled by scrolling, an emerging technology at the time.</p>
   </div>
 </div>
 
@@ -44,6 +44,12 @@ image_padding: 57%
 </div>
 
 <div class="grid-item">
+  <div class="copy-block revealblock">
+    <p>Scrolling forms a line down the page into each environment. Along the way, corresponding medical products are revealed that link to interior pages with more detailed information. When the  journey is completed, there is a clear call-to-action to continue by contacting their fulfillment team.</p>
+  </div>
+</div>
+
+<div class="grid-item">
 <div class="imgblock revealblock" style="padding-top: 55.14%">
   <div class="signal"></div>
   <div class="imgfull">
@@ -60,6 +66,35 @@ image_padding: 57%
 </div>
 </div>
 </div>
+
+<div class="grid-item">
+  <div class="copy-block revealblock">
+    <div class="list-blocks">
+        <div class="list-block">
+            <div class="small">My Role</div>
+            <ul>
+              <li>Visual Design</li>
+              <li>UI/UX Design</li>
+              <li>Front-end Development</li>
+              <li>Back-end Development</li>
+            </ul>
+        </div>
+        <div class="list-block">
+            <div class="small">Front-end Development</div>
+            <ul>
+              <li><a href="http://www.strangeflock.com/" target="_blank">Strange Flock</a></li>
+            </ul>
+        </div>
+        <div class="list-block">
+            <div class="small">Agency</div>
+            <ul>
+              <li><a href="https://torque.digital/" target="_blank">Torque</a></li>
+            </ul>
+        </div>
+    </div>
+  </div>
+</div>
+
 
 </div>
 </div>

@@ -12,7 +12,7 @@ image_padding: 123.97%
 <div class="grid-item">
   <div class="copy-block revealblock">
     <h1>Fitzgerald Architects</h1>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras eget erat ante. Maecenas quam urna, vehicula sed consectetur vitae, imperdiet id leo. Suspendisse potenti. Sed congue dui sit amet venenatis eleifend. Curabitur aliquet metus at nibh placerat dictum. Etiam tincidunt lacinia tempor.</p>
+    <p>The new website design for Fitzgerald Architects supports their entire catalog of work. We were challenged to build a back-end content management system and design a front-end user interface to handle hundreds of case studies.</p>
   </div>
 </div>
 
@@ -35,6 +35,12 @@ image_padding: 123.97%
 </div>
 
 <div class="grid-item">
+  <div class="copy-block revealblock">
+    <p>With so many ways to filter and sort content, we created a system of grouped options that form a descriptive sentence. The sentence then changes after each selection, for example: “You’re viewing <i>projects</i> tagged with <i>new construction</i> and <i>mixed-use</i>.” Users can also choose whether results are displayed on a map, in a grid of images or as text in a list.</p>
+  </div>
+</div>
+
+<div class="grid-item">
 <div class="imgblock revealblock" style="padding-top: 54.11%">
   <div class="signal"></div>
   <div class="imgfull">
@@ -51,6 +57,39 @@ image_padding: 123.97%
 </div>
 </div>
 </div>
+
+<div class="grid-item">
+  <div class="copy-block revealblock">
+    <div class="list-blocks">
+        <div class="list-block">
+            <div class="small">My Role</div>
+            <ul>
+              <li>UI/UX Design</li>
+              <li>Front-end Development</li>
+            </ul>
+        </div>
+        <div class="list-block">
+            <div class="small">Visual Design</div>
+            <ul>
+              <li><a href="http://www.beckyrother.com/" target="_blank">Becky Rother</a></li>
+            </ul>
+        </div>
+        <div class="list-block">
+            <div class="small">Creative Direction</div>
+            <ul>
+              <li><a href="http://www.jpramirez.net/" target="_blank">JP Ramirez</a></li>
+            </ul>
+        </div>
+        <div class="list-block">
+            <div class="small">Agency</div>
+            <ul>
+              <li><a href="https://torque.digital/" target="_blank">Torque</a></li>
+            </ul>
+        </div>
+    </div>
+  </div>
+</div>
+
 
 </div>
 </div>

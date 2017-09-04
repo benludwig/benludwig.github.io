@@ -12,7 +12,7 @@ image_padding: 61.50%
 <div class="grid-item">
   <div class="copy-block revealblock">
     <h1>SMNGA Architects</h1>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras eget erat ante. Maecenas quam urna, vehicula sed consectetur vitae, imperdiet id leo. Suspendisse potenti. Sed congue dui sit amet venenatis eleifend. Curabitur aliquet metus at nibh placerat dictum. Etiam tincidunt lacinia tempor.</p>
+    <p>SMNGA is a long-standing architecture firm in Chicago with extensive experience in the design and planning of both new and existing buildings. We designed an updated  website to showcase their work and expertise. Additionally, progressive page layouts and navigation were incorporated while still maintaining an intuitive user experience.</p>
   </div>
 </div>
 
@@ -44,6 +44,12 @@ image_padding: 61.50%
 </div>
 
 <div class="grid-item">
+  <div class="copy-block revealblock">
+    <p>Their massive collection of content was organized into categories, tags and taxonomy terms. Three creative directions were explored, each taking inspiration from their brand standards. The result is a unique and modern website design that is compatible across all devices and browsers.</p>
+  </div>
+</div>
+
+<div class="grid-item">
 <div class="imgblock revealblock" style="padding-top: 53.83%">
   <div class="signal"></div>
   <div class="imgfull">
@@ -62,6 +68,12 @@ image_padding: 61.50%
 </div>
 
 <div class="grid-item">
+  <div class="copy-block revealblock">
+    <p>Rather than just showcasing their work in a standard web layout, we designed the pages to reflect the style of their work. Offset grids and layered typography create a unique and modern look. Unexpected details are uncovered by interactions inside the navigation and, echoing their architecture, each page is clean, modular and responsive.</p>
+  </div>
+</div>
+
+<div class="grid-item">
 <div class="imgblock revealblock" style="padding-top: 66.64%">
   <div class="signal"></div>
   <div class="imgfull">
@@ -77,6 +89,12 @@ image_padding: 61.50%
   <img src="http://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto/v1497727823/smnga-01-about-us_xbasoe.jpg" alt="{{ page.title }}" onload="imgLoaded(this)">
 </div>
 </div>
+</div>
+
+<div class="grid-item">
+  <div class="copy-block revealblock">
+    <p>The back-end was built around the client’s needs and how they organize their content. Unconstrained from pre-existing frameworks, we had the freedom to tailor the content management experience to support and extend their existing workflow. The team now has full control over their content and the design adapts as the website continues to grow.</p>
+  </div>
 </div>
 
 <div class="grid-item">
@@ -123,6 +141,42 @@ image_padding: 61.50%
 </div>
 </div>
 </div>
+
+<div class="grid-item">
+  <div class="copy-block revealblock">
+    <div class="list-blocks">
+        <div class="list-block">
+            <div class="small">My Role</div>
+            <ul>
+              <li>Creative Direction</li>
+              <li>Visual Design</li>
+              <li>Front-end Development</li>
+              <li>Back-end Development</li>
+            </ul>
+        </div>
+        <div class="list-block">
+            <div class="small">Copywriting</div>
+            <ul>
+              <li><a href="https://decemberg.carbonmade.com/" target="_blank">December Gladden</a></li>
+            </ul>
+        </div>
+        <div class="list-block">
+            <div class="small">Front-end Development</div>
+            <ul>
+              <li><a href="http://www.strangeflock.com/" target="_blank">Strange Flock</a></li>
+            </ul>
+        </div>
+        <div class="list-block">
+            <div class="small">Agency</div>
+            <ul>
+              <li><a href="https://torque.digital/" target="_blank">Torque</a></li>
+            </ul>
+        </div>
+    </div>
+  </div>
+</div>
+
+
 
 </div>
 </div>
