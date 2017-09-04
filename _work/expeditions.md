@@ -12,7 +12,9 @@ image_padding: 78.24%
 <div class="grid-item">
   <div class="copy-block revealblock">
     <h1>Expeditions at The Field Museum</h1>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras eget erat ante. Maecenas quam urna, vehicula sed consectetur vitae, imperdiet id leo. Suspendisse potenti. Sed congue dui sit amet venenatis eleifend. Curabitur aliquet metus at nibh placerat dictum. Etiam tincidunt lacinia tempor.</p>
+
+    <p>There are hundreds of scientists at The Field Museum, many of whom are travelling on expeditions around the world. During their travels, their discoveries are often posted on personal blogs in addition to scientific publications. The goal was to make their scientific documentation more publically available and present those findings with a more visually engaging design.</p>
+
   </div>
 </div>
 
@@ -51,6 +53,17 @@ image_padding: 78.24%
 </div>
 </div>
 </div>
+
+<div class="grid-item">
+  <div class="copy-block revealblock">
+
+    <p>Collaborating with Knoed, our team designed a central repository for scientific documentation. This allowed scientists to remotely access a content management system and add case studies with photography and geographic information. Each one is grouped under a theme and has a small preview to access deeper content about a particular story.</p>
+
+    <p>Strong, bright and dynamic color treatments present scientific research in a way that’s rarely seen. Large photography is complemented by a unique typeface that gives each expedition it’s own iconic image.</p>
+
+  </div>
+</div>
+
 
 <div class="grid-item">
 <div class="imgblock revealblock" style="padding-top: 74.82%">

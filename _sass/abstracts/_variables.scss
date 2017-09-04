@@ -44,12 +44,30 @@ $color-white: #ffffff;
        url('../fonts/GTAmerica/GTAmerica-Medium.svg') format('svg'); /* Legacy iOS */
        }
 
+@font-face {
+font-family: 'GTAmericaRegular';
+src: url('../fonts/GTAmerica/GTAmerica-Regular.eot'), /* IE9 Compat Modes */
+     url('../fonts/GTAmerica/GTAmerica-Regular.woff2') format('woff2'), /* Super Modern Browsers */
+     url('../fonts/GTAmerica/GTAmerica-Regular.woff') format('woff'), /* Pretty Modern Browsers */
+     url('../fonts/GTAmerica/GTAmerica-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+     url('../fonts/GTAmerica/GTAmerica-Regular.svg') format('svg'); /* Legacy iOS */
+     }
+
+@font-face {
+ font-family: 'GTAmericaThin';
+ src: url('../fonts/GTAmerica/GTAmerica-Thin.eot'), /* IE9 Compat Modes */
+      url('../fonts/GTAmerica/GTAmerica-Thin.woff2') format('woff2'), /* Super Modern Browsers */
+      url('../fonts/GTAmerica/GTAmerica-Thin.woff') format('woff'), /* Pretty Modern Browsers */
+      url('../fonts/GTAmerica/GTAmerica-Thin.ttf')  format('truetype'), /* Safari, Android, iOS */
+      url('../fonts/GTAmerica/GTAmerica-Thin.svg') format('svg'); /* Legacy iOS */
+      }
+
  /*Typography---------------------------
  -------------------------------------*/
 
  $font-primary : 'Butler', serif;
  $font-secondary : 'CircularBold', sans-serif;
- $font-copy : 'GTAmericaMedium', sans-serif;
+ $font-copy : 'GTAmericaRegular', sans-serif;
 
 @mixin h1 {
   font-weight: normal;

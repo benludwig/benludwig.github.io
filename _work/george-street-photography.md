@@ -12,7 +12,8 @@ image_padding: 38.79%
 <div class="grid-item">
   <div class="copy-block revealblock">
     <h1>George Street Photography</h1>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras eget erat ante. Maecenas quam urna, vehicula sed consectetur vitae, imperdiet id leo. Suspendisse potenti. Sed congue dui sit amet venenatis eleifend. Curabitur aliquet metus at nibh placerat dictum. Etiam tincidunt lacinia tempor.</p>
+    <p>George Street Photo & Video is a nationally renowned wedding photography company headquartered in Chicago. Building on its success, we created a strong brand identity and an updated website design.</p>
+    <p>At the time, George Street’s website included hundreds of individual pages, fifteen page templates and custom API integration. In addition to the complex structure, publishers and photographers were actively publishing new content and site traffic was consistently high.</p>
   </div>
 </div>
 
@@ -33,7 +34,6 @@ image_padding: 38.79%
 </div>
 </div>
 </div>
-
 <div class="grid-item">
 <div class="imgblock revealblock" style="padding-top: 38.79%">
   <div class="signal"></div>
@@ -42,7 +42,6 @@ image_padding: 38.79%
 </div>
 </div>
 </div>
-
 <div class="grid-item">
 <div class="imgblock revealblock" style="padding-top: 75%">
   <div class="signal"></div>
@@ -62,6 +61,12 @@ image_padding: 38.79%
 </div>
 
 <div class="grid-item">
+  <div class="copy-block revealblock">
+    <p>Working with a team of creative directors, designers and developers, the redesign was completed while maintaining the structure of the website. In-browser prototypes were essential to this process. Those allowed us to share responsive designs with our client and send front-end code to the development team in Europe.</p>
+  </div>
+</div>
+
+<div class="grid-item">
 <div class="imgblock revealblock" style="padding-top: 64.56%">
   <div class="signal"></div>
   <div class="imgfull">
@@ -69,7 +74,6 @@ image_padding: 38.79%
 </div>
 </div>
 </div>
-
 <div class="grid-item">
 <div class="imgblock revealblock" style="padding-top: 100%">
   <div class="signal"></div>
@@ -95,6 +99,13 @@ image_padding: 38.79%
   <img src="http://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto/v1499734367/gs12_tajshm.jpg" alt="{{ page.title }}" onload="imgLoaded(this)">
 </div>
 </div>
+</div>
+
+<div class="grid-item">
+  <div class="copy-block revealblock">
+    <p>The new identity and visual language is joyful and personal, supported by a bright color palette and a wildly unique script typeface. Sans-serif typography paired with negative space provides clarity for forms, instructions and page navigation.</p>
+    <p>The successful redesign extends across print collateral, email programs and digital ad campaigns. Subsequent design iterations following A/B testing increased impressions, website traffic and lead generation.</p>
+  </div>
 </div>
 
 <div class="grid-item">

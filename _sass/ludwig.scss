@@ -20,13 +20,17 @@ dl, dd, ol, ul, figure {
 
 h1,
 h2 {
-  padding-bottom: 15px;
+  padding-bottom: 20px;
   }
 
 body {
   background-color: $color-dark;
   color: $color-light;
 }
+
+p {
+    padding-bottom: 15px;
+    }
 
 /*Links--------------------------------
 -------------------------------------*/
