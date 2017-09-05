@@ -461,8 +461,6 @@ html { overflow-y: scroll; }
   bottom: 0;
   left: 0;
   width: 100%;
-  padding-left: 15px;
-  padding-right: 15px;
   height: 60px;
   background-color: rgba(26, 26, 26, 0.93);
   @include flex;
@@ -473,6 +471,7 @@ html { overflow-y: scroll; }
 .work-cycle a {
   @include flex;
   @include flex-align-center;
+  padding: 16px;
   }
 
 .work-cycle img {
