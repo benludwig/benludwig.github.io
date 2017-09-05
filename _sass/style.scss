@@ -6,17 +6,16 @@ body {
     }
 
 ::selection {
-    background: #fcf113; /* WebKit/Blink Browsers */
+    background: #fcf113;
     color: $color-dark;
     }
 
 ::-moz-selection {
-    background: #fcf113; /* Gecko Browsers */
+    background: #fcf113;
     color: $color-dark;
     }
 
-a,
-button {
+a {
     outline: 0;
     text-decoration: none;
     color: $color-light;
@@ -39,10 +38,6 @@ h2 {
     @include h2;
     }
 
-button {
-    @include button;
-    }
-
 p {
     @include p;
     }
@@ -61,8 +56,21 @@ li {
     @include p;
     }
 
-.small,
-.footer-link {
+.block-support {
+    font-weight: normal;
+    font-style: normal;
+    font-family: "GTAmericaRegular", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    letter-spacing: 0px;
+    margin: 0;
+    color: #9e9e9e;
+    }
+
+.small {
     @include small;
     padding-bottom: 10px;
     }
@@ -87,7 +95,7 @@ li {
     }
 
 .primary-nav-inside .logo img {
-    max-width: 13px;
+    max-width: 18px;
     }
 
 .primary-nav-third.first {
