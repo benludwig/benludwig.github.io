@@ -4,55 +4,23 @@
   "style"
 ;
 
-/*Global-------------------------------
--------------------------------------*/
-
-html {
-  font-size: 100%;
-}
-
-body, h1, h2, h3, h4, h5, h6,
-p, blockquote, pre, hr,
-dl, dd, ol, ul, figure {
-  margin: 0;
-  padding: 0;
-  }
-
-h1,
-h2 {
-  padding-bottom: 20px;
-  }
-
-body {
-  background-color: $color-dark;
-  color: $color-light;
-}
-
-p {
-    padding-bottom: 15px;
-    }
-
-.copy-block a {
-    border-bottom: 1px solid $color-light;
-    }
-
-/*Links--------------------------------
--------------------------------------*/
-
-.home-work.copy a {
-  color: $color-light;
-  border-bottom: 1px solid $color-light;
+.logo a {
+  display: block;
+  width: 15px;
+  height: 28px;
   }
 
 /*Image Settings-----------------------
 -------------------------------------*/
 
-.revealblock { visibility: hidden; }
+.revealblock {
+  visibility: hidden;
+  }
 
 .imgblock {
   position: relative;
   overflow: hidden;
-  background-color: #1a1a1a;
+  background-color: $color-darker;
   }
 
 .imgblock .signal {
@@ -73,7 +41,7 @@ p {
   animation-iteration-count: infinite;
   }
 
-  @keyframes pulsate {
+@keyframes pulsate {
   0% {
     transform: scale(.1);
     opacity: 0.0;
@@ -97,7 +65,7 @@ p {
   z-index: 3;
   }
 
-.imgfull img{
+.imgfull img {
   position: absolute;
   top: 0;
   width: 100%;
@@ -108,21 +76,18 @@ p {
   transition: opacity 500ms;
   }
 
-
 /*Primary Nav--------------------------
 -------------------------------------*/
 
 .primary-nav {
   position: fixed;
   top: 0;
+  left: 0;
   width: 100%;
   z-index: 100;
+  padding-left: 20px;
+  padding-right: 20px;
   }
-
-.primary-nav-inside {
-    padding-left: 16px;
-    padding-right: 16px;
-}
 
 /*Homepage Mid-------------------------
 -------------------------------------*/
@@ -140,26 +105,12 @@ p {
   padding-right: 30px;
   }
 
-.home-work.copy h1 {
-  color: $color-white;
-  }
-
 .home-work-text {
   padding: 10px 0 10px 0;
   }
 
 .home-work-text {
-  @include small;
   padding-bottom: 15px;
-  }
-
-.home-work-text a {
-  color: $color-white;
-  }
-
-.home-work-button a {
-  @include small;
-  color: $color-white;
   }
 
 .home-work.first .home-work-img {
@@ -185,6 +136,10 @@ p {
   background-repeat: no-repeat;
   }
 
+.home-work a.link-supprt {
+  padding-top: 5px;
+  }
+
 .home-work.first .home-work-img a {
   background-image: url('http://res.cloudinary.com/benludwig/image/upload/f_auto/v1497797118/priester-05-table_dqgrtb.jpg');
   padding-top: 66.66%;
@@ -206,81 +161,81 @@ p {
   }
 
 .home-work-link-group {
-  padding: 15px 30px 20px 30px;
+  padding: 0px 30px 20px 30px;
   }
 
 @media (min-width:680px) {
 
-  .home-mid {
-    padding: 100px 15px 20px 15px;
-    }
-
-  .home-mid-top {
-    @include flex;
-    @include flex-align-center;
-    }
-
-  .home-mid-top-left,
-  .home-mid-top-right,
-  .home-mid-bottom-left,
-  .home-mid-bottom-right {
-    width: 50%;
-    }
-
-  .home-work.second .home-work-img a {
-    padding-top: 133%;
-    }
-
-  .home-work.third .home-work-img a {
-    padding-top: 43%;
-    }
-
-  .home-mid-bottom {
-    @include flex;
-    @include flex-align-center;
-    }
-
-  .home-work,
-  .home-work.copy,
-  .home-work.first .home-work-img,
-  .home-work.second .home-work-img,
-  .home-work.third .home-work-img,
-  .home-work.fourth .home-work-img,
-  .home-work-link-group {
-    padding: 0px 0px 0px 0px;
-    }
-
-  .home-mid-top-left,
-  .home-mid-top-right,
-  .home-mid-center,
-  .home-mid-bottom-left,
-  .home-mid-bottom-right {
-    padding: 15px;
+.home-mid {
+  padding: 100px 15px 20px 15px;
   }
 
-  .home-work.copy {
-    padding-bottom: 30px;
-    }
+.home-mid-top {
+  @include flex;
+  @include flex-align-center;
+  }
+
+.home-mid-top-left,
+.home-mid-top-right,
+.home-mid-bottom-left,
+.home-mid-bottom-right {
+  width: 50%;
+  }
+
+.home-work.second .home-work-img a {
+  padding-top: 133%;
+  }
+
+.home-work.third .home-work-img a {
+  padding-top: 43%;
+  }
+
+.home-mid-bottom {
+  @include flex;
+  @include flex-align-center;
+  }
+
+.home-work,
+.home-work.copy,
+.home-work.first .home-work-img,
+.home-work.second .home-work-img,
+.home-work.third .home-work-img,
+.home-work.fourth .home-work-img,
+.home-work-link-group {
+  padding: 0px 0px 0px 0px;
+  }
+
+.home-mid-top-left,
+.home-mid-top-right,
+.home-mid-center,
+.home-mid-bottom-left,
+.home-mid-bottom-right {
+  padding: 15px;
+}
+
+.home-work.copy {
+  padding-bottom: 30px;
+  }
 
 }
 
 @media (min-width:1100px) {
 
-  .home-mid {
-    padding: 80px 40px 40px 40px;
-    }
-
-  .home-mid-top-left,
-  .home-mid-top-right,
-  .home-mid-center,
-  .home-mid-bottom-left,
-  .home-mid-bottom-right {
-    padding: 40px;
+.home-mid {
+  padding: 80px 40px 40px 40px;
   }
 
-  .home-work.third .home-work-img a {
-    padding-top: 43%;
-    }
+.home-mid-top-left,
+.home-mid-top-right,
+.home-mid-center,
+.home-mid-bottom-left,
+.home-mid-bottom-right {
+  padding: 40px;
+  }
+
+.home-work.third .home-work-img a {
+  padding-top: 43%;
+  }
 
 }
 
@@ -312,7 +267,6 @@ html { overflow-y: scroll; }
 
 .all-work {
   padding: 75px 5px 0px 5px;
-  background-color: $color-dark;
   }
 
 .all-work .grid-sizer,
@@ -324,39 +278,32 @@ html { overflow-y: scroll; }
   padding: 0px 5px 30px 5px;
   }
 
-.grid-item .work-title {
+.all-work .grid-item a.link-support {
   padding-top: 5px;
-  line-height: 0.75em;
-  }
-
-.grid-item .work-title a {
-  @include small;
-  color: $color-white;
   }
 
 @media (min-width:600px) {
 
-  .all-work {
-    padding: 75px 15px 0px 15px;
-    background-color: $color-dark;
-    }
+.all-work {
+  padding: 75px 15px 0px 15px;
+  }
 
-  .all-work .grid-item {
-    padding: 40px 15px;
-    }
+.all-work .grid-item {
+  padding: 40px 15px;
+  }
 
 }
 
 @media (min-width:800px) {
 
-  .all-work .grid-sizer,
-  .all-work .grid-item {
-    width: 33.33%;
-    }
+.all-work .grid-sizer,
+.all-work .grid-item {
+  width: 33.33%;
+  }
 
-  .all-work .grid-item:nth-child(2) {
-      margin-top: 0%;
-    }
+.all-work .grid-item-double {
+  width: 66%;
+  }
 
 }
 
@@ -364,7 +311,6 @@ html { overflow-y: scroll; }
 -------------------------------------*/
 
 .work {
-  background-color: $color-dark;
   padding: 85px 0 0 0;
   }
 
@@ -394,61 +340,56 @@ html { overflow-y: scroll; }
   border-top: 1px solid $color-light;
   }
 
-.list-block a {
-  border-bottom: 0px solid $color-light;
-  }
-
-.list-block ul li a:after {
-  display: inline-block;
-  width: 13px;
-  height: 13px;
-  content: url('/assets/images/link.svg');
-  margin-left: 5px;
+.work .list-block  dt {
+  @include font-detail;
+  padding-bottom: 10px;
   }
 
 @media (min-width:560px) {
 
-    .work .list-blocks {
-    @include flex;
-    @include flex-wrap;
-    }
+.work .list-blocks {
+  @include flex;
+  @include flex-wrap;
+  }
 
-    .work .list-block {
-    width: 50%;
-    }
+.work .list-block {
+  width: 50%;
+  }
 
 }
 
 @media (min-width:800px) {
 
-  .work .grid-sizer,
-  .work .grid-item {
-    width: 50%;
-    }
+.work .grid-sizer,
+.work .grid-item {
+  width: 50%;
+  }
 
-  .work {
-    padding: 85px 4px 4px 4px;
-    }
+.work {
+  padding: 85px 4px 4px 4px;
+  }
 
-  .work .grid-item {
-    padding: 4px 4px;
-    }
+.work .grid-item {
+  padding: 4px 4px;
+  }
 
-  .work .copy-block {
-    padding: 50px 30px 35px 30px;
-    }
+.work .copy-block {
+  padding: 50px 30px 35px 30px;
+  }
 
-  .work .copy-block h1,
-  .work .copy-block p {
+.work .copy-block h1,
+.work .copy-block p {
   max-width: 600px;
   }
 
 }
 
 @media (min-width:1120px) {
-    .work .copy-block {
-      padding: 75px 50px 60px 50px;
-      }
+
+.work .copy-block {
+  padding: 75px 50px 60px 50px;
+  }
+
 }
 
 /*Work Cycle---------------------------
@@ -466,16 +407,6 @@ html { overflow-y: scroll; }
   @include flex-align-center;
   }
 
-.work-cycle a {
-  @include flex;
-  @include flex-align-center;
-  padding: 16px;
-  }
-
-.work-cycle img {
-  width: 20px;
-  }
-
 .work-cycle span.prev {
   padding-left: 4px;
   }
@@ -486,7 +417,7 @@ html { overflow-y: scroll; }
 
 @media (max-width:468px) {
 
-  .work-cycle .title {
+  .work-cycle .cycle-title {
   display: none;
   }
 
@@ -498,32 +429,25 @@ html { overflow-y: scroll; }
 .info {
   background-color: $color-white;
   color: $color-dark;
+  padding: 125px 0px 30px 0px;
   }
 
 .info a {
+  color: $color-dark;
+  }
+
+.info a.link-inline {
   border-bottom: 1px solid $color-dark;
   }
 
-.info-image .caption {
-  @include small;
-  color: $color-light;
-  }
-
-/*Info Small---------------------------
--------------------------------------*/
-
-.info {
-  padding: 50px 0px 30px 0px;
-  }
-
 .info-inside {
-    width: 100%;
-    @include flex;
-    @include flex-wrap;
-    max-width: 1300px;
-    margin-left:auto;
-    margin-right: auto;
-    }
+  width: 100%;
+  @include flex;
+  @include flex-wrap;
+  max-width: 1300px;
+  margin-left:auto;
+  margin-right: auto;
+  }
 
 .info-copy {
   width: 100%;
@@ -540,20 +464,30 @@ html { overflow-y: scroll; }
   padding: 30px 30px;
   }
 
+.info-block h2 {
+  padding: 20px 0px;
+  border-top: 1px solid $color-dark;
+  }
+
+.info-block li.block-support {
+  @include font-standard-support;
+  padding-bottom: 15px;
+  }
+
 @media (min-width:620px) {
 
 .info-copy {
-    width: 70%;
-    }
+  width: 70%;
+  }
 
 .info-image {
   width: 70%;
   padding: 0px 30px 30px 30px;
-    }
+  }
 
 .info-block {
-    width: 50%;
-    }
+  width: 50%;
+  }
 
 }
 
@@ -561,12 +495,12 @@ html { overflow-y: scroll; }
 
 .info-inside {
   padding: 0px 30px;
-}
+  }
 
 .info-copy {
-    width: 50%;
-    padding: 60px 30px;
-    }
+  width: 50%;
+  padding: 60px 30px;
+  }
 
 .info-image {
   width: 50%;
@@ -574,37 +508,19 @@ html { overflow-y: scroll; }
   }
 
 .info-block {
-    width: 33.33%;
-    padding: 60px 30px;
-    }
+  width: 33.33%;
+  padding: 60px 30px;
+  }
 
 }
-
-.info-block h2 {
-  padding: 20px 0px;
-  border-top: 1px solid $color-dark;
-  }
-
-.info-block li.block-support {
-    padding-bottom: 15px;
-  }
-
-.info a {
-  color: $color-dark;
-  }
 
 /*Footer-------------------------------
 -------------------------------------*/
 
 .footer {
-  background-color: #1a1a1a;
+  padding:100px 30px;
   }
 
-.footer-inside {
-    @include flex;
-    padding:100px 30px;
-    }
-
-.footer-right {
-    padding-left: 30px;
-    }
+.footer-links-right {
+  padding-left: 20px;
+  }

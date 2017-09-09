@@ -65,25 +65,29 @@ image_padding: 60.40%
 <div class="grid-item">
   <div class="copy-block revealblock">
     <div class="list-blocks">
+
         <div class="list-block">
-            <div class="small">My Role</div>
-            <ul>
-              <li>Visual Design</li>
-              <li>Front-end Development</li>
-            </ul>
+            <dl>
+              <dt>My Role</dt>
+              <dd>Visual Design</dd>
+              <dd>Front-end Development</dd>
+            </dl>
         </div>
+
         <div class="list-block">
-            <div class="small">Visual Design</div>
-            <ul>
-              <li><a href="https://www.druemccurdy.com/" target="_blank">Drue McCurdy</a></li>
-            </ul>
+            <dl>
+              <dt>Visual Design</dt>
+              <dd><a href="https://www.druemccurdy.com/" target="_blank" class="link-credits">Drue McCurdy</a></dd>
+            </dl>
         </div>
+
         <div class="list-block">
-            <div class="small">Agency</div>
-            <ul>
-              <li><a href="https://torque.digital/" target="_blank">Torque</a></li>
-            </ul>
+            <dl>
+              <dt>Agency</dt>
+              <dd><a href="https://torque.digital/" target="_blank" class="link-credits">Torque</a></dd>
+            </dl>
         </div>
+
     </div>
   </div>
 </div>

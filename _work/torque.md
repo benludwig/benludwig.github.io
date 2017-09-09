@@ -73,33 +73,38 @@ image_padding: 63.61%
 <div class="grid-item">
   <div class="copy-block revealblock">
     <div class="list-blocks">
+
         <div class="list-block">
-            <div class="small">My Role</div>
-            <ul>
-              <li>Visual Design</li>
-              <li>UI/UX Design</li>
-              <li>Front-end Development</li>
-              <li>Back-end Development</li>
-            </ul>
+            <dl>
+              <dt>My Role</dt>
+              <dd>Visual Design</dd>
+              <dd>UI/UX Design</dd>
+              <dd>Front-end Development</dd>
+              <dd>Back-end Development</dd>
+            </dl>
         </div>
+
         <div class="list-block">
-            <div class="small">Motion Design</div>
-            <ul>
-              <li>Javad Khadivi</li>
-            </ul>
+            <dl>
+              <dt>Motion Design</dt>
+              <dd>Javad Khadivi</dd>
+            </dl>
         </div>
+
         <div class="list-block">
-            <div class="small">Creative Direction</div>
-            <ul>
-              <li><a href="http://www.jpramirez.net/" target="_blank">JP Ramirez</a></li>
-            </ul>
+            <dl>
+              <dt>Creative Direction</dt>
+              <dd><a href="http://www.jpramirez.net/" target="_blank" class="link-credits">JP Ramirez</a></dd>
+            </dl>
         </div>
+
         <div class="list-block">
-            <div class="small">Agency</div>
-            <ul>
-              <li><a href="https://torque.digital/" target="_blank">Torque</a></li>
-            </ul>
+            <dl>
+              <dt>Agency</dt>
+              <dd><a href="https://torque.digital/" target="_blank" class="link-credits">Torque</a></dd>
+            </dl>
         </div>
+
     </div>
   </div>
 </div>

@@ -53,12 +53,12 @@ image_padding: 91.67%
   <div class="copy-block revealblock">
     <div class="list-blocks">
         <div class="list-block">
-            <div class="small">My Role</div>
-            <ul>
-              <li>UI/UX Design</li>
-              <li>Visual Design</li>
-              <li>Front-end Development</li>
-            </ul>
+            <dl>
+              <dt>My Role</dt>
+              <dd>Visual Design</dd>
+              <dd>UI/UX Design</dd>
+              <dd>Front-end Development</dd>
+            </dl>
         </div>
     </div>
   </div>

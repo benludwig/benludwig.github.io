@@ -5,6 +5,10 @@ title: Work
 <div class="grid-container">
 <div class="grid">
 <div class="grid-sizer"></div>
+<div class="grid-item grid-item-double">
+  <h1>Selected Work</h1>
+  <p>I'm a Senior Interaction Designer at Rise Interactive where I design user interfaces for a centralized digital marketing and data visualization platform. My previous work includes everything from website redesigns to full marketing campaigns for a wide range of clients.</p>
+</div>
 {% assign sortedWork = site.work | sort: 'date' %}
 {% for work in sortedWork reversed %}
 <div class="grid-item">
@@ -16,9 +20,7 @@ title: Work
         </div>
     </div>
   </a>
-    <div class="work-title">
-      <a href="{{ work.url }}" class="revealblock">{{ work.title }}</a>
-    </div>
+      <a href="{{ work.url }}" class="revealblock link-support">{{ work.title }}</a>
 </div>
 {% endfor %}
 </div>

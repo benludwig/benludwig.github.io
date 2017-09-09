@@ -73,25 +73,29 @@ image_padding: 61.50%
 <div class="grid-item">
   <div class="copy-block revealblock">
     <div class="list-blocks">
+
         <div class="list-block">
-            <div class="small">My Role</div>
-            <ul>
-              <li>Visual Design</li>
-              <li>UI/UX Design</li>
-            </ul>
+            <dl>
+              <dt>My Role</dt>
+              <dd>Visual Design</dd>
+              <dd>UI/UX Design</dd>
+            </dl>
         </div>
+
         <div class="list-block">
-            <div class="small">UX Design</div>
-            <ul>
-              <li>Lena Masek</li>
-            </ul>
+            <dl>
+              <dt>UX Design</dt>              
+              <dd><a href="http://lenamasek.website/" target="_blank" class="link-credits">Lena Masek</a></dd>
+            </dl>
         </div>
+
         <div class="list-block">
-            <div class="small">Agency</div>
-            <ul>
-              <li><a href="https://torque.digital/" target="_blank">Torque</a></li>
-            </ul>
+            <dl>
+              <dt>Agency</dt>
+              <dd><a href="https://torque.digital/" target="_blank" class="link-credits">Torque</a></dd>
+            </dl>
         </div>
+
     </div>
   </div>
 </div>

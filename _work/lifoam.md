@@ -79,31 +79,35 @@ image_padding: 96.52%
 <div class="grid-item">
   <div class="copy-block revealblock">
     <div class="list-blocks">
-        <div class="list-block">
-            <div class="small">My Role</div>
-            <ul>
-              <li>UI/UX Design</li>
-              <li>Front-end Development</li>
-            </ul>
-        </div>
-        <div class="list-block">
-            <div class="small">Visual Design</div>
-            <ul>
-              <li><a href="http://www.beckyrother.com/" target="_blank">Becky Rother</a></li>
-            </ul>
-        </div>
-        <div class="list-block">
-            <div class="small">Creative Direction</div>
-            <ul>
-              <li><a href="http://www.jpramirez.net/" target="_blank">JP Ramirez</a></li>
-            </ul>
-        </div>
-        <div class="list-block">
-            <div class="small">Agency</div>
-            <ul>
-              <li><a href="https://torque.digital/" target="_blank">Torque</a></li>
-            </ul>
-        </div>
+    <div class="list-block">
+        <dl>
+          <dt>My Role</dt>
+          <dd>UI/UX Design</dd>
+          <dd>Front-end Development</dd>
+        </dl>
+    </div>
+
+    <div class="list-block">
+        <dl>
+          <dt>Visual Design</dt>
+          <dd><a href="http://www.beckyrother.com/" target="_blank" class="link-credits">Becky Rother</a></dd>
+        </dl>
+    </div>
+
+    <div class="list-block">
+        <dl>
+          <dt>Creative Direction</dt>
+          <dd><a href="http://www.jpramirez.net/" target="_blank" class="link-credits">JP Ramirez</a></dd>
+        </dl>
+    </div>
+
+    <div class="list-block">
+        <dl>
+          <dt>Agency</dt>
+          <dd><a href="https://torque.digital/" target="_blank" class="link-credits">Torque</a></dd>
+        </dl>
+    </div>
+    
     </div>
   </div>
 </div>

@@ -139,50 +139,58 @@ image_padding: 38.79%
 <div class="grid-item">
   <div class="copy-block revealblock">
     <div class="list-blocks">
+
         <div class="list-block">
-            <div class="small">My Role</div>
-            <ul>
-              <li>UI/UX Design</li>
-              <li>Visual Design</li>
-              <li>Front-end Development</li>
-            </ul>
+            <dl>
+              <dt>My Role</dt>
+              <dd>UI/UX Design</dd>
+              <dd>Visual Design</dd>
+              <dd>Front-end Development</dd>
+            </dl>
         </div>
+
         <div class="list-block">
-            <div class="small">Visual Design</div>
-            <ul>
-              <li><a href="https://www.druemccurdy.com/" target="_blank">Drue McCurdy</a></li>
-            </ul>
+            <dl>
+              <dt>Visual Design</dt>
+              <dd><a href="https://www.druemccurdy.com/" target="_blank" class="link-credits">Drue McCurdy</a></dd>
+            </dl>
         </div>
+
         <div class="list-block">
-            <div class="small">Copywriting</div>
-            <ul>
-              <li>Nicole Montalvo</li>
-            </ul>
+            <dl>
+              <dt>Copywriting</dt>
+              <dd>Nicole Montalvo</dd>
+            </dl>
         </div>
+
         <div class="list-block">
-            <div class="small">Creative Direction</div>
-            <ul>
-              <li><a href="http://www.jpramirez.net/" target="_blank">JP Ramirez</a></li>
-            </ul>
+            <dl>
+              <dt>Creative Direction</dt>
+              <dd><a href="http://www.jpramirez.net/" target="_blank" class="link-credits">JP Ramirez</a></dd>
+            </dl>
         </div>
+
         <div class="list-block">
-            <div class="small">Front-end Development</div>
-            <ul>
-              <li><a href="http://www.strangeflock.com/" target="_blank">Strange Flock</a></li>
-            </ul>
+            <dl>
+              <dt>Front-end Development</dt>
+              <dd><a href="http://www.strangeflock.com/" target="_blank" class="link-credits">Strange Flock</a></dd>
+            </dl>
         </div>
+
         <div class="list-block">
-            <div class="small">Back-end Development</div>
-            <ul>
-              <li><a href="http://www.wearesigma.com/ " target="_blank">Sigma</a></li>
-            </ul>
+            <dl>
+              <dt>Back-end Development</dt>
+              <dd><a href="http://www.wearesigma.com/ " target="_blank" class="link-credits">Sigma</a></dd>
+            </dl>
         </div>
+
         <div class="list-block">
-            <div class="small">Agency</div>
-            <ul>
-              <li><a href="https://torque.digital/" target="_blank">Torque</a></li>
-            </ul>
+            <dl>
+              <dt>Agency</dt>
+              <dd><a href="https://torque.digital/" target="_blank" class="link-credits">Torque</a></dd>
+            </dl>
         </div>
+
     </div>
   </div>
 </div>
