@@ -13,7 +13,7 @@ image_padding: 100%
   <div class="copy-block revealblock">
     <h1>Lightscapes</h1>
     <p>The photoshoot for Polarizer’s album artwork was a collaboration with <a href="https://alexsheyn.com/" target="_blank" class="link-inline">Alex Sheyn</a>
-and <a href="https://drewrios.com/" target="_blank" class="link-inline">Drew Rios</a> held at the <a href="https://brightbrightgreat.com/" target="_blank" class="link-inline">Bright Bright Great</a> studio in Chicago. The album’s theme of isolation visually connects to the photo of a woman floating in an unidentifiable space. The blue smoke adds to the surreal environment.</p>
+and <a href="https://drewrios.com/" target="_blank" class="link-inline">Drew Rios</a> held at the <a href="https://brightbrightgreat.com/" target="_blank" class="link-inline">Bright Bright Great</a> studio in Chicago. The album’s theme of isolation visually connects to the photo of a woman floating in an unidentifiable space.</p>
   </div>
 </div>
 

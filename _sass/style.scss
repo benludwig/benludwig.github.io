@@ -87,7 +87,7 @@ a.link-inline:focus {
 /* Link Support */
 
 a.link-support {
-  @include font-detail;
+  @include font-standard;
   @include transition;
   }
 

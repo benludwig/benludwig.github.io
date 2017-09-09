@@ -4,78 +4,6 @@
   "style"
 ;
 
-.logo a {
-  display: block;
-  width: 15px;
-  height: 28px;
-  }
-
-/*Image Settings-----------------------
--------------------------------------*/
-
-.revealblock {
-  visibility: hidden;
-  }
-
-.imgblock {
-  position: relative;
-  overflow: hidden;
-  background-color: $color-darker;
-  }
-
-.imgblock .signal {
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 2;
-  border: 5px solid #333;
-  border-radius: 30px;
-  height: 30px;
-  left: 50%;
-  margin: -15px 0 0 -15px;
-  opacity: 0;
-  position: absolute;
-  top: 50%;
-  width: 30px;
-  animation: pulsate 1s ease-out;
-  animation-iteration-count: infinite;
-  }
-
-@keyframes pulsate {
-  0% {
-    transform: scale(.1);
-    opacity: 0.0;
-    }
-  50% {
-    opacity: 1;
-    }
-  100% {
-    transform: scale(1.2);
-    opacity: 0;
-    }
-  }
-
-.imgblock .imgfull {
-  width: 100%;
-  height: 100%;
-  }
-
-.imgfull.loaded img{
-  opacity: 1;
-  z-index: 3;
-  }
-
-.imgfull img {
-  position: absolute;
-  top: 0;
-  width: 100%;
-  opacity: 0;
-  -webkit-transition: opacity 500ms;
-  -moz-transition: opacity 500ms;
-  -ms-transition: opacity 500ms;
-  transition: opacity 500ms;
-  }
-
 /*Primary Nav--------------------------
 -------------------------------------*/
 
@@ -87,6 +15,12 @@
   z-index: 100;
   padding-left: 20px;
   padding-right: 20px;
+  }
+
+.logo a {
+  display: block;
+  width: 15px;
+  height: 28px;
   }
 
 /*Homepage Mid-------------------------
@@ -239,6 +173,76 @@
 
 }
 
+
+
+
+
+/*Image Settings-----------------------
+-------------------------------------*/
+
+.revealblock {
+  visibility: hidden;
+  }
+
+.imgblock {
+  position: relative;
+  overflow: hidden;
+  background-color: $color-darker;
+  }
+
+.imgblock .signal {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  border: 5px solid #333;
+  border-radius: 30px;
+  height: 30px;
+  left: 50%;
+  margin: -15px 0 0 -15px;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  width: 30px;
+  animation: pulsate 1s ease-out;
+  animation-iteration-count: infinite;
+  }
+
+@keyframes pulsate {
+  0% {
+    transform: scale(.1);
+    opacity: 0.0;
+    }
+  50% {
+    opacity: 1;
+    }
+  100% {
+    transform: scale(1.2);
+    opacity: 0;
+    }
+  }
+
+.imgblock .imgfull {
+  width: 100%;
+  height: 100%;
+  }
+
+.imgfull.loaded img{
+  opacity: 1;
+  z-index: 3;
+  }
+
+.imgfull img {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  opacity: 0;
+  -webkit-transition: opacity 500ms;
+  -moz-transition: opacity 500ms;
+  -ms-transition: opacity 500ms;
+  transition: opacity 500ms;
+  }
+
 /*Masonry Grid-------------------------
 -------------------------------------*/
 
@@ -266,7 +270,11 @@ html { overflow-y: scroll; }
 -------------------------------------*/
 
 .all-work {
-  padding: 75px 5px 0px 5px;
+  padding: 75px 10px 0px 10px;
+  }
+
+.opening-copy {
+  padding: 75px 10px 10px 10px;
   }
 
 .all-work .grid-sizer,
@@ -275,34 +283,18 @@ html { overflow-y: scroll; }
   }
 
 .all-work .grid-item {
-  padding: 0px 5px 30px 5px;
+  padding: 30px 10px 30px 10px;
   }
 
-.all-work .grid-item a.link-support {
-  padding-top: 5px;
+.all-work .work-title-link {
+  padding-top: 10px;
   }
-
-@media (min-width:600px) {
-
-.all-work {
-  padding: 75px 15px 0px 15px;
-  }
-
-.all-work .grid-item {
-  padding: 40px 15px;
-  }
-
-}
 
 @media (min-width:800px) {
 
 .all-work .grid-sizer,
 .all-work .grid-item {
   width: 33.33%;
-  }
-
-.all-work .grid-item-double {
-  width: 66%;
   }
 
 }
@@ -474,7 +466,7 @@ html { overflow-y: scroll; }
   padding-bottom: 15px;
   }
 
-@media (min-width:620px) {
+@media (min-width:620px) and (max-width: 959px) {
 
 .info-copy {
   width: 70%;
@@ -482,7 +474,8 @@ html { overflow-y: scroll; }
 
 .info-image {
   width: 70%;
-  padding: 0px 30px 30px 30px;
+  margin-left: auto;
+  padding: 30px 30px 30px 30px;
   }
 
 .info-block {
@@ -523,4 +516,8 @@ html { overflow-y: scroll; }
 
 .footer-links-right {
   padding-left: 20px;
+  }
+
+a.link-support {
+  line-height: 9px;
   }
