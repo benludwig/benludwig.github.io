@@ -23,159 +23,9 @@
   height: 28px;
   }
 
-/*Homepage Mid-------------------------
--------------------------------------*/
-
-.home-mid {
-  padding: 100px 0 20px 0;
+a.active {
+  border-bottom: 1px solid $color-light;
   }
-
-.home-work {
-  padding-bottom: 40px;
-  }
-
-.home-work.copy {
-  padding-left: 30px;
-  padding-right: 30px;
-  }
-
-.home-work-text {
-  padding: 10px 0 10px 0;
-  }
-
-.home-work-text {
-  padding-bottom: 15px;
-  }
-
-.home-work.first .home-work-img {
-  padding: 0 30px 0 0;
-  }
-
-.home-work.second .home-work-img {
-  padding: 0 30px 0 30px;
-  }
-
-.home-work.third .home-work-img {
-  padding: 0 0 0 30px;
-  }
-
-.home-work.fourth .home-work-img {
-  padding: 0 30px 0 30px;
-  }
-
-.home-work .home-work-img a {
-  display: block;
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-  }
-
-.home-work a.link-supprt {
-  padding-top: 5px;
-  }
-
-.home-work.first .home-work-img a {
-  background-image: url('http://res.cloudinary.com/benludwig/image/upload/f_auto/v1497797118/priester-05-table_dqgrtb.jpg');
-  padding-top: 66.66%;
-  }
-
-.home-work.second .home-work-img a {
-  background-image: url('http://res.cloudinary.com/benludwig/image/upload/f_auto/v1497727852/smnga-03-federico_uljq1s.jpg');
-  padding-top: 100%;
-  }
-
-.home-work.third .home-work-img a {
-  background-image: url('http://res.cloudinary.com/benludwig/image/upload/f_auto/v1499734344/gs3_iopljd.jpg');
-  padding-top: 56.25%;
-  }
-
-.home-work.fourth .home-work-img a {
-  background-image: url('http://res.cloudinary.com/benludwig/image/upload/f_auto/v1499735419/expeditions-1_ysphai.jpg');
-  padding-top: 75%;
-  }
-
-.home-work-link-group {
-  padding: 0px 30px 20px 30px;
-  }
-
-@media (min-width:680px) {
-
-.home-mid {
-  padding: 100px 15px 20px 15px;
-  }
-
-.home-mid-top {
-  @include flex;
-  @include flex-align-center;
-  }
-
-.home-mid-top-left,
-.home-mid-top-right,
-.home-mid-bottom-left,
-.home-mid-bottom-right {
-  width: 50%;
-  }
-
-.home-work.second .home-work-img a {
-  padding-top: 133%;
-  }
-
-.home-work.third .home-work-img a {
-  padding-top: 43%;
-  }
-
-.home-mid-bottom {
-  @include flex;
-  @include flex-align-center;
-  }
-
-.home-work,
-.home-work.copy,
-.home-work.first .home-work-img,
-.home-work.second .home-work-img,
-.home-work.third .home-work-img,
-.home-work.fourth .home-work-img,
-.home-work-link-group {
-  padding: 0px 0px 0px 0px;
-  }
-
-.home-mid-top-left,
-.home-mid-top-right,
-.home-mid-center,
-.home-mid-bottom-left,
-.home-mid-bottom-right {
-  padding: 15px;
-}
-
-.home-work.copy {
-  padding-bottom: 30px;
-  }
-
-}
-
-@media (min-width:1100px) {
-
-.home-mid {
-  padding: 80px 40px 40px 40px;
-  }
-
-.home-mid-top-left,
-.home-mid-top-right,
-.home-mid-center,
-.home-mid-bottom-left,
-.home-mid-bottom-right {
-  padding: 40px;
-  }
-
-.home-work.third .home-work-img a {
-  padding-top: 43%;
-  }
-
-}
-
-
-
-
 
 /*Image Settings-----------------------
 -------------------------------------*/
@@ -275,6 +125,7 @@ html { overflow-y: scroll; }
 
 .opening-copy {
   padding: 75px 10px 10px 10px;
+  max-width: 600px;
   }
 
 .all-work .grid-sizer,
@@ -292,9 +143,26 @@ html { overflow-y: scroll; }
 
 @media (min-width:800px) {
 
+.opening-copy {
+  padding: 100px 30px 70px 10px;
+  margin-left: 33.33%;
+  }
+
 .all-work .grid-sizer,
 .all-work .grid-item {
   width: 33.33%;
+  }
+
+.all-work .grid-item:nth-of-type(2) {
+  // padding: 60px 10px 30px 10px;
+  }
+
+.all-work .grid-item:nth-of-type(3) {
+  // padding: 30px 10px 30px 10px;
+  }
+
+.all-work .grid-item:nth-of-type(4) {
+  // padding: 60px 10px 30px 10px;
   }
 
 }

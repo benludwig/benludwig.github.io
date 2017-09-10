@@ -1,6 +1,14 @@
----
-layout: default
----
-
-
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+  {% include head.html %}
+  <body>
+    {% include primary-nav-info.html %}
     {{ content }}
+    {% include footer.html %}
+    <script type="text/javascript" src='{{ site.baseurl }}/js/scrollreveal.min.js'></script>
+    <script>
+    window.sr = ScrollReveal();
+    sr.reveal('.revealblock', { duration: 1000, distance: '2px', scale: 1 });
+    </script>
+  </body>
+</html>

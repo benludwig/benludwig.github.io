@@ -1,60 +1,50 @@
----
-layout: default
----
-<div class="home-mid">
-  <div class="home-mid-top">
-    <div class="home-mid-top-left revealblock">
-      <div class="home-work copy">
-        <h1>Selected Work</h1>
-        <p>I'm a Senior Interaction Designer at Rise Interactive where I design user interfaces for a centralized digital marketing and data visualization platform. My previous work includes everything from website redesigns to full marketing campaigns for a wide range of clients.</p>
-      </div>
-      <div class="home-work first">
-        <div class="home-work-img">
-          <a href="/work/priester-aviation/"></a>
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+  {% include head.html %}
+  <body>
+    {% include primary-nav-work.html %}
+
+  <div class="all-work">
+    <div class="grid-container">
+    <div class="grid">
+    <div class="grid-sizer"></div>
+    {% assign sortedWork = site.work | sort: 'date' %}
+    {% for work in sortedWork reversed %}
+    <div class="grid-item">
+      <a href="{{ work.url }}">
+        <div class="imgblock revealblock" style="padding-top: {{ work.image_padding }}">
+            <div class="signal"></div>
+            <div class="imgfull">
+            <img src="{{ work.image_path }}" alt="{{ work.title }}" onload="imgLoaded(this)">
+            </div>
         </div>
-        <div class="home-work-link-group">
-          <a href="/work/priester-aviation/" class="link-support">Priester Aviation</a>
-        </div>
-      </div>
-    </div>
-    <div class="home-mid-top-right revealblock">
-        <div class="home-work second">
-          <div class="home-work-img">
-            <a href="/work/smnga-architects/"></a>
-          </div>
-          <div class="home-work-link-group">
-            <a href="/work/smnga-architects/" class="link-support">SMNGA Architects</a>
-          </div>
+      </a>
+        <div class="work-title-link">
+          <a href="{{ work.url }}" class="revealblock link-support">{{ work.title }}</a>
         </div>
     </div>
-  </div>
-  <div class="home-mid-center revealblock">
-    <div class="home-work third">
-      <div class="home-work-img">
-        <a href="/work/george-street-photography/"></a>
-      </div>
-      <div class="home-work-link-group">
-        <a href="/work/george-street-photography/" class="link-support">George Street Photography</a>
-      </div>
+    {% endfor %}
+    </div>
     </div>
   </div>
-  <div class="home-mid-bottom">
-    <div class="home-mid-bottom-left revealblock">
-      <div class="home-work fourth">
-        <div class="home-work-img">
-          <a href="/work/expeditions/"></a>
-        </div>
-        <div class="home-work-link-group">
-          <a href="/work/expeditions/" class="link-support">Field Museum Expeditions</a>
-        </div>
-      </div>
-    </div>
-    <div class="home-mid-bottom-right revealblock">
-      <div class="home-work copy">
-        <h2>Additional Work</h2>
-        <p>These selected projects are some of my favorites. The <a href="/work" class="link-inline">work page</a> contains many more. Contact me at <a href="mailto:ben@benludwig.com" target="_blank" class="link-inline">ben@benludwig.com</a> for any inquiries regarding my most recent work at Rise Interactive.</p>
-      </div>
-    </div>
-  </div>
-</div>
-</div>
+
+<script>
+var grid = document.querySelector('.grid');
+var msnry;
+imagesLoaded( grid, function() {
+  msnry = new Masonry( grid, {
+    itemSelector: '.grid-item',
+    columnWidth: '.grid-sizer',
+    percentPosition: true
+  });
+});
+</script>
+
+{% include footer.html %}
+<script type="text/javascript" src='{{ site.baseurl }}/js/scrollreveal.min.js'></script>
+<script>
+window.sr = ScrollReveal();
+sr.reveal('.revealblock', { duration: 1000, distance: '2px', scale: 1 });
+</script>
+</body>
+</html>

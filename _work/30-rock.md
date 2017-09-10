@@ -1,5 +1,5 @@
 ---
-layout: worklast
+layout: work
 title: 30 Rock
 image_path: http://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto/v1500156555/30rock-1_fhurbc.jpg
 date:   2017-04-15

@@ -1,8 +1,8 @@
 ---
-layout: workfirst
+layout: work
 title: Priester Aviation
 image_path: http://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto/v1497797118/priester-05-table_dqgrtb.jpg
-date:   2017-06-15
+date:   2017-05-15
 image_padding: 61.50%
 ---
 <div class="grid-container">
