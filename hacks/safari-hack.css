@@ -15,7 +15,7 @@
     }
     .work-cycle span.prev,
     .work-cycle span.next,
-    .work-cycle .title {
+    .work-cycle .cycle-title {
     display: none;
     }
      } }

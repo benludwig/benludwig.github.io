@@ -11,7 +11,7 @@ image_padding: 91.67%
 
 <div class="grid-item">
   <div class="copy-block revealblock">
-    <h1>Field Museum Mobile App</h1>
+    <h1>Field Museum Mobile</h1>
     <p>The website for The Field Museum is massive with over 500 scientists contributing content, tens of thousands of pages and dozens of page templates. Creating a responsive website involved a lot of collaboration and time. Our goal was to create an interim mobile experience with essential information for visitors while we planned the full version.</p>
   </div>
 </div>

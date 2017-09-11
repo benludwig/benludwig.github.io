@@ -52,23 +52,24 @@ ul, menu, dir, dt, dl {
 -------------------------------------*/
 
 a {
-    outline: 0;
-    text-decoration: none;
-    color: $color-light;
-    }
+  outline: 0;
+  text-decoration: none;
+  color: $color-light;
+  }
 
 /* Link Header */
 
 a.link-header {
-  padding: 5px 0px 3px 0px;
-  margin-left: 13px;
+  padding: 1px 0px 0px 0px;
+  margin-left: 18px;
   @include transition;
   border-bottom: 1px solid rgba(255, 255, 255, 0);
   }
 
 a.link-header:hover,
 a.link-header:active,
-a.link-header:focus {
+a.link-header:focus,
+a.link-header.active {
   border-bottom: 1px solid rgba(255, 255, 255, 1);
   }
 
@@ -155,12 +156,6 @@ a.link-footer:focus {
   color: $color-white;
   }
 
-/* Link Image */
-
-a.link-img {
-
-  }
-
 /*Images-------------------------------
 -------------------------------------*/
 
@@ -190,10 +185,11 @@ img {
     @include flex-justify-space-between;
     @include flex-align-center;
     height: 60px;
-    background-color: $color-dark;
+    background-color: $color-darker;
     }
 
-.primary-nav-half {
+.primary-nav-half,
+.primary-nav .logo-icon {
     @include flex;
     @include flex-align-center;
     }
@@ -210,10 +206,75 @@ img {
     max-width: 15px;
     }
 
+.logo span.name,
+.logo span.title {
+  display: none;
+  }
+
+@media (min-width:350px) {
+
+.logo .logo-icon,
+.logo span.title {
+  display: none;
+  }
+
+.logo span.name {
+  display: block;
+  }
+
+  }
+
+@media (min-width:550px) {
+
+.logo .logo-icon {
+  display: none;
+  }
+
+.logo span.name,
+.logo span.title {
+  display: inline-block;
+  }
+
+  }
+
 /*Footer-------------------------------
 -------------------------------------*/
 
 .footer {
   @include flex;
+  @include flex-justify-space-between;
+  @include flex-wrap;
   background-color: $color-darker;
   }
+
+.footer-right {
+  padding: 50px 0px 0px 0px;
+  }
+
+.footer dl {
+  @include flex;
+  @include flex-wrap;
+  }
+
+.footer dt,
+.footer dd {
+  padding: 5px 10px;
+  }
+
+.footer dt {
+  width: 100%;
+  @include font-detail;
+  color: $color-light;
+  padding-bottom: 10px;
+  }
+
+@media (min-width:540px) {
+
+  .footer {
+    @include flex-no-wrap;
+    }
+
+  .footer-right {
+    padding: 0px 0px 0px 100px;
+    }
+}

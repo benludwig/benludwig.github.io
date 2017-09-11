@@ -44,67 +44,76 @@ $font-standard : 'GTAmericaRegular', sans-serif;
 $font-headline : 'Butler', serif;
 $font-detail : 'CircularBold', sans-serif;
 
-html {
-  font-size: 100%;
-  }
-
-@mixin font-standard {
-  font-family: $font-standard;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 22px;
-  letter-spacing: 0px;
-  margin: 0;
+@mixin font-smoothing {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   font-weight: normal;
   font-style: normal;
+  }
+
+html {
+  font-size: 100%;
+  }
+
+@media (min-width:1300px) {
+
+  html {
+    font-size: 120%;
+    }
+
+}
+
+@media (min-width:1600px) {
+
+  html {
+    font-size: 140%;
+    }
+
+}
+
+@mixin font-standard {
+  font-family: $font-standard;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.375rem;
+  letter-spacing: 0px;
+  margin: 0;
+  @include font-smoothing;
   }
 
 @mixin font-standard-support {
   font-family: $font-standard;
   font-weight: 400;
-  font-size: 14px;
-  line-height: 22px;
+  font-size: 0.875rem;
+  line-height: 1.375rem;
   letter-spacing: 0px;
   margin: 0;
   color: $color-support;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased;
-  font-weight: normal;
-  font-style: normal;
+  @include font-smoothing;
   }
 
 @mixin h1 {
   font-family: $font-headline;
-  font-size: 40px;
-  line-height: 40px;
-  padding-bottom: 15px;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased;
-  font-weight: normal;
-  font-style: normal;
+  font-size: 2.5rem;
+  line-height: 2.5rem;
+  padding-bottom: 0.9375rem;
+  @include font-smoothing;
   }
 
 @mixin h2 {
   font-family: $font-headline;
-  font-size: 30px;
-  line-height: 30px;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased;
-  font-weight: normal;
-  font-style: normal;
+  font-size: 1.875rem;
+  line-height: 1.875rem;
+  @include font-smoothing;
   }
 
 @mixin font-detail {
   font-family: $font-detail;
-  font-size: 11px;
+  font-size: 0.6875rem;
+  line-height: 0.6875rem;
   text-transform: uppercase;
   letter-spacing: 0.75px;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased;
-  font-weight: normal;
-  font-style: normal;
+  @include font-smoothing;
   }
 
 /*Flexbox------------------------------
@@ -121,6 +130,11 @@ html {
 @mixin flex-wrap {
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
+    }
+
+@mixin flex-no-wrap {
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
     }
 
 @mixin flex-direction-column {
