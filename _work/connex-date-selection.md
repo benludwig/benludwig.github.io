@@ -13,7 +13,7 @@ image_padding: 100%
   <div class="copy-block revealblock">
     <h1>Connex Date Selection</h1>
     <p><a href="https://www.riseinteractive.com/connex/data-analytics-software" target="_blank" class="link-inline">Connex</a> is a centralized digital marketing platform. Our goal was to design a UI for comparing data across different date ranges.</p>
-    <p>Before we started design, we researched existing JavaScript libraries that we could use and extend to fit our needs. Then, designing in our pattern library with HTML, CSS, JavaScript and some sample JSON data, we were able to complete front-end development and design in parallel.</p>
+    <p>Before we started design, we researched existing JavaScript libraries that we could use and extend to fit our needs. Then, designing in our pattern library with HTML, CSS, JavaScript and some sample JSON data, we were able to complete front-end development in parallel.</p>
   </div>
 </div>
 
