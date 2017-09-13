@@ -1,9 +1,9 @@
 ---
 layout: workfirst
 title: Connex Pattern Library
-image_path: http://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto/v1505315096/Connex-Concept-1_ceda7h.jpg
+image_path: http://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto/v1505269131/Connex-Pattern-2_dlepmj.jpg
 date:   2017-08-15
-image_padding: 105.90%
+image_padding: 67.45%
 ---
 <div class="grid-container">
 <div class="grid">
