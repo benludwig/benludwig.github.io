@@ -2,7 +2,7 @@
 layout: work
 title: Connex Date Selection
 image_path: http://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto/v1505161100/Connex-Datepicker-1-Square_cpsgp6.jpg
-date:   2017-06-13
+date:   2017-08-10
 image_padding: 100%
 ---
 <div class="grid-container">
@@ -18,19 +18,19 @@ image_padding: 100%
 </div>
 
 <div class="grid-item">
-<div class="imgblock revealblock" style="padding-top: 67.55%">
+<div class="imgblock revealblock" style="padding-top: 77.20%">
   <div class="signal"></div>
   <div class="imgfull">
-  <img src="http://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto/v1505160981/Connex-Datepicker-2_kj5yjv.jpg" alt="{{ page.title }}" onload="imgLoaded(this)">
+  <img src="http://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto/v1505269082/Connex-Datepicker-2-Square_vdc2fi.jpg" alt="{{ page.title }}" onload="imgLoaded(this)">
 </div>
 </div>
 </div>
 
 <div class="grid-item">
-<div class="imgblock revealblock" style="padding-top: 67.55%">
+<div class="imgblock revealblock" style="padding-top: 81.88%">
   <div class="signal"></div>
   <div class="imgfull">
-  <img src="http://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto/v1505160981/Connex-Datepicker-3_sulr6h.jpg" alt="{{ page.title }}" onload="imgLoaded(this)">
+  <img src="http://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto/v1505269080/Connex-Datepicker-3-Square_pzojhb.jpg" alt="{{ page.title }}" onload="imgLoaded(this)">
 </div>
 </div>
 </div>
@@ -59,10 +59,10 @@ image_padding: 100%
 </div>
 
 <div class="grid-item">
-<div class="imgblock revealblock" style="padding-top: 67.55%">
+<div class="imgblock revealblock" style="padding-top: 78.85%">
   <div class="signal"></div>
   <div class="imgfull">
-  <img src="http://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto/v1505160981/Connex-Datepicker-4_tcagja.jpg" alt="{{ page.title }}" onload="imgLoaded(this)">
+  <img src="http://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto/v1505269083/Connex-Datepicker-4-Square_o8ngar.jpg" alt="{{ page.title }}" onload="imgLoaded(this)">
 </div>
 </div>
 </div>
