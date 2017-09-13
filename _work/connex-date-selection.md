@@ -12,8 +12,8 @@ image_padding: 100%
 <div class="grid-item">
   <div class="copy-block revealblock">
     <h1>Connex Date Selection</h1>
-    <p><a href="https://www.riseinteractive.com/connex/data-analytics-software" target="_blank" class="link-inline">Connex</a> is a centralized digital marketing platform. Our goal was to design a UI for comparing data across different date ranges.</p>
-    <p>Before we started design, we researched existing JavaScript libraries that we could use and extend to fit our needs. Then, designing in our pattern library with HTML, CSS, JavaScript and some sample JSON data, we were able to complete front-end development in parallel.</p>
+    <p><a href="https://www.riseinteractive.com/connex/data-analytics-software" target="_blank" class="link-inline">Connex</a> is a centralized digital marketing platform. Our goal was to design an interface for comparing data across different date ranges.</p>
+    <p>Before the design phase, we researched JavaScript libraries that we could use and extend to fit our needs. Then, designing in our pattern library with HTML, CSS, JavaScript and JSON, we were able to complete front-end development in parallel.</p>
   </div>
 </div>
 
@@ -37,7 +37,7 @@ image_padding: 100%
 
 <div class="grid-item">
   <div class="copy-block revealblock">
-    <p>Design iterations and interviews with users proved to be indispensable. What information does the user need when making a selection? What is the selection order? How do later steps respond when initial steps are modified? These were some of the questions we asked that helped us make more informed design decisions.</p>
+    <p>Design iterations and interviews with users proved to be indispensable. What information does the user need when making a selection? What is the selection order? How do later steps respond when initial steps are modified? These questions helped us make more informed design decisions.</p>
   </div>
 </div>
 
@@ -53,7 +53,7 @@ image_padding: 100%
 
 <div class="grid-item">
   <div class="copy-block revealblock">
-    <p>The presets, custom date inputs and the calendar are all tightly coupled; changing one will update all three. Turning on compare dates is now inside the main panel, making it easier to enable. When a user compares data to the same time last year, the actual dates are displayed as help text before any data is loaded.</p>
+    <p>The presets, custom date inputs and the calendar are all tightly coupled; changing one will update all three. Turning on compare dates is now inside the main panel, making it easier to enable.</p>
     <p>By the time the back-end and mid-tier developers were finished with the API, we had a fully designed piece of UI ready for integration. The process of comparing dates is now more intuitive and quicker to access.</p>
   </div>
 </div>
