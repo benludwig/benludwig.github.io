@@ -36,7 +36,7 @@ image_padding: 79.47%
 
 <div class="grid-item">
   <div class="copy-block revealblock">
-    <p>Information gathering and documentation during the discovery phase enabled us to design wireframes that illustrated a user flow to the team. After that was determined, we iterated on our original wireframes to account for all the edge cases and validation rules.</p>
+    <p>Information gathering and documentation during the discovery phase enabled us to design wireframes that illustrated a user flow to the team. After that was determined, we revised our original wireframes to account for all the edge cases and validation rules.</p>
     <p>The management page allows users to view all existing flights per brand and each flight’s status, whether it’s complete, active or pending. The flight page is designed to automatically update and run the algorithm every time an edit is made.</p>
     <p>Every aspect of the algorithm can be adjusted without ever leaving the page. Analysts can now set up the budget and goal for flights directly in the application using new admin pages.</p>
   </div>

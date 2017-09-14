@@ -123,8 +123,8 @@ image_padding: 64%
 
         <div class="list-block">
             <dl>
-              <dt>Creative Direction</dt>
-              <dd><a href="https://torque.digital/" target="_blank">Torque</a></dd>
+              <dt>Agency</dt>
+              <dd><a href="https://torque.digital/" target="_blank" class="link-credits">Torque</a></dd>
             </dl>
         </div>
 

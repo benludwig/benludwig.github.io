@@ -13,7 +13,7 @@ image_padding: 78.24%
   <div class="copy-block revealblock">
     <h1>Expeditions at The Field Museum</h1>
 
-    <p>There are hundreds of scientists at The Field Museum, many of whom are travelling on expeditions around the world. During their travels, their discoveries are often posted on personal blogs in addition to scientific publications. The goal was to make their scientific documentation more publically available and present those findings with a more visually engaging design.</p>
+    <p>There are hundreds of scientists at The Field Museum, many of whom are traveling on expeditions around the world. During their travels, their discoveries are often posted on personal blogs in addition to scientific publications. The goal was to make their scientific documentation more publicly available and present those findings with a more visually engaging design.</p>
 
   </div>
 </div>

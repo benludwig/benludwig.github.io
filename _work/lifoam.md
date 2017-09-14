@@ -2,7 +2,7 @@
 layout: work
 title: Lifoam
 image_path: http://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto/v1500057259/lifoam-2_gv9fdz.jpg
-date:   2017-05-05
+date:   2017-04-16
 image_padding: 96.52%
 ---
 <div class="grid-container">
@@ -107,7 +107,7 @@ image_padding: 96.52%
           <dd><a href="https://torque.digital/" target="_blank" class="link-credits">Torque</a></dd>
         </dl>
     </div>
-    
+
     </div>
   </div>
 </div>
