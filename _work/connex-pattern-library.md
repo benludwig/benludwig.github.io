@@ -12,7 +12,7 @@ image_padding: 67.45%
 <div class="grid-item">
   <div class="copy-block revealblock">
     <h1>Connex Pattern Library</h1>
-    <p><a href="https://www.riseinteractive.com/connex/data-analytics-software" target="_blank" class="link-inline">Connex</a> is a centralized digital marketing platform. Our goal was to design and develop a pattern library, a collection of repeatable user interface elements, that would to enable the application to grow rapidly by simplifying the discussion and development of UI.</p>
+    <p><a href="https://www.riseinteractive.com/connex/data-analytics-software" target="_blank" class="link-inline">Connex</a> is a centralized digital marketing platform. Our goal was to design and develop a pattern library, a collection of repeatable user interface elements, that would enable the application to grow rapidly by simplifying the discussion and development of UI.</p>
   </div>
 </div>
 
