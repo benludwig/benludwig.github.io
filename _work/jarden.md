@@ -43,6 +43,24 @@ image_padding: 57%
 </div>
 </div>
 
+
+
+<div class="grid-item">
+<div class="imgblock revealblock" style="padding-top: 55.52%">
+  <div class="imgfull">
+  <video loop autoplay>
+    <source src="http://res.cloudinary.com/benludwig/video/upload/f_mp4,q_auto/v1505681241/JardenHD_tfpqxd.mp4" type="video/mp4">
+    <source src="http://res.cloudinary.com/benludwig/video/upload/f_ogv,q_auto/v1505681241/JardenHD_tfpqxd.ogv" type="video/ogg">
+    Your browser does not support HTML5 video.
+  </video>
+</div>
+</div>
+</div>
+
+
+
+
+
 <div class="grid-item">
   <div class="copy-block revealblock">
     <p>Scrolling forms a line down the page into each environment. Along the way, corresponding medical products are revealed that link to interior pages with more detailed information. When the  journey is completed, there is a clear call-to-action to continue by contacting their fulfillment team.</p>

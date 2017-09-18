@@ -72,7 +72,7 @@
   z-index: 3;
   }
 
-.imgfull img {
+.imgfull img{
   position: absolute;
   top: 0;
   width: 100%;
@@ -81,6 +81,12 @@
   -moz-transition: opacity 500ms;
   -ms-transition: opacity 500ms;
   transition: opacity 500ms;
+  }
+
+.imgfull video {
+  position: absolute;
+  top: 0;
+  width: 100%;
   }
 
 /*Masonry Grid-------------------------

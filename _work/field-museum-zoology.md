@@ -1,9 +1,9 @@
 ---
 layout: work
 title: Field Museum Zoology
-image_path: http://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto/v1499825529/fm1_xsxzsr.jpg
+image_path: http://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto/v1505670223/fm6_zlj6mq.jpg
 date:   2017-05-10
-image_padding: 70.30%
+image_padding: 61.10%
 ---
 <div class="grid-container">
 <div class="grid">
@@ -17,10 +17,10 @@ image_padding: 70.30%
 </div>
 
 <div class="grid-item">
-<div class="imgblock revealblock" style="padding-top: 70.30%">
+<div class="imgblock revealblock" style="padding-top: 61.10%">
   <div class="signal"></div>
   <div class="imgfull">
-  <img src="http://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto/v1499825529/fm1_xsxzsr.jpg" alt="{{ page.title }}" onload="imgLoaded(this)">
+  <img src="http://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto/v1505670223/fm6_zlj6mq.jpg" alt="{{ page.title }}" onload="imgLoaded(this)">
 </div>
 </div>
 </div>
