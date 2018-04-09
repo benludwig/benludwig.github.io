@@ -23,11 +23,18 @@ body {
 
 h1 {
     @include h1;
-    padding-bottom: 20px;
+    padding-bottom: 15px;
     }
 
 h2 {
     @include h2;
+    padding-bottom: 20px;
+    }
+
+h3 {
+    @include h3;
+    font-weight: 400;
+    font-style: italic;
     padding-bottom: 20px;
     }
 
@@ -63,14 +70,14 @@ a.link-header {
   padding: 1px 0px 0px 0px;
   margin-left: 18px;
   @include transition;
-  border-bottom: 1px solid rgba(255, 255, 255, 0);
+  color: $color-neutral;
   }
 
 a.link-header:hover,
 a.link-header:active,
 a.link-header:focus,
 a.link-header.active {
-  border-bottom: 1px solid rgba(255, 255, 255, 1);
+  color: $color-light;
   }
 
 /* Link Inline */
@@ -88,7 +95,7 @@ a.link-inline:focus {
 /* Link Support */
 
 a.link-support {
-  @include font-standard;
+  @include font-detail;
   @include transition;
   }
 
@@ -99,10 +106,6 @@ a.link-footer:focus {
   }
 
 /* Link Credits */
-
-a.link-credits {
-  // border-bottom: 0px solid $color-light;
-  }
 
 a.link-credits:after {
   display: inline-block;
@@ -153,7 +156,7 @@ a.link-footer {
 a.link-footer:hover,
 a.link-footer:active,
 a.link-footer:focus {
-  color: $color-white;
+  color: $color-hot;
   }
 
 /*Images-------------------------------
@@ -168,13 +171,13 @@ img {
 -------------------------------------*/
 
 ::selection {
-    background: $color-highlight;
-    color: $color-dark;
+    background: $color-hot;
+    color: $color-white;
     }
 
 ::-moz-selection {
-    background: $color-highlight;
-    color: $color-dark;
+    background: $color-hot;
+    color: $color-white;
     }
 
 /*Primary Nav--------------------------
@@ -200,42 +203,8 @@ img {
 
 .primary-nav-half.second {
     @include flex-justify-flex-end;
+    @include font-detail;
     }
-
-.primary-nav .logo img {
-    max-width: 15px;
-    }
-
-.logo span.name,
-.logo span.title {
-  display: none;
-  }
-
-@media (min-width:350px) {
-
-.logo .logo-icon,
-.logo span.title {
-  display: none;
-  }
-
-.logo span.name {
-  display: block;
-  }
-
-  }
-
-@media (min-width:550px) {
-
-.logo .logo-icon {
-  display: none;
-  }
-
-.logo span.name,
-.logo span.title {
-  display: inline-block;
-  }
-
-  }
 
 /*Footer-------------------------------
 -------------------------------------*/

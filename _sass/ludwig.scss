@@ -4,6 +4,8 @@
   "style"
 ;
 
+* { box-sizing: border-box; }
+
 /*Primary Nav--------------------------
 -------------------------------------*/
 
@@ -24,59 +26,8 @@
   visibility: hidden;
   }
 
-.imgblock {
-  position: relative;
-  overflow: hidden;
-  background-color: $color-darker;
-  }
-
-.imgblock .signal {
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 2;
-  border: 5px solid #333;
-  border-radius: 30px;
-  height: 30px;
-  left: 50%;
-  margin: -15px 0 0 -15px;
-  opacity: 0;
-  position: absolute;
-  top: 50%;
-  width: 30px;
-  animation: pulsate 1s ease-out;
-  animation-iteration-count: infinite;
-  }
-
-@keyframes pulsate {
-  0% {
-    transform: scale(.1);
-    opacity: 0.0;
-    }
-  50% {
-    opacity: 1;
-    }
-  100% {
-    transform: scale(1.2);
-    opacity: 0;
-    }
-  }
-
-.imgblock .imgfull {
-  width: 100%;
-  height: 100%;
-  }
-
-.imgfull.loaded img{
+.grid-item img{
   opacity: 1;
-  z-index: 3;
-  }
-
-.imgfull img{
-  position: absolute;
-  top: 0;
-  width: 100%;
-  opacity: 0;
   -webkit-transition: opacity 500ms;
   -moz-transition: opacity 500ms;
   -ms-transition: opacity 500ms;
@@ -84,32 +35,19 @@
   }
 
 .imgfull video {
-  position: absolute;
-  top: 0;
   width: 100%;
   }
 
-/*Masonry Grid-------------------------
+/*Homepage-----------------------------
 -------------------------------------*/
 
-* { box-sizing: border-box; }
-
-html { overflow-y: scroll; }
-
-.grid:after {
-  content: '';
-  display: block;
-  clear: both;
-  }
-
-.grid-item {
-  float: left;
-  box-sizing: border-box;
-  }
-
-.grid-item img {
-  display: block;
-  max-width: 100%;
+.hero {
+  @include flex;
+  @include flex-direction-column;
+  @include flex-justify-flex-end;
+  background-color: $color-white;
+  height: 50vh;
+  padding: 50px 40px 0px 40px;
   }
 
 /*All Work-----------------------------
@@ -119,12 +57,6 @@ html { overflow-y: scroll; }
   padding: 75px 10px 0px 10px;
   }
 
-.opening-copy {
-  padding: 75px 10px 10px 10px;
-  max-width: 600px;
-  }
-
-.all-work .grid-sizer,
 .all-work .grid-item {
   width: 100%;
   }
@@ -139,26 +71,14 @@ html { overflow-y: scroll; }
 
 @media (min-width:800px) {
 
-.opening-copy {
-  padding: 100px 30px 70px 10px;
-  margin-left: 33.33%;
+.all-work .grid {
+  @include flex;
+  @include flex-wrap;
+  @include flex-align-center;
   }
 
-.all-work .grid-sizer,
 .all-work .grid-item {
   width: 33.33%;
-  }
-
-.all-work .grid-item:nth-of-type(2) {
-  // padding: 60px 10px 30px 10px;
-  }
-
-.all-work .grid-item:nth-of-type(3) {
-  // padding: 30px 10px 30px 10px;
-  }
-
-.all-work .grid-item:nth-of-type(4) {
-  // padding: 60px 10px 30px 10px;
   }
 
 }
@@ -167,15 +87,16 @@ html { overflow-y: scroll; }
 -------------------------------------*/
 
 .work {
-  padding: 85px 0 0 0;
+  padding: 60px 0;
   }
 
 .work .grid {
-  padding-bottom: 60px;
+  @include flex;
+  @include flex-direction-column;
+  @include flex-align-center;
   }
 
-.work .grid-sizer,
-.work .grid-item {
+.work .grid .grid-item {
   width: 100%;
   }
 
@@ -184,15 +105,17 @@ html { overflow-y: scroll; }
   }
 
 .work .copy-block {
-  padding: 50px 30px 35px 30px;
+  padding: 20% 10%;
   }
 
-.work .copy-block audio {
-  margin: 15px 0px 30px 0px;
+.work .audio-container {
+  padding: 15px 0px 30px 0px;
   }
+
+/*Credits List*/
 
 .work .list-block {
-  padding: 35px 0px;
+  padding: 35px 20px;
   border-top: 1px solid $color-light;
   }
 
@@ -216,37 +139,34 @@ html { overflow-y: scroll; }
 
 @media (min-width:800px) {
 
-.work .grid-sizer,
-.work .grid-item {
-  width: 50%;
-  }
-
 .work {
-  padding: 85px 4px 4px 4px;
-  }
+    padding: 60px 10%;
+    }
 
 .work .grid-item {
-  padding: 4px 4px;
+  padding: 2px 4px;
+  max-width: 1800px;
   }
 
 .work .copy-block {
-  padding: 50px 30px 35px 30px;
+  padding: 200px 0%;
   }
 
-.work .copy-block h1,
-.work .copy-block p,
-.work .audio-container {
-  max-width: 600px;
-  margin-left: auto;
-  margin-right: auto;
+.work .copy-block.split {
+  @include flex;
   }
 
-}
+.work .copy-left,
+.work .copy-right {
+  width:50%;
+  }
 
-@media (min-width:1120px) {
+.work .copy-left {
+  padding-right: 20px;
+  }
 
-.work .copy-block {
-  padding: 75px 50px 60px 50px;
+.work .copy-right {
+  padding-left: 20px;
   }
 
 }
@@ -260,7 +180,7 @@ html { overflow-y: scroll; }
   left: 0;
   width: 100%;
   min-height: 60px;
-  background-color: rgba(26, 26, 26, 0.93);
+  background-color: rgba(255, 255, 255, 0.93);
   @include flex;
   @include flex-justify-space-between;
   @include flex-align-center;
@@ -286,17 +206,17 @@ html { overflow-y: scroll; }
 -------------------------------------*/
 
 .info {
-  background-color: $color-white;
-  color: $color-dark;
+  background-color: $color-dark;
+  color: $color-light;
   padding: 125px 0px 30px 0px;
   }
 
 .info a {
-  color: $color-dark;
+  color: $color-light;
   }
 
 .info a.link-inline {
-  border-bottom: 1px solid $color-dark;
+  border-bottom: 1px solid $color-light;
   }
 
 .info-inside {
@@ -325,7 +245,7 @@ html { overflow-y: scroll; }
 
 .info-block h2 {
   padding: 20px 0px;
-  border-top: 1px solid $color-dark;
+  border-top: 1px solid $color-light;
   }
 
 .info-block li.block-support {

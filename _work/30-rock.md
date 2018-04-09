@@ -7,10 +7,13 @@ image_padding: 53.10%
 ---
 <div class="grid-container">
 <div class="grid">
-<div class="grid-sizer"></div>
+
 <div class="grid-item">
-  <div class="copy-block revealblock">
+  <div class="copy-block split revealblock">
+  <div class="copy-left">
     <h1>30 Rock</h1>
+    </div>
+    <div class="copy-right">
     <p>This opportunity was the catalyst that changed my career. During my time at Varitalk, the agency where I completed this project, I was an audio post-production engineer. I produced recording sessions and edited audio files for personalized marketing campaigns that compiled messages like this one, in real time.</p>
     <div class="audio-container">
     <audio controls>
@@ -20,11 +23,12 @@ image_padding: 53.10%
     <p>My previous design experience consisted of websites, posters and album art for musicians. Working at Varitalk alongside designers <a href="http://www.sandrafranco.work/" target="_blank" class="link-inline">Sandra Franco</a> and <a href="http://linseyrosen.com/" target="_blank" class="link-inline">Linsey Rosen</a> was my window into web design for advertising and marketing as a professional career. I was hooked after that.</p>
     <p>I had the rare opportunity, at 20 years old, to be an integral part of advertising campaigns for brands like ADIDAS, Disney and Microsoft. It was at that time I changed my college major to graphic design with a subsequent focus on programming for web design.</p>
     <p>There are hundreds of these audio campaigns that I completed but this one is my favorite. After fans visit a website and add information about themselves and a friend, a phone call is sent in the voice of Alec Baldwin. Another campaign for Snakes on a Plane, in the voice of Samuel L. Jackson, <a href="https://www.cnet.com/news/snakes-on-a-phone-call-from-samuel-l-jackson/" target="_blank" class="link-inline">made headlines</a> and <a href="https://www.webbyawards.com/winners/2007/advertising-media/individual/rich-media-promotional/snakes-on-a-plane-samuel-l-jackson-phone-calls/" target="_blank" class="link-inline">won several awards</a>.</p>
+    </div>
   </div>
 </div>
 
 <div class="grid-item">
-<div class="imgblock revealblock" style="padding-top: 53.10%">
+<div class="imgblock revealblock">
   <div class="signal"></div>
   <div class="imgfull">
   <img src="http://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto/v1500156555/30rock-1_fhurbc.jpg" alt="{{ page.title }}" onload="imgLoaded(this)">

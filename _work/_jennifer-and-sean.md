@@ -7,7 +7,7 @@ image_padding: 48.80%
 ---
 <div class="grid-container">
 <div class="grid">
-<div class="grid-sizer"></div>
+
 
 <div class="grid-item">
   <div class="copy-block revealblock">
