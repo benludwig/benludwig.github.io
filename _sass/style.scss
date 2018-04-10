@@ -74,8 +74,11 @@ a.link-header {
   }
 
 a.link-header:hover,
+a.link-header:focus {
+  color: $color-hot;
+  }
+
 a.link-header:active,
-a.link-header:focus,
 a.link-header.active {
   color: $color-light;
   }
@@ -92,18 +95,50 @@ a.link-inline:focus {
   border-bottom: 1px solid inherit;
   }
 
+
+
+
+
 /* Link Support */
 
 a.link-support {
   @include font-detail;
   @include transition;
+  color: $color-neutral;
   }
+
+.all-work .work-title-link {
+  padding-top: 10px;
+  text-align: center;
+  }
+
+.all-work .work-title-stroke {
+  text-align:center;
+  }
+.all-work .work-title-stroke img {
+  width: 50px;
+  }
+
+
+
+
+
+
+
+
+
 
 a.link-footer:hover,
 a.link-footer:active,
 a.link-footer:focus {
   color: $color-white;
   }
+
+
+
+
+
+
 
 /* Link Credits */
 
