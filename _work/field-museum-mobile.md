@@ -29,14 +29,14 @@ image_padding: 91.67%
 </div>
 </div>
 
-<div class="grid-item">
+<!-- <div class="grid-item">
 <div class="imgblock revealblock">
   <div class="signal"></div>
   <div class="imgfull">
   <img src="http://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto/v1499826707/fm-mobile-8_krobhj.jpg" alt="{{ page.title }}" onload="imgLoaded(this)">
 </div>
 </div>
-</div>
+</div> -->
 
 <div class="grid-item">
   <div class="copy-block split revealblock">

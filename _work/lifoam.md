@@ -38,14 +38,14 @@ image_padding: 96.52%
 </div>
 </div>
 
-<div class="grid-item">
+<!-- <div class="grid-item">
 <div class="imgblock revealblock">
   <div class="signal"></div>
   <div class="imgfull">
   <img src="http://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto/v1500057255/lifoam-3_ujf5xs.gif" alt="{{ page.title }}" onload="imgLoaded(this)">
 </div>
 </div>
-</div>
+</div> -->
 
 <div class="grid-item">
   <div class="copy-block split revealblock">

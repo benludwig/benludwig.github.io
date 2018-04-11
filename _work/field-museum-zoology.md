@@ -29,14 +29,14 @@ image_padding: 61.10%
 </div>
 </div>
 
-<div class="grid-item">
+<!-- <div class="grid-item">
 <div class="imgblock revealblock">
   <div class="signal"></div>
   <div class="imgfull">
   <img src="http://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto/v1499825517/fm3_yqqjcc.jpg" alt="{{ page.title }}" onload="imgLoaded(this)">
 </div>
 </div>
-</div>
+</div> -->
 
 <div class="grid-item">
   <div class="copy-block revealblock">
@@ -46,14 +46,14 @@ image_padding: 61.10%
   </div>
 </div>
 
-<div class="grid-item">
+<!-- <div class="grid-item">
 <div class="imgblock revealblock">
   <div class="signal"></div>
   <div class="imgfull">
   <img src="http://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto/v1499825508/fm2_yi7qfd.jpg" alt="{{ page.title }}" onload="imgLoaded(this)">
 </div>
 </div>
-</div>
+</div> -->
 
 <div class="grid-item">
 <div class="imgblock revealblock">
