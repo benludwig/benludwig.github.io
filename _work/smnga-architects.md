@@ -1,7 +1,7 @@
 ---
 layout: work
 title: SMNGA Architects
-image_path: http://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto/v1497727852/smnga-03-federico_uljq1s.jpg
+image_path: http://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto/v1497727835/smnga-01-home_mucwfr.jpg
 date:   2017-05-15
 image_padding: 61.50%
 ---
