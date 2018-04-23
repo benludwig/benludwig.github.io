@@ -15,7 +15,9 @@ image_padding: 123.97%
     <h1>Fitzgerald Architects</h1>
     </div>
     <div class="copy-right">
-    <p>The new website design for Fitzgerald Architects supports their entire catalog of work. We were challenged to build a back-end content management system and design a front-end user interface to handle hundreds of case studies.</p>
+    <p>A design to support their entire catalog of work with a system of grouped options to form a descriptive sentence. The sentence then changes after each selection.</p>
+    <p>“You’re viewing <i>projects</i> tagged with <i>new construction</i> and <i>mixed-use</i>.” </p>
+    <p>Users can also choose whether results are displayed on a map, in a grid of images or as text in a list.</p>
     </div>
   </div>
 </div>
@@ -34,14 +36,6 @@ image_padding: 123.97%
   <img src="http://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto/v1499827009/fitzgerald-2_noujuz.jpg" alt="{{ page.title }}" onload="imgLoaded(this)">
 </div>
 </div>
-</div>
-
-<div class="grid-item">
-  <div class="copy-block split revealblock">
-  <div class="copy-left">
-    <p>With so many ways to filter and sort content, we created a system of grouped options that form a descriptive sentence. The sentence then changes after each selection, for example: “You’re viewing <i>projects</i> tagged with <i>new construction</i> and <i>mixed-use</i>.” Users can also choose whether results are displayed on a map, in a grid of images or as text in a list.</p>
-    </div>
-  </div>
 </div>
 
 <div class="grid-item">

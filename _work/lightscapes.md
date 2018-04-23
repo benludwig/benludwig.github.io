@@ -15,8 +15,8 @@ image_padding: 100%
     <h1>Lightscapes</h1>
     </div>
     <div class="copy-right">
-    <p>The photoshoot for Polarizer’s album artwork was a collaboration with <a href="https://alexsheyn.com/" target="_blank" class="link-inline">Alex Sheyn</a>
-and <a href="https://drewrios.com/" target="_blank" class="link-inline">Drew Rios</a> held at the <a href="https://brightbrightgreat.com/" target="_blank" class="link-inline">Bright Bright Great</a> studio in Chicago. The album’s theme of isolation visually connects to the photo of a woman floating in an unidentifiable space.</p>
+    <p>The album cover for Lightscapes, a collaboration with <a href="https://alexsheyn.com/" target="_blank" class="link-inline">Alex Sheyn</a>
+and <a href="https://drewrios.com/" target="_blank" class="link-inline">Drew Rios</a> held at the <a href="https://brightbrightgreat.com/" target="_blank" class="link-inline">Bright Bright Great</a> studio in Chicago.</p>
 </div>
   </div>
 </div>
@@ -48,23 +48,14 @@ and <a href="https://drewrios.com/" target="_blank" class="link-inline">Drew Rio
 </div>
 </div>
 
-<div class="grid-item">
-  <div class="copy-block split revealblock">
-  <div class="copy-left">
-    <p>Music has always been one of my passions and I have been a drummer for 17 years.
-Creating album art is an opportunity to explore new design techniques. The resulting color palette and abundance of negative space can be seen in my subsequent visual design work.</p>
-</div>
-  </div>
-</div>
-
-<div class="grid-item">
+<!-- <div class="grid-item">
 <div class="imgblock revealblock">
   <div class="signal"></div>
   <div class="imgfull">
   <img src="http://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto/v1500156168/lightscapes-4_naxorp.jpg" alt="{{ page.title }}" onload="imgLoaded(this)">
 </div>
 </div>
-</div>
+</div> -->
 
 <div class="grid-item">
 <div class="imgblock revealblock">

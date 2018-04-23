@@ -15,7 +15,7 @@ image_padding: 67.45%
     <h1>Connex Analytics</h1>
     </div>
     <div class="copy-right">
-    <p><a href="https://www.riseinteractive.com/connex/data-analytics-software" target="_blank" class="link-inline">Connex</a> is a centralized digital marketing platform. The goal was to design and develop a design system, a collection of repeatable user interface elements, that would enable the application to grow rapidly by simplifying the discussion and development of reporting.</p>
+    <p>A design system that enables an application to grow rapidly for <a href="https://www.riseinteractive.com/connex/data-analytics-software" target="_blank" class="link-inline">Connex</a>, a centralized digital marketing platform.</p>    
     </div>
   </div>
 </div>

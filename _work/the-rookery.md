@@ -15,7 +15,7 @@ image_padding: 60.40%
     <h1>The Rookery</h1>
     </div>
     <div class="copy-right">
-    <p>The Rookery is one of the most historically significant buildings in Chicago and has been declared a landmark by the city. We launched a new marketing campaign and an updated website to promote newly renovated space.</p>
+    <p>The Rookery is one of the most historically significant buildings in Chicago and has been declared a landmark by the city.</p>
     <p>Bright typography is paired with images of the building’s interior which are rotated and inverted to form abstract patterns. The copy is a nod to the architect Daniel Burnham’s quote, &quot;Make no little plans. They have no magic to stir men's blood and probably will not themselves be realized.&quot;</p>
     </div>
   </div>
@@ -43,7 +43,7 @@ image_padding: 60.40%
 <div class="imgblock revealblock">
   <div class="signal"></div>
   <div class="imgfull">
-  <img src="http://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto/v1500058265/rookery-5_tti82u.jpg" alt="{{ page.title }}" onload="imgLoaded(this)">
+  <img src="http://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto/v1524447675/rookeryborder_sq9a3f.jpg" alt="{{ page.title }}" onload="imgLoaded(this)">
 </div>
 </div>
 </div>

@@ -15,7 +15,7 @@ image_padding: 61.50%
     <h1>SMNGA Architects</h1>
     </div>
     <div class="copy-right">
-    <p>SMNGA is a long-standing architecture firm in Chicago with extensive experience in the design and planning of both new and existing buildings. We designed an updated  website to showcase their work and expertise. Additionally, progressive page layouts and navigation were incorporated while still maintaining an intuitive user experience.</p>
+    <p>SMNGA is a long-standing architecture firm in Chicago with extensive experience in the design and planning of both new and existing buildings. We designed an updated website to showcase their work and expertise. Additionally, progressive page layouts and navigation were incorporated while still maintaining an intuitive user experience.</p>
     </div>
   </div>
 </div>

@@ -15,7 +15,7 @@ image_padding: 61.10%
     <h1>Zoology at The Field Museum</h1>
     </div>
     <div class="copy-right">
-    <p>The first responsive website for the museum is a window into their scientific research for zoology. Four large vertical panels with striking photography are prominently featured on the homepage. Each is a category under which all website content is organized.</p>
+    <p>A window into scientific research for zoology. Four large vertical panels are prominently featured on the homepage. Each is a category under which all content is organized.</p>
     </div>
   </div>
 </div>
@@ -38,13 +38,13 @@ image_padding: 61.10%
 </div>
 </div> -->
 
-<div class="grid-item">
+<!-- <div class="grid-item">
   <div class="copy-block revealblock">
   <div class="copy-left">
     <p>Subpages are designed using a responsive grid with alternating content placed into specific columns. An emerging technology at the time, responsive design media queries offered new and exciting affordances during the design phase.</p>
     </div>
   </div>
-</div>
+</div> -->
 
 <!-- <div class="grid-item">
 <div class="imgblock revealblock">
