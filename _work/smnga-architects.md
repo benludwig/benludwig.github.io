@@ -1,8 +1,8 @@
 ---
-layout: work
+layout: workfirst
 title: SMNGA Architects
 image_path: http://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto/v1497727835/smnga-01-home_mucwfr.jpg
-date:   2017-05-15
+date:   2018-05-17
 image_padding: 61.50%
 ---
 <div class="grid-container">

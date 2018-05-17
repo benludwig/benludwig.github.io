@@ -1,8 +1,8 @@
 ---
-layout: workfirst
+layout: work
 title: Field Museum Zoology
 image_path: http://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto/v1505670223/fm6_zlj6mq.jpg
-date:   2017-08-20
+date:   2018-05-16
 image_padding: 61.10%
 ---
 <div class="grid-container">

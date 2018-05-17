@@ -2,7 +2,7 @@
 layout: work
 title: Fitzgerald Architects
 image_path: http://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto/v1499827009/fitzgerald-2_noujuz.jpg
-date:   2017-08-19
+date:   2018-05-13
 image_padding: 123.97%
 ---
 <div class="grid-container">

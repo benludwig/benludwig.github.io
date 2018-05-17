@@ -2,7 +2,7 @@
 layout: work
 title: George Street Photography
 image_path: http://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto/v1499734409/gs2_dd4kcq.jpg
-date:   2017-06-14
+date:   2018-05-11
 image_padding: 66.67%
 ---
 <div class="grid-container">
