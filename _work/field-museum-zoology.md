@@ -1,7 +1,7 @@
 ---
 layout: work
 title: Field Museum Zoology
-image_path: http://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto/v1505670223/fm6_zlj6mq.jpg
+image_path: http://res.cloudinary.com/benludwig/image/upload/c_fill,f_auto,g_center,h_550,q_auto,w_800/v1505670223/fm6_zlj6mq.jpg
 date:   2018-05-16
 image_padding: 61.10%
 ---

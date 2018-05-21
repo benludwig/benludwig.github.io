@@ -1,7 +1,7 @@
 ---
 layout: work
 title: News Real
-image_path: http://res.cloudinary.com/benludwig/image/upload/c_scale,f_jpg,q_auto,w_1829/v1523413625/newsrealpreview_dqprjf.png
+image_path: http://res.cloudinary.com/benludwig/image/upload/c_fill,f_auto,g_center,h_550,q_auto,w_800/v1523413625/newsrealpreview_dqprjf.png
 date:   2018-05-15
 image_padding: 123.97%
 ---

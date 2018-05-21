@@ -1,7 +1,7 @@
 ---
 layout: work
 title: Field Museum Biomechanics
-image_path: http://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto/v1499826431/fm-biomechanics-5_f7hmia.jpg
+image_path: http://res.cloudinary.com/benludwig/image/upload/c_fill,f_auto,g_center,h_550,q_auto,w_800/v1499826431/fm-biomechanics-5_f7hmia.jpg
 date:   2018-05-09
 image_padding: 53.10%
 ---

@@ -1,7 +1,7 @@
 ---
 layout: work
 title: Field Museum Expeditions
-image_path: http://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto/v1499735419/expeditions-1_ysphai.jpg
+image_path: http://res.cloudinary.com/benludwig/image/upload/c_fill,f_auto,g_center,h_550,q_auto,w_800/v1499735419/expeditions-1_ysphai.jpg
 date:   2018-05-14
 image_padding: 78.24%
 ---

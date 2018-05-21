@@ -1,7 +1,7 @@
 ---
 layout: worklast
 title: 30 Rock
-image_path: http://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto/v1500156555/30rock-1_fhurbc.jpg
+image_path: http://res.cloudinary.com/benludwig/image/upload/c_fill,f_auto,g_center,h_550,q_auto,w_800/v1500156555/30rock-1_fhurbc.jpg
 date:   2018-05-06
 image_padding: 53.10%
 ---

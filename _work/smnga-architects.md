@@ -1,7 +1,7 @@
 ---
 layout: workfirst
 title: SMNGA Architects
-image_path: http://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto/v1497727835/smnga-01-home_mucwfr.jpg
+image_path: http://res.cloudinary.com/benludwig/image/upload/c_fill,f_auto,g_center,h_550,q_auto,w_800/v1497727835/smnga-01-home_mucwfr.jpg
 date:   2018-05-17
 image_padding: 61.50%
 ---

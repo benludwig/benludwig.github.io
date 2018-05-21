@@ -1,7 +1,7 @@
 ---
 layout: work
 title: Torque
-image_path: http://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto/v1499733708/torque-01-home_nmrkwl.jpg
+image_path: http://res.cloudinary.com/benludwig/image/upload/c_fill,f_auto,g_center,h_550,q_auto,w_800/v1499733708/torque-01-home_nmrkwl.jpg
 date:   2018-05-08
 image_padding: 63.61%
 ---

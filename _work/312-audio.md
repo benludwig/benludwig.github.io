@@ -1,7 +1,7 @@
 ---
 layout: work
 title: 312 Audio
-image_path: http://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto/v1524350475/312preview_ufiike.jpg
+image_path: http://res.cloudinary.com/benludwig/image/upload/c_fill,f_auto,g_center,h_550,q_auto,w_800/v1524350475/312preview_ufiike.jpg
 date:   2018-05-10
 image_padding: 61.50%
 ---

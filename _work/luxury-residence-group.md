@@ -1,7 +1,7 @@
 ---
 layout: work
 title: Luxury Residence Group
-image_path: http://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto/v1500057553/power-1_sfkdmi.jpg
+image_path: http://res.cloudinary.com/benludwig/image/upload/c_fill,f_auto,g_center,h_550,q_auto,w_800/v1500057553/power-1_sfkdmi.jpg
 date:   2018-05-12
 image_padding: 66.65%
 ---

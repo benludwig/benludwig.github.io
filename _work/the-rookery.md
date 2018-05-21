@@ -1,7 +1,7 @@
 ---
 layout: work
 title: The Rookery
-image_path: http://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto/v1500058259/rookery-1_iwbwpl.jpg
+image_path: http://res.cloudinary.com/benludwig/image/upload/c_fill,f_auto,g_center,h_550,q_auto,w_800/v1500058259/rookery-1_iwbwpl.jpg
 date:   2018-05-07
 image_padding: 60.40%
 ---

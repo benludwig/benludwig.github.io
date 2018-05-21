@@ -3,10 +3,10 @@
   {% include head.html %}
   <body>
     {% include primary-nav-work.html %}
-  <div class="hero">
+  <!-- <div class="hero">
     <h1>Freelance Designer</h1>
     <h3>Based in Chicago, IL</h3>
-  </div>
+  </div> -->
 
   <div class="all-work">
     <div class="grid-container">
@@ -14,18 +14,19 @@
     {% assign sortedWork = site.work | sort: 'date' %}
     {% for work in sortedWork reversed %}
     <div class="grid-item">
-      <a href="{{ work.url }}">
-        <div class="imgblock revealblock">
-            <div class="imgfull">
-            <img src="{{ work.image_path }}" alt="{{ work.title }}" onload="imgLoaded(this)">
-            </div>
-        </div>
-      </a>
+        <a href="{{ work.url }}">
+          <div class="imgblock revealblock">
+              <div class="imgfull">
+              <img src="{{ work.image_path }}" alt="{{ work.title }}" onload="imgLoaded(this)">
+              </div>
+          </div>
+        </a>
         <div class="work-title-link">
           <a href="{{ work.url }}" class="revealblock link-support">{{ work.title }}</a>
         </div>
         <div class="work-title-stroke"><img src="/assets/images/stroke.svg"></div>
-    </div>
+
+  </div>
     {% endfor %}
     </div>
     </div>
