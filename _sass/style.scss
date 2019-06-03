@@ -16,44 +16,24 @@ dl, dd, ol, ul, figure {
 -------------------------------------*/
 
 body {
-    @include font-standard;
-    background-color: $color-dark;
-    color: $color-light;
+  
     }
 
 h1 {
-    @include h1;
-    padding-bottom: 15px;
+
     }
 
 h2 {
-    @include h2;
-    padding-bottom: 20px;
+
     }
 
 h3 {
-    @include h3;
-    font-weight: 400;
-    font-style: italic;
-    padding-bottom: 20px;
+
     }
 
 p {
-    padding-bottom: 15px;
+
     }
-
-/*Primary Nav--------------------------
--------------------------------------*/
-
-.primary-nav .title {
-  padding-left:16px;
-  font-family: $font-headline;
-  font-size: 1rem;
-  line-height: 1.375rem;
-  @include font-smoothing;
-  font-weight: 400;
-  font-style: italic;
-  }
 
 /*Lists---------------------------------
 -------------------------------------*/
@@ -72,124 +52,8 @@ ul, menu, dir, dt, dl {
 -------------------------------------*/
 
 a {
-  outline: 0;
-  text-decoration: none;
-  color: $color-light;
-  }
-
-/* Link Header */
-
-a.link-header {
-  padding: 1px 0px 0px 0px;
-  margin-left: 18px;
-  @include transition;
-  color: $color-neutral;
-  }
-
-a.link-header:hover,
-a.link-header:focus {
-  color: $color-hot;
-  }
-
-a.link-header:active,
-a.link-header.active {
-  color: $color-light;
-  }
-
-/* Link Inline */
-
-a.link-inline {
-  border-bottom: 1px solid $color-light;
-  }
-
-a.link-inline:hover,
-a.link-inline:active,
-a.link-inline:focus {
-  border-bottom: 1px solid inherit;
-  }
-
-/* Link Support */
-
-a.link-support {
-  @include font-detail;
-  @include transition;
-  color: $color-neutral;
-  }
-
-.all-work .work-title-link {
-  padding-top: 10px;
-  text-align: center;
-  }
-
-.all-work .work-title-stroke {
-  text-align:center;
-  }
-.all-work .work-title-stroke img {
-  width: 50px;
-  }
-
-a.link-footer:hover,
-a.link-footer:active,
-a.link-footer:focus {
-  color: $color-white;
-  }
-
-/* Link Credits */
-
-a.link-credits:after {
-  display: inline-block;
-  width: 13px;
-  height: 13px;
-  content: url('/assets/images/link.svg');
-  margin-left: 5px;
-  }
-
-a.link-footer:hover,
-a.link-footer:active,
-a.link-footer:focus {
 
   }
-
-/* Link Cycle */
-
-a.link-cycle {
-  @include flex;
-  @include flex-align-center;
-  padding: 16px;
-  }
-
-a.link-cycle img {
-  width: 20px;
-  }
-
-a.link-footer:hover,
-a.link-footer:active,
-a.link-footer:focus {
-
-  }
-
-a.link-cycle span.prev {
-  padding-left: 4px;
-  }
-
-a.link-cycle span.next {
-  padding-right: 4px;
-  }
-
-/* Link Footer */
-
-a.link-footer {
-  @include transition;
-  }
-
-a.link-footer:hover,
-a.link-footer:active,
-a.link-footer:focus {
-  color: $color-hot;
-  }
-
-/*Images-------------------------------
--------------------------------------*/
 
 img {
     width: 100%;
@@ -200,79 +64,9 @@ img {
 -------------------------------------*/
 
 ::selection {
-    background: $color-hot;
-    color: $color-white;
+
     }
 
 ::-moz-selection {
-    background: $color-hot;
-    color: $color-white;
+
     }
-
-/*Primary Nav--------------------------
--------------------------------------*/
-
-.primary-nav {
-    @include flex;
-    @include flex-justify-space-between;
-    @include flex-align-center;
-    height: 60px;
-    background-color: $color-darker;
-    }
-
-.primary-nav-half,
-.primary-nav .logo-icon {
-    @include flex;
-    @include flex-align-center;
-    }
-
-.primary-nav-half.first {
-    @include flex-justify-flex-start;
-    }
-
-.primary-nav-half.second {
-    @include flex-justify-flex-end;
-    @include font-detail;
-    }
-
-/*Footer-------------------------------
--------------------------------------*/
-
-.footer {
-  @include flex;
-  @include flex-justify-space-between;
-  @include flex-wrap;
-  background-color: $color-darker;
-  }
-
-.footer-right {
-  padding: 50px 0px 0px 0px;
-  }
-
-.footer dl {
-  @include flex;
-  @include flex-wrap;
-  }
-
-.footer dt,
-.footer dd {
-  padding: 5px 10px;
-  }
-
-.footer dt {
-  width: 100%;
-  @include font-detail;
-  color: $color-light;
-  padding-bottom: 10px;
-  }
-
-@media (min-width:540px) {
-
-  .footer {
-    @include flex-no-wrap;
-    }
-
-  .footer-right {
-    padding: 0px 0px 0px 100px;
-    }
-}
