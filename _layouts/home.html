@@ -2,6 +2,73 @@
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
   {% include head.html %}
   <body>
-    Front
+
+
+
+    <!-- Design Archive -->
+    {% assign blda = site.design-archive | sort: 'order' %}
+    {% for item in blda %}
+    <li>{{ item.title }}</li>
+    {% endfor %}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Save
+    {% assign sorted = site.design-archive | sort: 'order' %}
+    {% for item in sorted %}
+    <li>{{ item.title }}</li>
+    {% endfor %} -->
+
+
+    <!-- <h3>Getting Started</h3>
+    <ul>
+        {% for blda in site.design-archive %}
+
+            <li><a href="{{ blda.url }}">{{ blda.title }}</a></li>
+        {% endfor %}
+    </ul> -->
+
+
+
+
+
+
+
+
+<!-- {% assign blda = site.design-archive | sort: "order" %}
+{{ blda.title }} -->
+
+
+
+
+
+    <!-- {% assign mydocs = site.docs | group_by: 'category' %}
+    {% for cat in mydocs %}
+    <h2>{{ cat.name | capitalize }}</h2>
+        <ul>
+          {% assign items = cat.items | sort: 'order' %}
+          {% for item in items %}
+            <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+          {% endfor %}
+        </ul>
+    {% endfor %} -->
+
+
+
+
+
   </body>
 </html>
