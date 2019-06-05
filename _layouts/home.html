@@ -2,17 +2,31 @@
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
   {% include head.html %}
   <body>
-
-
-
+    <!-- Case Studies -->
+    {% assign blcs = site.case-studies | sort: 'order' %}
+    {% for item in blcs %}
+    {{ item.title }}
+    {% endfor %}
     <!-- Design Archive -->
     {% assign blda = site.design-archive | sort: 'order' %}
     {% for item in blda %}
-    <li>{{ item.title }}</li>
+    {{ item.title }}
     {% endfor %}
-
-
-
+    <!-- Articles -->
+    {% assign blart = site.articles | sort: 'order' %}
+    {% for item in blart %}
+    {{ item.title }}
+    {% endfor %}
+    <!-- Side Projects -->
+    {% assign blsp = site.side-projects | sort: 'order' %}
+    {% for item in blsp %}
+    {{ item.title }}
+    {% endfor %}
+    <!-- Just for Fun -->
+    {% assign bljff = site.just-for-fun | sort: 'order' %}
+    {% for item in bljff %}
+    {{ item.title }}
+    {% endfor %}
 
 
 

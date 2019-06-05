@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+  {% include head.html %}
+  <body>
+    <!-- Case Studies -->
+    <div class="preview-case-studies">
+      {% assign blcs = site.case-studies | sort: 'order' %}
+      {% for item in blcs %}
+      <div class="preview">
+        <img src="{{ item.img }}" alt="{{ item.title }}" onload="imgLoaded(this)">
+        <div class="preview-tag">{{ item.tag }}</div>
+        <div class="preview-title">{{ item.title }}</div>
+        <div class="preview-copy"><p>{{ item.copy }}</p></div>
+        <div class="preview-btn">{{ item.btn }}</div>
+      </div>
+      {% endfor %}
+    </div>
+    <!-- Design Archive -->
+    {% assign blda = site.design-archive | sort: 'order' %}
+    {% for item in blda %}
+    {{ item.title }}
+    {% endfor %}
+    <!-- Articles -->
+    {% assign blart = site.articles | sort: 'order' %}
+    {% for item in blart %}
+    {{ item.title }}
+    {% endfor %}
+    <!-- Side Projects -->
+    {% assign blsp = site.side-projects | sort: 'order' %}
+    {% for item in blsp %}
+    {{ item.title }}
+    {% endfor %}
+    <!-- Just for Fun -->
+    {% assign bljff = site.just-for-fun | sort: 'order' %}
+    {% for item in bljff %}
+    {{ item.title }}
+    {% endfor %}
+
+    <script type="text/javascript" src='{{ site.baseurl }}/js/scrollreveal.min.js'></script>
+    <script>
+    window.sr = ScrollReveal();
+    sr.reveal('.revealblock', { duration: 1000, distance: '2px', scale: 1, viewFactor: 0.05 });
+    </script>
+
+  </body>
+</html>
