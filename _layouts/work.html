@@ -7,24 +7,34 @@
       {% assign blcs = site.case-studies | sort: 'order' %}
       {% for item in blcs %}
       <div class="preview">
-        <img src="{{ item.img }}" alt="{{ item.title }}" onload="imgLoaded(this)">
+        <div class="preview-img"><a href="{{ item.url }}"><img src="{{ item.img }}"></a></div>
         <div class="preview-tag">{{ item.tag }}</div>
-        <div class="preview-title">{{ item.title }}</div>
+        <div class="preview-title"><a href="{{ item.url }}">{{ item.title }}</a></div>
         <div class="preview-copy"><p>{{ item.copy }}</p></div>
-        <div class="preview-btn">{{ item.btn }}</div>
+        <div class="preview-btn"><a href="{{ item.url }}">View Case Study</a></div>
       </div>
       {% endfor %}
     </div>
     <!-- Design Archive -->
-    {% assign blda = site.design-archive | sort: 'order' %}
-    {% for item in blda %}
-    {{ item.title }}
-    {% endfor %}
+    <div class="preview-design-archive">
+      {% assign blda = site.design-archive | sort: 'order' %}
+      {% for item in blda %}
+        <div class="preview-img"><a href="{{ item.url }}"><img src="{{ item.img }}"></a></div>
+        <div class="preview-tag">{{ item.tag }}</div>
+        <div class="preview-title"><a href="{{ item.url }}">{{ item.title }}</a></div>
+        <div class="preview-btn"><a href="{{ item.url }}">View Project</a></div>
+      {% endfor %}
+    </div>
     <!-- Articles -->
-    {% assign blart = site.articles | sort: 'order' %}
-    {% for item in blart %}
-    {{ item.title }}
-    {% endfor %}
+    <div class="preview-articles">
+      {% assign blart = site.articles | sort: 'order' %}
+      {% for item in blart %}
+        <div class="preview-img"><a href="{{ item.url }}"><img src="{{ item.img }}"></a></div>
+        <div class="preview-title"><a href="{{ item.url }}">{{ item.title }}</a></div>
+        <div class="preview-copy"><p>{{ item.copy }}</p></div>
+        <div class="preview-btn"><a href="{{ item.url }}">View Article</a></div>
+      {% endfor %}
+    </div>
     <!-- Side Projects -->
     {% assign blsp = site.side-projects | sort: 'order' %}
     {% for item in blsp %}

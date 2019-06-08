@@ -2,8 +2,7 @@
 title: Case Studies Test 1
 img: "http://fpoimg.com/300x250"
 tag: "Tag Lorem Ipsum"
-copy: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras eget erat ante. Maecenas quam urna, vehicula sed consectetur vitae, imperdiet id leo. Suspendisse potenti."
-btn: "View Case Study"
+copy: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras eget erat ante."
 order: 1
 layout: standard
 ---
