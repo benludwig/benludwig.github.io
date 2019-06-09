@@ -1,6 +1,6 @@
 ---
 title: Case Studies Test 1
-img: "http://fpoimg.com/300x250"
+img: "http://fpoimg.com/605x300"
 tag: "Tag Lorem Ipsum"
 copy: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras eget erat ante."
 order: 1

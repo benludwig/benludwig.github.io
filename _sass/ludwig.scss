@@ -25,3 +25,40 @@
 .imgfull video {
   width: 100%;
   }
+
+
+/*Preview Series Layout----------------
+-------------------------------------*/
+
+// .preview-img,
+// .preview-tag,
+// .preview-title,
+// .preview-copy,
+// .preview-btn {
+//   width: 100%;
+//   }
+
+@media screen and (min-width: 910px) {
+  .preview-case-studies,
+  .preview-design-archive,
+  .preview-articles,
+  .preview-side-projects,
+  .preview-just-for-fun {
+    @include flex;
+    }
+  .preview {
+    width: 50%;
+    }
+  }
+
+
+
+
+
+//1280
+
+// width: 33
+
+//1650
+
+// max width 1442

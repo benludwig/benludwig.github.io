@@ -36,16 +36,24 @@
       {% endfor %}
     </div>
     <!-- Side Projects -->
-    {% assign blsp = site.side-projects | sort: 'order' %}
-    {% for item in blsp %}
-    {{ item.title }}
-    {% endfor %}
+    <div class="preview-side-projects">
+      {% assign blsp = site.side-projects | sort: 'order' %}
+      {% for item in blsp %}
+        <div class="preview-img"><a href="{{ item.url }}"><img src="{{ item.img }}"></a></div>
+        <div class="preview-tag">{{ item.tag }}</div>
+        <div class="preview-title"><a href="{{ item.url }}">{{ item.title }}</a></div>
+        <div class="preview-btn"><a href="{{ item.url }}">View Project</a></div>
+      {% endfor %}
     <!-- Just for Fun -->
-    {% assign bljff = site.just-for-fun | sort: 'order' %}
-    {% for item in bljff %}
-    {{ item.title }}
-    {% endfor %}
-
+    <div class="preview-just-for-fun">
+      {% assign bljff = site.just-for-fun | sort: 'order' %}
+      {% for item in bljff %}
+        <div class="preview-img"><a href="{{ item.url }}"><img src="{{ item.img }}"></a></div>
+        <div class="preview-title"><a href="{{ item.url }}">{{ item.title }}</a></div>
+        <div class="preview-copy"><p>{{ item.copy }}</p></div>
+        <div class="preview-btn"><a href="{{ item.url }}">View Project</a></div>
+      {% endfor %}
+    </div>
     <script type="text/javascript" src='{{ site.baseurl }}/js/scrollreveal.min.js'></script>
     <script>
     window.sr = ScrollReveal();

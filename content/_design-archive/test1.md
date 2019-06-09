@@ -1,6 +1,6 @@
 ---
 title: Design Archive Test 1
-img: "http://fpoimg.com/300x250"
+img: "http://fpoimg.com/393x300"
 tag: "Tag 1 Lorem Ipsum"
 order: 1
 layout: standard

@@ -1,6 +1,6 @@
 ---
 title: Articles Test 1
-img: "http://fpoimg.com/300x250"
+img: "http://fpoimg.com/605x300"
 copy: "Sed congue dui sit amet venenatis eleifend. Curabitur aliquet metus at nibh placerat dictum. Etiam tincidunt lacinia tempor."
 order: 1
 layout: standard
