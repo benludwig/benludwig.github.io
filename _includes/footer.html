@@ -1,6 +1,37 @@
 <div class="footer">
-          <dl>
-            <dt></dt>
-            <dd><a href="#" target="_blank"></a></dd>
-          </dl>
+  <div class="text-list-case-studies">
+    <div class="text-list-section-title">List Title Here</div>
+    {% assign bllcs = site.case-studies | sort: 'order' %}
+    {% for item in bllcs %}
+      <div class="list-title"><a href="{{ item.url }}">{{ item.title }}</a></div>
+    {% endfor %}
+  </div>
+  <div class="text-list-design-archive">
+    <div class="text-list-section-title">List Title Here</div>
+    {% assign bllda = site.design-archive | sort: 'order' %}
+    {% for item in bllda %}
+      <div class="list-title"><a href="{{ item.url }}">{{ item.title }}</a></div>
+    {% endfor %}
+  </div>
+  <div class="text-list-articles">
+    <div class="text-list-section-title">List Title Here</div>
+    {% assign blla = site.articles | sort: 'order' %}
+    {% for item in blla %}
+      <div class="list-title"><a href="{{ item.url }}">{{ item.title }}</a></div>
+    {% endfor %}
+  </div>
+  <div class="text-list-side-projects">
+    <div class="text-list-section-title">List Title Here</div>
+    {% assign bllsp = site.side-projects | sort: 'order' %}
+    {% for item in bllsp %}
+      <div class="list-title"><a href="{{ item.url }}">{{ item.title }}</a></div>
+    {% endfor %}
+  </div>
+  <div class="text-list-just-for-fun">
+    <div class="text-list-section-title">List Title Here</div>
+    {% assign blljff = site.just-for-fun | sort: 'order' %}
+    {% for item in blljff %}
+      <div class="list-title"><a href="{{ item.url }}">{{ item.title }}</a></div>
+    {% endfor %}
+  </div>
 </div>

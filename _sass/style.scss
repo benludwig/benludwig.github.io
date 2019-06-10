@@ -16,7 +16,7 @@ dl, dd, ol, ul, figure {
 -------------------------------------*/
 
 body {
-  
+
     }
 
 h1 {
@@ -34,6 +34,8 @@ h3 {
 p {
 
     }
+
+
 
 /*Lists---------------------------------
 -------------------------------------*/
@@ -70,3 +72,60 @@ img {
 ::-moz-selection {
 
     }
+
+/*Preview Design-----------------------
+-------------------------------------*/
+
+.preview-section-title {
+  @include type-medium-thick;
+  @include font-smoothing;
+  color: $color-type;
+  margin-bottom: 20px;
+  }
+
+.preview-img {
+  margin-bottom: 20px;
+  }
+
+.preview-tag {
+  @include type-xsmall;
+  @include font-smoothing;
+  color: $color-type;
+  margin-bottom: 20px;
+  }
+
+.preview-title {
+  @include type-medium-thin;
+  @include font-smoothing;
+  color: $color-type;
+  margin-bottom: 20px;
+  }
+
+.preview-title a {
+  text-decoration: none;
+  color: $color-type;
+  }
+
+.preview-copy {
+  @include type-regular-thin;
+  @include font-smoothing;
+  color: $color-type;
+  margin-bottom: 20px;
+  }
+
+.preview-btn a {
+  display: inline-block;
+  @include type-regular-thick;
+  @include font-smoothing;
+  text-decoration: none;
+  border: 1px solid $color-brand;
+  color: $color-brand;
+  padding: 13px 25px;
+  border-radius: 4px;
+  @include transition;
+  }
+
+.preview-btn a:hover {
+  background-color: $color-brand;
+  color: $color-type-inverted;
+  }

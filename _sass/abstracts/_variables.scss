@@ -11,6 +11,15 @@ $color-divider: #F2F2F2;
 -------------------------------------*/
 
 @font-face {
+font-family: 'GTAmericaThin';
+src: url('../fonts/GTAmerica/GTAmerica-Thin.eot'), /* IE9 Compat Modes */
+     url('../fonts/GTAmerica/GTAmerica-Thin.woff2') format('woff2'), /* Super Modern Browsers */
+     url('../fonts/GTAmerica/GTAmerica-Thin.woff') format('woff'), /* Pretty Modern Browsers */
+     url('../fonts/GTAmerica/GTAmerica-Thin.ttf')  format('truetype'), /* Safari, Android, iOS */
+     url('../fonts/GTAmerica/GTAmerica-Thin.svg') format('svg'); /* Legacy iOS */
+     }
+
+@font-face {
 font-family: 'GTAmericaRegular';
 src: url('../fonts/GTAmerica/GTAmerica-Regular.eot'), /* IE9 Compat Modes */
      url('../fonts/GTAmerica/GTAmerica-Regular.woff2') format('woff2'), /* Super Modern Browsers */
@@ -37,10 +46,8 @@ src: url('../fonts/GTAmerica/GTAmerica-Bold.eot'), /* IE9 Compat Modes */
     url('../fonts/GTAmerica/GTAmerica-Bold.svg') format('svg'); /* Legacy iOS */
     }
 
- /*Typography---------------------------
- -------------------------------------*/
-
-// $GTAmerica : 'GTEesti', sans-serif;
+/*Typography---------------------------
+-------------------------------------*/
 
 @mixin font-smoothing {
   -moz-osx-font-smoothing: grayscale;
@@ -48,6 +55,52 @@ src: url('../fonts/GTAmerica/GTAmerica-Bold.eot'), /* IE9 Compat Modes */
   font-weight: normal;
   font-style: normal;
   }
+
+@mixin type-large {
+  font-family: 'GTAmericaThin', sans-serif;
+  font-size: 40px;
+  line-height: 1.5;
+  }
+
+@mixin type-medium-thick {
+  font-family: 'GTAmericaMedium', sans-serif;
+  font-size: 24px;
+  line-height: 1.5;
+  }
+
+@mixin type-medium-thin {
+  font-family: 'GTAmericaRegular', sans-serif;
+  font-size: 24px;
+  line-height: 1.5;
+  }
+
+@mixin type-regular-thick {
+  font-family: 'GTAmericaMedium', sans-serif;
+  font-size: 16px;
+  line-height: 1.25;
+  }
+
+@mixin type-regular-thin {
+  font-family: 'GTAmericaRegular', sans-serif;
+  font-size: 16px;
+  line-height: 1.25;
+  }
+
+@mixin type-small {
+  font-family: 'GTAmericaMedium', sans-serif;
+  font-size: 13px;
+  line-height: 1.25;
+  }
+
+@mixin type-xsmall {
+  font-family: 'GTAmericaBold', sans-serif;
+  font-size: 12px;
+  line-height: 1.25;
+  text-transform: uppercase;
+  }
+
+/*Buttons------------------------------
+-------------------------------------*/
 
 /*Flexbox------------------------------
 -------------------------------------*/
@@ -118,6 +171,6 @@ src: url('../fonts/GTAmerica/GTAmerica-Bold.eot'), /* IE9 Compat Modes */
    }
 
 @mixin transition {
-    -webkit-transition: all 0.2s ease;
-    transition: all 0.2s ease;
+    -webkit-transition: all 0.1s ease;
+    transition: all 0.1s ease;
     }

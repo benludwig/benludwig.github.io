@@ -4,8 +4,9 @@
   <body>
     <div class="work">
     <!-- Case Studies -->
-    <div class="preview-case-studies">
+    <div class="preview-category">
       <div class="preview-section-title">Preview Section Title Here</div>
+      <div class="preview-grid cs">
       {% assign blcs = site.case-studies | sort: 'order' %}
       {% for item in blcs %}
       <div class="preview">
@@ -17,9 +18,11 @@
       </div>
       {% endfor %}
     </div>
+    </div>
     <!-- Design Archive -->
-    <div class="preview-design-archive">
+    <div class="preview-category">
       <div class="preview-section-title">Preview Section Title Here</div>
+      <div class="preview-grid da">
       {% assign blda = site.design-archive | sort: 'order' %}
       {% for item in blda %}
       <div class="preview">
@@ -30,9 +33,11 @@
       </div>
       {% endfor %}
     </div>
+    </div>
     <!-- Articles -->
-    <div class="preview-articles">
+    <div class="preview-category">
       <div class="preview-section-title">Preview Section Title Here</div>
+      <div class="preview-grid art">
       {% assign blart = site.articles | sort: 'order' %}
       {% for item in blart %}
       <div class="preview">
@@ -43,9 +48,11 @@
       </div>
       {% endfor %}
     </div>
+    </div>
     <!-- Side Projects -->
-    <div class="preview-side-projects">
+    <div class="preview-category">
       <div class="preview-section-title">Preview Section Title Here</div>
+      <div class="preview-grid sp">
       {% assign blsp = site.side-projects | sort: 'order' %}
       {% for item in blsp %}
       <div class="preview">
@@ -56,9 +63,11 @@
       </div>
       {% endfor %}
     </div>
+    </div>
     <!-- Just for Fun -->
-    <div class="preview-just-for-fun">
+    <div class="preview-category">
       <div class="preview-section-title">Preview Section Title Here</div>
+      <div class="preview-grid jff">
       {% assign bljff = site.just-for-fun | sort: 'order' %}
       {% for item in bljff %}
       <div class="preview">
@@ -70,10 +79,12 @@
       {% endfor %}
     </div>
   </div>
-    <script type="text/javascript" src='{{ site.baseurl }}/js/scrollreveal.min.js'></script>
-    <script>
-    window.sr = ScrollReveal();
-    sr.reveal('.revealblock', { duration: 1000, distance: '2px', scale: 1, viewFactor: 0.05 });
-    </script>
+  </div>
+  {% include footer.html %}
+  <script type="text/javascript" src='{{ site.baseurl }}/js/scrollreveal.min.js'></script>
+  <script>
+  window.sr = ScrollReveal();
+  sr.reveal('.revealblock', { duration: 1000, distance: '2px', scale: 1, viewFactor: 0.05 });
+  </script>
   </body>
 </html>
