@@ -2,10 +2,11 @@
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
   {% include head.html %}
   <body>
-    <div class="work">
+    {% include nav.html %}
+    <div class="preview-container">
     <!-- Case Studies -->
     <div class="preview-category">
-      <div class="preview-section-title">Preview Section Title Here</div>
+      <div class="preview-section-title">Case Studies</div>
       <div class="preview-grid cs">
       {% assign blcs = site.case-studies | sort: 'order' %}
       {% for item in blcs %}
@@ -21,7 +22,7 @@
     </div>
     <!-- Design Archive -->
     <div class="preview-category">
-      <div class="preview-section-title">Preview Section Title Here</div>
+      <div class="preview-section-title">Design Archive</div>
       <div class="preview-grid da">
       {% assign blda = site.design-archive | sort: 'order' %}
       {% for item in blda %}
@@ -36,7 +37,7 @@
     </div>
     <!-- Articles -->
     <div class="preview-category">
-      <div class="preview-section-title">Preview Section Title Here</div>
+      <div class="preview-section-title">Articles</div>
       <div class="preview-grid art">
       {% assign blart = site.articles | sort: 'order' %}
       {% for item in blart %}
@@ -51,7 +52,7 @@
     </div>
     <!-- Side Projects -->
     <div class="preview-category">
-      <div class="preview-section-title">Preview Section Title Here</div>
+      <div class="preview-section-title">Side Projects</div>
       <div class="preview-grid sp">
       {% assign blsp = site.side-projects | sort: 'order' %}
       {% for item in blsp %}
@@ -66,7 +67,7 @@
     </div>
     <!-- Just for Fun -->
     <div class="preview-category">
-      <div class="preview-section-title">Preview Section Title Here</div>
+      <div class="preview-section-title">Just for Fun</div>
       <div class="preview-grid jff">
       {% assign bljff = site.just-for-fun | sort: 'order' %}
       {% for item in bljff %}

@@ -73,7 +73,24 @@ img {
 
     }
 
-/*Preview Design-----------------------
+/*Nav Links----------------------------
+-------------------------------------*/
+
+.nav a {
+  text-decoration: none;
+  color: $color-type;
+  }
+
+.nav-left a.nav-link {
+  @include type-regular-thin;
+  }
+
+.nav-right a.nav-link {
+  @include type-small;
+  }
+
+
+/*Previews-----------------------------
 -------------------------------------*/
 
 .preview-section-title {
@@ -84,21 +101,21 @@ img {
   }
 
 .preview-img {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   }
 
 .preview-tag {
   @include type-xsmall;
   @include font-smoothing;
   color: $color-type;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   }
 
 .preview-title {
   @include type-medium-thin;
   @include font-smoothing;
   color: $color-type;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   }
 
 .preview-title a {
