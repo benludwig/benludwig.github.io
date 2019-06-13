@@ -1,7 +1,7 @@
 ---
-title: Just for Fun Test 1
+title: Asking Alec Baldwin to call your friends
 img: "http://fpoimg.com/605x300"
-copy: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras eget erat ante."
+copy: "Before design, I was an audio engineer. Take a look at some of the audio campaigns I produced for NBC, Disney and Microsoft."
 order: 1
 layout: standard
 ---

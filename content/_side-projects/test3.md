@@ -1,5 +1,5 @@
 ---
-title: Side Project Test 3
+title: Creating a brand for the EDM community
 img: "http://fpoimg.com/287x380"
 tag: "Tag 1 Lorem Ipsum"
 order: 3

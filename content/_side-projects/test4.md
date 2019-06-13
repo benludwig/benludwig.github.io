@@ -1,5 +1,5 @@
 ---
-title: Side Project Test 4
+title: Designing album covers and recording music
 img: "http://fpoimg.com/287x380"
 tag: "Tag 1 Lorem Ipsum"
 order: 4

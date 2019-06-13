@@ -1,5 +1,5 @@
 ---
-title: Side Project Test 2
+title: Programming live performances with Ableton
 img: "http://fpoimg.com/287x380"
 tag: "Tag 1 Lorem Ipsum"
 order: 2

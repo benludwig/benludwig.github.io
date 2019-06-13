@@ -1,5 +1,5 @@
 ---
-title: Side Project Test 1
+title: Filtering fake news on iOS
 img: "http://fpoimg.com/287x380"
 tag: "Tag 1 Lorem Ipsum"
 order: 1
