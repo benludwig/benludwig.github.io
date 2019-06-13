@@ -1,5 +1,5 @@
 ---
-title: Design Archive Test 5
+title: Connecting couples with wedding photographers
 img: "http://fpoimg.com/393x300"
 tag: "Tag 1 Lorem Ipsum"
 order: 5

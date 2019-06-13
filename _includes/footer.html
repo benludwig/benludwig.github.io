@@ -1,4 +1,5 @@
 <div class="footer">
+  <div class="footer-left">
   <div class="text-list-case-studies">
     <div class="text-list-section-title">List Title Here</div>
     {% assign bllcs = site.case-studies | sort: 'order' %}
@@ -33,5 +34,9 @@
     {% for item in blljff %}
       <div class="list-title"><a href="{{ item.url }}">{{ item.title }}</a></div>
     {% endfor %}
+  </div>
+  </div>
+  <div class="footer-right">
+    Footer Right
   </div>
 </div>

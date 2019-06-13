@@ -1,8 +1,8 @@
 ---
-title: Case Studies Test 1
+title: Creating a single platform for all employees
 img: "http://fpoimg.com/605x300"
-tag: "Tag 2 Lorem Ipsum"
-copy: "Sed congue dui sit amet venenatis eleifend. Curabitur aliquet metus at nibh placerat dictum. Etiam tincidunt lacinia tempor."
+tag: "Product Design"
+copy: "I traveled and met with end users to create a digital product that works for people at every level."
 order: 1
 layout: standard
 ---

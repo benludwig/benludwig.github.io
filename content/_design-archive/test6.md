@@ -1,5 +1,5 @@
 ---
-title: Design Archive Test 6
+title: Branding a business at a higher level
 img: "http://fpoimg.com/393x300"
 tag: "Tag 1 Lorem Ipsum"
 order: 6

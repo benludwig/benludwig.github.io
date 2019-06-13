@@ -1,5 +1,5 @@
 ---
-title: Design Archive Test 1
+title: In-house design at The Field Museum
 img: "http://fpoimg.com/393x300"
 tag: "Tag 1 Lorem Ipsum"
 order: 1

@@ -1,5 +1,5 @@
 ---
-title: Design Archive Test 3
+title: Updating Chicago's oldest skyscraper
 img: "http://fpoimg.com/393x300"
 tag: "Tag 1 Lorem Ipsum"
 order: 3

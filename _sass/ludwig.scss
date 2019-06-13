@@ -41,12 +41,11 @@
   top: 0;
   z-index: 99;
   background-color: $color-background;
-  box-shadow: 0 1px 0 0 rgba(0,0,0,.05);
   @include flex;
   @include flex-justify-space-between;
   @include flex-align-center;
   padding: 18px 10px;
-  // border-bottom: 1px solid $color-divider;
+  border-bottom: 1px solid $color-divider;
   }
 
 .nav-right .nav-link:nth-child(1),
@@ -108,3 +107,13 @@
     grid-template-columns: 1fr 1fr 1fr 1fr;
     }
 }
+
+
+/*Footer-------------------------------
+-------------------------------------*/
+
+.footer {
+  display: grid;
+  grid-gap: 60px 0px;
+  grid-template-columns: 1fr 1fr;
+  }
