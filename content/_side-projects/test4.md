@@ -1,7 +1,7 @@
 ---
 title: Designing album covers and recording music
 img: "http://fpoimg.com/287x380"
-tag: "Tag 1 Lorem Ipsum"
+tag: "Music"
 order: 4
 layout: standard
 ---

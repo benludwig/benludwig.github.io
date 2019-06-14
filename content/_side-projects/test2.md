@@ -1,7 +1,7 @@
 ---
-title: Programming live performances with Ableton
+title: Syncing lights and sounds on stage
 img: "http://fpoimg.com/287x380"
-tag: "Tag 1 Lorem Ipsum"
+tag: "Live Production"
 order: 2
 layout: standard
 ---

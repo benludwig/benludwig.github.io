@@ -1,7 +1,7 @@
 ---
-title: Creating a brand for the EDM community
+title: Exploring Italy, Mexico and Lithuania
 img: "http://fpoimg.com/287x380"
-tag: "Tag 1 Lorem Ipsum"
+tag: "Photography"
 order: 3
 layout: standard
 ---
