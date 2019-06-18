@@ -112,8 +112,48 @@
 /*Footer-------------------------------
 -------------------------------------*/
 
-.footer {
+// .footer {
+//   max-width: 1442px;
+//   margin: 0 auto;
+//   padding: 50px 100px;
+//   display: grid;
+//   grid-gap: 30px 0px;
+//   grid-template-columns: 1fr 1fr;
+//   border-top: 1px solid $color-divider;
+//   }
+//
+// .footer-left {
+//   width: 70%;
+//   display: grid;
+//   grid-gap: 30px 0px;
+//   grid-template-columns: 1fr;
+//   }
+
+
+
+.text-list-case-studies {
+  grid-area: header;
+}
+.text-list-case-studies {
+  grid-area: main;
+}
+.text-list-articles {
+  grid-area: sidebar;
+}
+.text-list-side-projects {
+  grid-area: footer;
+}
+.text-list-just-for-fun {
+  grid-area: new;
+}
+
+
+.footer-left {
   display: grid;
-  grid-gap: 60px 0px;
-  grid-template-columns: 1fr 1fr;
-  }
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  grid-template-areas:
+  "header header header header"
+  "main main new sidebar"
+  "footer footer footer footer";
+}
