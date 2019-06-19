@@ -1,5 +1,5 @@
 ---
-title: Creating a single platform for all employees
+title: Creating a single platform that runs an entire business
 img: "http://fpoimg.com/605x300"
 tag: "Product Design"
 copy: "I traveled and met with end users to create a digital product that works for people at every level."
