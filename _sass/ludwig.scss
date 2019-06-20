@@ -112,48 +112,43 @@
 /*Footer-------------------------------
 -------------------------------------*/
 
+// .footer-col-1 {
+//   grid-area: fg1;
+//   }
+//
+// .footer-col-2 {
+//   grid-area: fg2;
+//   }
+//
+// .footer-col-4 {
+//   grid-area: fg4;
+//   }
+//
 // .footer {
 //   max-width: 1442px;
 //   margin: 0 auto;
-//   padding: 50px 100px;
-//   display: grid;
-//   grid-gap: 30px 0px;
-//   grid-template-columns: 1fr 1fr;
+//   padding: 50px 20px;
 //   border-top: 1px solid $color-divider;
-//   }
-//
-// .footer-left {
-//   width: 70%;
 //   display: grid;
-//   grid-gap: 30px 0px;
-//   grid-template-columns: 1fr;
+//   grid-gap: 60px 30px;
+//   grid-template-columns: 1fr 1fr 1fr 1fr;
+//   grid-template-rows: auto;
+//   grid-template-areas:
+//   "fg1 fg2 . fg4";
 //   }
 
 
+.footer {
+  @include flex;
+  @include flex-justify-space-between;
+  }
 
-.text-list-case-studies {
-  grid-area: header;
-}
-.text-list-design-archive {
-  grid-area: main;
-}
-.text-list-articles {
-  grid-area: sidebar;
-}
-.text-list-side-projects {
-  grid-area: footer;
-}
-.text-list-just-for-fun {
-  grid-area: new;
-}
+.text-list-group {
+  padding-bottom: 30px;
+  }
 
-
-.footer-left {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: auto;
-  grid-template-areas:
-  "header sidebar . ."
-  "main footer . ."
-  "main new . .";
+@media screen and (min-width: 840px) {
+  .footer {
+    padding: 50px 100px;
+    }
 }

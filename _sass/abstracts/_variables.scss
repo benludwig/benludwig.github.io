@@ -86,9 +86,15 @@ src: url('../fonts/GTAmerica/GTAmerica-Bold.eot'), /* IE9 Compat Modes */
   line-height: 1.35;
   }
 
-@mixin type-small {
+@mixin type-small-thick {
   font-family: 'GTAmericaMedium', sans-serif;
-  font-size: 13px;
+  font-size: 14px;
+  line-height: 1.25;
+  }
+
+@mixin type-small-thin {
+  font-family: 'GTAmericaRegular', sans-serif;
+  font-size: 14px;
   line-height: 1.25;
   }
 

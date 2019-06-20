@@ -86,7 +86,7 @@ img {
   }
 
 .nav-right a.nav-link {
-  @include type-small;
+  @include type-small-thick;
   }
 
 
@@ -145,4 +145,29 @@ img {
 .preview-btn a:hover {
   background-color: $color-brand;
   color: $color-type-inverted;
+  }
+
+/*Footer-------------------------------
+-------------------------------------*/
+
+.text-list-section-title {
+  @include type-small-thick;
+  @include font-smoothing;
+  padding-bottom: 6px;
+  }
+
+.list-title {
+  @include type-small-thin;
+  @include font-smoothing;
+  padding-bottom: 3px;
+  }
+
+.footer a {
+  text-decoration: none;
+  color: $color-type;
+  @include transition;
+  }
+
+.footer a:hover {
+  text-decoration: underline;
   }
