@@ -2,5 +2,18 @@
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
   {% include head.html %}
   <body>
+    {% include nav.html %}
+    <div class="home-container">
+      <div class="home">
+        <h1>I’m an Associate Creative Director</h1>
+        <h2>Lately I’ve been designing digital products and design systems at FCB Chicago.</h2>
+        <div class="home-buttons">
+          <div class="btn homebtnsolid"><a href="/">View Case Studies</a></div>
+          <div class="btn homebtn"><a href="/">See Additional Design Work</a></div>
+        </div>
+        <div class="home-copy"><p>There are also <a href="/">articles</a>, <a href="/">side projects</a> and something <a href="/">just for fun.</a></p></div>
+      </div>
+    </div>
+    {% include footer.html %}
   </body>
 </html>

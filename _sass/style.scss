@@ -19,8 +19,15 @@ body {
 
     }
 
-h1 {
-
+h1,
+h2,
+h3,
+h4 {
+  font-weight: normal;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
     }
 
 h2 {
@@ -62,6 +69,42 @@ img {
     height: auto;
     }
 
+/*Buttons------------------------------
+-------------------------------------*/
+
+.btn a {
+  display: inline-block;
+  @include type-regular-thick;
+  @include font-smoothing;
+  text-decoration: none;
+  padding: 13px 25px;
+  border-radius: 4px;
+  @include transition;
+  }
+
+.btn.homebtnsolid a {
+  background-color: $color-type-inverted;
+  color: $color-type;
+  border: 1px solid $color-type-inverted;
+  }
+
+.btn.homebtn a {
+  border: 1px solid $color-type-inverted;
+  color: $color-type-inverted;
+  }
+
+.btn.preview a {
+  border: 1px solid $color-brand;
+  color: $color-brand;
+  }
+
+.btn.preview a:hover {
+  background-color: $color-brand;
+  color: $color-type-inverted;
+  }
+
+
+
 /*Highlights---------------------------
 -------------------------------------*/
 
@@ -89,6 +132,45 @@ img {
   @include type-small-thick;
   }
 
+/*Home text block----------------------
+-------------------------------------*/
+
+.home h1 {
+  @include type-large;
+  @include font-smoothing;
+  color: $color-type-inverted;
+  padding-bottom: 5px;
+  }
+
+.home h2 {
+  @include type-medium-thin;
+  @include font-smoothing;
+  color: $color-type-inverted;
+  padding-bottom: 15px;
+  }
+
+.home-buttons {
+  padding-bottom: 5px;
+  }
+
+.btn.homebtnsolid {
+  padding-right: 10px;
+  padding-bottom: 10px;
+  }
+
+.btn.homebtn {
+  padding-bottom: 10px;
+  }
+
+.home-copy p {
+  @include type-regular-thin;
+  @include font-smoothing;
+  color: $color-type-inverted;
+  }
+
+.home-copy a {
+  color: $color-type-inverted;
+  }
 
 /*Previews-----------------------------
 -------------------------------------*/
@@ -128,23 +210,6 @@ img {
   @include font-smoothing;
   color: $color-type;
   margin-bottom: 20px;
-  }
-
-.preview-btn a {
-  display: inline-block;
-  @include type-regular-thick;
-  @include font-smoothing;
-  text-decoration: none;
-  border: 1px solid $color-brand;
-  color: $color-brand;
-  padding: 13px 25px;
-  border-radius: 4px;
-  @include transition;
-  }
-
-.preview-btn a:hover {
-  background-color: $color-brand;
-  color: $color-type-inverted;
   }
 
 /*Footer-------------------------------

@@ -48,6 +48,28 @@
   padding-right: 20px;
   }
 
+/*Home---------------------------------
+-------------------------------------*/
+
+.home-container {
+  background: url("http://fpoimg.com/2000x1000") no-repeat center center/cover;
+  width: 100%;
+  min-height: 100vh;
+  @include flex;
+  @include flex-align-center;
+  @include flex-justify-center;
+  }
+
+.home {
+  padding: 50px 60px;
+  max-width: 800px;
+  }
+
+.home-buttons {
+  @include flex;
+  @include flex-wrap;
+  }
+
 /*Work Page----------------------------
 -------------------------------------*/
 
