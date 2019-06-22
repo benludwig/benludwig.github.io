@@ -3,19 +3,12 @@
   {% include head.html %}
   <body>
     {% include nav.html %}
-
     {{ content }}
-
-
-
-    <!-- {% include prevnext.html %} -->
-
-
+    {% include footer.html %}
   <script type="text/javascript" src='{{ site.baseurl }}/js/scrollreveal.min.js'></script>
   <script>
   window.sr = ScrollReveal();
   sr.reveal('.revealblock', { duration: 1000, distance: '2px', scale: 1, viewFactor: 0.05 });
   </script>
-
 </body>
 </html>

@@ -20,12 +20,12 @@
       {% endfor %}
     </div>
     </div>
-    <!-- Design Archive -->
+    <!-- Design Work -->
     <div class="preview-category">
       <div class="preview-section-title">Additional Design Work</div>
       <div class="preview-grid da">
-      {% assign blda = site.design-archive | sort: 'order' %}
-      {% for item in blda %}
+      {% assign bldw = site.design-work | sort: 'order' %}
+      {% for item in bldw %}
       <div class="preview">
         <div class="preview-img"><a href="{{ item.url }}"><img src="{{ item.img }}"></a></div>
         <div class="preview-tag">{{ item.tag }}</div>

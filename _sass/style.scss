@@ -150,6 +150,10 @@ img {
 /*Footer-------------------------------
 -------------------------------------*/
 
+.text-list-group {
+  padding-bottom: 30px;
+  }
+
 .text-list-section-title {
   @include type-small-thick;
   @include font-smoothing;
@@ -170,4 +174,8 @@ img {
 
 .footer a:hover {
   text-decoration: underline;
+  }
+
+.footer i {
+  padding-right: 6px;
   }
