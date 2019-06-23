@@ -76,10 +76,10 @@
 .preview-container {
   max-width: 1442px;
   margin: 0 auto;
-  padding: 50px 20px;
+  padding: 0px 20px 120px 20px;
   }
 .preview-category {
-  padding: 60px 0px;
+  padding-top: 120px;
   }
 .preview-grid {
   display: grid;
@@ -95,7 +95,7 @@
 
 @media screen and (min-width: 840px) {
   .preview-container {
-    padding: 50px 100px;
+    padding: 0px 100px 120px 100px;
     }
 }
 
