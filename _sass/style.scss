@@ -16,44 +16,33 @@ dl, dd, ol, ul, figure {
 -------------------------------------*/
 
 body {
-    @include font-standard;
-    background-color: $color-dark;
-    color: $color-light;
+
     }
 
-h1 {
-    @include h1;
-    padding-bottom: 15px;
+h1,
+h2,
+h3,
+h4 {
+  font-weight: normal;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
     }
 
 h2 {
-    @include h2;
-    padding-bottom: 20px;
+
     }
 
 h3 {
-    @include h3;
-    font-weight: 400;
-    font-style: italic;
-    padding-bottom: 20px;
+
     }
 
 p {
-    padding-bottom: 15px;
+
     }
 
-/*Primary Nav--------------------------
--------------------------------------*/
 
-.primary-nav .title {
-  padding-left:16px;
-  font-family: $font-headline;
-  font-size: 1rem;
-  line-height: 1.375rem;
-  @include font-smoothing;
-  font-weight: 400;
-  font-style: italic;
-  }
 
 /*Lists---------------------------------
 -------------------------------------*/
@@ -72,207 +61,186 @@ ul, menu, dir, dt, dl {
 -------------------------------------*/
 
 a {
-  outline: 0;
-  text-decoration: none;
-  color: $color-light;
-  }
-
-/* Link Header */
-
-a.link-header {
-  padding: 1px 0px 0px 0px;
-  margin-left: 18px;
-  @include transition;
-  color: $color-neutral;
-  }
-
-a.link-header:hover,
-a.link-header:focus {
-  color: $color-hot;
-  }
-
-a.link-header:active,
-a.link-header.active {
-  color: $color-light;
-  }
-
-/* Link Inline */
-
-a.link-inline {
-  border-bottom: 1px solid $color-light;
-  }
-
-a.link-inline:hover,
-a.link-inline:active,
-a.link-inline:focus {
-  border-bottom: 1px solid inherit;
-  }
-
-/* Link Support */
-
-a.link-support {
-  @include font-detail;
-  @include transition;
-  color: $color-neutral;
-  }
-
-.all-work .work-title-link {
-  padding-top: 10px;
-  text-align: center;
-  }
-
-.all-work .work-title-stroke {
-  text-align:center;
-  }
-.all-work .work-title-stroke img {
-  width: 50px;
-  }
-
-a.link-footer:hover,
-a.link-footer:active,
-a.link-footer:focus {
-  color: $color-white;
-  }
-
-/* Link Credits */
-
-a.link-credits:after {
-  display: inline-block;
-  width: 13px;
-  height: 13px;
-  content: url('/assets/images/link.svg');
-  margin-left: 5px;
-  }
-
-a.link-footer:hover,
-a.link-footer:active,
-a.link-footer:focus {
 
   }
-
-/* Link Cycle */
-
-a.link-cycle {
-  @include flex;
-  @include flex-align-center;
-  padding: 16px;
-  }
-
-a.link-cycle img {
-  width: 20px;
-  }
-
-a.link-footer:hover,
-a.link-footer:active,
-a.link-footer:focus {
-
-  }
-
-a.link-cycle span.prev {
-  padding-left: 4px;
-  }
-
-a.link-cycle span.next {
-  padding-right: 4px;
-  }
-
-/* Link Footer */
-
-a.link-footer {
-  @include transition;
-  }
-
-a.link-footer:hover,
-a.link-footer:active,
-a.link-footer:focus {
-  color: $color-hot;
-  }
-
-/*Images-------------------------------
--------------------------------------*/
 
 img {
     width: 100%;
     height: auto;
     }
 
+/*Buttons------------------------------
+-------------------------------------*/
+
+.btn a {
+  display: inline-block;
+  @include type-regular-thick;
+  @include font-smoothing;
+  text-decoration: none;
+  padding: 13px 25px;
+  border-radius: 4px;
+  @include transition;
+  }
+
+.btn.homebtnsolid a {
+  background-color: $color-type-inverted;
+  color: $color-type;
+  border: 1px solid $color-type-inverted;
+  }
+
+.btn.homebtn a {
+  border: 1px solid $color-type-inverted;
+  color: $color-type-inverted;
+  }
+
+.btn.preview a {
+  border: 1px solid $color-brand;
+  color: $color-brand;
+  }
+
+.btn.preview a:hover {
+  background-color: $color-brand;
+  color: $color-type-inverted;
+  }
+
+
+
 /*Highlights---------------------------
 -------------------------------------*/
 
 ::selection {
-    background: $color-hot;
-    color: $color-white;
+
     }
 
 ::-moz-selection {
-    background: $color-hot;
-    color: $color-white;
+
     }
 
-/*Primary Nav--------------------------
+/*Nav Links----------------------------
 -------------------------------------*/
 
-.primary-nav {
-    @include flex;
-    @include flex-justify-space-between;
-    @include flex-align-center;
-    height: 60px;
-    background-color: $color-darker;
-    }
+.nav a {
+  text-decoration: none;
+  color: $color-type;
+  }
 
-.primary-nav-half,
-.primary-nav .logo-icon {
-    @include flex;
-    @include flex-align-center;
-    }
+.nav-left a.nav-link {
+  @include type-regular-thin;
+  }
 
-.primary-nav-half.first {
-    @include flex-justify-flex-start;
-    }
+.nav-right a.nav-link {
+  @include type-small-thick;
+  }
 
-.primary-nav-half.second {
-    @include flex-justify-flex-end;
-    @include font-detail;
-    }
+/*Home text block----------------------
+-------------------------------------*/
+
+.home h1 {
+  @include type-large;
+  @include font-smoothing;
+  color: $color-type-inverted;
+  padding-bottom: 5px;
+  }
+
+.home h2 {
+  @include type-medium-thin;
+  @include font-smoothing;
+  color: $color-type-inverted;
+  padding-bottom: 15px;
+  }
+
+.home-buttons {
+  padding-bottom: 5px;
+  }
+
+.btn.homebtnsolid {
+  padding-right: 10px;
+  padding-bottom: 10px;
+  }
+
+.btn.homebtn {
+  padding-bottom: 10px;
+  }
+
+.home-copy p {
+  @include type-regular-thin;
+  @include font-smoothing;
+  color: $color-type-inverted;
+  }
+
+.home-copy a {
+  color: $color-type-inverted;
+  }
+
+/*Previews-----------------------------
+-------------------------------------*/
+
+.preview-section-title {
+  @include type-medium-thick;
+  @include font-smoothing;
+  color: $color-type;
+  margin-bottom: 20px;
+  }
+
+.preview-img {
+  margin-bottom: 10px;
+  }
+
+.preview-tag {
+  @include type-xsmall;
+  @include font-smoothing;
+  color: $color-type;
+  margin-bottom: 10px;
+  }
+
+.preview-title {
+  @include type-medium-thin;
+  @include font-smoothing;
+  color: $color-type;
+  margin-bottom: 10px;
+  }
+
+.preview-title a {
+  text-decoration: none;
+  color: $color-type;
+  }
+
+.preview-copy {
+  @include type-regular-thin;
+  @include font-smoothing;
+  color: $color-type;
+  margin-bottom: 20px;
+  }
 
 /*Footer-------------------------------
 -------------------------------------*/
 
-.footer {
-  @include flex;
-  @include flex-justify-space-between;
-  @include flex-wrap;
-  background-color: $color-darker;
+.text-list-group {
+  padding-bottom: 30px;
   }
 
-.footer-right {
-  padding: 50px 0px 0px 0px;
+.text-list-section-title {
+  @include type-small-thick;
+  @include font-smoothing;
+  padding-bottom: 6px;
   }
 
-.footer dl {
-  @include flex;
-  @include flex-wrap;
+.list-title {
+  @include type-small-thin;
+  @include font-smoothing;
+  padding-bottom: 3px;
   }
 
-.footer dt,
-.footer dd {
-  padding: 5px 10px;
+.footer a {
+  text-decoration: none;
+  color: $color-type;
+  @include transition;
   }
 
-.footer dt {
-  width: 100%;
-  @include font-detail;
-  color: $color-light;
-  padding-bottom: 10px;
+.footer a:hover {
+  text-decoration: underline;
   }
 
-@media (min-width:540px) {
-
-  .footer {
-    @include flex-no-wrap;
-    }
-
-  .footer-right {
-    padding: 0px 0px 0px 100px;
-    }
-}
+.footer i {
+  padding-right: 6px;
+  }

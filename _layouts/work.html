@@ -2,17 +2,90 @@
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
   {% include head.html %}
   <body>
-    {% include primary-nav.html %}
-  <div class="work">
-    {{ content }}
+    {% include nav.html %}
+    <div class="preview-container">
+    <!-- Case Studies -->
+    <div class="preview-category">
+      <div class="preview-section-title">Case Studies</div>
+      <div class="preview-grid cs">
+      {% assign blcs = site.case-studies | sort: 'order' %}
+      {% for item in blcs %}
+      <div class="preview">
+        <div class="preview-img"><a href="{{ item.url }}"><img src="{{ item.img }}"></a></div>
+        <div class="preview-tag">{{ item.tag }}</div>
+        <div class="preview-title"><a href="{{ item.url }}">{{ item.title }}</a></div>
+        <div class="preview-copy"><p>{{ item.copy }}</p></div>
+        <div class="btn preview"><a href="{{ item.url }}">See Case Study</a></div>
+      </div>
+      {% endfor %}
+    </div>
+    </div>
+    <!-- Design Work -->
+    <div class="preview-category" id="additional-design-work">
+      <div class="preview-section-title">Additional Design Work</div>
+      <div class="preview-grid da">
+      {% assign bldw = site.design-work | sort: 'order' %}
+      {% for item in bldw %}
+      <div class="preview">
+        <div class="preview-img"><a href="{{ item.url }}"><img src="{{ item.img }}"></a></div>
+        <div class="preview-tag">{{ item.tag }}</div>
+        <div class="preview-title"><a href="{{ item.url }}">{{ item.title }}</a></div>
+        <div class="btn preview"><a href="{{ item.url }}">View Project</a></div>
+      </div>
+      {% endfor %}
+    </div>
+    </div>
+    <!-- Articles -->
+    <div class="preview-category" id="articles">
+      <div class="preview-section-title">Articles</div>
+      <div class="preview-grid art">
+      {% assign blart = site.articles | sort: 'order' %}
+      {% for item in blart %}
+      <div class="preview">
+        <div class="preview-img"><a href="{{ item.url }}"><img src="{{ item.img }}"></a></div>
+        <div class="preview-title"><a href="{{ item.url }}">{{ item.title }}</a></div>
+        <div class="preview-copy"><p>{{ item.copy }}</p></div>
+        <div class="btn preview"><a href="{{ item.url }}">Read Article</a></div>
+      </div>
+      {% endfor %}
+    </div>
+    </div>
+    <!-- Side Projects -->
+    <div class="preview-category" id="side-projects">
+      <div class="preview-section-title">Side Projects</div>
+      <div class="preview-grid sp">
+      {% assign blsp = site.side-projects | sort: 'order' %}
+      {% for item in blsp %}
+      <div class="preview">
+        <div class="preview-img"><a href="{{ item.url }}"><img src="{{ item.img }}"></a></div>
+        <div class="preview-tag">{{ item.tag }}</div>
+        <div class="preview-title"><a href="{{ item.url }}">{{ item.title }}</a></div>
+        <div class="btn preview"><a href="{{ item.url }}">View Project</a></div>
+      </div>
+      {% endfor %}
+    </div>
+    </div>
+    <!-- Just for Fun -->
+    <div class="preview-category" id="just-for-fun">
+      <div class="preview-section-title">Just for Fun</div>
+      <div class="preview-grid jff">
+      {% assign bljff = site.just-for-fun | sort: 'order' %}
+      {% for item in bljff %}
+      <div class="preview">
+        <div class="preview-img"><a href="{{ item.url }}"><img src="{{ item.img }}"></a></div>
+        <div class="preview-title"><a href="{{ item.url }}">{{ item.title }}</a></div>
+        <div class="preview-copy"><p>{{ item.copy }}</p></div>
+        <div class="btn preview"><a href="{{ item.url }}">View Project</a></div>
+      </div>
+      {% endfor %}
+    </div>
   </div>
-  <div class="work-cycle">
-    {% include prevnext.html %}
   </div>
+  {% include footer.html %}
   <script type="text/javascript" src='{{ site.baseurl }}/js/scrollreveal.min.js'></script>
   <script>
   window.sr = ScrollReveal();
   sr.reveal('.revealblock', { duration: 1000, distance: '2px', scale: 1, viewFactor: 0.05 });
   </script>
-</body>
+  </body>
 </html>

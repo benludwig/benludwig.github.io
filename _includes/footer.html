@@ -1,19 +1,55 @@
-<div class="footer">
-      <div class="footer-left">
-          <dl>
-            <dt>Connect</dt>
-            <!-- <dd><a href="https://github.com/benludwig" target="_blank" class="link-footer">Github</a></dd> -->
-            <dd><a href="https://dribbble.com/benludwig" target="_blank" class="link-footer">Dribbble</a></dd>
-            <dd><a href="https://www.linkedin.com/in/benjaminludwig" target="_blank" class="link-footer">LinkedIn</a></dd>
-            <dd><a href="https://twitter.com/bnldwg" target="_blank" class="link-footer">Twitter</a></dd>
-            <dd><a href="https://www.behance.net/benludwig" target="_blank" class="link-footer">Behance</a></dd>
-            <dd><a href="https://www.instagram.com/bnldwg/" target="_blank" class="link-footer">Instagram</a></dd>
-          </dl>
+<div class="footer-container">
+  <div class="footer">
+    <div class="footer-one">
+      <div class="footer-col">
+        <div class="text-list-group">
+          <div class="text-list-section-title">Case Studies</div>
+          {% assign bllcs = site.case-studies | sort: 'order' %}
+          {% for item in bllcs %}
+            <div class="list-title"><a href="{{ item.url }}">{{ item.title }}</a></div>
+          {% endfor %}
+        </div>
+        <div class="text-list-group">
+          <div class="text-list-section-title">Additional Design Work</div>
+          {% assign bldw = site.design-work | sort: 'order' %}
+          {% for item in bldw %}
+            <div class="list-title"><a href="{{ item.url }}">{{ item.title }}</a></div>
+          {% endfor %}
+        </div>
+        <div class="text-list-group">
+          <div class="text-list-section-title">Articles</div>
+          {% assign blla = site.articles | sort: 'order' %}
+          {% for item in blla %}
+            <div class="list-title"><a href="{{ item.url }}">{{ item.title }}</a></div>
+          {% endfor %}
+        </div>
       </div>
-      <div class="footer-right">
-          <ul>
-            <dt>Email</dt>
-            <dd><a href="mailto:ben@benludwig.com" target="_blank" class="link-footer">ben@benludwig.com</a></dd>
-          </ul>
+      <div class="footer-col">
+        <div class="text-list-group">
+          <div class="text-list-section-title">Side Projects</div>
+          {% assign bllsp = site.side-projects | sort: 'order' %}
+          {% for item in bllsp %}
+            <div class="list-title"><a href="{{ item.url }}">{{ item.title }}</a></div>
+          {% endfor %}
+        </div>
+        <div class="text-list-group">
+          <div class="text-list-section-title">Just for Fun</div>
+          {% assign blljff = site.just-for-fun | sort: 'order' %}
+          {% for item in blljff %}
+            <div class="list-title"><a href="{{ item.url }}">{{ item.title }}</a></div>
+          {% endfor %}
+        </div>
       </div>
+    </div>
+    <div class="footer-two">
+      <div class="footer-col">
+        <div class="text-list-group">
+          <div class="list-title"><a href="#"><i class="fab fa-linkedin-in"></i>LinkedIn</a></div>
+          <div class="list-title"><a href="#"><i class="fab fa-linkedin-in"></i>LinkedIn</a></div>
+          <div class="list-title"><a href="#"><i class="fab fa-linkedin-in"></i>LinkedIn</a></div>
+          <div class="list-title"><a href="#"><i class="fab fa-linkedin-in"></i>LinkedIn</a></div>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
