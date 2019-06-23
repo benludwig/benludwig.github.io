@@ -129,7 +129,11 @@ img {
   }
 
 .nav-right a.nav-link {
-  @include type-small-thick;
+  @include type-regular-thin;
+  }
+
+.nav-right a.nav-link.current {
+  color: $color-brand;
   }
 
 /*Home text block----------------------

@@ -3,8 +3,8 @@
     <a href="/" class="nav-link">Ben Ludwig</a>
   </div>
   <div class="nav-right">
-    <a href="/work" class="nav-link">Work</a>
-    <a href="/" class="nav-link">Info</a>
-    <a href="/" class="nav-link">Contact</a>
+    <a href="/work" class="nav-link {% if page.url == '/work/' %}current{% endif %}">Work</a>
+    <a href="/about" class="nav-link {% if page.url == '/about/' %}current{% endif %}">About</a>
+    <a href="/contact" class="nav-link {% if page.url == '/contact/' %}current{% endif %}">Contact</a>
   </div>
 </div>
