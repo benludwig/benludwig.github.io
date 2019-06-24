@@ -30,16 +30,33 @@ h4 {
   margin-inline-end: 0px;
     }
 
-h2 {
 
+h1 {
+  @include type-large;
+  @include font-smoothing;
+  color: $color-type;
+  padding-bottom: 5px;
+  }
+
+
+h2 {
+  @include type-large;
+  @include font-smoothing;
+  color: $color-type;
+  padding-bottom: 5px;
     }
 
 h3 {
-
+  @include type-large;
+  @include font-smoothing;
+  color: $color-type;
+  padding-bottom: 5px;
     }
 
 p {
-
+  @include type-regular-thin;
+  @include font-smoothing;
+  color: $color-type;
     }
 
 
@@ -122,13 +139,6 @@ img {
 .nav a {
   text-decoration: none;
   color: $color-type;
-  }
-
-.nav-left a.nav-link {
-  @include type-regular-thin;
-  }
-
-.nav-right a.nav-link {
   @include type-regular-thin;
   }
 
@@ -215,6 +225,11 @@ img {
   color: $color-type;
   margin-bottom: 20px;
   }
+
+/*Content Copy-------------------------
+-------------------------------------*/
+
+
 
 /*Footer-------------------------------
 -------------------------------------*/
