@@ -128,10 +128,25 @@
 /*Case Study---------------------------
 -------------------------------------*/
 
-.case-study .medium {
+.case-study {
+  padding: 150px 0px;
+  }
+
+
+
+.case-study .skinny {
   max-width: 700px;
   margin: 0px auto;
+  padding: 20px;
   }
+
+@media screen and (min-width: 840px) {
+  .case-study .skinny {
+    padding: 0px 100px 120px 100px;
+    }
+}
+
+
 
 /*Footer-------------------------------
 -------------------------------------*/

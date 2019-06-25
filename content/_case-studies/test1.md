@@ -16,7 +16,7 @@ layout: standard
   <p>When I joined FCB as an Associate Creative Director, Cox was planning a brand update that required us to //////</p>
 
 
-  <div class="medium">
+  <div class="skinny">
 
   <h2>The Customer Experience</h2>
   <p>The new brand embodies the idea of connection and bringing connection to life in human ways that engage and inspire. But what does this actually mean when it comes to the user experience? It was our job to define specifically what needed to change. And the new driving principles affected every aspect of the product — it was much more than a new set of colors.</p>

@@ -40,24 +40,24 @@ h1 {
 
 
 h2 {
-  @include type-large;
+  @include type-medium-thick;
   @include font-smoothing;
   color: $color-type;
   padding-bottom: 5px;
-    }
+  }
 
 h3 {
-  @include type-large;
+  @include type-thick-longform;
   @include font-smoothing;
   color: $color-type;
   padding-bottom: 5px;
-    }
+  }
 
 p {
-  @include type-regular-thin;
+  @include type-regular-longform;
   @include font-smoothing;
   color: $color-type;
-    }
+  }
 
 
 
