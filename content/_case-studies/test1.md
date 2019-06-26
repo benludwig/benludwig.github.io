@@ -9,11 +9,18 @@ layout: standard
 
 <div class="case-study">
 
-  <h1>Guiding a company's digital transformation</h1>
+  <!-- <h1>Guiding a company's digital transformation</h1>
   <p class="italic">How I implemented a design system during feature development and a company-wide rebranding.</p>
   <p>Cox is the largest private telecommunications company in America with over 6 million users across 18 states. In addition to providing residential services like home internet and cable, the company also offers home security monitoring and on-demand content.</p>
 
-  <p>When I joined FCB as an Associate Creative Director, Cox was planning a brand update that required us to //////</p>
+  <p>When I joined FCB as an Associate Creative Director, Cox was planning a brand update that required us to //////</p> -->
+
+
+
+<div class="slider-test">
+
+</div>
+
 
 
   <div class="skinny">

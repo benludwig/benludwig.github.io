@@ -6,6 +6,14 @@
 
 * { box-sizing: border-box; }
 
+/*
+Image Settings-----------------------
+Nav----------------------------------
+Home---------------------------------
+Work---------------------------------
+Case Study---------------------------
+Footer-------------------------------
+*/
 
 /*Image Settings-----------------------
 -------------------------------------*/
@@ -60,17 +68,12 @@
   @include flex-justify-center;
   }
 
-.home {
+.home-content {
   padding: 150px 20px;
   max-width: 700px;
   }
 
-.home-buttons {
-  @include flex;
-  @include flex-wrap;
-  }
-
-/*Work Page----------------------------
+/*Work---------------------------------
 -------------------------------------*/
 
 .preview-container {
@@ -125,26 +128,47 @@
     }
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*Case Study---------------------------
 -------------------------------------*/
 
 .case-study {
-  padding: 150px 0px;
+  padding: 100px 0px 10px 0px;
   }
 
-
-
 .case-study .skinny {
-  max-width: 700px;
+  max-width: 880px;
   margin: 0px auto;
   padding: 20px;
   }
 
 @media screen and (min-width: 840px) {
   .case-study .skinny {
-    padding: 0px 100px 120px 100px;
+    padding: 0px 100px 60px 100px;
     }
 }
+
+
+
+
+
+
+
+
+
+
 
 
 

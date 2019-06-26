@@ -1,6 +1,20 @@
 
 @import "abstracts/variables";
 
+/*
+Resets-------------------------------
+Typography-H1------------------------
+Typography-H2------------------------
+Typography-H3------------------------
+Typography-p-------------------------
+Buttons------------------------------
+Links--------------------------------
+Images-------------------------------
+Nav----------------------------------
+Home---------------------------------
+Work---------------------------------
+Footer-------------------------------
+*/
 
 /*Resets-------------------------------
 -------------------------------------*/
@@ -12,186 +26,208 @@ dl, dd, ol, ul, figure {
     padding: 0;
     }
 
-/*Typography---------------------------
+/*Typography-H1------------------------
 -------------------------------------*/
-
-body {
-
-    }
-
-h1,
-h2,
-h3,
-h4 {
-  font-weight: normal;
-  margin-block-start: 0em;
-  margin-block-end: 0em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
-    }
-
 
 h1 {
-  @include type-large;
-  @include font-smoothing;
+  @include type-42;
   color: $color-type;
   padding-bottom: 5px;
   }
 
-
-h2 {
-  @include type-medium-thick;
-  @include font-smoothing;
-  color: $color-type;
+h1.home {
+  @include type-42;
+  color: $color-type-inverted;
   padding-bottom: 5px;
   }
 
-h3 {
-  @include type-thick-longform;
-  @include font-smoothing;
-  color: $color-type;
-  padding-bottom: 5px;
+h1.work {
+
   }
 
-p {
-  @include type-regular-longform;
-  @include font-smoothing;
-  color: $color-type;
+h1.about {
+
   }
 
+h1.contact {
 
+  }
 
-/*Lists---------------------------------
+/*Typography-H2------------------------
 -------------------------------------*/
 
-ul, menu, dir, dt, dl {
-    display: block;
-    list-style-type: none;
-    -webkit-margin-before: 0em;
-    -webkit-margin-after: 0em;
-    -webkit-margin-start: 0px;
-    -webkit-margin-end: 0px;
-    -webkit-padding-start: 0px;
-    }
+h2 {
+  @include type-32-medium;
+  color: $color-type;
+  padding-top: 30px;
+  padding-bottom: 10px;
+  }
+
+h2.home {
+  @include type-24-regular;
+  color: $color-type-inverted;
+  padding-top: 0px;
+  padding-bottom: 15px;
+  }
+
+h2.work {
+
+  }
+
+h2.about {
+
+  }
+
+h2.contact {
+
+  }
+
+/*Typography-H3------------------------
+-------------------------------------*/
+
+h3 {
+  @include type-20-medium;
+  color: $color-type;
+  padding-top: 30px;
+  padding-bottom: 5px;
+  }
+
+h3.home {
+
+  }
+
+h3.work {
+
+  }
+
+h3.about {
+
+  }
+
+h3.contact {
+
+  }
+
+/*Typography-p-------------------------
+-------------------------------------*/
+
+p {
+  @include type-18-regular;
+  color: $color-type;
+  padding-bottom: 20px;
+  }
+
+p.home {
+  @include type-16-regular;
+  color: $color-type-inverted;
+  padding-bottom: 0px;
+  }
+
+p.work {
+
+  }
+
+p.about {
+
+  }
+
+p.contact {
+
+  }
+
+/*Buttons------------------------------
+-------------------------------------*/
+
+a.btn {
+  @include type-16-medium;
+  @include transition;
+  display: inline-block;
+  text-decoration: none;
+  padding: 13px 25px;
+  border-radius: 4px;
+  border: 1px solid $color-brand;
+  color: $color-brand;
+  }
+
+a.btn:hover {
+  background-color: $color-brand;
+  border: 1px solid $color-brand;
+  color: $color-type-inverted;
+  }
+
+a.btn-home {
+  @include type-16-medium;
+  @include transition;
+  display: inline-block;
+  text-decoration: none;
+  padding: 13px 25px;
+  border-radius: 4px;
+  border: 1px solid $color-type-inverted;
+  color: $color-type-inverted;
+  }
+
+a.btn-home-alt {
+  @include type-16-medium;
+  @include transition;
+  display: inline-block;
+  text-decoration: none;
+  padding: 13px 25px;
+  border-radius: 4px;
+  background-color: $color-type-inverted;
+  color: $color-type;
+  border: 1px solid $color-type-inverted;
+  }
 
 /*Links--------------------------------
 -------------------------------------*/
 
-a {
-
+a.link-home {
+  color: $color-type-inverted;
   }
+
+/*Images-------------------------------
+-------------------------------------*/
 
 img {
     width: 100%;
     height: auto;
     }
 
-/*Buttons------------------------------
--------------------------------------*/
-
-.btn a {
-  display: inline-block;
-  @include type-regular-thick;
-  @include font-smoothing;
-  text-decoration: none;
-  padding: 13px 25px;
-  border-radius: 4px;
-  @include transition;
-  }
-
-.btn.homebtnsolid a {
-  background-color: $color-type-inverted;
-  color: $color-type;
-  border: 1px solid $color-type-inverted;
-  }
-
-.btn.homebtn a {
-  border: 1px solid $color-type-inverted;
-  color: $color-type-inverted;
-  }
-
-.btn.preview a {
-  border: 1px solid $color-brand;
-  color: $color-brand;
-  }
-
-.btn.preview a:hover {
-  background-color: $color-brand;
-  color: $color-type-inverted;
-  }
-
-
-
-/*Highlights---------------------------
--------------------------------------*/
-
-::selection {
-
-    }
-
-::-moz-selection {
-
-    }
-
-/*Nav Links----------------------------
+/*Nav----------------------------------
 -------------------------------------*/
 
 .nav a {
-  text-decoration: none;
+  @include type-14-regular;
   color: $color-type;
-  @include type-regular-thin;
+  text-decoration: none;
   }
 
 .nav-right a.nav-link.current {
   color: $color-brand;
   }
 
-/*Home text block----------------------
+/*Home---------------------------------
 -------------------------------------*/
 
-.home h1 {
-  @include type-large;
-  @include font-smoothing;
-  color: $color-type-inverted;
-  padding-bottom: 5px;
-  }
-
-.home h2 {
-  @include type-medium-thin;
-  @include font-smoothing;
-  color: $color-type-inverted;
-  padding-bottom: 15px;
-  }
-
 .home-buttons {
+  @include flex;
+  @include flex-wrap;
   padding-bottom: 5px;
   }
 
-.btn.homebtnsolid {
-  padding-right: 10px;
+.home-button {
   padding-bottom: 10px;
   }
 
-.btn.homebtn {
-  padding-bottom: 10px;
+.home-button:first-child {
+  margin-right: 10px;
   }
 
-.home-copy p {
-  @include type-regular-thin;
-  @include font-smoothing;
-  color: $color-type-inverted;
-  }
-
-.home-copy a {
-  color: $color-type-inverted;
-  }
-
-/*Previews-----------------------------
+/*Work---------------------------------
 -------------------------------------*/
 
 .preview-section-title {
-  @include type-medium-thick;
-  @include font-smoothing;
+  @include type-24-medium;
   color: $color-type;
   margin-bottom: 20px;
   }
@@ -201,15 +237,13 @@ img {
   }
 
 .preview-tag {
-  @include type-xsmall;
-  @include font-smoothing;
+  @include type-12-bold;
   color: $color-type;
   margin-bottom: 10px;
   }
 
 .preview-title {
-  @include type-medium-thin;
-  @include font-smoothing;
+  @include type-24-regular;
   color: $color-type;
   margin-bottom: 10px;
   }
@@ -220,16 +254,10 @@ img {
   }
 
 .preview-copy {
-  @include type-regular-thin;
-  @include font-smoothing;
+  @include type-16-regular;
   color: $color-type;
   margin-bottom: 20px;
   }
-
-/*Content Copy-------------------------
--------------------------------------*/
-
-
 
 /*Footer-------------------------------
 -------------------------------------*/
@@ -239,14 +267,12 @@ img {
   }
 
 .text-list-section-title {
-  @include type-small-thick;
-  @include font-smoothing;
+  @include type-14-medium;
   padding-bottom: 6px;
   }
 
 .list-title {
-  @include type-small-thin;
-  @include font-smoothing;
+  @include type-14-regular;
   padding-bottom: 3px;
   }
 
@@ -263,3 +289,46 @@ img {
 .footer i {
   padding-right: 5px;
   }
+
+
+
+
+
+
+  /*Lists--------------------------------
+  -------------------------------------*/
+
+  // ul, menu, dir, dt, dl {
+  //     display: block;
+  //     list-style-type: none;
+  //     -webkit-margin-before: 0em;
+  //     -webkit-margin-after: 0em;
+  //     -webkit-margin-start: 0px;
+  //     -webkit-margin-end: 0px;
+  //     -webkit-padding-start: 0px;
+  //     }
+
+  /*Highlights---------------------------
+  -------------------------------------*/
+
+  // ::selection {
+  //
+  //     }
+  //
+  // ::-moz-selection {
+  //
+  //     }
+
+  /*Typography---------------------------
+  -------------------------------------*/
+
+  // h1,
+  // h2,
+  // h3,
+  // h4 {
+  //   font-weight: normal;
+  //   margin-block-start: 0em;
+  //   margin-block-end: 0em;
+  //   margin-inline-start: 0px;
+  //   margin-inline-end: 0px;
+  //     }

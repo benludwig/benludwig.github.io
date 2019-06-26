@@ -56,70 +56,111 @@ src: url('../fonts/GTAmerica/GTAmerica-Bold.eot'), /* IE9 Compat Modes */
   font-style: normal;
   }
 
-@mixin type-large {
+@mixin type-42 {
   font-family: 'GTAmericaThin', sans-serif;
-  font-size: 40px;
+  font-size: 42px;
   line-height: 1.25;
+  @include font-smoothing;
   }
 
-@mixin type-medium-thick {
+@mixin type-32-medium {
+  font-family: 'GTAmericaMedium', sans-serif;
+  font-size: 32px;
+  line-height: 1.25;
+  @include font-smoothing;
+  }
+
+@mixin type-32-regular {
+  font-family: 'GTAmericaRegular', sans-serif;
+  font-size: 32px;
+  line-height: 1.25;
+  @include font-smoothing;
+  }
+
+@mixin type-24-medium {
   font-family: 'GTAmericaMedium', sans-serif;
   font-size: 24px;
   line-height: 1.25;
+  @include font-smoothing;
   }
 
-@mixin type-medium-thin {
+@mixin type-24-regular {
   font-family: 'GTAmericaRegular', sans-serif;
   font-size: 24px;
   line-height: 1.25;
+  @include font-smoothing;
   }
 
-@mixin type-thick-longform {
+@mixin type-20-medium {
+  font-family: 'GTAmericaMedium', sans-serif;
+  font-size: 20px;
+  line-height: 1.25;
+  @include font-smoothing;
+  }
+
+@mixin type-20-regular {
   font-family: 'GTAmericaRegular', sans-serif;
   font-size: 20px;
-  line-height: 1.58;
+  line-height: 1.25;
+  @include font-smoothing;
   }
 
-@mixin type-regular-longform {
+@mixin type-18-medium {
+  font-family: 'GTAmericaMedium', sans-serif;
+  font-size: 18px;
+  line-height: 1.25;
+  @include font-smoothing;
+  }
+
+@mixin type-18-regular {
   font-family: 'GTAmericaRegular', sans-serif;
   font-size: 18px;
-  line-height: 1.58;
-  letter-spacing: -.004em;
+  line-height: 1.35;
+  @include font-smoothing;
   }
 
-@mixin type-regular-thick {
+@mixin type-16-bold {
+  font-family: 'GTAmericaBold', sans-serif;
+  font-size: 16px;
+  line-height: 1.25;
+  @include font-smoothing;
+  }
+
+@mixin type-16-medium {
   font-family: 'GTAmericaMedium', sans-serif;
   font-size: 16px;
   line-height: 1.25;
+  @include font-smoothing;
   }
 
-@mixin type-regular-thin {
+@mixin type-16-regular {
   font-family: 'GTAmericaRegular', sans-serif;
   font-size: 16px;
   line-height: 1.35;
+  @include font-smoothing;
   }
 
-@mixin type-small-thick {
+@mixin type-14-medium {
   font-family: 'GTAmericaMedium', sans-serif;
   font-size: 14px;
   line-height: 1.25;
+  @include font-smoothing;
   }
 
-@mixin type-small-thin {
+@mixin type-14-regular {
   font-family: 'GTAmericaRegular', sans-serif;
   font-size: 14px;
   line-height: 1.25;
+  @include font-smoothing;
   }
 
-@mixin type-xsmall {
+@mixin type-12-bold {
   font-family: 'GTAmericaBold', sans-serif;
   font-size: 12px;
   line-height: 1.25;
   text-transform: uppercase;
+  @include font-smoothing;
   }
-
-/*Buttons------------------------------
--------------------------------------*/
 
 /*Flexbox------------------------------
 -------------------------------------*/
