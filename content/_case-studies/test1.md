@@ -18,7 +18,7 @@ layout: standard
 
 
 <div class="carousel-container">
-  <div class="carousel" data-flickity='{ "freeScroll": true }'>
+  <div class="carousel" data-flickity='{ "freeScroll": true, "imagesLoaded": true }'>
     <div class="carousel-cell"><img src="http://fpoimg.com/800x500"></div>
     <div class="carousel-cell"><img src="http://fpoimg.com/800x500"></div>
     <div class="carousel-cell"><img src="http://fpoimg.com/800x500"></div>
