@@ -61,17 +61,25 @@ Footer-------------------------------
 -------------------------------------*/
 
 .home-container {
-  background: url("http://fpoimg.com/2000x1000") no-repeat center center/cover;
+  background: url("https://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto/v1562170478/home-feathers_kdfom3.jpg") no-repeat center center/cover;
   width: 100%;
   min-height: 100vh;
   @include flex;
   @include flex-align-center;
   @include flex-justify-center;
+  position: relative;
   }
 
 .home-content {
   padding: 150px 20px;
   max-width: 700px;
+  }
+
+.home-caption {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  padding: 20px;
   }
 
 /*Work---------------------------------
@@ -160,8 +168,6 @@ Footer-------------------------------
     padding: 0px 100px 60px 100px;
     }
 }
-
-
 
 /*Flickity-----------------------------
 -------------------------------------*/
@@ -318,15 +324,6 @@ Footer-------------------------------
   counter-increment: gallery-cell;
 }
 
-/* cell number */
-// .carousel-cell:before {
-//   display: block;
-//   text-align: center;
-//   content: counter(gallery-cell);
-//   line-height: 200px;
-//   font-size: 80px;
-//   color: white;
-// }
 
 
 

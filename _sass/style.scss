@@ -30,7 +30,7 @@ dl, dd, ol, ul, figure {
 -------------------------------------*/
 
 h1 {
-  @include type-42;
+  @include type-42-medium;
   color: $color-type;
   padding-bottom: 5px;
   }
@@ -177,6 +177,13 @@ a.btn-home-alt {
   color: $color-type;
   border: 1px solid $color-type-inverted;
   }
+
+a.link-caption-home {
+  @include type-14-regular;
+  color: $color-type-caption;
+  text-decoration: none;
+  }
+
 
 /*Links--------------------------------
 -------------------------------------*/
