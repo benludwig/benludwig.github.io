@@ -191,6 +191,11 @@ src: url('../fonts/GTAmerica/GTAmerica-Bold.eot'), /* IE9 Compat Modes */
     flex-wrap: nowrap;
     }
 
+@mixin flex-direction-row {
+    -ms-flex-direction: row;
+    flex-direction: row;
+    }
+
 @mixin flex-direction-column {
     -ms-flex-direction: column;
     flex-direction: column;

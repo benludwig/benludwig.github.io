@@ -9,6 +9,7 @@ Typography-H3------------------------
 Typography-p-------------------------
 Buttons------------------------------
 Links--------------------------------
+Lists--------------------------------
 Images-------------------------------
 Nav----------------------------------
 Home---------------------------------
@@ -75,7 +76,9 @@ h2.work {
   }
 
 h2.about {
-
+  @include type-24-medium;
+  padding-top: 60px;
+  margin-bottom: 6px;
   }
 
 h2.contact {
@@ -190,6 +193,21 @@ a.link-caption-home {
 
 a.link-home {
   color: $color-type-inverted;
+  }
+
+/*Lists--------------------------------
+-------------------------------------*/
+
+li {
+  @include type-18-regular;
+  color: $color-type;
+  list-style-type: none;
+  padding-bottom: 3px;
+  }
+
+li.muted {
+  color: $color-type-caption;
+  padding-bottom: 13px;
   }
 
 /*Images-------------------------------

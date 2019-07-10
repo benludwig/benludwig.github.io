@@ -11,6 +11,7 @@ Image Settings-----------------------
 Nav----------------------------------
 Home---------------------------------
 Work---------------------------------
+About--------------------------------
 Case Study---------------------------
 Flickity-----------------------------
 Footer-------------------------------
@@ -138,16 +139,46 @@ Footer-------------------------------
 }
 
 
+/*About--------------------------------
+-------------------------------------*/
 
+.about-container {
+  @include flex;
+  @include flex-direction-column;
+  max-width: 1442px;
+  margin: 0 auto;
+  padding: 80px 20px 60px 20px;
+  }
 
+.about-content {
+  order: 2;
+  }
 
+.about-photo {
+  order: 1;
+  }
 
-
-
-
-
-
-
+@media screen and (min-width: 840px) {
+  .about-container {
+    @include flex-direction-row;
+    padding: 60px 100px 120px 100px;
+    }
+  .about-content {
+    order: 1;
+    width: 60%;
+    padding-right: 30px;
+    }
+  .about-photo {
+    order: 2;
+    width: 40%;
+    padding-top: 20px;
+    }
+  .about-photo-sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 120px;
+    }
+}
 
 
 /*Case Study---------------------------
@@ -168,6 +199,8 @@ Footer-------------------------------
     padding: 0px 100px 60px 100px;
     }
 }
+
+
 
 /*Flickity-----------------------------
 -------------------------------------*/
