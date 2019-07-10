@@ -11,7 +11,7 @@ layout: standard
 
   <div class="skinny">
     <h1>Guiding a company's digital transformation</h1>
-    <p class="italic">How I implemented a design system during feature development and a company-wide rebranding.</p>
+    <p>How I implemented a design system during feature development and a company-wide rebranding.</p>
   </div>
 
   <div class="skinny">

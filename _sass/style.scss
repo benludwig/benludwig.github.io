@@ -31,7 +31,7 @@ dl, dd, ol, ul, figure {
 -------------------------------------*/
 
 h1 {
-  @include type-42-medium;
+  @include type-32-regular;
   color: $color-type;
   padding-bottom: 5px;
   }
@@ -43,10 +43,6 @@ h1.home {
   }
 
 h1.work {
-
-  }
-
-h1.detail {
 
   }
 
@@ -62,7 +58,7 @@ h1.contact {
 -------------------------------------*/
 
 h2 {
-  @include type-32-medium;
+  @include type-24-regular;
   color: $color-type;
   padding-top: 30px;
   padding-bottom: 10px;
@@ -141,6 +137,12 @@ p.about {
 p.contact {
 
   }
+
+// p.italic {
+//   @include type-18-regular;
+//   color: $color-type-caption;
+//   padding-bottom: 20px;
+//   }
 
 /*Buttons------------------------------
 -------------------------------------*/
@@ -285,7 +287,6 @@ img {
 .preview-copy {
   @include type-16-regular;
   color: $color-type;
-  margin-bottom: 20px;
   }
 
 /*Footer-------------------------------
