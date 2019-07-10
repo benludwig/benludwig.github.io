@@ -46,6 +46,10 @@ h1.work {
 
   }
 
+h1.detail {
+
+  }
+
 h1.about {
 
   }
@@ -222,7 +226,7 @@ img {
 -------------------------------------*/
 
 .nav a {
-  @include type-14-regular;
+  @include type-14-medium;
   color: $color-type;
   text-decoration: none;
   }
