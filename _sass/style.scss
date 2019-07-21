@@ -33,7 +33,7 @@ dl, dd, ol, ul, figure {
 h1 {
   @include type-32-regular;
   color: $color-type;
-  padding-bottom: 5px;
+  padding-bottom: 10px;
   }
 
 h1.home {
@@ -60,7 +60,7 @@ h1.contact {
 h2 {
   @include type-24-regular;
   color: $color-type;
-  padding-top: 30px;
+  // padding-top: 30px;
   padding-bottom: 10px;
   }
 
@@ -82,7 +82,9 @@ h2.about {
   }
 
 h2.contact {
-
+  @include type-24-medium;
+  padding-top: 60px;
+  margin-bottom: 6px;
   }
 
 /*Typography-H3------------------------
@@ -91,7 +93,7 @@ h2.contact {
 h3 {
   @include type-20-medium;
   color: $color-type;
-  padding-top: 30px;
+  // padding-top: 30px;
   padding-bottom: 5px;
   }
 
@@ -117,8 +119,16 @@ h3.contact {
 p {
   @include type-18-regular;
   color: $color-type;
-  padding-bottom: 20px;
+  padding-bottom: 50px;
   }
+
+@media screen and (min-width: 840px) {
+  p {
+    @include type-18-regular;
+    letter-spacing: 1.58;
+    }
+}
+
 
 p.home {
   @include type-16-regular;

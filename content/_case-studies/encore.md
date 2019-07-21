@@ -7,7 +7,7 @@ order: 1
 layout: standard
 ---
 
-<div class="case-study">
+<div class="page">
 
   <!-- <div class="carousel-container">
     <div class="carousel" data-flickity='{ "freeScroll": true, "imagesLoaded": true }'>

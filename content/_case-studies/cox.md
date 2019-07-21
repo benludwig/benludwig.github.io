@@ -7,7 +7,7 @@ order: 1
 layout: standard
 ---
 
-<div class="case-study">
+<div class="page">
 
   <div class="skinny">
     <h1>Guiding a company's digital transformation</h1>

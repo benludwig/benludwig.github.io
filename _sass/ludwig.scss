@@ -12,7 +12,8 @@ Nav----------------------------------
 Home---------------------------------
 Work---------------------------------
 About--------------------------------
-Case Study---------------------------
+Contact------------------------------
+Page---------------------------------
 Flickity-----------------------------
 Footer-------------------------------
 */
@@ -180,25 +181,66 @@ Footer-------------------------------
     }
 }
 
-
-/*Case Study---------------------------
+/*Contact------------------------------
 -------------------------------------*/
 
-.case-study {
+.contact-container {
+  max-width: 1442px;
+  min-height: 100vh;
+  padding: 0px 20px;
+  @include flex;
+  @include flex-justify-center;
+  @include flex-align-center;
+  }
+//
+// .contact-content {
+//   order: 2;
+//   }
+//
+// .contact-photo {
+//   order: 1;
+//   }
+//
+// @media screen and (min-width: 840px) {
+//   .contact-container {
+//     @include flex-direction-row;
+//     padding: 60px 100px 120px 100px;
+//     }
+//   .contact-content {
+//     order: 1;
+//     width: 60%;
+//     padding-right: 30px;
+//     }
+//   .contact-photo {
+//     order: 2;
+//     width: 40%;
+//     padding-top: 20px;
+//     }
+//   .contact-photo-sticky {
+//     position: -webkit-sticky;
+//     position: sticky;
+//     top: 120px;
+//     }
+// }
+
+/*Page---------------------------------
+-------------------------------------*/
+
+.page {
   padding: 100px 0px 30px 0px;
   }
 
-.case-study .skinny {
+.page .skinny {
   max-width: 880px;
   margin: 0px auto;
   padding: 0px 20px;
   }
 
 @media screen and (min-width: 840px) {
-  .case-study {
+  .page {
     padding: 180px 0px 100px 0px;
     }
-  .case-study .skinny {
+  .page .skinny {
     padding: 0px 100px 0px 100px;
     }
 }
