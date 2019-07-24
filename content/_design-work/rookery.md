@@ -22,6 +22,22 @@ layout: standard
   <p>How do you take something so ornate and make it look modern? How do you still respect the craftsmanship and detail of the building while doing that?</p>
 </div>
 
+
+
+<div class="skinny">
+
+<video width="800" height="929" controls autoplay muted loop>
+  <source src="https://res.cloudinary.com/benludwig/video/upload/vc_auto/v1564001833/rookery-video-1_x7fj2c.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+
+
+
+
+
+</div>
+
+
   <div class="skinny">
     <p>We rotated and flipped images of the interior, transforming the space into dense, flowing abstract shapes. To contrast these patterns with legible headlines, a bright, thick typeface covered each design. Each message was an homage to the original creators of the building.</p>
   </div>
