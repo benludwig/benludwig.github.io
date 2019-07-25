@@ -33,7 +33,7 @@ dl, dd, ol, ul, figure {
 h1 {
   @include type-32-regular;
   color: $color-type;
-  padding-bottom: 10px;
+  padding-bottom: 25px;
   }
 
 h1.home {
@@ -231,9 +231,14 @@ li.muted {
 
 img,
 video {
-    width: 100%;
-    height: auto;
-    }
+  width: 100%;
+  height: auto;
+  padding-bottom: 50px;
+  }
+
+.about-container img {
+  padding-bottom: 0px;
+  }
 
 /*Nav----------------------------------
 -------------------------------------*/

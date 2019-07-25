@@ -15,27 +15,21 @@ layout: standard
   </div>
 
   <div class="skinny">
-    <p>When I was a designer at Torque, the building’s management company asked us to give it a modern update for a new renovation project.</p>
+    <p>While I was a designer at Torque, the building’s management company asked us to give The Rookery a modern update for a new renovation project. The design direction should be flexible enough to extend to different touchpoints — web, social and print.</p>
   </div>
 
-<div class="skinny">
-  <p>How do you take something so ornate and make it look modern? How do you still respect the craftsmanship and detail of the building while doing that?</p>
-</div>
+  <div class="skinny">
+    <p>Considering the historical quality of the building, our challenge was to take something very ornate and make it modern. We wanted to respect the original craftsmanship and detail but give it a unique twist.</p>
+  </div>
 
 
 
-<div class="skinny">
-
-<video width="800" height="929" controls autoplay muted loop>
-  <source src="https://res.cloudinary.com/benludwig/video/upload/vc_auto/v1564001833/rookery-video-1_x7fj2c.mp4" type="video/mp4">
-Your browser does not support the video tag.
-</video>
-
-
-
-
-
-</div>
+  <div class="skinny">
+    <video width="800" height="929" autoplay loop muted playsinline>
+      <source src="https://res.cloudinary.com/benludwig/video/upload/vc_auto/v1564001833/rookery-video-1_x7fj2c.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </div>
 
 
   <div class="skinny">
