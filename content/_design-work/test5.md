@@ -1,6 +1,6 @@
 ---
 title: Connecting couples with wedding photographers
-img: "http://fpoimg.com/393x300"
+img: "http://fpoimg.com/721x550"
 tag: "Tag 1 Lorem Ipsum"
 order: 5
 layout: standard

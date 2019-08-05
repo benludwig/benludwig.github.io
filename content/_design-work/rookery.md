@@ -1,6 +1,6 @@
 ---
 title: Updating Chicago's oldest skyscraper
-img: "http://fpoimg.com/393x300"
+img: "http://fpoimg.com/721x550"
 tag: "Tag 1 Lorem Ipsum"
 order: 3
 layout: standard
@@ -15,14 +15,12 @@ layout: standard
   </div>
 
   <div class="skinny">
-    <p>While I was a designer at Torque, the building’s management company asked us to give The Rookery a modern update for a new renovation project. The design direction should be flexible enough to extend to different touchpoints — web, social and print.</p>
+    <p>While I was a Senior Designer at Torque, the building’s management company asked us to update The Rookery for a new renovation project. About every ten years, a portion of the building is either renovated or restored. This particular renovation included ultra-modern business suites.</p>
   </div>
 
   <div class="skinny">
-    <p>Considering the historical quality of the building, our challenge was to take something very ornate and make it modern. We wanted to respect the original craftsmanship and detail but give it a unique twist.</p>
+    <p>The challenge was to take something very ornate and make it modern. Given the historical significance of the building, we really wanted to do that tastefully.</p>
   </div>
-
-
 
   <div class="skinny">
     <video autoplay loop muted playsinline poster="https://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto:best/v1564074205/rookery-1_txuf78.png">
@@ -32,9 +30,10 @@ layout: standard
     </video>
   </div>
 
-
   <div class="skinny">
-    <p>We rotated and flipped images of the interior, transforming the space into dense, flowing abstract shapes. To contrast these patterns with legible headlines, a bright, thick typeface covered each design. Each message was an homage to the original creators of the building.</p>
+    <p>Interior photos of the building were flipped and rotated together, which created these beautiful abstract shapes. It still gave a sense of what it felt like to walk through the building. The vast lobby, the winding staircases, it's all there but it looks more like what your memory may recall during a dream rather than a direct representation.</p>
+
+    <p>The bright headlines represent the modern addition. A brand new addition to the space. It's impactful and bold — like the actual space itself.</p>
   </div>
 
 </div>

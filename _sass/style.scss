@@ -7,8 +7,8 @@ Typography-H1------------------------
 Typography-H2------------------------
 Typography-H3------------------------
 Typography-p-------------------------
-Buttons------------------------------
 Links--------------------------------
+Buttons------------------------------
 Lists--------------------------------
 Images-------------------------------
 Nav----------------------------------
@@ -60,7 +60,6 @@ h1.contact {
 h2 {
   @include type-24-regular;
   color: $color-type;
-  // padding-top: 30px;
   padding-bottom: 10px;
   }
 
@@ -93,7 +92,6 @@ h2.contact {
 h3 {
   @include type-20-medium;
   color: $color-type;
-  // padding-top: 30px;
   padding-bottom: 5px;
   }
 
@@ -119,16 +117,14 @@ h3.contact {
 p {
   @include type-18-regular;
   color: $color-type;
-  padding-bottom: 50px;
+  padding-bottom: 20px;
   }
 
 @media screen and (min-width: 840px) {
   p {
     @include type-18-regular;
-    letter-spacing: 1.58;
     }
 }
-
 
 p.home {
   @include type-16-regular;
@@ -136,23 +132,29 @@ p.home {
   padding-bottom: 0px;
   }
 
-p.work {
-
+p.work-p {
+  padding-bottom: 0px;
   }
 
-p.about {
-
+p.about-p {
+  padding-bottom: 20px;
   }
 
 p.contact {
 
   }
 
-// p.italic {
-//   @include type-18-regular;
-//   color: $color-type-caption;
-//   padding-bottom: 20px;
-//   }
+
+/*Links--------------------------------
+-------------------------------------*/
+
+  a {
+    color: $color-type;
+    }
+
+  a.link-home {
+    color: $color-type-inverted;
+    }
 
 /*Buttons------------------------------
 -------------------------------------*/
@@ -203,14 +205,6 @@ a.link-caption-home {
   text-decoration: none;
   }
 
-
-/*Links--------------------------------
--------------------------------------*/
-
-a.link-home {
-  color: $color-type-inverted;
-  }
-
 /*Lists--------------------------------
 -------------------------------------*/
 
@@ -233,7 +227,6 @@ img,
 video {
   width: 100%;
   height: auto;
-  padding-bottom: 50px;
   }
 
 .about-container img {
@@ -303,6 +296,7 @@ video {
 .preview-copy {
   @include type-16-regular;
   color: $color-type;
+  margin-bottom: 10px;
   }
 
 /*Footer-------------------------------

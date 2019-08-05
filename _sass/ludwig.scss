@@ -236,6 +236,12 @@ Footer-------------------------------
   padding: 0px 20px;
   }
 
+.page .wide {
+  max-width: 1400px;
+  margin: 0px auto;
+  padding: 0px 20px;
+  }
+
 @media screen and (min-width: 840px) {
   .page {
     padding: 180px 0px 100px 0px;
@@ -243,7 +249,12 @@ Footer-------------------------------
   .page .skinny {
     padding: 0px 100px 0px 100px;
     }
+  .page .wide {
+    padding: 0px 0px 0px 0px;
+    }
 }
+
+
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: Branding a business at a higher level
-img: "http://fpoimg.com/393x300"
+img: "http://fpoimg.com/721x550"
 tag: "Tag 1 Lorem Ipsum"
 order: 6
 layout: standard
