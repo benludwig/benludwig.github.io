@@ -1,5 +1,5 @@
 ---
-title: Designing album covers and recording music
+title: Writing, recording and touring
 img: "http://fpoimg.com/287x380"
 tag: "Music"
 order: 4
