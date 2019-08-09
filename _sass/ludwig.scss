@@ -10,6 +10,7 @@
 Image Settings-----------------------
 Nav----------------------------------
 Home---------------------------------
+Home Caption-------------------------
 Work---------------------------------
 About--------------------------------
 Contact------------------------------
@@ -77,12 +78,24 @@ Footer-------------------------------
   max-width: 700px;
   }
 
-// .home-caption {
-//   position: absolute;
-//   left: 0;
-//   bottom: 0;
-//   padding: 20px;
-//   }
+/*Home Caption-------------------------
+-------------------------------------*/
+
+.home-caption-container {
+  background-color: #000000;
+  }
+
+.home-caption {
+  max-width: 1442px;
+  margin: 0 auto;
+  padding: 10px 20px 15px 20px;
+  }
+
+@media screen and (min-width: 840px) {
+  .home-caption {
+    padding: 10px 100px 15px 100px;
+    }
+}
 
 /*Work---------------------------------
 -------------------------------------*/
@@ -410,6 +423,8 @@ Footer-------------------------------
   border-radius: 5px;
   counter-increment: gallery-cell;
 }
+
+
 
 
 

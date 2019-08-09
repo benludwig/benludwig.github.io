@@ -199,8 +199,10 @@ a.btn-home-alt {
   border: 1px solid $color-type-inverted;
   }
 
-a.link-caption-home {
+a.caption-home {
   @include type-14-regular;
+  text-decoration: none;
+  color: $color-type-inverted;
   }
 
 /*Lists--------------------------------
