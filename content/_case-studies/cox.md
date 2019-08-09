@@ -9,27 +9,4 @@ layout: standard
 
 <div class="page">
 
-  <div class="skinny">
-    <h1>Guiding a company's digital transformation</h1>
-    <p>How I implemented a design system during feature development and a company-wide rebranding.</p>
-  </div>
-
-  <div class="skinny">
-    <h2>The Client</h2>
-    <p>Cox is the largest private telecommunications company in America with over 6 million users across 18 states. In addition to providing residential services like internet and cable, the company also offers home security and on-demand content.</p>
-  </div>
-
-  <div class="skinny">
-    <h2>The New Brand</h2>
-    <p>The brand embodies the idea of connection and bringing connection to life in human ways that engage and inspire. But what does that mean when it came to the user experience? It was our job to define specifically what needed to change. And their driving principles affected every aspect of the product — it was much more than a new set of colors.</p>
-  </div>
-
-  <div class="w1200">
-    <video autoplay loop muted playsinline poster="https://res.cloudinary.com/benludwig/image/upload/q_auto:best/v1565042119/C_Brand_1_Poster_oqhidf.png">
-      <source src="https://res.cloudinary.com/benludwig/video/upload/vc_auto/v1565042113/C_Brand_1_fc8xzj.mp4" type="video/mp4">
-      <source src="https://res.cloudinary.com/benludwig/video/upload/vc_auto/v1565042113/C_Brand_1_fc8xzj.webm" type="video/webm">
-      Your browser does not support the video tag.
-    </video>
-  </div>
-
 </div>
