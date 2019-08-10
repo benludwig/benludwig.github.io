@@ -1,7 +1,7 @@
 ---
-title: Exploring Italy, Mexico and Lithuania
+title: Writing, recording and touring
 img: "http://fpoimg.com/287x380"
-tag: "Photography"
+tag: "Music"
 order: 3
 layout: standard
 ---
