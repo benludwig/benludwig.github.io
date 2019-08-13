@@ -424,7 +424,11 @@ Footer-------------------------------
   counter-increment: gallery-cell;
 }
 
-
+@media screen and (max-width: 767px) {
+.flickity-button {
+  visibility: hidden;
+  }
+}
 
 
 

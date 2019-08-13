@@ -15,7 +15,7 @@ layout: standard
 
   <div class="skinny">
     <h2>Rome</h2>
-    <p>I wouldn't dare try to see everything even though there was a constant urge to attempt it. Instead, we patiently enjoyed it. Sometimes sitting for hours at a cafe just listening to the sounds of the city &mdash; talking about what to have for dinner even though we had just finished lunch.</p>
+    <p>I wouldn't dare try to see everything in Rome even though there was a constant urge to try it. Instead, we patiently enjoyed it. Sometimes we sat for hours at a cafe just listening to the sounds of the city &mdash; talking about what to have for dinner even though we just finished lunch.</p>
   </div>
 
   <div class="carousel-container">
@@ -47,7 +47,7 @@ layout: standard
 
   <div class="skinny">
     <h2>Capri</h2>
-    <p>There was a distinct feeling to Capri. Most people we encountered on the tiny island  were also visitors but it didn't feel like a tourist spot. It might be because it's so difficult to get there that everyone truly appreciates it once they arrive.</p>
+    <p>There was a distinct feeling to Capri. Most people we encountered on the tiny island were also visitors but it didn't feel like a tourist spot. It might be because it's so difficult to get there that everyone truly appreciates it once they arrive.</p>
   </div>
 
   <div class="carousel-container">
@@ -65,7 +65,7 @@ layout: standard
 
   <div class="skinny">
     <h2>Isla Mujeres</h2>
-    <p>It translates to "Island of Beautiful Women" and my wife was with me so I happen to be in agreement that this is accurate. After a friend's wedding, we took a day trip to swim in the ocean, have several beers and of course, to drive a golf cart around the island &mdash; though not necessarily in that order. Seedy does not begin to describe the cash transaction required to rent one of these golf carts &mdash; especially when someone asked for my I.D. and then tried to steal my license &mdash; but it's was well worth it.</p>
+    <p>It translates to "Island of Beautiful Women" and my wife was with me so I happen to agree with that. After a friend's wedding, we took a day trip to swim in the ocean and drive a golf cart around the island. Seedy does not begin to describe the cash transaction required to rent one of these golf carts &mdash; "casual attempted theft" is another phrase I would use &mdash; but it's was well worth it.</p>
   </div>
 
   <div class="carousel-container">
