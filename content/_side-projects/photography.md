@@ -1,6 +1,6 @@
 ---
-title: Exploring Italy, Mexico and Lithuania
-img: "http://fpoimg.com/287x380"
+title: Traveling with my camera
+img: "https://res.cloudinary.com/benludwig/image/upload/c_fill,f_auto,h_916,q_auto:best,w_692/v1567801314/Venice/n8.jpg"
 tag: "Photography"
 order: 2
 layout: standard
@@ -9,15 +9,13 @@ layout: standard
 <div class="page">
 
   <div class="skinny">
-    <h1>Photography</h1>
-    <p>In 2018, I visited three countries and brought my camera to capture the different people and places I experienced along the way.</p>
+    <h1>Traveling with my camera</h1>
   </div>
 
   <div class="skinny">
     <h2>Rome</h2>
-    <p>I wouldn't dare try to see everything in Rome even though there was a constant urge to try it. Instead, we patiently enjoyed it. Sometimes we sat for hours at a cafe just listening to the sounds of the city &mdash; talking about what to have for dinner even though we just finished lunch.</p>
+    <p></p>
   </div>
-
   <div class="carousel-container">
     <div class="carousel" data-flickity='{ "freeScroll": true, "imagesLoaded": true }'>
       <div class="carousel-cell"><img src="https://res.cloudinary.com/benludwig/image/upload/c_scale,f_auto,q_auto:best,w_1920/v1565232908/Rome/r5.jpg"></div>
@@ -36,20 +34,9 @@ layout: standard
   </div>
 
   <div class="skinny">
-    <h2>Lithuania</h2>
-    <p>There are two distinct cultures in Lithuania: Lithuanians and Russians living in Lithuania. Both groups are incredibly passionate about the local basketball team. During my visit, I also encountered a restaurant only referred to as, "Old Lady's House." Which was, as you would guess, an elderly woman who served lunch in her dining room every afternoon. Open to the public and cash only.</p>
-  </div>
-
-  <div class="skinny">
-    <h2>Venice</h2>
+    <h2>Capri</h2>
     <p></p>
   </div>
-
-  <div class="skinny">
-    <h2>Capri</h2>
-    <p>There was a distinct feeling to Capri. Most people we encountered on the tiny island were also visitors but it didn't feel like a tourist spot. It might be because it's so difficult to get there that everyone truly appreciates it once they arrive.</p>
-  </div>
-
   <div class="carousel-container">
     <div class="carousel" data-flickity='{ "freeScroll": true, "imagesLoaded": true }'>
       <div class="carousel-cell"><img src="https://res.cloudinary.com/benludwig/image/upload/c_scale,f_auto,q_auto:best,w_1920/v1565232224/Capri/c5.jpg"></div>
@@ -61,13 +48,56 @@ layout: standard
     </div>
   </div>
 
+  <div class="skinny">
+    <h2>Vatican City</h2>
+    <p></p>
+  </div>
+  <div class="carousel-container">
+    <div class="carousel" data-flickity='{ "freeScroll": true, "imagesLoaded": true }'>
+      <div class="carousel-cell"><img src="https://res.cloudinary.com/benludwig/image/upload/c_scale,f_auto,q_auto:best,w_1920/v1567798063/Vatican%20City/v1.jpg"></div>
+      <div class="carousel-cell"><img src="https://res.cloudinary.com/benludwig/image/upload/c_scale,f_auto,q_auto:best,w_1920/v1567798034/Vatican%20City/v2.jpg"></div>
+      <div class="carousel-cell"><img src="https://res.cloudinary.com/benludwig/image/upload/c_scale,f_auto,q_auto:best,w_1920/v1567798036/Vatican%20City/v3.jpg"></div>
+      <div class="carousel-cell"><img src="https://res.cloudinary.com/benludwig/image/upload/c_scale,f_auto,q_auto:best,w_1920/v1567798081/Vatican%20City/v4.jpg"></div>
+      <div class="carousel-cell"><img src="https://res.cloudinary.com/benludwig/image/upload/c_scale,f_auto,q_auto:best,w_1920/v1567800200/Vatican%20City/v5.jpg"></div>
+      <div class="carousel-cell"><img src="https://res.cloudinary.com/benludwig/image/upload/c_scale,f_auto,q_auto:best,w_1920/v1567800166/Vatican%20City/v6.jpg"></div>
+      <div class="carousel-cell"><img src="https://res.cloudinary.com/benludwig/image/upload/c_scale,f_auto,q_auto:best,w_1920/v1567798042/Vatican%20City/v7.jpg"></div>
+      <div class="carousel-cell"><img src="https://res.cloudinary.com/benludwig/image/upload/c_scale,f_auto,q_auto:best,w_1920/v1567798028/Vatican%20City/v8.jpg"></div>
+      <div class="carousel-cell"><img src="https://res.cloudinary.com/benludwig/image/upload/c_scale,f_auto,q_auto:best,w_1920/v1567800258/Vatican%20City/v9.jpg"></div>
+      <div class="carousel-cell"><img src="https://res.cloudinary.com/benludwig/image/upload/c_scale,f_auto,q_auto:best,w_1920/v1567800277/Vatican%20City/v10.jpg"></div>
+      <div class="carousel-cell"><img src="https://res.cloudinary.com/benludwig/image/upload/c_scale,f_auto,q_auto:best,w_1920/v1567797997/Vatican%20City/v11.jpg"></div>
+      <div class="carousel-cell"><img src="https://res.cloudinary.com/benludwig/image/upload/c_scale,f_auto,q_auto:best,w_1920/v1567798078/Vatican%20City/v12.jpg"></div>
+      <div class="carousel-cell"><img src="https://res.cloudinary.com/benludwig/image/upload/c_scale,f_auto,q_auto:best,w_1920/v1567798071/Vatican%20City/v13.jpg"></div>
+      <div class="carousel-cell"><img src="https://res.cloudinary.com/benludwig/image/upload/c_scale,f_auto,q_auto:best,w_1920/v1567800291/Vatican%20City/v14.jpg"></div>
+      <div class="carousel-cell"><img src="https://res.cloudinary.com/benludwig/image/upload/c_scale,f_auto,q_auto:best,w_1920/v1567798080/Vatican%20City/v15.jpg"></div>
+    </div>
+  </div>
 
+  <div class="skinny">
+    <h2>Venice</h2>
+    <p></p>
+  </div>
+  <div class="carousel-container">
+    <div class="carousel" data-flickity='{ "freeScroll": true, "imagesLoaded": true }'>
+      <div class="carousel-cell"><img src="https://res.cloudinary.com/benludwig/image/upload/c_scale,f_auto,q_auto:best,w_1920/v1567801250/Venice/n1.jpg"></div>
+      <div class="carousel-cell"><img src="https://res.cloudinary.com/benludwig/image/upload/c_scale,f_auto,q_auto:best,w_1920/v1567801285/Venice/n2.jpg"></div>
+      <div class="carousel-cell"><img src="https://res.cloudinary.com/benludwig/image/upload/c_scale,f_auto,q_auto:best,w_1920/v1567801278/Venice/n3.jpg"></div>
+      <div class="carousel-cell"><img src="https://res.cloudinary.com/benludwig/image/upload/c_scale,f_auto,q_auto:best,w_1920/v1567801299/Venice/n4.jpg"></div>
+      <div class="carousel-cell"><img src="https://res.cloudinary.com/benludwig/image/upload/c_scale,f_auto,q_auto:best,w_1920/v1567801289/Venice/n5.jpg"></div>
+      <div class="carousel-cell"><img src="https://res.cloudinary.com/benludwig/image/upload/c_scale,f_auto,q_auto:best,w_1920/v1567801278/Venice/n6.jpg"></div>
+      <div class="carousel-cell"><img src="https://res.cloudinary.com/benludwig/image/upload/c_scale,f_auto,q_auto:best,w_1920/v1567801287/Venice/n7.jpg"></div>
+      <div class="carousel-cell"><img src="https://res.cloudinary.com/benludwig/image/upload/c_scale,f_auto,q_auto:best,w_1920/v1567801314/Venice/n8.jpg"></div>
+      <div class="carousel-cell"><img src="https://res.cloudinary.com/benludwig/image/upload/c_scale,f_auto,q_auto:best,w_1920/v1567801337/Venice/n9.jpg"></div>
+      <div class="carousel-cell"><img src="https://res.cloudinary.com/benludwig/image/upload/c_scale,f_auto,q_auto:best,w_1920/v1567801330/Venice/n10.jpg"></div>
+      <div class="carousel-cell"><img src="https://res.cloudinary.com/benludwig/image/upload/c_scale,f_auto,q_auto:best,w_1920/v1567801320/Venice/n11.jpg"></div>
+      <div class="carousel-cell"><img src="https://res.cloudinary.com/benludwig/image/upload/c_scale,f_auto,q_auto:best,w_1920/v1567801341/Venice/n12.jpg"></div>
+      <div class="carousel-cell"><img src="https://res.cloudinary.com/benludwig/image/upload/c_scale,f_auto,q_auto:best,w_1920/v1567801342/Venice/n13.jpg"></div>
+    </div>
+  </div>
 
   <div class="skinny">
     <h2>Isla Mujeres</h2>
-    <p>It translates to "Island of Beautiful Women" and my wife was with me so I happen to agree with that. After a friend's wedding, we took a day trip to swim in the ocean and drive a golf cart around the island. Seedy does not begin to describe the cash transaction required to rent one of these golf carts &mdash; "casual attempted theft" is another phrase I would use &mdash; but it's was well worth it.</p>
+    <p></p>
   </div>
-
   <div class="carousel-container">
     <div class="carousel" data-flickity='{ "freeScroll": true, "imagesLoaded": true }'>
       <div class="carousel-cell"><img src="https://res.cloudinary.com/benludwig/image/upload/c_scale,f_auto,q_auto:best,w_1920/v1565231946/Isla%20Mujeres/im3.jpg"></div>
@@ -79,5 +109,23 @@ layout: standard
     </div>
   </div>
 
+  <div class="skinny">
+    <h2>Lithuania</h2>
+    <p></p>
+  </div>
+  <div class="carousel-container">
+    <div class="carousel" data-flickity='{ "freeScroll": true, "imagesLoaded": true }'>
+      <div class="carousel-cell"><img src="https://res.cloudinary.com/benludwig/image/upload/c_scale,f_auto,q_auto:best,w_1920/v1567803182/Lithuania/l1.jpg"></div>
+      <div class="carousel-cell"><img src="https://res.cloudinary.com/benludwig/image/upload/c_scale,f_auto,q_auto:best,w_1920/v1567802091/Lithuania/l2.jpg"></div>
+      <div class="carousel-cell"><img src="https://res.cloudinary.com/benludwig/image/upload/c_scale,f_auto,q_auto:best,w_1920/v1567802085/Lithuania/l3.jpg"></div>
+      <div class="carousel-cell"><img src="https://res.cloudinary.com/benludwig/image/upload/c_scale,f_auto,q_auto:best,w_1920/v1567803290/Lithuania/l4.jpg"></div>
+      <div class="carousel-cell"><img src="https://res.cloudinary.com/benludwig/image/upload/c_scale,f_auto,q_auto:best,w_1920/v1567802158/Lithuania/l6.jpg"></div>
+      <div class="carousel-cell"><img src="https://res.cloudinary.com/benludwig/image/upload/c_scale,f_auto,q_auto:best,w_1920/v1567802165/Lithuania/l7.jpg"></div>
+      <div class="carousel-cell"><img src="https://res.cloudinary.com/benludwig/image/upload/c_scale,f_auto,q_auto:best,w_1920/v1567803358/Lithuania/l8.jpg"></div>
+      <div class="carousel-cell"><img src="https://res.cloudinary.com/benludwig/image/upload/c_scale,f_auto,q_auto:best,w_1920/v1567803380/Lithuania/l9.jpg"></div>
+      <div class="carousel-cell"><img src="https://res.cloudinary.com/benludwig/image/upload/c_scale,f_auto,q_auto:best,w_1920/v1567802155/Lithuania/l10.jpg"></div>
+      <div class="carousel-cell"><img src="https://res.cloudinary.com/benludwig/image/upload/c_scale,f_auto,q_auto:best,w_1920/v1567802173/Lithuania/l11.jpg"></div>
+    </div>
+  </div>
 
 </div>
