@@ -13,8 +13,8 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Ben Ludwig
-email: ben@benludwig.com
+title: Ben Ludwig — Digital Product Design
+email: hi@benludwig.com
 description: Description
 baseurl: ""
 url: "" # the base hostname & protocol for your site, e.g. http://example.com

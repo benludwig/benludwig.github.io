@@ -37,7 +37,7 @@ h1 {
   }
 
 h1.home {
-  @include type-42;
+  @include type-52;
   color: $color-type-inverted;
   padding-bottom: 5px;
   }
@@ -64,9 +64,9 @@ h2 {
   }
 
 h2.home {
-  @include type-24-regular;
+  @include type-16-regular;
   color: $color-type-inverted;
-  padding-top: 0px;
+  padding-top: 5px;
   padding-bottom: 15px;
   }
 
@@ -125,6 +125,9 @@ p {
     @include type-18-regular;
     }
 }
+
+
+
 
 p.home {
   @include type-16-regular;
@@ -244,6 +247,10 @@ video {
 
 .nav-right a.nav-link.current {
   color: $color-brand;
+  }
+
+.home-nav .nav a {
+  color: $color-type-inverted;
   }
 
 /*Home---------------------------------

@@ -57,6 +57,13 @@ src: url('../fonts/GTAmerica/GTAmerica-Bold.eot'), /* IE9 Compat Modes */
   font-style: normal;
   }
 
+@mixin type-52 {
+  font-family: 'GTAmericaThin', sans-serif;
+  font-size: 52px;
+  line-height: 1;
+  @include font-smoothing;
+  }
+
 @mixin type-42-medium {
   font-family: 'GTAmericaMedium', sans-serif;
   font-size: 42px;
