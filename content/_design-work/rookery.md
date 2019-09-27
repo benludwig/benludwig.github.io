@@ -1,8 +1,8 @@
 ---
-title: Updating Chicago's oldest skyscraper
-img: "http://fpoimg.com/721x550"
+title: Title
+img: "http://fpoimg.com/605x300"
 tag: "Tag 1 Lorem Ipsum"
-order: 3
+order: 4
 layout: standard
 ---
 

@@ -1,6 +1,6 @@
 ---
-title: In-house design at The Field Museum
-img: "http://fpoimg.com/721x550"
+title: Title
+img: "http://fpoimg.com/605x300"
 tag: "Tag 1 Lorem Ipsum"
 order: 1
 layout: standard

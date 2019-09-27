@@ -1,6 +1,6 @@
 ---
-title: Traveling with my camera
-img: "https://res.cloudinary.com/benludwig/image/upload/c_fill,f_auto,h_916,q_auto:best,w_692/v1567801314/Venice/n8.jpg"
+title: Looking through the lens
+img: "http://fpoimg.com/605x300"
 tag: "Photography"
 order: 2
 layout: standard

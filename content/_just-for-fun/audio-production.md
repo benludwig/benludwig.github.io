@@ -1,7 +1,7 @@
 ---
-title: Asking Alec Baldwin to call your friends
+title: Title
 img: "http://fpoimg.com/605x300"
-copy: "Before design, I was an audio engineer. Take a look at some of the audio campaigns I produced for NBC, Disney and Microsoft."
+copy: "Description"
 order: 1
 layout: standard
 ---

@@ -1,6 +1,6 @@
 ---
-title: Forecasting digital advertising returns
-img: "http://fpoimg.com/721x550"
+title: Title
+img: "http://fpoimg.com/605x300"
 tag: "Tag 1 Lorem Ipsum"
 order: 2
 layout: standard

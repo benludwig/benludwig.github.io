@@ -1,7 +1,7 @@
 ---
-title: Responsive typography with more control
+title: Title
 img: "http://fpoimg.com/605x300"
-copy: "It’s easy to fallback on pixels for font sizes but rems have some tricks built-in that make it a great choice for using type across different screen sizes."
+copy: "Description"
 order: 2
 layout: standard
 ---

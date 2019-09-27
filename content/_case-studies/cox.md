@@ -1,8 +1,8 @@
 ---
-title: Guiding a company's digital transformation
+title: Title
 img: "http://fpoimg.com/605x300"
 tag: "Design Systems & Product Design"
-copy: "How I implemented a design system during feature development and a company-wide rebranding."
+copy: "Description"
 order: 1
 layout: standard
 ---

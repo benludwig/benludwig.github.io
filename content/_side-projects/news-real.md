@@ -1,6 +1,6 @@
 ---
-title: Filtering fake news
-img: "http://fpoimg.com/287x380"
+title: Title
+img: "http://fpoimg.com/605x300"
 tag: "iOS App"
 order: 1
 layout: standard

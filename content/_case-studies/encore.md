@@ -1,9 +1,9 @@
 ---
-title: Creating a single platform that runs an entire business
+title: Title
 img: "http://fpoimg.com/605x300"
 tag: "Product Design"
-copy: "I traveled and met with end users to create a digital product that works for people at every level."
-order: 1
+copy: "Description"
+order: 2
 layout: standard
 ---
 
