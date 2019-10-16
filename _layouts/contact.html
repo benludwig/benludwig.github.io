@@ -5,13 +5,43 @@
     {% include nav.html %}
       <div class="contact-container">
         <div class="contact-content">
+
+
+          <input type="text" value="hello@benludwig.com" id="myInput">
+
+          <div class="tooltip">
+          <button onclick="myFunction()" onmouseout="outFunc()">
+            <span class="tooltiptext" id="myTooltip">Copy to clipboard</span>
+            Copy email
+            </button>
+          </div>
+
+
+          <script>
+          function myFunction() {
+            var copyText = document.getElementById("myInput");
+            copyText.select();
+            copyText.setSelectionRange(0, 99999);
+            document.execCommand("copy");
+
+            var tooltip = document.getElementById("myTooltip");
+            tooltip.innerHTML = "Copied: " + copyText.value;
+          }
+
+          function outFunc() {
+            var tooltip = document.getElementById("myTooltip");
+            tooltip.innerHTML = "Copy to clipboard";
+          }
+          </script>
+
+
         </div>
       </div>
     {% include footer.html %}
-  <script type="text/javascript" src='{{ site.baseurl }}/js/scrollreveal.min.js'></script>
+  <!-- <script type="text/javascript" src='{{ site.baseurl }}/js/scrollreveal.min.js'></script>
   <script>
   window.sr = ScrollReveal();
   sr.reveal('.revealblock', { duration: 1000, distance: '2px', scale: 1, viewFactor: 0.05 });
-  </script>
+  </script> -->
   </body>
 </html>
