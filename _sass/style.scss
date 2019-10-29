@@ -7,9 +7,9 @@ Typography-H1------------------------
 Typography-H2------------------------
 Typography-H3------------------------
 Typography-p-------------------------
+Typography-li------------------------
 Links--------------------------------
 Buttons------------------------------
-Lists--------------------------------
 Images-------------------------------
 Nav----------------------------------
 Home---------------------------------
@@ -115,16 +115,20 @@ h3.contact {
 -------------------------------------*/
 
 p {
-  @include type-20-regular;
+  font-family: 'GTAmericaRegular', sans-serif;
+  font-size: 19px;
+  line-height: 1.5;
+  // letter-spacing: -0.3px;
+  @include font-smoothing;
   color: $color-type;
-  padding-bottom: 20px;
+  padding-bottom: 40px;
   }
 
-@media screen and (min-width: 840px) {
-  p {
-    @include type-20-regular;
-    }
-}
+// @media screen and (min-width: 840px) {
+//   p {
+//     @include type-20-regular;
+//     }
+// }
 
 
 
@@ -147,6 +151,39 @@ p.contact {
 
   }
 
+
+/*Typography-li------------------------
+-------------------------------------*/
+
+ul {
+  list-style-position: inside;
+  padding-left: 0;
+  }
+
+li {
+  font-family: 'GTAmericaRegular', sans-serif;
+  font-size: 19px;
+  line-height: 1.5;
+  // letter-spacing: -0.3px;
+  @include font-smoothing;
+  color: $color-type;
+  list-style-type: circle;
+  }
+
+li.about-list {
+  @include type-18-regular;
+  color: $color-type;
+  list-style-type: none;
+  padding-bottom: 3px;
+  }
+
+li.about-list-muted {
+  @include type-18-regular;
+  list-style-type: none;
+  padding-bottom: 3px;
+  color: $color-type-caption;
+  padding-bottom: 13px;
+  }
 
 /*Links--------------------------------
 -------------------------------------*/
@@ -208,20 +245,7 @@ a.caption-home {
   color: $color-type-inverted;
   }
 
-/*Lists--------------------------------
--------------------------------------*/
 
-li {
-  @include type-18-regular;
-  color: $color-type;
-  list-style-type: none;
-  padding-bottom: 3px;
-  }
-
-li.muted {
-  color: $color-type-caption;
-  padding-bottom: 13px;
-  }
 
 /*Images-------------------------------
 -------------------------------------*/
@@ -350,7 +374,6 @@ video {
   @include flex-align-center;
   }
 
-/*Email address input*/
 .contact-content input {
   -webkit-writing-mode: horizontal-tb !important;
   text-rendering: auto;
@@ -377,16 +400,10 @@ video {
   @include type-32-regular;
   }
 
-  .contact-content textarea:focus,
-  .contact-content input:focus{
+.contact-content textarea:focus,
+.contact-content input:focus{
   outline: none;
   }
-
-
-
-
-
-
 
 .tooltip {
   position: relative;
@@ -400,7 +417,7 @@ video {
   position: absolute;
   z-index: 1;
   bottom: -40px;
-  left: -65px;
+  left: -66px;
   margin-left: 0px;
   opacity: 0;
   transition: opacity 0.3s;
@@ -408,19 +425,10 @@ video {
   color: grey;
   }
 
-
-
-
-
-
-
-
 .tooltip:hover .tooltiptext {
   visibility: visible;
   opacity: 1;
   }
-
-
 
 .contact-content .tooltip button {
   @include type-16-medium;
