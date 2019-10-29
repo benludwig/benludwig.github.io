@@ -6,16 +6,14 @@
       <div class="contact-container">
         <div class="contact-content">
 
-
-          <input type="text" value="hello@benludwig.com" id="myInput">
+          <input readonly type="text" value="hello@benludwig.com" id="myInput">
 
           <div class="tooltip">
           <button onclick="myFunction()" onmouseout="outFunc()">
             <span class="tooltiptext" id="myTooltip">Copy to clipboard</span>
-            Copy email
+            Copy
             </button>
           </div>
-
 
           <script>
           function myFunction() {
@@ -25,7 +23,7 @@
             document.execCommand("copy");
 
             var tooltip = document.getElementById("myTooltip");
-            tooltip.innerHTML = "Copied: " + copyText.value;
+            tooltip.innerHTML = "Copied";
           }
 
           function outFunc() {
@@ -33,7 +31,6 @@
             tooltip.innerHTML = "Copy to clipboard";
           }
           </script>
-
 
         </div>
       </div>

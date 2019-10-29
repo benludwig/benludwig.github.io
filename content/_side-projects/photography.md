@@ -8,11 +8,11 @@ layout: standard
 
 <div class="page">
 
-  <div class="skinny">
+  <div class="type-column">
     <h1>Traveling with my camera</h1>
   </div>
 
-  <div class="skinny">
+  <div class="type-column">
     <h2>Rome</h2>
     <p></p>
   </div>
@@ -33,7 +33,7 @@ layout: standard
     </div>
   </div>
 
-  <div class="skinny">
+  <div class="type-column">
     <h2>Capri</h2>
     <p></p>
   </div>
@@ -48,7 +48,7 @@ layout: standard
     </div>
   </div>
 
-  <div class="skinny">
+  <div class="type-column">
     <h2>Vatican City</h2>
     <p></p>
   </div>
@@ -72,7 +72,7 @@ layout: standard
     </div>
   </div>
 
-  <div class="skinny">
+  <div class="type-column">
     <h2>Venice</h2>
     <p></p>
   </div>
@@ -94,7 +94,7 @@ layout: standard
     </div>
   </div>
 
-  <div class="skinny">
+  <div class="type-column">
     <h2>Isla Mujeres</h2>
     <p></p>
   </div>
@@ -109,7 +109,7 @@ layout: standard
     </div>
   </div>
 
-  <div class="skinny">
+  <div class="type-column">
     <h2>Lithuania</h2>
     <p></p>
   </div>

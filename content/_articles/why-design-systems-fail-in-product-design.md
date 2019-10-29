@@ -8,7 +8,7 @@ layout: standard
 
 <div class="page">
 
-  <div class="skinny">
+  <div class="type-column">
 
     <h1>Why design systems fail in product design</h1>
 
