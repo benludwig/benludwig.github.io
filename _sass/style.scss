@@ -30,14 +30,30 @@ dl, dd, ol, ul, figure {
 /*Typography-H1------------------------
 -------------------------------------*/
 
+
 h1 {
-  font-family: 'GTAmericaThin', sans-serif;
-  font-size: 38px;
-  line-height: 1.25;
-  // @include font-smoothing;
-  color: $color-type;
-  padding-bottom: 25px;
-  }
+font-family: 'GTAmericaThin', sans-serif;
+font-size: 40px;
+line-height: 1.25;
+-moz-font-feature-settings:    "kern" 1;
+-ms-font-feature-settings:     "kern" 1;
+-o-font-feature-settings:      "kern" 1;
+-webkit-font-feature-settings: "kern" 1;
+font-feature-settings:         "kern" 1;
+font-kerning: normal;
+color: $color-type;
+padding-bottom: 25px;
+}
+
+
+// h1 {
+//   font-family: 'GTAmericaThin', sans-serif;
+//   font-size: 38px;
+//   line-height: 1.25;
+//   @include font-smoothing;
+//   color: $color-type;
+//   padding-bottom: 25px;
+//   }
 
 h1.photography {
   text-align: center;
@@ -131,19 +147,47 @@ h3.contact {
 /*Typography-p-------------------------
 -------------------------------------*/
 
+
+
+
+
+
 p {
   font-family: 'GTAmericaRegular', sans-serif;
   font-size: 19px;
   line-height: 1.5;
+  -moz-font-feature-settings:    "kern" 1;
+  -ms-font-feature-settings:     "kern" 1;
+  -o-font-feature-settings:      "kern" 1;
+  -webkit-font-feature-settings: "kern" 1;
+  font-feature-settings:         "kern" 1;
+  font-kerning: normal;
   // letter-spacing: -0.3px;
   @include font-smoothing;
   color: $color-type;
   padding-bottom: 40px;
   }
 
-p.muted {
-  color: $color-type-caption;
-  }
+
+
+
+
+// p {
+//   font-family: 'GTAmericaRegular', sans-serif;
+//   font-size: 19px;
+//   line-height: 1.5;
+//   // letter-spacing: -0.3px;
+//   @include font-smoothing;
+//   color: $color-type;
+//   padding-bottom: 40px;
+//   }
+
+
+
+
+// p.muted {
+//   color: $color-type-caption;
+//   }
 
 // @media screen and (min-width: 840px) {
 //   p {
@@ -186,13 +230,12 @@ ul.about-unordered-list {
   }
 
 li {
-  font-family: 'GTAmericaRegular', sans-serif;
-  font-size: 19px;
-  line-height: 1.5;
-  // letter-spacing: -0.3px;
-  @include font-smoothing;
-  color: $color-type;
-  list-style-type: circle;
+  // font-family: 'GTAmericaRegular', sans-serif;
+  // font-size: 19px;
+  // line-height: 1.5;
+  // @include font-smoothing;
+  // color: $color-type;
+  // list-style-type: circle;
   }
 
 li.about-list {
