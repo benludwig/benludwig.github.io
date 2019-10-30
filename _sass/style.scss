@@ -31,9 +31,17 @@ dl, dd, ol, ul, figure {
 -------------------------------------*/
 
 h1 {
-  @include type-32-regular;
+  font-family: 'GTAmericaThin', sans-serif;
+  font-size: 38px;
+  line-height: 1.25;
+  // @include font-smoothing;
   color: $color-type;
   padding-bottom: 25px;
+  }
+
+h1.photography {
+  text-align: center;
+  padding: 100px 0px 75px 0px;
   }
 
 h1.home {
@@ -58,9 +66,18 @@ h1.contact {
 -------------------------------------*/
 
 h2 {
-  @include type-24-regular;
+  font-family: 'GTAmericaMedium', sans-serif;
+  font-size: 28px;
+  line-height: 1.25;
+  @include font-smoothing;
   color: $color-type;
-  padding-bottom: 10px;
+  padding-bottom: 6px;
+  }
+
+h2.photography {
+  @include type-12-bold;
+  text-align: center;
+  padding: 100px 0px 50px 0px;
   }
 
 h2.home {
@@ -124,6 +141,10 @@ p {
   padding-bottom: 40px;
   }
 
+p.muted {
+  color: $color-type-caption;
+  }
+
 // @media screen and (min-width: 840px) {
 //   p {
 //     @include type-20-regular;
@@ -156,8 +177,12 @@ p.contact {
 -------------------------------------*/
 
 ul {
-  list-style-position: inside;
-  padding-left: 0;
+  list-style-position: outside;
+  padding-left: 20px;
+  }
+
+ul.about-unordered-list {
+  padding-left: 0px;
   }
 
 li {
@@ -189,7 +214,7 @@ li.about-list-muted {
 -------------------------------------*/
 
   a {
-    color: $color-type;
+    color: inherit;
     }
 
   a.link-home {
@@ -330,6 +355,21 @@ video {
   margin-bottom: 10px;
   }
 
+
+
+/*Photography--------------------------
+-------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
 /*Footer-------------------------------
 -------------------------------------*/
 
@@ -417,7 +457,7 @@ video {
   position: absolute;
   z-index: 1;
   bottom: -40px;
-  left: -66px;
+  left: -65px;
   margin-left: 0px;
   opacity: 0;
   transition: opacity 0.3s;
@@ -440,6 +480,18 @@ video {
   border: 1px solid $color-type;
   color: $color-type;
   cursor: pointer;
+  }
+
+
+  /*Highlights---------------------------
+  -------------------------------------*/
+
+  ::selection {
+  background-color: $color-type-highlight;
+  }
+
+  ::-moz-selection {
+  background-color: $color-type-highlight;
   }
 
 

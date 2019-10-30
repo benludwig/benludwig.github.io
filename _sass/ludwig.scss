@@ -158,6 +158,16 @@ Footer-------------------------------
 }
 
 
+/*Photography--------------------------
+-------------------------------------*/
+
+
+
+
+
+
+
+
 /*About--------------------------------
 -------------------------------------*/
 
@@ -221,7 +231,15 @@ Footer-------------------------------
 .page .type-column {
   max-width: 880px;
   margin: 0px auto;
-  padding: 0px 20px;
+  padding: 0px 10px;
+  }
+
+@media screen and (min-width: 370px) {
+  .page .type-column {
+    max-width: 880px;
+    margin: 0px auto;
+    padding: 0px 40px;
+    }
   }
 
 @media screen and (min-width: 840px) {

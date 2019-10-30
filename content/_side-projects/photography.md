@@ -9,12 +9,11 @@ layout: standard
 <div class="page">
 
   <div class="type-column">
-    <h1>Traveling with my camera</h1>
+    <h1 class="photography">Photography</h1>
   </div>
 
   <div class="type-column">
-    <h2>Rome</h2>
-    <p></p>
+    <h2 class="photography">Rome</h2>
   </div>
   <div class="carousel-container">
     <div class="carousel" data-flickity='{ "freeScroll": true, "imagesLoaded": true }'>
@@ -34,8 +33,7 @@ layout: standard
   </div>
 
   <div class="type-column">
-    <h2>Capri</h2>
-    <p></p>
+    <h2 class="photography">Capri</h2>
   </div>
   <div class="carousel-container">
     <div class="carousel" data-flickity='{ "freeScroll": true, "imagesLoaded": true }'>
@@ -49,8 +47,7 @@ layout: standard
   </div>
 
   <div class="type-column">
-    <h2>Vatican City</h2>
-    <p></p>
+    <h2 class="photography">Vatican City</h2>
   </div>
   <div class="carousel-container">
     <div class="carousel" data-flickity='{ "freeScroll": true, "imagesLoaded": true }'>
@@ -73,8 +70,7 @@ layout: standard
   </div>
 
   <div class="type-column">
-    <h2>Venice</h2>
-    <p></p>
+    <h2 class="photography">Venice</h2>
   </div>
   <div class="carousel-container">
     <div class="carousel" data-flickity='{ "freeScroll": true, "imagesLoaded": true }'>
@@ -95,8 +91,7 @@ layout: standard
   </div>
 
   <div class="type-column">
-    <h2>Isla Mujeres</h2>
-    <p></p>
+    <h2 class="photography">Isla Mujeres</h2>
   </div>
   <div class="carousel-container">
     <div class="carousel" data-flickity='{ "freeScroll": true, "imagesLoaded": true }'>
@@ -110,8 +105,7 @@ layout: standard
   </div>
 
   <div class="type-column">
-    <h2>Lithuania</h2>
-    <p></p>
+    <h2 class="photography">Lithuania</h2>
   </div>
   <div class="carousel-container">
     <div class="carousel" data-flickity='{ "freeScroll": true, "imagesLoaded": true }'>
