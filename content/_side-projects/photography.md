@@ -1,5 +1,5 @@
 ---
-title: Looking through the lens
+title: Photography
 img: "http://fpoimg.com/605x300"
 tag: "Photography"
 order: 2
