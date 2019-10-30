@@ -51,13 +51,13 @@ Footer-------------------------------
   @include flex;
   @include flex-justify-space-between;
   @include flex-align-center;
-  padding: 18px 14px;
+  padding: 18px 6px;
   border-bottom: 1px solid $color-divider;
   }
 
 .nav-right .nav-link:nth-child(1),
 .nav-right .nav-link:nth-child(2) {
-  padding-right: 14px;
+  // padding-right: 14px;
   }
 
 .home-nav .nav {
@@ -411,14 +411,6 @@ Footer-------------------------------
   visibility: hidden;
   }
 }
-
-
-
-
-
-
-
-
 
 /*Footer-------------------------------
 -------------------------------------*/

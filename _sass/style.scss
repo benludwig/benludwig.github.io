@@ -30,30 +30,21 @@ dl, dd, ol, ul, figure {
 /*Typography-H1------------------------
 -------------------------------------*/
 
-
 h1 {
-font-family: 'GTAmericaThin', sans-serif;
-font-size: 40px;
-line-height: 1.25;
--moz-font-feature-settings:    "kern" 1;
--ms-font-feature-settings:     "kern" 1;
--o-font-feature-settings:      "kern" 1;
--webkit-font-feature-settings: "kern" 1;
-font-feature-settings:         "kern" 1;
-font-kerning: normal;
-color: $color-type;
-padding-bottom: 25px;
-}
-
-
-// h1 {
-//   font-family: 'GTAmericaThin', sans-serif;
-//   font-size: 38px;
-//   line-height: 1.25;
-//   @include font-smoothing;
-//   color: $color-type;
-//   padding-bottom: 25px;
-//   }
+  font-family: 'GTAmericaRegular', sans-serif;
+  font-size: 42px;
+  line-height: 1.2;
+  -moz-font-feature-settings:    "kern" 1;
+  -ms-font-feature-settings:     "kern" 1;
+  -o-font-feature-settings:      "kern" 1;
+  -webkit-font-feature-settings: "kern" 1;
+  font-feature-settings:         "kern" 1;
+  font-kerning: normal;
+  letter-spacing: -0.015em;
+  color: $color-type;
+  @include font-smoothing;
+  padding-bottom: 30px;
+  }
 
 h1.photography {
   text-align: center;
@@ -82,10 +73,15 @@ h1.contact {
 -------------------------------------*/
 
 h2 {
-  font-family: 'GTAmericaMedium', sans-serif;
+  font-family: 'GTAmericaRegular', sans-serif;
   font-size: 28px;
   line-height: 1.25;
-  @include font-smoothing;
+  -moz-font-feature-settings:    "kern" 1;
+  -ms-font-feature-settings:     "kern" 1;
+  -o-font-feature-settings:      "kern" 1;
+  -webkit-font-feature-settings: "kern" 1;
+  font-feature-settings:         "kern" 1;
+  font-kerning: normal;
   color: $color-type;
   padding-bottom: 6px;
   }
@@ -147,56 +143,12 @@ h3.contact {
 /*Typography-p-------------------------
 -------------------------------------*/
 
-
-
-
-
-
 p {
-  font-family: 'GTAmericaRegular', sans-serif;
-  font-size: 19px;
-  line-height: 1.5;
-  -moz-font-feature-settings:    "kern" 1;
-  -ms-font-feature-settings:     "kern" 1;
-  -o-font-feature-settings:      "kern" 1;
-  -webkit-font-feature-settings: "kern" 1;
-  font-feature-settings:         "kern" 1;
-  font-kerning: normal;
-  // letter-spacing: -0.3px;
-  @include font-smoothing;
+  @include type-19-regular;
   color: $color-type;
+  @include kerning;
   padding-bottom: 40px;
   }
-
-
-
-
-
-// p {
-//   font-family: 'GTAmericaRegular', sans-serif;
-//   font-size: 19px;
-//   line-height: 1.5;
-//   // letter-spacing: -0.3px;
-//   @include font-smoothing;
-//   color: $color-type;
-//   padding-bottom: 40px;
-//   }
-
-
-
-
-// p.muted {
-//   color: $color-type-caption;
-//   }
-
-// @media screen and (min-width: 840px) {
-//   p {
-//     @include type-20-regular;
-//     }
-// }
-
-
-
 
 p.home {
   @include type-16-regular;
@@ -230,12 +182,10 @@ ul.about-unordered-list {
   }
 
 li {
-  // font-family: 'GTAmericaRegular', sans-serif;
-  // font-size: 19px;
-  // line-height: 1.5;
-  // @include font-smoothing;
-  // color: $color-type;
-  // list-style-type: circle;
+  @include type-19-regular;
+  color: $color-type;
+  @include kerning;
+  list-style-type: circle;
   }
 
 li.about-list {
@@ -313,8 +263,6 @@ a.caption-home {
   color: $color-type-inverted;
   }
 
-
-
 /*Images-------------------------------
 -------------------------------------*/
 
@@ -335,6 +283,7 @@ video {
   @include type-14-medium;
   color: $color-type;
   text-decoration: none;
+  padding: 18px 8px;
   }
 
 .nav-right a.nav-link.current {
@@ -406,50 +355,8 @@ video {
 
 
 
-
-
-
-
-
-
-
-/*Footer-------------------------------
+/*Contact------------------------------
 -------------------------------------*/
-
-.text-list-group {
-  padding-bottom: 30px;
-  }
-
-.text-list-section-title {
-  @include type-14-medium;
-  padding-bottom: 6px;
-  }
-
-.list-title {
-  @include type-14-regular;
-  padding-bottom: 3px;
-  }
-
-.footer a {
-  text-decoration: none;
-  color: $color-type;
-  @include transition;
-  }
-
-.footer a:hover {
-  text-decoration: underline;
-  }
-
-.footer i {
-  padding-right: 5px;
-  }
-
-
-
-
-
-
-
 
 .contact-content {
   @include flex;
@@ -525,54 +432,44 @@ video {
   cursor: pointer;
   }
 
+/*Footer-------------------------------
+-------------------------------------*/
 
-  /*Highlights---------------------------
-  -------------------------------------*/
+.text-list-group {
+  padding-bottom: 30px;
+  }
 
-  ::selection {
+.text-list-section-title {
+  @include type-14-medium;
+  padding-bottom: 6px;
+  }
+
+.list-title {
+  @include type-14-regular;
+  padding-bottom: 3px;
+  }
+
+.footer a {
+  text-decoration: none;
+  color: $color-type;
+  @include transition;
+  }
+
+.footer a:hover {
+  text-decoration: underline;
+  }
+
+.footer i {
+  padding-right: 5px;
+  }
+
+/*Highlights---------------------------
+-------------------------------------*/
+
+::selection {
   background-color: $color-type-highlight;
   }
 
-  ::-moz-selection {
+::-moz-selection {
   background-color: $color-type-highlight;
   }
-
-
-
-  /*Lists--------------------------------
-  -------------------------------------*/
-
-  // ul, menu, dir, dt, dl {
-  //     display: block;
-  //     list-style-type: none;
-  //     -webkit-margin-before: 0em;
-  //     -webkit-margin-after: 0em;
-  //     -webkit-margin-start: 0px;
-  //     -webkit-margin-end: 0px;
-  //     -webkit-padding-start: 0px;
-  //     }
-
-  /*Highlights---------------------------
-  -------------------------------------*/
-
-  // ::selection {
-  //
-  //     }
-  //
-  // ::-moz-selection {
-  //
-  //     }
-
-  /*Typography---------------------------
-  -------------------------------------*/
-
-  // h1,
-  // h2,
-  // h3,
-  // h4 {
-  //   font-weight: normal;
-  //   margin-block-start: 0em;
-  //   margin-block-end: 0em;
-  //   margin-inline-start: 0px;
-  //   margin-inline-end: 0px;
-  //     }
