@@ -83,6 +83,7 @@ h2 {
   font-feature-settings:         "kern" 1;
   font-kerning: normal;
   color: $color-type;
+  @include font-smoothing;
   padding-bottom: 6px;
   }
 
