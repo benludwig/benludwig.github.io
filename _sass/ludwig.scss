@@ -38,6 +38,22 @@ Footer-------------------------------
   width: 100%;
   }
 
+
+
+
+  
+
+.image-column-1000 {
+  @include flex;
+  @include flex-justify-center;
+  padding-bottom: 30px;
+  }
+
+.image-column-1000 img {
+  width: 100%;
+  max-width: 1000px;
+  }
+
 /*Nav----------------------------------
 -------------------------------------*/
 

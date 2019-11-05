@@ -158,6 +158,9 @@ p.home {
   }
 
 p.work-p {
+  @include type-16-regular;
+  color: $color-type-caption;
+  @include kerning;
   padding-bottom: 0px;
   }
 
