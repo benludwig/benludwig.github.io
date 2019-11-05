@@ -38,11 +38,6 @@ Footer-------------------------------
   width: 100%;
   }
 
-
-
-
-  
-
 .image-column-1000 {
   @include flex;
   @include flex-justify-center;
@@ -51,11 +46,16 @@ Footer-------------------------------
 
 .image-column-1000 img {
   width: 100%;
+  height: auto;
   max-width: 1000px;
   }
 
 /*Nav----------------------------------
 -------------------------------------*/
+
+
+
+
 
 .nav {
   position: fixed;
@@ -70,6 +70,7 @@ Footer-------------------------------
   padding: 18px 6px;
   border-bottom: 1px solid $color-divider;
   }
+
 
 .nav-right .nav-link:nth-child(1),
 .nav-right .nav-link:nth-child(2) {
