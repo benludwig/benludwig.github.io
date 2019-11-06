@@ -3,6 +3,7 @@
 
 /*
 Resets-------------------------------
+Reveal Effect------------------------
 Typography-H1------------------------
 Typography-H2------------------------
 Typography-H3------------------------
@@ -26,6 +27,20 @@ dl, dd, ol, ul, figure {
     margin: 0;
     padding: 0;
     }
+
+/*Reveal Effect----------------------*/
+
+.revealblock {
+  visibility: hidden;
+  }
+
+.grid-item img{
+  opacity: 1;
+  -webkit-transition: opacity 500ms;
+  -moz-transition: opacity 500ms;
+  -ms-transition: opacity 500ms;
+  transition: opacity 500ms;
+  }
 
 /*Typography-H1------------------------
 -------------------------------------*/
@@ -270,20 +285,33 @@ a.caption-home {
 /*Images-------------------------------
 -------------------------------------*/
 
-img,
+img {
+  width: 100%;
+  height: auto;
+  }
+
+.image-column-1000 {
+  text-align:center;
+  padding-bottom: 30px;
+  }
+
+.image-column-1000 img {
+  max-width: 1000px;
+  }
+
+/*Video--------------------------------
+-------------------------------------*/
+
 video {
   width: 100%;
   height: auto;
   }
 
-.about-container img {
-  padding-bottom: 0px;
-  }
 
 /*Nav----------------------------------
 -------------------------------------*/
 
-.nav a {
+#nav a {
   @include type-14-medium;
   color: $color-type;
   text-decoration: none;
@@ -294,7 +322,7 @@ video {
   color: $color-brand;
   }
 
-.home-nav .nav a {
+.home-nav #nav a {
   color: $color-type-inverted;
   }
 
@@ -350,14 +378,6 @@ video {
   color: $color-type;
   margin-bottom: 10px;
   }
-
-
-
-/*Photography--------------------------
--------------------------------------*/
-
-
-
 
 /*Contact------------------------------
 -------------------------------------*/

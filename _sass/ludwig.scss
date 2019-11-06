@@ -7,7 +7,6 @@
 * { box-sizing: border-box; }
 
 /*
-Image Settings-----------------------
 Nav----------------------------------
 Home---------------------------------
 Home Caption-------------------------
@@ -19,45 +18,10 @@ Flickity-----------------------------
 Footer-------------------------------
 */
 
-/*Image Settings-----------------------
--------------------------------------*/
-
-.revealblock {
-  visibility: hidden;
-  }
-
-.grid-item img{
-  opacity: 1;
-  -webkit-transition: opacity 500ms;
-  -moz-transition: opacity 500ms;
-  -ms-transition: opacity 500ms;
-  transition: opacity 500ms;
-  }
-
-.imgfull video {
-  width: 100%;
-  }
-
-.image-column-1000 {
-  @include flex;
-  @include flex-justify-center;
-  padding-bottom: 30px;
-  }
-
-.image-column-1000 img {
-  width: 100%;
-  height: auto;
-  max-width: 1000px;
-  }
-
 /*Nav----------------------------------
 -------------------------------------*/
 
-
-
-
-
-.nav {
+#nav {
   position: fixed;
   width: 100%;
   left: 0;
@@ -71,13 +35,7 @@ Footer-------------------------------
   border-bottom: 1px solid $color-divider;
   }
 
-
-.nav-right .nav-link:nth-child(1),
-.nav-right .nav-link:nth-child(2) {
-  // padding-right: 14px;
-  }
-
-.home-nav .nav {
+.home-nav #nav {
   background-color: rgba(0,0,0,0);
   border-bottom: 0px solid $color-divider;
   }
