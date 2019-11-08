@@ -1,6 +1,6 @@
 ---
-title: Title
-img: "http://fpoimg.com/605x300"
+title: Filtering fake news
+img: "https://res.cloudinary.com/benludwig/image/upload/c_fill,f_auto,g_center,h_500,q_auto:best,w_1000/v1523413625/newsrealpreview_dqprjf.png"
 tag: "iOS App"
 order: 1
 layout: standard

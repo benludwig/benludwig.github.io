@@ -1,6 +1,6 @@
 ---
 title: Why design systems fail in product design
-img: "https://res.cloudinary.com/benludwig/image/upload/c_scale,f_auto,q_auto:best,w_700/v1572903130/article_design_systems_vlnnbr.png"
+img: "https://res.cloudinary.com/benludwig/image/upload/c_fill,f_auto,h_500,q_auto:best,w_1000/v1572903130/article_design_systems_vlnnbr.png"
 copy: "When you’ve got a new hammer, everything looks like a nail."
 order: 1
 layout: standard
@@ -9,7 +9,7 @@ layout: standard
 <div class="page">
 
   <div class="image-column-1000">
-    <img src="https://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto:best/v1572903130/article_design_systems_vlnnbr.png" alt="Group working">
+    <img src="https://res.cloudinary.com/benludwig/image/upload/c_fill,f_auto,h_500,q_auto:best,w_1000/v1572903130/article_design_systems_vlnnbr.png" alt="Group working">
   </div>
 
   <div class="type-column">

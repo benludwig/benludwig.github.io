@@ -1,6 +1,6 @@
 ---
 title: Future-proofing Responsive Design
-img: "https://res.cloudinary.com/benludwig/image/upload/c_scale,f_auto,q_auto:best,w_700/v1572903130/article_future_proofing_klqw1c.png"
+img: "https://res.cloudinary.com/benludwig/image/upload/c_fill,f_auto,h_500,q_auto:best,w_1000/v1572903130/article_future_proofing_klqw1c.png"
 copy: "How to prepare for devices that aren't built yet."
 order: 2
 layout: standard
@@ -9,7 +9,7 @@ layout: standard
 <div class="page">
 
   <div class="image-column-1000">
-    <img src="https://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto:best/v1572903130/article_future_proofing_klqw1c.png" alt="Group working">
+    <img src="https://res.cloudinary.com/benludwig/image/upload/c_fill,f_auto,h_500,q_auto:best,w_1000/v1572903130/article_future_proofing_klqw1c.png" alt="Group working">
   </div>
 
   <div class="type-column">

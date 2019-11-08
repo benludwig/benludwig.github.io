@@ -77,14 +77,21 @@ src: url('../fonts/GTAmerica/GTAmerica-Bold.eot'), /* IE9 Compat Modes */
 @mixin type-42-medium {
   font-family: 'GTAmericaMedium', sans-serif;
   font-size: 42px;
-  line-height: 1.5;
+  line-height: 1.2;
+  @include font-smoothing;
+  }
+
+@mixin type-42-regular {
+  font-family: 'GTAmericaRegular', sans-serif;
+  font-size: 42px;
+  line-height: 1.2;
   @include font-smoothing;
   }
 
 @mixin type-42 {
   font-family: 'GTAmericaThin', sans-serif;
   font-size: 42px;
-  line-height: 1.5;
+  line-height: 1.2;
   @include font-smoothing;
   }
 
@@ -99,6 +106,13 @@ src: url('../fonts/GTAmerica/GTAmerica-Bold.eot'), /* IE9 Compat Modes */
   font-family: 'GTAmericaRegular', sans-serif;
   font-size: 32px;
   line-height: 1.5;
+  @include font-smoothing;
+  }
+
+@mixin type-28-regular {
+  font-family: 'GTAmericaRegular', sans-serif;
+  font-size: 28px;
+  line-height: 1.25;
   @include font-smoothing;
   }
 

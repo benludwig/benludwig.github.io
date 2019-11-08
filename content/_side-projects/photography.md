@@ -1,6 +1,6 @@
 ---
 title: Photography
-img: "http://fpoimg.com/605x300"
+img: "https://res.cloudinary.com/benludwig/image/upload/c_fill,f_auto,h_500,q_auto:best,w_1000/v1565232908/Rome/r5.jpg"
 tag: "Photography"
 order: 2
 layout: standard

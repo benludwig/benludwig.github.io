@@ -46,15 +46,8 @@ dl, dd, ol, ul, figure {
 -------------------------------------*/
 
 h1 {
-  font-family: 'GTAmericaRegular', sans-serif;
-  font-size: 42px;
-  line-height: 1.2;
-  -moz-font-feature-settings:    "kern" 1;
-  -ms-font-feature-settings:     "kern" 1;
-  -o-font-feature-settings:      "kern" 1;
-  -webkit-font-feature-settings: "kern" 1;
-  font-feature-settings:         "kern" 1;
-  font-kerning: normal;
+  @include type-42-regular;
+  @include kerning;
   letter-spacing: -0.015em;
   color: $color-type;
   @include font-smoothing;
@@ -88,15 +81,8 @@ h1.contact {
 -------------------------------------*/
 
 h2 {
-  font-family: 'GTAmericaRegular', sans-serif;
-  font-size: 28px;
-  line-height: 1.25;
-  -moz-font-feature-settings:    "kern" 1;
-  -ms-font-feature-settings:     "kern" 1;
-  -o-font-feature-settings:      "kern" 1;
-  -webkit-font-feature-settings: "kern" 1;
-  font-feature-settings:         "kern" 1;
-  font-kerning: normal;
+  @include type-28-regular;
+  @include kerning;
   color: $color-type;
   @include font-smoothing;
   padding-bottom: 6px;
@@ -431,7 +417,7 @@ video {
   position: absolute;
   z-index: 1;
   bottom: -40px;
-  left: -65px;
+  left: -64px;
   margin-left: 0px;
   opacity: 0;
   transition: opacity 0.3s;
