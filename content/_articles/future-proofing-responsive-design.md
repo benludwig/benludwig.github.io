@@ -1,5 +1,5 @@
 ---
-title: Future-proofing Responsive Design
+title: Future-proofing responsive design
 img: "https://res.cloudinary.com/benludwig/image/upload/c_fill,f_auto,h_500,q_auto:best,w_1000/v1572903130/article_future_proofing_klqw1c.png"
 copy: "How to prepare for devices that aren't built yet."
 order: 2

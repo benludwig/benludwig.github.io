@@ -34,6 +34,16 @@ layout: standard
 
     <p>The benefit of consistent design is validated throughout the history of products. One of the greatest early examples is the NASA Style Guide. The meticulous and thoughtful documentation of the use of NASA’s brand accelerated and cemented it’s iconic role as a symbol of American power.</p>
 
+  </div>
+
+
+<div class="image-column-1000">
+  <img src="https://res.cloudinary.com/benludwig/image/upload/c_fill,f_auto,q_auto:best,w_1000/v1573511599/002_NASA-2500_ecaeci.jpg" alt="NASA Brand Standards">
+</div>
+
+
+  <div class="type-column">  
+
     <p>Before investing in a design system, ask, “what benefit are we hoping to achieve?” The most common goal is a holistic and consistent experience for every user of your product, regardless of device or medium. Design systems aid in organizing assets and patterns by serving as a single source of truth &#8212; a living product that can serve the needs of multiple product teams. This is true if you use an external design system, like Google Material Design, or establish your own.</p>
 
     <p>In the midst of all this organization, one fact can fall through the cracks: While consistency can make a good experience even better, consistency alone cannot make a bad experience good. No design system can replace the need for cross-team communication and collaboration.</p>
