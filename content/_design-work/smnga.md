@@ -1,7 +1,7 @@
 ---
 title: Title
 img: "http://fpoimg.com/605x300"
-tag: "Tag 1 Lorem Ipsum"
+tag: "Architecture"
 order: 3
 layout: standard
 ---

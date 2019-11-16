@@ -1,5 +1,5 @@
 ---
-title: Alec Baldwin called my friends once
+title: Alec Baldwin called my friends
 img: "https://res.cloudinary.com/benludwig/image/upload/c_fill,f_auto,g_face,h_500,q_auto:best,w_1000/v1573597323/Jack-Donaghy_hg3gcm.jpg"
 copy: "And a few million other people, too."
 order: 1

@@ -1,7 +1,7 @@
 ---
 title: Title
 img: "http://fpoimg.com/605x300"
-tag: "Tag 1 Lorem Ipsum"
+tag: "Digital Marketing"
 order: 2
 layout: standard
 ---
