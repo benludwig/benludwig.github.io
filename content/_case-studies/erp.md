@@ -107,6 +107,18 @@ layout: standard
 
   <p>The obvious preference for the business is the first option. When a venue used their own equipment instead of renting or buying, it drastically increased profit margins. Taking it a step further, we developed software to swap equipment between multiple locations. This created a much larger available inventory without any additional rental or purchasing costs.</p>
 
+  </div>
+
+  <div class="video-column-1000">
+    <video autoplay loop muted playsinline poster="https://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto:best/v1574308103/ERP04_Frame_oszklf.png">
+      <source src="https://res.cloudinary.com/benludwig/video/upload/vc_auto/v1574308095/ERP04_d7ujyw.mp4">
+      <source src="https://res.cloudinary.com/benludwig/video/upload/vc_auto/v1574308095/ERP04_d7ujyw.webm" type="video/webm">
+      Your browser does not support the video tag.
+    </video>
+  </div>
+
+  <div class="type-column">
+
   <p>Borrowing and returning equipment between two locations was a simple concept to design. What happens when equipment breaks? If equipment is returned late, how does it affect every subsequent event relying on it? Those were some of the more complicated scenarios we solved. Testing prototypes with the people managing those inventories was essential to getting it right.</p>
 
   <h2>Results</h2>
