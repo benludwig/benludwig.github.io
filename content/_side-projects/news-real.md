@@ -27,8 +27,8 @@ layout: standard
   <p>Our goal was to help people ensure what they read online was accurate and reliable. Within the first month of it being released, there were over 500 downloads of News Real on the App Store.</p>
 </div>
 
-<div class="image-column-1000">
+<!-- <div class="image-column-1000">
   <img src="https://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto:best/v1574306959/News_Real_Set_vjdppm.png" alt="News Real App Screens">
-</div>
+</div> -->
 
 </div>
