@@ -92,6 +92,7 @@ layout: standard
       <source src="https://res.cloudinary.com/benludwig/video/upload/vc_auto/v1573683231/erp1_udan0m.webm" type="video/webm">
       Your browser does not support the video tag.
     </video>
+    <div class="caption"><p>Caption text</p></div>
   </div>
 
   <div class="type-column">

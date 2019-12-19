@@ -1,5 +1,5 @@
 ---
-title: Title
+title: Updating Chicago's oldest skyscraper
 img: "http://fpoimg.com/605x300"
 tag: "Real Estate"
 order: 4
@@ -44,7 +44,10 @@ layout: standard
 
   <div class="type-column">
     <h1>Updating Chicago's oldest skyscraper</h1>
-    <p></p>
+    <p>The Rookery is the oldest standing high-rise in Chicago. It was completed by Burnham & Root in 1888 and has been a national historical landmark since 1975.</p>
+    <p>About every ten years, a portion of the building is either renovated or restored. We created a campaign for The Rookery to announce their latest addition of ultra-modern working spaces.</p>
+    <p>Interior photos of the building were flipped and rotated to form ornate shapes. It gave a sense of what it felt like to walk through the building &#8212; the vast lobby, the winding staircases &#8212; but more like what your memory may recall during a dream rather than a direct representation.</p>
+    <p>To contrast all of the intricacy, we chose a big, bold typeface for our headlines. One of those headlines, "Made from Big Plans," was a nod to a <a href="https://en.wikiquote.org/wiki/Daniel_Burnham" target="_blank">famous quote</a> by one of the architects, Daniel Burnham.</p>
   </div>
 
   <div class="type-column">

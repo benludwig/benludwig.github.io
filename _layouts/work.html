@@ -72,9 +72,25 @@
       {% assign bljff = site.just-for-fun | sort: 'order' %}
       {% for item in bljff %}
       <div class="preview">
-        <div class="preview-img"><a href="{{ item.url }}"><img src="{{ item.img }}"></a></div>
+        <div class="preview-img">
+
+<a href="{{ item.url }}">
+          <div class="preview-video">
+            <video autoplay loop muted playsinline poster="https://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto:best/v1576683423/jack_frame_v3u0dm.png">
+              <source src="https://res.cloudinary.com/benludwig/video/upload/vc_auto/v1576683275/jackgif_lzhgor.mp4">
+              <source src="https://res.cloudinary.com/benludwig/video/upload/vc_auto/v1576683275/jackgif_lzhgor.webm" type="video/webm">
+              Your browser does not support the video tag.
+            </video>
+
+          </div>
+</a>
+
+          <!-- <a href="{{ item.url }}"><img src="{{ item.img }}"></a> -->
+
+
+        </div>
         <div class="preview-title"><a href="{{ item.url }}">{{ item.title }}</a></div>
-        <div class="preview-copy"><p class="work-p">{{ item.copy }}</p></div>
+        <!-- <div class="preview-copy"><p class="work-p">{{ item.copy }}</p></div> -->
         <div class="preview-buttons"><a class="btn" href="{{ item.url }}">View Project</a></div>
       </div>
       {% endfor %}
