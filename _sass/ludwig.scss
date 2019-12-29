@@ -43,39 +43,116 @@ Footer-------------------------------
 /*Home---------------------------------
 -------------------------------------*/
 
-.home-container {
-  background: url("https://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto:best/v1565213597/homepage_background_color_bxcdfp.png") no-repeat center center/cover;
-  width: 100%;
-  min-height: 100vh;
-  @include flex;
-  @include flex-align-center;
-  @include flex-justify-center;
-  position: relative;
+@media screen and (min-width: 400px) and (max-width: 879px) {
+
+}
+
+
+@media screen and (min-width: 880px) and (max-width: 1117px) {
+
+  .home-container {
+    width: 100%;
+    min-height: 100vh;
+    }
+
+
+  .home-top-1 {
+    grid-area: headline;
+    align-self: end;
+    }
+
+  .home-top-2 {
+    grid-area: copy;
+    align-self: start;
+    }
+
+  .home-top-3 {
+    grid-area: button;
+    align-self: center;
+    justify-self: end;
+    }
+
+  .home-top {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-areas:
+    "headline button"
+    "copy button";
+    min-height: 35vh;
+    padding:0 10% 0 10%;
+    }
+
+
+
+  .home-bottom {
+    width: 100%;
+    min-height: 65vh;
+    background: url("https://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto:best/v1576866363/fm-tile_bu4cdb.png") no-repeat center center/cover;
+    }
+
+
+
+
+
   }
 
-.home-content {
-  padding: 150px 20px;
-  max-width: 700px;
+
+@media screen and (min-width: 1118px) {
+
+.home-container {
+  width: 100%;
+  min-height: 100vh;
   }
+
+.home-top {
+  @include flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 35vh;
+  }
+
+.home-bottom {
+  width: 100%;
+  min-height: 65vh;
+  background: url("https://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto:best/v1576866363/fm-tile_bu4cdb.png") no-repeat center center/cover;
+  }
+
+}
+
+
+// .home-container {
+//   background: url("https://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto:best/v1565213597/homepage_background_color_bxcdfp.png") no-repeat center center/cover;
+//   width: 100%;
+//   min-height: 100vh;
+//   @include flex;
+//   @include flex-align-center;
+//   @include flex-justify-center;
+//   position: relative;
+//   }
+//
+// .home-content {
+//   padding: 150px 20px;
+//   max-width: 700px;
+//   }
 
 /*Home Caption-------------------------
 -------------------------------------*/
 
-.home-caption-container {
-  background-color: #000000;
-  }
-
-.home-caption {
-  max-width: 1442px;
-  margin: 0 auto;
-  padding: 10px 20px 15px 20px;
-  }
-
-@media screen and (min-width: 840px) {
-  .home-caption {
-    padding: 10px 100px 15px 100px;
-    }
-}
+// .home-caption-container {
+//   background-color: #000000;
+//   }
+//
+// .home-caption {
+//   max-width: 1442px;
+//   margin: 0 auto;
+//   padding: 10px 20px 15px 20px;
+//   }
+//
+// @media screen and (min-width: 840px) {
+//   .home-caption {
+//     padding: 10px 100px 15px 100px;
+//     }
+// }
 
 /*Work---------------------------------
 -------------------------------------*/

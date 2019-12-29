@@ -1,6 +1,6 @@
 ---
 title: In-house design at The Field Museum
-img: "https://res.cloudinary.com/benludwig/image/upload/c_fill,f_auto,g_north,h_500,q_auto:best,w_1000/v1573858195/Plumas_MOZ-02_lx69at.jpg"
+img: "https://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto:best/v1576866363/fm-tile_bu4cdb.png"
 tag: "Non Profit"
 order: 1
 layout: standard

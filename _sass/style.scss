@@ -61,7 +61,6 @@ h1.photography {
 
 h1.home {
   @include type-52;
-  color: $color-type-inverted;
   padding-bottom: 5px;
   }
 
@@ -96,9 +95,13 @@ h2.photography {
 
 h2.home {
   @include type-16-regular;
-  color: $color-type-inverted;
-  padding-top: 5px;
-  padding-bottom: 15px;
+  padding-bottom: 0px;
+  }
+
+h2.home-caption {
+  @include type-16-regular;
+  color: $color-type-caption;
+  padding-bottom: 0px;
   }
 
 h2.work {
@@ -171,6 +174,11 @@ p.about-p {
 
 p.contact {
 
+  }
+
+p.caption {
+  @include type-14-regular;
+  padding: 20px;
   }
 
 
@@ -246,25 +254,13 @@ a.btn-home {
   text-decoration: none;
   padding: 13px 25px;
   border-radius: 4px;
-  border: 1px solid $color-type-inverted;
-  color: $color-type-inverted;
-  }
-
-a.btn-home-alt {
-  @include type-16-medium;
-  @include transition;
-  display: inline-block;
-  text-decoration: none;
-  padding: 13px 25px;
-  border-radius: 4px;
-  background-color: $color-type-inverted;
+  border: 1px solid $color-type;
   color: $color-type;
-  border: 1px solid $color-type-inverted;
   }
 
-a.caption-home {
-  @include type-14-regular;
-  text-decoration: none;
+a.btn-home:hover {
+  background-color: $color-brand;
+  border: 1px solid $color-brand;
   color: $color-type-inverted;
   }
 
@@ -352,19 +348,19 @@ video {
 /*Home---------------------------------
 -------------------------------------*/
 
-.home-buttons {
-  @include flex;
-  @include flex-wrap;
-  padding-bottom: 5px;
-  }
-
-.home-button {
-  padding-bottom: 10px;
-  }
-
-.home-button:first-child {
-  margin-right: 10px;
-  }
+// .home-buttons {
+//   @include flex;
+//   @include flex-wrap;
+//   padding-bottom: 5px;
+//   }
+//
+// .home-button {
+//   padding-bottom: 10px;
+//   }
+//
+// .home-button:first-child {
+//   margin-right: 10px;
+//   }
 
 /*Work---------------------------------
 -------------------------------------*/

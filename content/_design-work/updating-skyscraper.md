@@ -1,6 +1,6 @@
 ---
 title: Updating Chicago's oldest skyscraper
-img: "http://fpoimg.com/605x300"
+img: "https://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto:best/v1576866955/rookery_lvnjwx.png"
 tag: "Real Estate"
 order: 4
 layout: standard

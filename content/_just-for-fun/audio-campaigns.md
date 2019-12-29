@@ -14,13 +14,13 @@ layout: standard
   <p>After the first few campaigns garnered national media attention, engagement skyrocketed and millions of messages were sent.</p>
   </div>
 
-  <div class="video-column-1000">
+  <div class="video-column-1000" style="background-color:#ECECEC;">
     <video controls poster="https://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto:best/v1576776149/jackaudio_frame_j9agtw.png">
       <source src="https://res.cloudinary.com/benludwig/video/upload/vc_auto/v1576786663/jackaudio_medium_render_ayojqg.mp4">
       <source src="https://res.cloudinary.com/benludwig/video/upload/vc_auto/v1576786663/jackaudio_medium_render_ayojqg.webm" type="video/webm">
       Your browser does not support the video tag.
     </video>
-    <div class="caption"><p>A look at how our software compiled a single message from thousands of audio clips.</p></div>
+    <p class="caption">A look at how our software compiled a single message from thousands of audio clips.</p>
   </div>
 
   <div class="type-column">

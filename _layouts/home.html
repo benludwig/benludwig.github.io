@@ -2,24 +2,38 @@
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
   {% include head.html %}
   <body>
-    <div class="home-nav">
+    <!-- <div class="home-nav">
     {% include nav.html %}
-    </div>
+    </div> -->
     <div class="home-container">
-      <div class="home-content">
-        <h1 class="home">Digital product design</h1>
-        <h2 class="home">Research-driven, methodical and practical.</h2>
-        <div class="home-buttons">
-          <div class="home-button"><a class="btn-home-alt" href="/work">View Case Studies</a></div>
-          <div class="home-button"><a class="btn-home" href="/work/#additional-design-work">See Additional Design Work</a></div>
+
+
+      <div class="home-top">
+
+        <div class="home-top-1">
+          <h1 class="home">Digital product design</h1>
         </div>
-        <!-- <div class="home-copy">
-          <p class="home"><a class="link-home" href="/work/#articles">Read articles</a>, <a class="link-home" href="/work/#side-projects">a few side projects</a> and something <a class="link-home" href="/work/#just-for-fun">just for fun.</a></p>
-        </div> -->
+
+        <div class="home-top-2">
+          <h2 class="home">Research-driven, methodical and practical.</h2>
+          <h2 class="home-caption">Photo: In-house design at The Field Museum</h2>
+        </div>
+
+        <div class="home-top-3">
+        <div class="home-buttons">
+          <a class="btn-home" href="/work">View work</a>
+        </div>
+        </div>
+
       </div>
+
+      <div class="home-bottom">
+      </div>
+
+
     </div>
     {% include footer.html %}
-    <script>
+    <!-- <script>
       window.onscroll = function() {scrollFunction()};
       function scrollFunction() {
         if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
@@ -28,6 +42,6 @@
           document.getElementById("nav").style.backgroundColor = "rgba(0,0,0,0)";
         }
       }
-    </script>
+    </script> -->
   </body>
 </html>
