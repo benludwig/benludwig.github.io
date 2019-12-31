@@ -248,20 +248,20 @@ a.btn:hover {
   }
 
 a.btn-home {
-  @include type-16-medium;
-  @include transition;
-  display: inline-block;
-  text-decoration: none;
-  padding: 13px 25px;
-  border-radius: 4px;
-  border: 1px solid $color-type;
-  color: $color-type;
+  // @include type-16-medium;
+  // @include transition;
+  // display: inline-block;
+  // text-decoration: none;
+  // padding: 13px 25px;
+  // border-radius: 4px;
+  // border: 1px solid $color-type;
+  // color: $color-type;
   }
 
 a.btn-home:hover {
-  background-color: $color-brand;
-  border: 1px solid $color-brand;
-  color: $color-type-inverted;
+  // background-color: $color-brand;
+  // border: 1px solid $color-brand;
+  // color: $color-type-inverted;
   }
 
 /*Images-------------------------------

@@ -43,81 +43,165 @@ Footer-------------------------------
 /*Home---------------------------------
 -------------------------------------*/
 
-@media screen and (min-width: 400px) and (max-width: 879px) {
-
-}
-
-
-@media screen and (min-width: 880px) and (max-width: 1117px) {
-
-  .home-container {
-    width: 100%;
-    min-height: 100vh;
-    }
-
-
-  .home-top-1 {
-    grid-area: headline;
-    align-self: end;
-    }
-
-  .home-top-2 {
-    grid-area: copy;
-    align-self: start;
-    }
-
-  .home-top-3 {
-    grid-area: button;
-    align-self: center;
-    justify-self: end;
-    }
-
-  .home-top {
-    display: grid;
-    grid-template-rows: auto;
-    grid-template-areas:
-    "headline button"
-    "copy button";
-    min-height: 35vh;
-    padding:0 10% 0 10%;
-    }
-
-
-
-  .home-bottom {
-    width: 100%;
-    min-height: 65vh;
-    background: url("https://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto:best/v1576866363/fm-tile_bu4cdb.png") no-repeat center center/cover;
-    }
-
-
-
-
-
-  }
-
-
-@media screen and (min-width: 1118px) {
-
-.home-container {
-  width: 100%;
-  min-height: 100vh;
-  }
-
 .home-top {
+  padding: 80px 20px 140px 20px;
+  max-width: 1442px;
+  margin: 0 auto;
+  }
+
+.home-button {
+  position: relative;
+  max-width: 1442px;
+  margin: 0 auto;
+  }
+
+a.btn-home {
+  display:block;
+  position: absolute;
+  top: -70px;
+  right: 20px;
+  width: 140px;
+  height: 140px;
   @include flex;
-  justify-content: space-around;
-  align-items: center;
-  min-height: 35vh;
+  @include flex-justify-center;
+  @include flex-align-center;
+  @include type-14-regular;
+  text-decoration: none;
+  border: 1px solid #000;
+  border-radius: 180px;
   }
 
 .home-bottom {
   width: 100%;
-  min-height: 65vh;
-  background: url("https://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto:best/v1576866363/fm-tile_bu4cdb.png") no-repeat center center/cover;
+  height: 400px;
+  background-color: grey;
   }
 
+@media screen and (min-width: 840px) {
+
+  .home-container {
+    height: 100vh;
+    }
+
+  .home-top {
+    @include flex;
+    @include flex-align-center;
+    padding: 20px 100px 20px 100px;
+    height: 35vh;
+    }
+
+  a.btn-home {
+    right: 100px;
+    }
+
+  .home-bottom {
+    height: 65vh;
+    }
+
+
+
 }
+
+
+@media screen and (min-width: 1080px) {
+
+  a.btn-home {
+    top: -90px;
+    right: 100px;
+    width: 180px;
+    height: 180px;
+    }
+
+}
+
+
+
+
+
+
+// 20 and 20
+
+// 840 - 100 by 100
+
+// max width 1442
+
+
+
+// @media screen and (min-width: 400px) and (max-width: 879px) {
+//
+// }
+//
+//
+// @media screen and (min-width: 880px) and (max-width: 1117px) {
+//
+//   .home-container {
+//     width: 100%;
+//     min-height: 100vh;
+//     }
+//
+//
+//   .home-top-1 {
+//     grid-area: headline;
+//     align-self: end;
+//     }
+//
+//   .home-top-2 {
+//     grid-area: copy;
+//     align-self: start;
+//     }
+//
+//   .home-top-3 {
+//     grid-area: button;
+//     align-self: center;
+//     justify-self: end;
+//     }
+//
+//   .home-top {
+//     display: grid;
+//     grid-template-rows: auto;
+//     grid-template-areas:
+//     "headline button"
+//     "copy button";
+//     min-height: 35vh;
+//     padding:0 10% 0 10%;
+//     }
+//
+//
+//
+//   .home-bottom {
+//     width: 100%;
+//     min-height: 65vh;
+//     background: url("https://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto:best/v1576866363/fm-tile_bu4cdb.png") no-repeat center center/cover;
+//     }
+//
+//
+//
+//
+//
+//   }
+//
+//
+// @media screen and (min-width: 1118px) {
+//
+// .home-container {
+//   width: 100%;
+//   min-height: 100vh;
+//   }
+//
+// .home-top {
+//   @include flex;
+//   justify-content: space-around;
+//   align-items: center;
+//   min-height: 35vh;
+//   }
+//
+// .home-bottom {
+//   width: 100%;
+//   min-height: 65vh;
+//   background: url("https://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto:best/v1576866363/fm-tile_bu4cdb.png") no-repeat center center/cover;
+//   }
+//
+// }
 
 
 // .home-container {
