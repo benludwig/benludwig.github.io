@@ -1,6 +1,9 @@
 ---
 title: Forecasting digital advertising returns
 img: "http://fpoimg.com/605x300"
+imgframe: "https://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto:best/v1577988232/rise_preview_frame_luexvb.png"
+videomp4: "https://res.cloudinary.com/benludwig/video/upload/vc_auto/v1577988240/rise_preview_uvkis2.mp4"
+videowebm: "https://res.cloudinary.com/benludwig/video/upload/vc_auto/v1577988240/rise_preview_uvkis2.webm"
 tag: "Analytics"
 order: 2
 layout: standard
