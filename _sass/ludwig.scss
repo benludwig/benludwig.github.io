@@ -58,6 +58,7 @@ Footer-------------------------------
 a.btn-home {
   display:block;
   position: absolute;
+  z-index: 999;
   top: -70px;
   right: 20px;
   width: 140px;
@@ -75,6 +76,12 @@ a.btn-home {
   width: 100%;
   height: 400px;
   background-color: grey;
+  }
+
+#homeVideo {
+  object-fit: cover;
+  width:100%;
+  height:100%;
   }
 
 @media screen and (min-width: 840px) {
@@ -97,8 +104,6 @@ a.btn-home {
   .home-bottom {
     height: 60vh;
     }
-
-
 
 }
 

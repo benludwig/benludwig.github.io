@@ -1,6 +1,6 @@
 ---
 title: Investing in user research
-img: "https://res.cloudinary.com/benludwig/image/upload/c_fill,f_auto,g_north,h_500,q_auto:best,w_1000/v1573666294/marcin-jozwiak-oh0DITWoHi4-unsplash_wop8us.jpg"
+img: "https://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto:best/v1578346624/rig_preview_wymhrq.png"
 tag: "Logistics"
 copy: "How prototypes delivered immediate value"
 order: 2
@@ -86,13 +86,13 @@ layout: standard
 
   </div>
 
-  <div class="video-column-1000">
-    <video autoplay loop muted playsinline poster="https://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto:best/v1573683531/erp1_frame_yj8hu7.png">
-      <source src="https://res.cloudinary.com/benludwig/video/upload/vc_auto/v1573683231/erp1_udan0m.mp4">
-      <source src="https://res.cloudinary.com/benludwig/video/upload/vc_auto/v1573683231/erp1_udan0m.webm" type="video/webm">
+  <div class="video-column-1000" style="background-color:#ECECEC;">
+    <video autoplay loop muted playsinline poster="https://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto:best/v1578350399/erp1d_frame_mkbddx.png">
+      <source src="https://res.cloudinary.com/benludwig/video/upload/vc_auto/v1578350413/erp1d_ff9nbl.mp4">
+      <source src="https://res.cloudinary.com/benludwig/video/upload/vc_auto/v1578350413/erp1d_ff9nbl.webm" type="video/webm">
       Your browser does not support the video tag.
     </video>
-    <div class="caption"><p>Caption text</p></div>
+    <p class="caption">Making equipment selections across multiple inventories.</p>
   </div>
 
   <div class="type-column">
@@ -110,12 +110,13 @@ layout: standard
 
   </div>
 
-  <div class="video-column-1000">
+  <div class="video-column-1000" style="background-color:#ECECEC;">
     <video autoplay loop muted playsinline poster="https://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto:best/v1574308103/ERP04_Frame_oszklf.png">
       <source src="https://res.cloudinary.com/benludwig/video/upload/vc_auto/v1574308095/ERP04_d7ujyw.mp4">
       <source src="https://res.cloudinary.com/benludwig/video/upload/vc_auto/v1574308095/ERP04_d7ujyw.webm" type="video/webm">
       Your browser does not support the video tag.
     </video>
+    <p class="caption">Staging equipment to be picked up for an event.</p>
   </div>
 
   <div class="type-column">

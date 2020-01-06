@@ -1,6 +1,6 @@
 ---
 title: Guiding a digital transformation
-img: "http://fpoimg.com/605x300"
+img: "https://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto:best/v1578346045/c_preview_tzntlu.png"
 tag: "Telecommunications"
 copy: "A new design strategy that changed a business"
 order: 1
