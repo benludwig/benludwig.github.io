@@ -26,18 +26,13 @@ Footer-------------------------------
   width: 100%;
   left: 0;
   top: 0;
-  z-index: 99;
+  z-index: 999;
   background-color: $color-background;
   @include flex;
   @include flex-justify-space-between;
   @include flex-align-center;
   padding: 18px 6px;
   border-bottom: 1px solid $color-divider;
-  }
-
-.home-nav #nav {
-  background-color: rgba(0,0,0,0);
-  border-bottom: 0px solid $color-divider;
   }
 
 /*Home---------------------------------
@@ -58,7 +53,7 @@ Footer-------------------------------
 a.btn-home {
   display:block;
   position: absolute;
-  z-index: 999;
+  z-index: 998;
   top: -70px;
   right: 20px;
   width: 140px;
@@ -85,163 +80,31 @@ a.btn-home {
   }
 
 @media screen and (min-width: 840px) {
-
   .home-container {
     height: 100vh;
     }
-
   .home-top {
     @include flex;
     @include flex-align-center;
     padding: 60px 100px 20px 100px;
     height: 40vh;
     }
-
   a.btn-home {
     right: 100px;
     }
-
   .home-bottom {
     height: 60vh;
     }
-
 }
 
-
 @media screen and (min-width: 1080px) {
-
   a.btn-home {
     top: -90px;
     right: 100px;
     width: 180px;
     height: 180px;
     }
-
 }
-
-
-
-
-
-
-// 20 and 20
-
-// 840 - 100 by 100
-
-// max width 1442
-
-
-
-// @media screen and (min-width: 400px) and (max-width: 879px) {
-//
-// }
-//
-//
-// @media screen and (min-width: 880px) and (max-width: 1117px) {
-//
-//   .home-container {
-//     width: 100%;
-//     min-height: 100vh;
-//     }
-//
-//
-//   .home-top-1 {
-//     grid-area: headline;
-//     align-self: end;
-//     }
-//
-//   .home-top-2 {
-//     grid-area: copy;
-//     align-self: start;
-//     }
-//
-//   .home-top-3 {
-//     grid-area: button;
-//     align-self: center;
-//     justify-self: end;
-//     }
-//
-//   .home-top {
-//     display: grid;
-//     grid-template-rows: auto;
-//     grid-template-areas:
-//     "headline button"
-//     "copy button";
-//     min-height: 35vh;
-//     padding:0 10% 0 10%;
-//     }
-//
-//
-//
-//   .home-bottom {
-//     width: 100%;
-//     min-height: 65vh;
-//     background: url("https://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto:best/v1576866363/fm-tile_bu4cdb.png") no-repeat center center/cover;
-//     }
-//
-//
-//
-//
-//
-//   }
-//
-//
-// @media screen and (min-width: 1118px) {
-//
-// .home-container {
-//   width: 100%;
-//   min-height: 100vh;
-//   }
-//
-// .home-top {
-//   @include flex;
-//   justify-content: space-around;
-//   align-items: center;
-//   min-height: 35vh;
-//   }
-//
-// .home-bottom {
-//   width: 100%;
-//   min-height: 65vh;
-//   background: url("https://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto:best/v1576866363/fm-tile_bu4cdb.png") no-repeat center center/cover;
-//   }
-//
-// }
-
-
-// .home-container {
-//   background: url("https://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto:best/v1565213597/homepage_background_color_bxcdfp.png") no-repeat center center/cover;
-//   width: 100%;
-//   min-height: 100vh;
-//   @include flex;
-//   @include flex-align-center;
-//   @include flex-justify-center;
-//   position: relative;
-//   }
-//
-// .home-content {
-//   padding: 150px 20px;
-//   max-width: 700px;
-//   }
-
-/*Home Caption-------------------------
--------------------------------------*/
-
-// .home-caption-container {
-//   background-color: #000000;
-//   }
-//
-// .home-caption {
-//   max-width: 1442px;
-//   margin: 0 auto;
-//   padding: 10px 20px 15px 20px;
-//   }
-//
-// @media screen and (min-width: 840px) {
-//   .home-caption {
-//     padding: 10px 100px 15px 100px;
-//     }
-// }
 
 /*Work---------------------------------
 -------------------------------------*/
@@ -249,7 +112,7 @@ a.btn-home {
 .preview-container {
   max-width: 1442px;
   margin: 0 auto;
-  padding: 0px 20px 120px 20px;
+  padding: 0px 20px 60px 20px;
   }
 .preview-category {
   padding-top: 120px;
@@ -268,7 +131,7 @@ a.btn-home {
 
 @media screen and (min-width: 840px) {
   .preview-container {
-    padding: 0px 100px 120px 100px;
+    padding: 0px 100px 80px 100px;
     }
 }
 
@@ -298,16 +161,8 @@ a.btn-home {
     }
 }
 
-
 /*Photography--------------------------
 -------------------------------------*/
-
-
-
-
-
-
-
 
 /*About--------------------------------
 -------------------------------------*/
@@ -568,7 +423,7 @@ ol.flickity-page-dots {
 
 @media screen and (min-width: 840px) {
   .footer {
-    padding: 50px 100px;
+    padding: 60px 100px 50px 100px;
     }
 }
 

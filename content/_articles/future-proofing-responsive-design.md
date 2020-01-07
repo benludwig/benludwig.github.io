@@ -6,10 +6,10 @@ order: 2
 layout: standard
 ---
 <div class="page">
-  <div class="image-column-1000">
+  <div class="image-column-1000 revealblock">
     <img src="https://res.cloudinary.com/benludwig/image/upload/c_fill,f_auto,h_500,q_auto:best,w_1000/v1572903130/article_future_proofing_klqw1c.png" alt="Individual working">
   </div>
-  <div class="type-column">
+  <div class="type-column revealblock">
     <h1>Future-proofing Responsive Design</h1>
     <p>When responsive design was first developed, it was intended to shrink websites from desktop screens to smartphones. Media queries—the code that made responsive design possible &#8212; became a standard in 2012 shortly after the release of the iPhone 5.</p>
     <p>In 2016 mobile traffic officially outpaced all other devices. Instead of continuing to shrink layouts, designers started with mobile and worked outward. The outlier became the benchmark and the term Mobile-First was coined.</p>
@@ -25,7 +25,7 @@ layout: standard
     <p>The function of a Content Delivery Network is to do exactly that &#8212; deliver content to a website. When an image is uploaded to a CDN it’s available via its own URL. Copying that URL and adding it the code of a website will display the image on the page.</p>
     <p><a href="https://cloudinary.com/" target="_blank">Cloudinary</a> is a CDN that has taken URLs a step further and introduced <a href="https://cloudinary.com/documentation/image_transformations" target="_blank">transformations</a>. After an image is uploaded to Cloudinary the URL can be modified to deliver different versions of the same image. Want a larger image for bigger screens? Change a section of the URL from /w_800/ to /w_2400/ and the image that was 800 pixels wide will be displayed 2400 pixels wide &#8212; all without ever editing the actual photo. Need more extensive positioning and editing? You can also enable things like <a href="https://cloudinary.com/documentation/advanced_facial_attributes_detection_addon" target="_blank">facial recognition</a> and <a href="https://cloudinary.com/documentation/advanced_facial_attributes_detection_addon#eyes_detection_based_cropping" target="_blank">eye detection-based</a> cropping just by changing the URL.</p>
     <h2>Video</h2>
-    <p>Most videos on the web are already hosted on YouTube or Vimeo. And because YouTube is the second most popular search engine in the world it should probably stay that way. As layouts expand for bigger screens those videos will expand naturally and maintain their aspect ratios.</p>
+    <p>Most videos on the web are already hosted on YouTube or Vimeo. And because YouTube is the second most popular search engine in the world it should probably stay that way. As layouts expand for bigger screens those videos will expand naturally and maintain their aspect ratios. If a separate CDN is the preferred route, most of those image transformations can be applied to video as well.</p>
     <h2>Changes today</h2>
     <p>Technology changes quickly. As a result, tech culture is captivated by the future. While the methods described in this article are focused on what could come next, there are immediate benefits as well.</p>
     <p>Rem units do a better job of scaling typography, even on smaller screens. Cloudinary’s CDN will drastically reduce the time it takes to make image adjustments on any website, big or small. So even if screens don’t change and experiential retail fades away, these techniques aren’t a gamble waiting for a payoff.</p>

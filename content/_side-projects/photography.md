@@ -1,21 +1,17 @@
 ---
 title: Photography
 img: "https://res.cloudinary.com/benludwig/image/upload/c_fill,f_auto,h_500,q_auto:best,w_1000/v1565232908/Rome/r5.jpg"
-tag: "Photography"
 order: 2
 layout: standard
 ---
-
 <div class="page">
-
-  <div class="type-column">
+  <div class="type-column revealblock">
     <h1 class="photography">Photography</h1>
   </div>
-
-  <div class="type-column">
+  <div class="type-column revealblock">
     <h2 class="photography">Rome</h2>
   </div>
-  <div class="carousel-container">
+  <div class="carousel-container revealblock">
     <div class="carousel" data-flickity='{ "freeScroll": true, "imagesLoaded": true }'>
       <div class="carousel-cell"><img src="https://res.cloudinary.com/benludwig/image/upload/c_scale,f_auto,q_auto:best,w_1920/v1565232908/Rome/r5.jpg"></div>
       <div class="carousel-cell"><img src="https://res.cloudinary.com/benludwig/image/upload/c_scale,f_auto,q_auto:best,w_1920/v1565232905/Rome/r7.jpg"></div>
@@ -31,11 +27,10 @@ layout: standard
       <div class="carousel-cell"><img src="https://res.cloudinary.com/benludwig/image/upload/c_scale,f_auto,q_auto:best,w_1920/v1565232837/Rome/r11.jpg"></div>
     </div>
   </div>
-
-  <div class="type-column">
+  <div class="type-column revealblock">
     <h2 class="photography">Capri</h2>
   </div>
-  <div class="carousel-container">
+  <div class="carousel-container revealblock">
     <div class="carousel" data-flickity='{ "freeScroll": true, "imagesLoaded": true }'>
       <div class="carousel-cell"><img src="https://res.cloudinary.com/benludwig/image/upload/c_scale,f_auto,q_auto:best,w_1920/v1565232224/Capri/c5.jpg"></div>
       <div class="carousel-cell"><img src="https://res.cloudinary.com/benludwig/image/upload/c_scale,f_auto,q_auto:best,w_1920/v1565232180/Capri/c2.jpg"></div>
@@ -45,11 +40,10 @@ layout: standard
       <div class="carousel-cell"><img src="https://res.cloudinary.com/benludwig/image/upload/c_scale,f_auto,q_auto:best,w_1920/v1565232170/Capri/c4.jpg"></div>
     </div>
   </div>
-
-  <div class="type-column">
+  <div class="type-column revealblock">
     <h2 class="photography">Vatican City</h2>
   </div>
-  <div class="carousel-container">
+  <div class="carousel-container revealblock">
     <div class="carousel" data-flickity='{ "freeScroll": true, "imagesLoaded": true }'>
       <div class="carousel-cell"><img src="https://res.cloudinary.com/benludwig/image/upload/c_scale,f_auto,q_auto:best,w_1920/v1567798063/Vatican%20City/v1.jpg"></div>
       <div class="carousel-cell"><img src="https://res.cloudinary.com/benludwig/image/upload/c_scale,f_auto,q_auto:best,w_1920/v1567798034/Vatican%20City/v2.jpg"></div>
@@ -68,11 +62,10 @@ layout: standard
       <div class="carousel-cell"><img src="https://res.cloudinary.com/benludwig/image/upload/c_scale,f_auto,q_auto:best,w_1920/v1567798080/Vatican%20City/v15.jpg"></div>
     </div>
   </div>
-
-  <div class="type-column">
+  <div class="type-column revealblock">
     <h2 class="photography">Venice</h2>
   </div>
-  <div class="carousel-container">
+  <div class="carousel-container revealblock">
     <div class="carousel" data-flickity='{ "freeScroll": true, "imagesLoaded": true }'>
       <div class="carousel-cell"><img src="https://res.cloudinary.com/benludwig/image/upload/c_scale,f_auto,q_auto:best,w_1920/v1567801250/Venice/n1.jpg"></div>
       <div class="carousel-cell"><img src="https://res.cloudinary.com/benludwig/image/upload/c_scale,f_auto,q_auto:best,w_1920/v1567801285/Venice/n2.jpg"></div>
@@ -89,11 +82,10 @@ layout: standard
       <div class="carousel-cell"><img src="https://res.cloudinary.com/benludwig/image/upload/c_scale,f_auto,q_auto:best,w_1920/v1567801342/Venice/n13.jpg"></div>
     </div>
   </div>
-
-  <div class="type-column">
+  <div class="type-column revealblock">
     <h2 class="photography">Isla Mujeres</h2>
   </div>
-  <div class="carousel-container">
+  <div class="carousel-container revealblock">
     <div class="carousel" data-flickity='{ "freeScroll": true, "imagesLoaded": true }'>
       <div class="carousel-cell"><img src="https://res.cloudinary.com/benludwig/image/upload/c_scale,f_auto,q_auto:best,w_1920/v1565231946/Isla%20Mujeres/im3.jpg"></div>
       <div class="carousel-cell"><img src="https://res.cloudinary.com/benludwig/image/upload/c_scale,f_auto,q_auto:best,w_1920/v1565231941/Isla%20Mujeres/im7.jpg"></div>
@@ -103,11 +95,10 @@ layout: standard
       <div class="carousel-cell"><img src="https://res.cloudinary.com/benludwig/image/upload/c_scale,f_auto,q_auto:best,w_1920/v1565231942/Isla%20Mujeres/im4.jpg"></div>
     </div>
   </div>
-
-  <div class="type-column">
+  <div class="type-column revealblock">
     <h2 class="photography">Lithuania</h2>
   </div>
-  <div class="carousel-container">
+  <div class="carousel-container revealblock">
     <div class="carousel" data-flickity='{ "freeScroll": true, "imagesLoaded": true }'>
       <div class="carousel-cell"><img src="https://res.cloudinary.com/benludwig/image/upload/c_scale,f_auto,q_auto:best,w_1920/v1567803182/Lithuania/l1.jpg"></div>
       <div class="carousel-cell"><img src="https://res.cloudinary.com/benludwig/image/upload/c_scale,f_auto,q_auto:best,w_1920/v1567802091/Lithuania/l2.jpg"></div>
@@ -121,5 +112,4 @@ layout: standard
       <div class="carousel-cell"><img src="https://res.cloudinary.com/benludwig/image/upload/c_scale,f_auto,q_auto:best,w_1920/v1567802173/Lithuania/l11.jpg"></div>
     </div>
   </div>
-
 </div>

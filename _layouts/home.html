@@ -2,57 +2,30 @@
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
   {% include head.html %}
   <body>
-    <!-- <div class="home-nav"> -->
     {% include nav.html %}
-    <!-- </div> -->
-
-<!-- <h1 class="home">Digital product design</h1> -->
-<!-- <h2 class="home">Research-driven, methodical and practical.</h2> -->
-<!-- <h2 class="home-caption">Photo: In-house design at The Field Museum</h2> -->
-
-
-    <div class="home-container">
-
-
+    <div class="home-container revealblock">
       <div class="home-top">
         <div class"home-top-content">
           <h1 class="home">Digital product design</h1>
           <h2 class="home">A collection of case studies, design work, articles and side projects.</h2>
         </div>
       </div>
-
       <div class="home-bottom">
         <div class="home-button">
           <a class="btn-home" href="/work">View work</a>
-        </div>
-
-
-
+      </div>
           <video autoplay loop muted playsinline poster="https://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto:best/v1578333744/home1_frame_r8eyel.png" id="homeVideo">
             <source src="https://res.cloudinary.com/benludwig/video/upload/vc_auto/v1578333762/home1_ruwrsu.mp4">
             <source src="https://res.cloudinary.com/benludwig/video/upload/vc_auto/v1578333762/home1_ruwrsu.webm" type="video/webm">
             Your browser does not support the video tag.
           </video>
-
-          <!-- <video autoplay muted loop id="homeVideo">
-            <source src="https://res.cloudinary.com/benludwig/video/upload/vc_auto/v1578333762/home1_ruwrsu.mp4" type="video/mp4">
-              Your browser does not support HTML5 video.
-          </video> -->
-
-
       </div>
-
     </div>
     {% include footer.html %}
-    <!-- <script>
-      window.onscroll = function() {scrollFunction()};
-      function scrollFunction() {
-        if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
-          document.getElementById("nav").style.backgroundColor = "rgba(0,0,0,1)";
-        } else {
-          document.getElementById("nav").style.backgroundColor = "rgba(0,0,0,0)";
-        }
-      }
-    </script> -->
+    <script type="text/javascript" src='{{ site.baseurl }}/js/scrollreveal.min.js'></script>
+    <script>
+    window.sr = ScrollReveal();
+    sr.reveal('.revealblock', { duration: 1000, distance: '2px', scale: 1, viewFactor: 0.05 });
+    </script>
   </body>
 </html>
