@@ -25,13 +25,13 @@ layout: standard
   <p>We streamlined data-heavy pages by focusing on manageable tasks, gave the user more meaningful feedback and prioritized the most commonly used fields. To validate our design strategy we created prototypes. It increased alignment between teams and helped us all make more informed design decisions.</p>
   <p>Once everyone was aligned on what we were building, we introduced a schedule for continuous user testing. The acceptance feedback after each round ensured that we were building the right feature before we started development.</p>
   </div>
-  <div class="video-column-1000 revealblock" style="background-color:#ECECEC;">
+  <div class="video-column-1000 revealblock" style="background-color:#002748;">
     <video autoplay loop muted playsinline poster="https://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto:best/v1578350399/erp1d_frame_mkbddx.png">
       <source src="https://res.cloudinary.com/benludwig/video/upload/vc_auto/v1578350413/erp1d_ff9nbl.mp4">
       <source src="https://res.cloudinary.com/benludwig/video/upload/vc_auto/v1578350413/erp1d_ff9nbl.webm" type="video/webm">
       Your browser does not support the video tag.
     </video>
-    <p class="caption">Making equipment selections across multiple inventories.</p>
+    <p class="caption" style="color:#F2F2F2;">Making equipment selections across multiple inventories.</p>
   </div>
   <div class="type-column revealblock">
   <h2>Automating inventories</h2>
@@ -43,13 +43,13 @@ layout: standard
   </ul></p>
   <p>The obvious preference for the business is the first option. When a venue used their own equipment instead of renting or buying, it drastically increased profit margins. The only constraint was a single venue's inventory so we developed software to swap equipment between multiple locations. This created a much larger available inventory without any additional rental or purchasing costs.</p>
   </div>
-  <div class="video-column-1000 revealblock" style="background-color:#ECECEC;">
-    <video autoplay loop muted playsinline poster="https://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto:best/v1574308103/ERP04_Frame_oszklf.png">
-      <source src="https://res.cloudinary.com/benludwig/video/upload/vc_auto/v1574308095/ERP04_d7ujyw.mp4">
-      <source src="https://res.cloudinary.com/benludwig/video/upload/vc_auto/v1574308095/ERP04_d7ujyw.webm" type="video/webm">
+  <div class="video-column-1000 revealblock" style="background-color:#002748;">
+    <video autoplay loop muted playsinline poster="https://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto:best/v1578687799/erpui04_frame_f6rzbr.png">
+      <source src="https://res.cloudinary.com/benludwig/video/upload/vc_auto/v1578687811/erpui_04_dkes5m.mp4">
+      <source src="https://res.cloudinary.com/benludwig/video/upload/vc_auto/v1578687811/erpui_04_dkes5m.webm" type="video/webm">
       Your browser does not support the video tag.
     </video>
-    <p class="caption">Staging equipment to be picked up for an event.</p>
+    <p class="caption" style="color:#F2F2F2;">Staging equipment to be picked up for an event.</p>
   </div>
   <div class="type-column revealblock">
   <p>Borrowing and returning equipment between two locations was a simple concept to design. What happens when equipment breaks? If equipment is returned late, how does it affect every subsequent event relying on it? Those were some of the more complicated scenarios we solved. Testing prototypes with the people managing those inventories was essential to getting it right.</p>

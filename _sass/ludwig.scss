@@ -67,6 +67,11 @@ a.btn-home {
   border-radius: 180px;
   }
 
+i.fa-angle-right {
+  padding-left: 8px;
+  padding-top: 2px;
+  }
+
 .home-bottom {
   width: 100%;
   height: 400px;
@@ -208,14 +213,35 @@ a.btn-home {
 /*Contact------------------------------
 -------------------------------------*/
 
-.contact-container {
-  max-width: 1442px;
-  min-height: 100vh;
-  padding: 0px 20px;
-  @include flex;
-  @include flex-justify-center;
-  @include flex-align-center;
+// .contact-container {
+//   max-width: 1442px;
+//   min-height: 100vh;
+//   padding: 0px 20px;
+//   @include flex;
+//   @include flex-justify-center;
+//   @include flex-align-center;
+//   }
+
+.contact-left {
+
   }
+
+.contact-right {
+
+  }
+
+#contactVideo {
+  object-fit: cover;
+  width:100%;
+  height:100%;
+  }
+
+
+
+
+
+
+
 
 /*Page---------------------------------
 -------------------------------------*/

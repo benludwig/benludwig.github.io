@@ -19,7 +19,7 @@ layout: standard
     <p class="caption">A look at how our software compiled a single message from thousands of audio clips.</p>
   </div>
   <div class="type-column revealblock">
-  <p>Each was an interactive piece to an otherwise traditional advertising campaign and we went on to create hundreds of them, traveling to record voice talent with our mobile recording studio.</p>
+  <p>Each was an interactive piece to an otherwise traditional advertising campaign and we went on to create hundreds of them &#8212; traveling to record actors, athletes and musicians with our mobile recording studio.</p>
   <ul class="type-unordered-list">
     <li class="type-list">30 Rock</li>
     <li class="type-list-muted">Alec Baldwin</li>
