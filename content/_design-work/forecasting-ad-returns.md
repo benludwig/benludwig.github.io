@@ -17,7 +17,7 @@ layout: standard
   <h2>Designing with data</h2>
   <p>We designed with code &#8212; using the same JavaScript libraries our developers used to visualize data: <a href="https://c3js.org/" target="_blank">C3</a>, <a href="https://d3js.org/" target="_blank">D3</a> and <a href="https://www.datatables.net/" target="_blank">Datatables</a>. Our design-focused front-end environment eventually grew to become our design system. Everything from buttons to templates were documented and nested using <a href="https://patternlab.io/" target="_blank">Pattern Lab</a>.</p>
   </div>
-  <div class="video-column-1000 revealblock" style="background-color:#ECECEC;">
+  <div class="video-column-1000 revealblock">
     <video autoplay loop muted playsinline poster="https://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto:best/v1574882030/RIC1_Frame_wgaz0z.png">
       <source src="https://res.cloudinary.com/benludwig/video/upload/vc_auto/v1574882045/RIC1_bhltc4.mp4">
       <source src="https://res.cloudinary.com/benludwig/video/upload/vc_auto/v1574882045/RIC1_bhltc4.webm" type="video/webm">
@@ -37,7 +37,7 @@ layout: standard
   <h2>Future spend</h2>
   <p>Data quickly became more substantive and reliable because of this hyper-focused reporting. Analysts began writing algorithms to find patterns that had generated higher returns. Our team then integrated those algorithms back into the application. From a single interface, analysts could adjust a series of variables to programmatically forecast returns for any campaign.</p>
   </div>
-  <div class="video-column-1000 revealblock" style="background-color:#ECECEC;">
+  <div class="video-column-1000 revealblock">
     <video autoplay loop muted playsinline poster="https://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto:best/v1574882057/RIC2_Frame_eutiym.png">
       <source src="https://res.cloudinary.com/benludwig/video/upload/vc_auto/v1574882079/RIC2_alarkx.mp4">
       <source src="https://res.cloudinary.com/benludwig/video/upload/vc_auto/v1574882079/RIC2_alarkx.webm" type="video/webm">

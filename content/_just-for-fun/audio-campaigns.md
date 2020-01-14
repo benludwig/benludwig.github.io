@@ -10,7 +10,7 @@ layout: standard
   <p>Around that same time, 6 people in a Chicago loft created software that enabled a new kind of sharing by personalizing phone calls. This idea sounds archaic now but in many ways it's emblematic of how a sponsored post operates today: connect with a brand's story, add your own messaging on a website and share it. Except back then, there were no iPhones, hashtags or influencers.</p>
   <p>After the first few campaigns garnered <a href="https://www.cnet.com/news/snakes-on-a-phone-call-from-samuel-l-jackson/" target="_blank">national media attention</a>, engagement skyrocketed and millions of messages were sent.</p>
   </div>
-  <div class="video-column-1000 revealblock" style="background-color:#ECECEC;">
+  <div class="video-column-1000 revealblock">
     <video controls poster="https://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto:best/v1576776149/jackaudio_frame_j9agtw.png">
       <source src="https://res.cloudinary.com/benludwig/video/upload/vc_auto/v1576786663/jackaudio_medium_render_ayojqg.mp4">
       <source src="https://res.cloudinary.com/benludwig/video/upload/vc_auto/v1576786663/jackaudio_medium_render_ayojqg.webm" type="video/webm">
