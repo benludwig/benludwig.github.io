@@ -14,14 +14,14 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Ben Ludwig - Digital Product Design
-email: hi@benludwig.com
-description: Description
+email: hello@benludwig.com
+description: A collection of case studies, design work, articles and side projects.
 baseurl: ""
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: bnldwg
 github_username:  benludwig
 permalink: pretty
-google_analytics: UA-62862619-1
+google_analytics: UA-156252964-1
 
 # Build settings
 markdown: kramdown
