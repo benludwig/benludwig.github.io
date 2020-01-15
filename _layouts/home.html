@@ -3,7 +3,119 @@
   {% include head.html %}
   <body>
     {% include nav.html %}
-    <div class="home-container revealblock">
+
+    <div class="preview-container">
+    <!-- Case Studies -->
+    <div class="preview-category revealblock">
+      <div class="preview-section-title">Case Studies</div>
+      <div class="preview-grid cs">
+      {% assign blcs = site.case-studies | sort: 'order' %}
+      {% for item in blcs %}
+      <div class="preview">
+        <div class="preview-img"><a href="{{ item.url }}"><img src="{{ item.img }}"></a></div>
+        <div class="preview-tag">{{ item.tag }}</div>
+        <div class="preview-title"><a href="{{ item.url }}">{{ item.title }}</a></div>
+        <div class="preview-copy"><p class="work-p">{{ item.copy }}</p></div>
+        <div class="preview-buttons"><a class="btn" href="{{ item.url }}">See Case Study</a></div>
+      </div>
+      {% endfor %}
+    </div>
+    </div>
+    <!-- Design Work -->
+    <div class="preview-category revealblock" id="additional-design-work">
+      <div class="preview-section-title">Additional Design Work</div>
+      <div class="preview-grid da">
+      <div class="preview">
+        <div class="preview-img"><a href="/design-work/the-field-museum"><img src="https://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto:best/v1576866363/fm-tile_bu4cdb.png"></a></div>
+        <div class="preview-tag">Not-for-profit</div>
+        <div class="preview-title"><a href="/design-work/the-field-museum">In-house design at The Field Museum</a></div>
+        <div class="preview-buttons"><a class="btn" href="/design-work/the-field-museum">View Project</a></div>
+      </div>
+      <div class="preview">
+        <div class="preview-video"><a href="/design-work/forecasting-ad-returns">
+          <video autoplay loop muted playsinline poster="https://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto:best/v1577988232/rise_preview_frame_luexvb.png">
+            <source src="https://res.cloudinary.com/benludwig/video/upload/vc_auto/v1577988240/rise_preview_uvkis2.mp4">
+            <source src="https://res.cloudinary.com/benludwig/video/upload/vc_auto/v1577988240/rise_preview_uvkis2.webm" type="video/webm">
+            Your browser does not support the video tag.
+          </video>
+        </a></div>
+        <div class="preview-tag">Analytics</div>
+        <div class="preview-title"><a href="/design-work/forecasting-ad-returns">Forecasting digital advertising returns</a></div>
+        <div class="preview-buttons"><a class="btn" href="/design-work/forecasting-ad-returns">View Project</a></div>
+      </div>
+      <div class="preview">
+        <div class="preview-img"><a href="/design-work/building-architecture-brand"><img src="https://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto:best/v1578002399/SMNGA_preview3_pjkfvt.png"></a></div>
+        <div class="preview-tag">Architecture</div>
+        <div class="preview-title"><a href="/design-work/building-architecture-brand">Building an architecture brand</a></div>
+        <div class="preview-buttons"><a class="btn" href="/design-work/building-architecture-brand">View Project</a></div>
+      </div>
+      <div class="preview">
+        <div class="preview-img"><a href="/design-work/updating-skyscraper"><img src="https://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto:best/v1576866955/rookery_lvnjwx.png"></a></div>
+        <div class="preview-tag">Real Estate</div>
+        <div class="preview-title"><a href="/design-work/updating-skyscraper">Updating Chicago's oldest skyscraper</a></div>
+        <div class="preview-buttons"><a class="btn" href="/design-work/updating-skyscraper">View Project</a></div>
+      </div>
+    </div>
+    </div>
+    <!-- Articles -->
+    <div class="preview-category revealblock" id="articles">
+      <div class="preview-section-title">Articles</div>
+      <div class="preview-grid art">
+      {% assign blart = site.articles | sort: 'order' %}
+      {% for item in blart %}
+      <div class="preview">
+        <div class="preview-img"><a href="{{ item.url }}"><img src="{{ item.img }}"></a></div>
+        <div class="preview-title"><a href="{{ item.url }}">{{ item.title }}</a></div>
+        <div class="preview-copy"><p class="work-p">{{ item.copy }}</p></div>
+        <div class="preview-buttons"><a class="btn" href="{{ item.url }}">Read Article</a></div>
+      </div>
+      {% endfor %}
+    </div>
+    </div>
+    <!-- Side Projects -->
+    <div class="preview-category revealblock" id="side-projects">
+      <div class="preview-section-title">Side Projects</div>
+      <div class="preview-grid sp">
+      {% assign blsp = site.side-projects | sort: 'order' %}
+      {% for item in blsp %}
+      <div class="preview">
+        <div class="preview-img"><a href="{{ item.url }}"><img src="{{ item.img }}"></a></div>
+        <div class="preview-title"><a href="{{ item.url }}">{{ item.title }}</a></div>
+        <div class="preview-buttons"><a class="btn" href="{{ item.url }}">View Project</a></div>
+      </div>
+      {% endfor %}
+    </div>
+    </div>
+    <!-- Just for Fun -->
+    <div class="preview-category revealblock" id="just-for-fun">
+      <div class="preview-section-title">Just for Fun</div>
+      <div class="preview-grid jff">
+      {% assign bljff = site.just-for-fun | sort: 'order' %}
+      {% for item in bljff %}
+      <div class="preview">
+        <div class="preview-video"><a href="{{ item.url }}">
+          <div class="preview-video">
+            <video autoplay loop muted playsinline poster="https://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto:best/v1576683423/jack_frame_v3u0dm.png">
+              <source src="https://res.cloudinary.com/benludwig/video/upload/vc_auto/v1576683275/jackgif_lzhgor.mp4">
+              <source src="https://res.cloudinary.com/benludwig/video/upload/vc_auto/v1576683275/jackgif_lzhgor.webm" type="video/webm">
+              Your browser does not support the video tag.
+            </video>
+          </div></a>
+        </div>
+        <div class="preview-title"><a href="{{ item.url }}">{{ item.title }}</a></div>
+        <div class="preview-buttons"><a class="btn" href="{{ item.url }}">View Project</a></div>
+      </div>
+      {% endfor %}
+    </div>
+    </div>
+    </div>
+
+
+
+
+
+
+    <!-- <div class="home-container revealblock">
       <div class="home-top">
         <div class"home-top-content">
           <h1 class="home">Digital product design</h1>
@@ -20,7 +132,7 @@
             Your browser does not support the video tag.
           </video>
       </div>
-    </div>
+    </div> -->
     {% include footer.html %}
     <script type="text/javascript" src='{{ site.baseurl }}/js/scrollreveal.min.js'></script>
     <script>
