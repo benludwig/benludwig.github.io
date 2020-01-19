@@ -1,6 +1,6 @@
 ---
-title: Everything else
-order: 4
+title: <q>Everything else</q>
+order: 6
 layout: standard
 ---
 <div class="page">

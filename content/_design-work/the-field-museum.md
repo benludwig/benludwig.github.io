@@ -1,6 +1,6 @@
 ---
 title: In-house design at The Field Museum
-order: 1
+order: 3
 layout: standard
 ---
 <div class="page">

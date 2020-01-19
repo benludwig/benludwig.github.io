@@ -1,6 +1,6 @@
 ---
 title: Building an architecture brand
-order: 3
+order: 5
 layout: standard
 ---
 <div class="page">
