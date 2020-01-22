@@ -5,11 +5,11 @@ copy: "How to prepare for devices that aren't built yet."
 order: 2
 layout: standard
 ---
-<div class="page">
-  <div class="image-column-1000 revealblock">
+<div class="page revealblock">
+  <div class="image-column-1000">
     <img src="https://res.cloudinary.com/benludwig/image/upload/c_fill,f_auto,h_500,q_auto:best,w_1000/v1572903130/article_future_proofing_klqw1c.png" alt="Individual working">
   </div>
-  <div class="type-column revealblock">
+  <div class="type-column">
     <h1>Future-proofing Responsive Design</h1>
     <p>When responsive design was first developed, it was intended to shrink websites from desktop screens to smartphones. Media queries—the code that made responsive design possible &#8212; became a standard in 2012 shortly after the release of the iPhone 5.</p>
     <p>In 2016 mobile traffic officially outpaced all other devices. Instead of continuing to shrink layouts, designers started with mobile and worked outward. The outlier became the benchmark and the term Mobile-First was coined.</p>

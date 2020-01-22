@@ -6,8 +6,8 @@ copy: "How prototypes delivered immediate value"
 order: 2
 layout: standard
 ---
-<div class="page">
-  <div class="type-column revealblock">
+<div class="page revealblock">
+  <div class="type-column">
   <h1>Investing in user research</h1>
   <p>The leading provider of audiovisual services for hotels, conference centers and resorts throughout North America, Asia and Australia is known for supporting massive events like the International Consumer Electronics Show which is attended annually by over 170,000 people.</p>
   <p>As the company grew it acquired many smaller, regional brands. Each region had their own software and their own unique way of doing business. We standardized both and created one software platform to replace all legacy systems.</p>
@@ -25,7 +25,7 @@ layout: standard
   <p>We streamlined data-heavy pages by focusing on manageable tasks, gave the user more meaningful feedback and prioritized the most commonly used fields. To validate our design strategy we created prototypes. It increased alignment between teams and helped us all make more informed design decisions.</p>
   <p>Once everyone was aligned on what we were building, we introduced a schedule for continuous user testing. The acceptance feedback after each round ensured that we were building the right feature before we started development.</p>
   </div>
-  <div class="video-column-1000 revealblock">
+  <div class="video-column-1000">
     <video autoplay loop muted playsinline poster="https://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto:best/v1578350399/erp1d_frame_mkbddx.png">
       <source src="https://res.cloudinary.com/benludwig/video/upload/vc_auto/v1578350413/erp1d_ff9nbl.mp4">
       <source src="https://res.cloudinary.com/benludwig/video/upload/vc_auto/v1578350413/erp1d_ff9nbl.webm" type="video/webm">
@@ -33,7 +33,7 @@ layout: standard
     </video>
     <p class="caption">Making equipment selections across multiple inventories.</p>
   </div>
-  <div class="type-column revealblock">
+  <div class="type-column">
   <h2>Automating inventories</h2>
   <p>One of the more complex operational procedures we solved ultimately had one of the largest impacts on the business. There had been three methods for sourcing equipment before any given event:
   <ul>
@@ -43,7 +43,7 @@ layout: standard
   </ul></p>
   <p>The obvious preference for the business is the first option. When a venue used their own equipment instead of renting or buying, it drastically increased profit margins. The only constraint was a single venue's inventory so we developed software to swap equipment between multiple locations. This created a much larger available inventory without any additional rental or purchasing costs.</p>
   </div>
-  <div class="video-column-1000 revealblock">
+  <div class="video-column-1000">
     <video autoplay loop muted playsinline poster="https://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto:best/v1578687799/erpui04_frame_f6rzbr.png">
       <source src="https://res.cloudinary.com/benludwig/video/upload/vc_auto/v1578687811/erpui_04_dkes5m.mp4">
       <source src="https://res.cloudinary.com/benludwig/video/upload/vc_auto/v1578687811/erpui_04_dkes5m.webm" type="video/webm">
@@ -51,7 +51,7 @@ layout: standard
     </video>
     <p class="caption">Staging equipment to be picked up for an event.</p>
   </div>
-  <div class="type-column revealblock">
+  <div class="type-column">
   <p>Borrowing and returning equipment between two locations was a simple concept to design. What happens when equipment breaks? If equipment is returned late, how does it affect every subsequent event relying on it? Those were some of the more complicated scenarios we solved. Testing prototypes with the people managing those inventories was essential to getting it right.</p>
   <h2>Results</h2>
   <p>Thousands of employees were fully migrated to the new platform when it was released. User feedback and page performance reinforced the qualitative and quantitative value of our work. Tasks were being completed faster than ever before. People were finding the right information in the right place at the right time. Executives had a birds-eye view of the entire thing.</p>

@@ -48,6 +48,15 @@ src: url('../fonts/GTAmerica/GTAmerica-Bold.eot'), /* IE9 Compat Modes */
     url('../fonts/GTAmerica/GTAmerica-Bold.svg') format('svg'); /* Legacy iOS */
     }
 
+@font-face {
+font-family: 'GTAmericaCompressedBold';
+src: url('../fonts/GTAmerica/GTAmerica-CompressedBold.eot'), /* IE9 Compat Modes */
+    url('../fonts/GTAmerica/GTAmerica-CompressedBold.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../fonts/GTAmerica/GTAmerica-CompressedBold.woff') format('woff'), /* Pretty Modern Browsers */
+    url('../fonts/GTAmerica/GTAmerica-CompressedBold.ttf')  format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/GTAmerica/GTAmerica-CompressedBold.svg') format('svg'); /* Legacy iOS */
+    }
+
 /*Typography---------------------------
 -------------------------------------*/
 
@@ -68,10 +77,11 @@ src: url('../fonts/GTAmerica/GTAmerica-Bold.eot'), /* IE9 Compat Modes */
   }
 
 @mixin type-52 {
-  font-family: 'GTAmericaThin', sans-serif;
+  font-family: 'GTAmericaCompressedBold', sans-serif;
   font-size: 52px;
   line-height: 1;
   @include font-smoothing;
+  text-transform: uppercase;
   }
 
 @mixin type-42-medium {

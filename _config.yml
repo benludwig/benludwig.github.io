@@ -15,7 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 title: Ben Ludwig - Digital Product Design
 email: hello@benludwig.com
-description: A collection of case studies, design work, articles and side projects.
+description: A collection of design work, articles and side projects.
 baseurl: ""
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: bnldwg

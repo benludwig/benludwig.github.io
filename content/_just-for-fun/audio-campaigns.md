@@ -3,14 +3,14 @@ title: Jack Donaghy is calling
 order: 1
 layout: standard
 ---
-<div class="page">
-  <div class="type-column revealblock">
+<div class="page revealblock">
+  <div class="type-column">
   <h1>Jack Donaghy is calling</h1>
   <p>There were very few ways to digitally share a brand's campaign in 2006. You could post on a message board, update your MySpace page background or maybe text someone on your Motorola Razr (T9!). None of these were very engaging, memorable or measurable.</p>
   <p>Around that same time, 6 people in a Chicago loft created software that enabled a new kind of sharing by personalizing phone calls. This idea sounds archaic now but in many ways it's emblematic of how a sponsored post operates today: connect with a brand's story, add your own messaging on a website and share it. Except back then, there were no iPhones, hashtags or influencers.</p>
   <p>After the first few campaigns garnered <a href="https://www.cnet.com/news/snakes-on-a-phone-call-from-samuel-l-jackson/" target="_blank">national media attention</a>, engagement skyrocketed and millions of messages were sent.</p>
   </div>
-  <div class="video-column-1000 revealblock">
+  <div class="video-column-1000">
     <video controls poster="https://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto:best/v1576776149/jackaudio_frame_j9agtw.png">
       <source src="https://res.cloudinary.com/benludwig/video/upload/vc_auto/v1576786663/jackaudio_medium_render_ayojqg.mp4">
       <source src="https://res.cloudinary.com/benludwig/video/upload/vc_auto/v1576786663/jackaudio_medium_render_ayojqg.webm" type="video/webm">
@@ -18,7 +18,7 @@ layout: standard
     </video>
     <p class="caption">A look at how our software compiled a single message from thousands of audio clips.</p>
   </div>
-  <div class="type-column revealblock">
+  <div class="type-column">
   <p>Each was an interactive piece to an otherwise traditional advertising campaign and we went on to create hundreds of them &#8212; traveling to record actors, athletes and musicians with our mobile recording studio.</p>
   <ul class="type-unordered-list">
     <li class="type-list">30 Rock</li>

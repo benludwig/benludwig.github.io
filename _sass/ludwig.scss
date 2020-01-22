@@ -21,78 +21,7 @@ Footer-------------------------------
 /*Home---------------------------------
 -------------------------------------*/
 
-.home-top {
-  padding: 170px 20px 140px 20px;
-  max-width: 1442px;
-  margin: 0 auto;
-  }
 
-.home-button {
-  position: relative;
-  max-width: 1442px;
-  margin: 0 auto;
-  }
-
-a.btn-home {
-  display:block;
-  position: absolute;
-  z-index: 998;
-  top: -70px;
-  right: 20px;
-  width: 140px;
-  height: 140px;
-  @include flex;
-  @include flex-justify-center;
-  @include flex-align-center;
-  @include type-14-regular;
-  text-decoration: none;
-  border: 1px solid #000;
-  border-radius: 180px;
-  }
-
-i.fa-angle-right {
-  padding-left: 8px;
-  padding-top: 2px;
-  }
-
-.home-bottom {
-  width: 100%;
-  height: 400px;
-  background-color: grey;
-  }
-
-#homeVideo {
-  object-fit: cover;
-  width:100%;
-  height:100%;
-  }
-
-@media screen and (min-width: 840px) {
-  .home-container {
-    height: 100vh;
-    }
-  .home-top {
-    @include flex;
-    @include flex-align-center;
-    padding: 60px 100px 20px 100px;
-    height: 40vh;
-    }
-  a.btn-home {
-    right: 100px;
-    }
-  .home-bottom {
-    height: 60vh;
-    }
-}
-
-@media screen and (min-width: 1080px) {
-  a.btn-home {
-    top: -90px;
-    right: 100px;
-    width: 180px;
-    height: 180px;
-    }
-}
 
 /*Work---------------------------------
 -------------------------------------*/
@@ -103,7 +32,7 @@ i.fa-angle-right {
   padding: 0px 20px 60px 20px;
   }
 .preview-category {
-  padding-top: 120px;
+  padding-top: 80px;
   }
 .preview-grid {
   display: grid;
@@ -149,9 +78,6 @@ i.fa-angle-right {
     }
 }
 
-/*Photography--------------------------
--------------------------------------*/
-
 /*About--------------------------------
 -------------------------------------*/
 
@@ -192,39 +118,6 @@ i.fa-angle-right {
     top: 120px;
     }
 }
-
-/*Contact------------------------------
--------------------------------------*/
-
-// .contact-container {
-//   max-width: 1442px;
-//   min-height: 100vh;
-//   padding: 0px 20px;
-//   @include flex;
-//   @include flex-justify-center;
-//   @include flex-align-center;
-//   }
-
-.contact-left {
-
-  }
-
-.contact-right {
-
-  }
-
-#contactVideo {
-  object-fit: cover;
-  width:100%;
-  height:100%;
-  }
-
-
-
-
-
-
-
 
 /*Page---------------------------------
 -------------------------------------*/

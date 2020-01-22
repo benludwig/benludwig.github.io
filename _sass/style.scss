@@ -35,13 +35,13 @@ dl, dd, ol, ul, figure {
   visibility: hidden;
   }
 
-.grid-item img{
-  opacity: 1;
-  -webkit-transition: opacity 500ms;
-  -moz-transition: opacity 500ms;
-  -ms-transition: opacity 500ms;
-  transition: opacity 500ms;
-  }
+// .grid-item img{
+//   opacity: 1;
+//   -webkit-transition: opacity 500ms;
+//   -moz-transition: opacity 500ms;
+//   -ms-transition: opacity 500ms;
+//   transition: opacity 500ms;
+//   }
 
 /*Typography-H1------------------------
 -------------------------------------*/
@@ -55,14 +55,91 @@ h1 {
   padding-bottom: 30px;
   }
 
-h1.photography {
-  text-align: center;
-  padding: 100px 0px 75px 0px;
+
+
+
+
+
+
+
+.home-text {
+  padding: 100px 20px 0px 20px;
+  max-width: 1442px;
+  margin: 0 auto;
   }
 
 h1.home {
-  @include type-52;
-  padding-bottom: 5px;
+  font-family: 'GTAmericaCompressedBold', sans-serif;
+  font-size: 16vw;
+  line-height: 0.8;
+  @include font-smoothing;
+  text-transform: uppercase;
+  padding-bottom: 0px;
+  max-width: 70%;
+  }
+
+@media screen and (min-width: 600px) {
+  h1.home {
+    font-size: 14vw;
+    max-width: 60%;
+    }
+  .home-text {
+    padding: 140px 20px 40px 20px;
+    }
+}
+
+@media screen and (min-width: 840px) {
+  h1.home {
+    font-size: 100px;
+    max-width: 400px;
+    }
+  .home-text {
+    padding: 170px 100px 80px 100px;
+    }
+}
+
+
+
+@media screen and (min-width: 1040px) {
+  h1.home {
+    font-size: 120px;
+    max-width: 700px;
+    }
+  .home-text {
+    padding: 200px 100px 120px 100px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+span.home-light {
+  color: $color-type-caption;
+  }
+
+
+
+
+
+h1.centered {
+  text-align: center;
+  padding: 100px 0px 75px 0px;
   }
 
 h1.work {
@@ -92,19 +169,6 @@ h2.photography {
   @include type-12-bold;
   text-align: center;
   padding: 100px 0px 50px 0px;
-  }
-
-h2.home {
-  @include type-16-regular;
-  padding-bottom: 0px;
-  padding-left: 4px;
-  padding-top: 6px;
-  }
-
-h2.home-caption {
-  @include type-16-regular;
-  color: $color-type-caption;
-  padding-bottom: 0px;
   }
 
 h2.work {
@@ -175,10 +239,6 @@ p.about-p {
   padding-bottom: 20px;
   }
 
-p.contact {
-
-  }
-
 p.caption {
   @include type-14-regular;
   padding: 20px;
@@ -246,10 +306,6 @@ li.type-list-muted {
     color: inherit;
     }
 
-  a.link-home {
-    color: $color-type-inverted;
-    }
-
 /*Buttons------------------------------
 -------------------------------------*/
 
@@ -268,23 +324,6 @@ a.btn:hover {
   background-color: $color-brand;
   border: 1px solid $color-brand;
   color: $color-type-inverted;
-  }
-
-a.btn-home {
-  // @include type-16-medium;
-  // @include transition;
-  // display: inline-block;
-  // text-decoration: none;
-  // padding: 13px 25px;
-  // border-radius: 4px;
-  // border: 1px solid $color-type;
-  // color: $color-type;
-  }
-
-a.btn-home:hover {
-  // background-color: $color-brand;
-  // border: 1px solid $color-brand;
-  // color: $color-type-inverted;
   }
 
 /*Images-------------------------------
@@ -432,28 +471,6 @@ a.nav-right-dark {
   z-index:999;
   }
 
-
-
-
-  // align-items: center;
-  //     border-radius: 500px;
-  //     bottom: 16px;
-  //     cursor: pointer;
-  //     display: flex;
-  //     height: 32px;
-  //     justify-content: center;
-  //     min-width: 32px;
-  //     position: fixed;
-  //     right: 16px;
-  //     width: fit-content;
-
-
-
-
-
-
-
-
 /*Work---------------------------------
 -------------------------------------*/
 
@@ -513,83 +530,6 @@ a.nav-right-dark {
   border-radius: 4px;
   padding: 40px;
   }
-
-/*Contact------------------------------
--------------------------------------*/
-
-// .contact-content {
-//   @include flex;
-//   @include flex-direction-column;
-//   @include flex-align-center;
-//   }
-//
-// .contact-content input {
-//   -webkit-writing-mode: horizontal-tb !important;
-//   text-rendering: auto;
-//   color: initial;
-//   letter-spacing: normal;
-//   word-spacing: normal;
-//   text-transform: none;
-//   text-indent: 0px;
-//   text-shadow: none;
-//   display: inline-block;
-//   text-align: center;
-//   -webkit-appearance: textfield;
-//   background-color: white;
-//   -webkit-rtl-ordering: logical;
-//   cursor: text;
-//   margin: 0em;
-//   font: 400 10px system-ui;
-//   padding: 0px;
-//   border-width: 0px;
-//   border-style: inset;
-//   border-color: initial;
-//   border-image: initial;
-//   margin-bottom: 20px;
-//   @include type-32-regular;
-//   }
-//
-// .contact-content textarea:focus,
-// .contact-content input:focus{
-//   outline: none;
-//   }
-//
-// .tooltip {
-//   position: relative;
-//   display: inline-block;
-//   }
-//
-// .tooltip .tooltiptext {
-//   visibility: hidden;
-//   width: 200px;
-//   text-align: center;
-//   position: absolute;
-//   z-index: 1;
-//   bottom: -40px;
-//   left: -64px;
-//   margin-left: 0px;
-//   opacity: 0;
-//   transition: opacity 0.3s;
-//   white-space: nowrap;
-//   color: grey;
-//   }
-//
-// .tooltip:hover .tooltiptext {
-//   visibility: visible;
-//   opacity: 1;
-//   }
-//
-// .contact-content .tooltip button {
-//   @include type-16-medium;
-//   @include transition;
-//   display: inline-block;
-//   text-decoration: none;
-//   padding: 6px 15px;
-//   border-radius: 4px;
-//   border: 1px solid $color-type;
-//   color: $color-type;
-//   cursor: pointer;
-//   }
 
 /*Footer-------------------------------
 -------------------------------------*/

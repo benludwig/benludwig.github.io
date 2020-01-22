@@ -5,11 +5,11 @@ copy: "When you’ve got a new hammer, everything looks like a nail."
 order: 1
 layout: standard
 ---
-<div class="page">
-  <div class="image-column-1000 revealblock">
+<div class="page revealblock">
+  <div class="image-column-1000">
     <img src="https://res.cloudinary.com/benludwig/image/upload/c_fill,f_auto,h_500,q_auto:best,w_1000/v1572903130/article_design_systems_vlnnbr.png" alt="Group working">
   </div>
-  <div class="type-column revealblock">
+  <div class="type-column">
     <h1>Why design systems fail in product design</h1>
     <p>When you’ve got a new hammer, everything looks like a nail. The latest and greatest hammer in the designer’s toolbox is a design system. Easily misapplied and often misunderstood, design systems are the latest in an ongoing evolution of artifacts supporting design in software delivery.</p>
     <p>In this article, we’ll discuss the three conversations you should have before leveraging a design system for your next digital product.</p>
@@ -24,10 +24,10 @@ layout: standard
     <p>A design system is defined as a “comprehensive set of values, semantics, syntax, and context that form the foundation of a shared design language.” The term design system is often used interchangeably with pattern library, style guide, and component library. However, these three terms are actually the pieces that make up a design system.</p>
     <p>The benefit of consistent design is validated throughout the history of products. One of the greatest early examples is the NASA Style Guide. The meticulous and thoughtful documentation of the use of NASA’s brand accelerated and cemented it’s iconic role as a symbol of American power.</p>
   </div>
-<div class="image-column-1000 revealblock">
+<div class="image-column-1000">
   <img src="https://res.cloudinary.com/benludwig/image/upload/c_fill,f_auto,q_auto:best,w_1000/v1573511599/002_NASA-2500_ecaeci.jpg" alt="NASA Brand Standards">
 </div>
-  <div class="type-column revealblock">  
+  <div class="type-column">  
     <p>Before investing in a design system, ask, “what benefit are we hoping to achieve?” The most common goal is a holistic and consistent experience for every user of your product, regardless of device or medium. Design systems aid in organizing assets and patterns by serving as a single source of truth &#8212; a living product that can serve the needs of multiple product teams. This is true if you use an external design system, like Google Material Design, or establish your own.</p>
     <p>In the midst of all this organization, one fact can fall through the cracks: While consistency can make a good experience even better, consistency alone cannot make a bad experience good. No design system can replace the need for cross-team communication and collaboration.</p>
     <p>A design system is not a Band-Aid or magic tonic. Even with a design system, the success of your product still lies in the value it delivers to its users. The value of a design system is that it can enable a team to maintain its focus on the customer, rather than whether or not a development effort utilized the correct font sizes and button placement. The value of a faithfully built and managed design system is that your forest will be a forest, without having to touch every leaf and count every squirrel.</p>
