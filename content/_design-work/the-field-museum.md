@@ -10,7 +10,8 @@ layout: standard
   <p>There is an expansive area underground and outside of public view that holds 99%. There, scientists are telling the stories of history using pieces of history that are literally and figuratively buried.</p>
   <p>As part of the in-house design team at the museum, I designed responsive websites and interactive touchscreen displays for exhibits to help scientists tell those stories.</p>
   </div>
-  <div class="type-column">
+
+  <!-- <div class="type-column">
   <h2>Department of Zoology</h2>
   <p>Each hall of the museum has a unique focus. The Department of Zoology curates the Bird Hall and needed a digital space that matched the aesthetics and contents of the physical space. The website I designed and developed (the very first responsive website for the museum) was the digital version of the Bird Hall, complete with collections and research from zoologists.</p>
   </div>
@@ -21,7 +22,8 @@ layout: standard
       Your browser does not support the video tag.
     </video>
     <p class="caption">The digital version of the Bird Hall with stories of evolution and adaptation.</p>
-  </div>
+  </div> -->
+
   <div class="type-column">
   <h2>Expeditions</h2>
   <p>Hundreds of scientists at the museum regularly conduct research all over the world. Expeditions at The Field Museum was part of an initiative dedicated to following those scientists as they explored, understood, and protected the planet's diversity of plants, animals, and cultures.</p>
@@ -33,6 +35,6 @@ layout: standard
       <source src="https://res.cloudinary.com/benludwig/video/upload/vc_auto/v1574305874/FME_fnufls.webm" type="video/webm">
       Your browser does not support the video tag.
     </video>
-    <p class="caption">Expeditions from all over the world in one location.</p>
+    <!-- <p class="caption">Expeditions from all over the world in one location.</p> -->
   </div>
 </div>
