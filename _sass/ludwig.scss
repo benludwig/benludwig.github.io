@@ -37,12 +37,6 @@ Footer-------------------------------
 .preview-grid {
   display: grid;
   grid-gap: 60px 0px;
-  }
-.preview-grid.cs,
-.preview-grid.art,
-.preview-grid.jff,
-.preview-grid.da,
-.preview-grid.sp {
   grid-template-columns: 1fr;
   }
 
@@ -55,28 +49,11 @@ Footer-------------------------------
 @media screen and (min-width: 910px) {
   .preview-grid {
     grid-gap: 60px 30px;
-    }
-  .preview-grid.cs,
-  .preview-grid.art,
-  .preview-grid.jff {
-    grid-template-columns: 1fr 1fr;
-    }
-  .preview-grid.da {
-    grid-template-columns: 1fr 1fr;
-    }
-  .preview-grid.sp {
     grid-template-columns: 1fr 1fr;
     }
 }
 
-@media screen and (min-width: 1280px) {
-  .preview-grid.da {
-    grid-template-columns: 1fr 1fr;
-    }
-  .preview-grid.sp {
-    grid-template-columns: 1fr 1fr;
-    }
-}
+
 
 /*About--------------------------------
 -------------------------------------*/

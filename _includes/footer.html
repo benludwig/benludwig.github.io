@@ -10,18 +10,18 @@
           {% endfor %}
         </div>
         <div class="text-list-group">
-          <div class="text-list-section-title">Articles</div>
-          {% assign blla = site.articles | sort: 'order' %}
-          {% for item in blla %}
+          <div class="text-list-section-title">Side projects</div>
+          {% assign bllsp = site.side-projects | sort: 'order' %}
+          {% for item in bllsp %}
             <div class="list-title"><a href="{{ item.url }}">{{ item.title }}</a></div>
           {% endfor %}
         </div>
       </div>
       <div class="footer-col">
         <div class="text-list-group">
-          <div class="text-list-section-title">Side projects</div>
-          {% assign bllsp = site.side-projects | sort: 'order' %}
-          {% for item in bllsp %}
+          <div class="text-list-section-title">Latest article</div>
+          {% assign blla = site.articles | sort: 'order' %}
+          {% for item in blla %}
             <div class="list-title"><a href="{{ item.url }}">{{ item.title }}</a></div>
           {% endfor %}
         </div>
