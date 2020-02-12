@@ -3,11 +3,13 @@
   {% include head.html %}
   <body>
     {% include nav.html %}
-    <video autoplay loop muted playsinline poster="https://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto:best/v1580932580/title_home_frame_gwljsu.png">
-      <source src="https://res.cloudinary.com/benludwig/video/upload/vc_auto/v1580932524/title_home_lprijl.mp4">
-      <source src="https://res.cloudinary.com/benludwig/video/upload/vc_auto/v1580932524/title_home_lprijl.webm" type="video/webm">
-      Your browser does not support the video tag.
-    </video>
+    <div class="video-title revealblock">
+      <video autoplay loop muted playsinline poster="https://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto:best/v1580932580/title_home_frame_gwljsu.png">
+        <source src="https://res.cloudinary.com/benludwig/video/upload/vc_auto/v1580932524/title_home_lprijl.mp4">
+        <source src="https://res.cloudinary.com/benludwig/video/upload/vc_auto/v1580932524/title_home_lprijl.webm" type="video/webm">
+        Your browser does not support the video tag.
+      </video>
+    </div>
     {% include work-previews.html %}
     {% include footer.html %}
     <script type="text/javascript" src='{{ site.baseurl }}/js/scrollreveal.min.js'></script>
