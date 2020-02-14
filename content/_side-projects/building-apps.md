@@ -10,7 +10,7 @@ layout: standard
     <p>Most people don't have enough time to stay politically informed, much less research the validity of news sources they do encounter. News Real, an iOS app I created with <a href="https://github.com/mlichwa" target="_blank">Michal Lichwa</a>, was our way of combating that problem.</p>
     <p>In late 2016, Merrimack College professor Melissa Zimdars released a <a href="https://docs.google.com/document/d/10eA5-mCZLSS4MQY5QGb5ewC3VAL6pLkT53V_81ZyitM/preview" target="_blank">database</a> of websites tagged in a number of categories including "fake," "satire," "conspiracy," "unreliable," and "political." Accessing this database was cumbersome, especially on mobile devices. News Real provided an easier way to see if a website made the list.</p>
   </div>
-  <div class="video-column-400-tall">
+  <div class="video-mobile">
     <video autoplay loop muted playsinline poster="https://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto:best/v1573595397/nr_screen_frame_yyoffy.png">
       <source src="https://res.cloudinary.com/benludwig/video/upload/vc_auto/v1573595063/nr_screen_bexffu.mp4" type="video/mp4">
       <source src="https://res.cloudinary.com/benludwig/video/upload/vc_auto/v1573595063/nr_screen_bexffu.webm" type="video/webm">

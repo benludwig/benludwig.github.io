@@ -15,7 +15,7 @@ layout: standard
     <h2>A new brand, a new experience</h2>
     <p>The new brand was friendlier, more approachable and embraced the idea that technology could bring people closer together. Capturing moments of real connection was the inspiration behind the logo and a concept that was applied to every aspect of the brand. I traveled to San Francisco and met with their branding agency to identify the ways digital experiences could propel this idea.</p>
   </div>
-  <div class="video-column-1000">
+  <div class="video-desktop">
     <video autoplay loop muted playsinline poster="https://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto:best/v1581539190/brand_frame_jykrbq.png">
       <source src="https://res.cloudinary.com/benludwig/video/upload/vc_auto/v1581539054/brand_dot3ar.mp4">
       <source src="https://res.cloudinary.com/benludwig/video/upload/vc_auto/v1581539054/brand_dot3ar.webm" type="video/webm">
@@ -33,7 +33,7 @@ layout: standard
     <h2>The customer experience</h2>
     <p>As context for our design approach, we identified customer journeys to guide our decisions and measure progress. Customers didn't always start at the homepage and experiences didn't end on the website &#8212; they regularly included things like confirmation emails and text notifications. Effectively communicating the personality of the new brand meant updating all of those touch points along each journey to be more grounded, approachable and dependable.</p>
   </div>
-  <div class="video-column-400-tall">
+  <div class="video-mobile">
     <video autoplay loop muted playsinline poster="https://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto:best/v1580334525/mobile_frame_zeu65u.png">
       <source src="https://res.cloudinary.com/benludwig/video/upload/vc_auto/v1580334514/mobile_demc9m.mp4" type="video/mp4">
       <source src="https://res.cloudinary.com/benludwig/video/upload/vc_auto/v1580334514/mobile_demc9m.webm" type="video/webm">
@@ -47,7 +47,7 @@ layout: standard
     <h2>Design software</h2>
     <p>It was important for us to give more design control to a larger group. And most people outside of the design department could comfortably navigate the interface of Sketch. When paired with Abstract &#8212; a collaboration tool that controls versions of Sketch files &#8212; we didn't have to spend hours digging through file variations, hoping to find the right version. As resources changed, other people could jump in and start contributing faster than before.</p>
   </div>
-  <div class="video-column-1000">
+  <div class="video-desktop">
     <video autoplay loop muted playsinline poster="https://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto:best/v1580335706/beforeafter_h6rjof.png">
       <source src="https://res.cloudinary.com/benludwig/video/upload/vc_auto/v1580335696/beforeafter_ztr5qj.mp4">
       <source src="https://res.cloudinary.com/benludwig/video/upload/vc_auto/v1580335696/beforeafter_ztr5qj.webm" type="video/webm">
@@ -64,7 +64,7 @@ layout: standard
     <p>Our designers could put together pages with more speed and accuracy than ever before. The design files were version-controlled with Abstract and our styles were linked together. It was both efficient and consistent &#8212; but only for our team. Building on our success we opened our design system to other teams, too.</p>
     <p>InVision's Design System Manager became the home for documentation, guidelines, design assets and development specs. It was quickly adopted as an essential resource in guiding many different teams &#8212; marketing, sales, front-end development, SEO, accessibility, design, UX and digital marketing &#8212; to ensure the brand's voice was communicated correctly.</p>
   </div>
-  <div class="video-column-1000">
+  <div class="video-desktop">
     <video autoplay loop muted playsinline poster="https://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto:best/v1581107226/dsm_frame_smxjrv.png">
       <source src="https://res.cloudinary.com/benludwig/video/upload/vc_auto/v1581107215/dsm_demo_tcricc.mp4">
       <source src="https://res.cloudinary.com/benludwig/video/upload/vc_auto/v1581107215/dsm_demo_tcricc.webm" type="video/webm">
@@ -79,7 +79,7 @@ layout: standard
     <p>All of our client's home automation products and internet services worked seamlessly together &#8212; an important differentiator when compared to other smart home devices. To drive this further to potential customers, the connected home experience we designed visualized all of their products and services together in one home.</p>
     <p>It was an integral part of a much larger campaign that included TV spots, out-of-home advertisements, digital marketing and radio. All of those campaign pieces drove new customers to the connected home as the beginning of the purchasing flow.</p>
   </div>
-  <div class="video-column-1000">
+  <div class="video-desktop">
     <video autoplay loop muted playsinline poster="https://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto:best/v1581013220/connected_home_frame_mf6act.png">
       <source src="https://res.cloudinary.com/benludwig/video/upload/vc_auto/v1581013170/connected_home_hliaqg.mp4">
       <source src="https://res.cloudinary.com/benludwig/video/upload/vc_auto/v1581013170/connected_home_hliaqg.webm" type="video/webm">

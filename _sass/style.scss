@@ -35,37 +35,18 @@ dl, dd, ol, ul, figure {
   visibility: hidden;
   }
 
-// .grid-item img{
-//   opacity: 1;
-//   -webkit-transition: opacity 500ms;
-//   -moz-transition: opacity 500ms;
-//   -ms-transition: opacity 500ms;
-//   transition: opacity 500ms;
-//   }
-
 /*Typography-H1------------------------
 -------------------------------------*/
 
 h1 {
   @include type-42-regular;
-  @include kerning;
-  letter-spacing: -0.015em;
   color: $color-type;
-  @include font-smoothing;
   padding-bottom: 30px;
   }
 
-
-
-
-
-
-
-
-.home-text {
-  padding: 100px 20px 0px 20px;
-  max-width: 1442px;
-  margin: 0 auto;
+h1.centered {
+  text-align: center;
+  padding: 100px 0px 75px 0px;
   }
 
 h1.home {
@@ -93,95 +74,35 @@ h1.home {
     font-size: 100px;
     max-width: 400px;
     }
-  .home-text {
-    padding: 170px 100px 80px 100px;
-    }
 }
-
-
 
 @media screen and (min-width: 1040px) {
   h1.home {
     font-size: 120px;
     max-width: 700px;
     }
-  .home-text {
-    padding: 200px 100px 120px 100px;
-    }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 span.home-light {
   color: $color-type-caption;
-  }
-
-
-
-
-
-h1.centered {
-  text-align: center;
-  padding: 100px 0px 75px 0px;
-  }
-
-h1.work {
-
-  }
-
-h1.about {
-
-  }
-
-h1.contact {
-
   }
 
 /*Typography-H2------------------------
 -------------------------------------*/
 
 h2 {
-  @include type-28-regular;
-  @include kerning;
+  @include type-28;
   color: $color-type;
-  @include font-smoothing;
-  padding-bottom: 6px;
+  padding-bottom: 10px;
   }
 
 h2.photography {
-  @include type-12-bold;
+  @include type-12-caps;
   text-align: center;
   padding: 100px 0px 50px 0px;
   }
 
-h2.work {
-
-  }
-
 h2.about {
-  @include type-24-medium;
-  padding-top: 60px;
-  margin-bottom: 6px;
-  }
-
-h2.contact {
   @include type-24-medium;
   padding-top: 60px;
   margin-bottom: 6px;
@@ -196,22 +117,6 @@ h3 {
   padding-bottom: 5px;
   }
 
-h3.home {
-
-  }
-
-h3.work {
-
-  }
-
-h3.about {
-
-  }
-
-h3.contact {
-
-  }
-
 /*Typography-p-------------------------
 -------------------------------------*/
 
@@ -222,28 +127,20 @@ p {
   padding-bottom: 40px;
   }
 
-p.home {
-  @include type-16-regular;
-  color: $color-type-inverted;
-  padding-bottom: 3px;
-  }
-
-p.work-p {
-  @include type-16-regular;
-  color: $color-type-caption;
-  @include kerning;
-  padding-bottom: 0px;
-  }
-
 p.about-p {
   padding-bottom: 20px;
   }
 
 p.caption {
   @include type-14-regular;
-  padding: 20px;
+  padding: 10px 20px 20px 20px;
   }
 
+@media screen and (min-width: 620px) {
+  p.caption {
+    padding: 20px 20px 20px 20px;
+    }
+}
 
 /*Typography-li------------------------
 -------------------------------------*/
@@ -302,9 +199,9 @@ li.type-list-muted {
 /*Links--------------------------------
 -------------------------------------*/
 
-  a {
-    color: inherit;
-    }
+a {
+  color: inherit;
+  }
 
 /*Buttons------------------------------
 -------------------------------------*/
@@ -351,71 +248,73 @@ video {
   height: auto;
   }
 
-.video-title {
-  max-width: 2000px;
-  margin: 0 auto;
-  }
-
-.video-column-400-tall {
+.video-mobile {
   text-align:center;
-  padding: 45px 10px 10px 10px;
-  margin-top: 40px;
-  margin-bottom: 80px;
+  margin-top: 20px;
+  margin-bottom: 40px;
   }
 
-.video-column-400-tall video {
-  max-width: 400px;
-  box-shadow: 0 0 50px 0 rgba(0,0,0,0.35);
+.video-mobile video {
+  width: 60%;
+  height: auto;
+  border: 1px solid $color-divider;
   border-radius: 6px;
-  background-color: #F8F8F8;
   }
 
-.video-column-600 {
+@media screen and (min-width: 620px) {
+  .video-mobile {
+    margin-top: 95px;
+    margin-bottom: 90px;
+    }
+  .video-mobile video {
+    max-width: 400px;
+    border: 0px;
+    box-shadow: 0 0 50px 0 rgba(0,0,0,0.35);
+    }
+}
+
+.video-desktop {
   text-align:center;
-  padding: 45px 10px 10px 10px;
-  margin-top: 40px;
-  margin-bottom: 80px;
+  margin-top: 10px;
+  margin-bottom: 20px;
   }
 
-.video-column-600 video {
-  max-width: 600px;
-  box-shadow: 0 0 50px 0 rgba(0,0,0,0.35);
-  border-radius: 6px;
-  background-color: #F8F8F8;
+.video-desktop video {
+  border-top: 1px solid $color-divider;
+  border-bottom: 1px solid $color-divider;
   }
 
-.video-column-800 {
-  text-align:center;
-  padding-bottom: 30px;
+@media screen and (min-width: 620px) {
+  .video-desktop {
+    text-align:center;
+    margin-top: 90px;
+    margin-bottom: 95px;
+    }
+  .video-desktop video {
+    width: 80%;
+    height: auto;
+    max-width: 1100px;
+    box-shadow: 0 0 50px 0 rgba(0,0,0,0.35);
+    border-radius: 6px;
+    background-color: #F8F8F8;
+    }
+}
+
+.collection {
+  padding-top: 75px;
   }
 
-.video-column-800 video {
-  max-width: 800px;
-  box-shadow: 0 0 50px 0 rgba(0,0,0,0.35);
-  border-radius: 6px;
-  background-color: #F8F8F8;
-  }
-
-.video-column-1000 {
-  text-align:center;
-  padding: 45px 10px 10px 10px;
-  margin-top: 40px;
-  margin-bottom: 80px;
-  }
-
-.video-column-1000 video {
-  max-width: 1000px;
-  box-shadow: 0 0 50px 0 rgba(0,0,0,0.35);
-  border-radius: 6px;
-  background-color: #F8F8F8;
-  }
+@media screen and (min-width: 620px) {
+  .collection {
+    padding-top: 20px;
+    }
+}
 
 @media screen and (min-width: 840px) {
   .collection {
     padding-top: 140px;
     }
 }
-
 
 /*Nav----------------------------------
 -------------------------------------*/
@@ -462,28 +361,7 @@ a.nav-right {
   z-index:999;
   }
 
-a.nav-right-dark {
-  align-items: center;
-  border-radius: 500px;
-  top: 20px;
-  cursor: pointer;
-  display: flex;
-  height: 40px;
-  justify-content: center;
-  min-width: 80px;
-  position: fixed;
-  right: 20px;
-  width: fit-content;
-  @include type-14-medium;
-  color: $color-type-inverted;
-  text-decoration: none;
-  background-color: $color-brand;
-  box-shadow: 0 3px 6px rgba(0, 0, 0, .16), 0 1px 2px rgba(0, 0, 0, .23);
-  padding-bottom:2px;
-  z-index:999;
-  }
-
-/*Work---------------------------------
+/*Previews-----------------------------
 -------------------------------------*/
 
 .preview-section-title {
@@ -501,7 +379,7 @@ a.nav-right-dark {
   }
 
 .preview-tag {
-  @include type-12-bold;
+  @include type-12-caps;
   color: $color-type;
   margin-bottom: 5px;
   }
@@ -525,22 +403,6 @@ a.nav-right-dark {
 
 .preview-buttons {
   margin-top: 15px;
-  }
-
-/*Lock Panel---------------------------
--------------------------------------*/
-
-.locked-panel {
-  max-width: 840px;
-  margin: 0px auto;
-  padding: 0px 40px;
-  margin-bottom: 40px;
-  }
-
-.locked-panel-message {
-  border: 1px solid #A8A8A8;
-  border-radius: 4px;
-  padding: 40px;
   }
 
 /*Footer-------------------------------

@@ -25,7 +25,7 @@ layout: standard
   <p>We streamlined data-heavy pages by focusing on manageable tasks, gave the user more meaningful feedback and prioritized the most commonly used fields. To validate our design strategy we created prototypes. It increased alignment between teams and helped us all make more informed design decisions.</p>
   <p>Once everyone was aligned on what we were building, we introduced a schedule for continuous user testing. The acceptance feedback after each round ensured that we were building the right feature before we started development.</p>
   </div>
-  <div class="video-column-1000">
+  <div class="video-desktop">
     <video autoplay loop muted playsinline poster="https://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto:best/v1578350399/erp1d_frame_mkbddx.png">
       <source src="https://res.cloudinary.com/benludwig/video/upload/vc_auto/v1578350413/erp1d_ff9nbl.mp4">
       <source src="https://res.cloudinary.com/benludwig/video/upload/vc_auto/v1578350413/erp1d_ff9nbl.webm" type="video/webm">
@@ -43,7 +43,7 @@ layout: standard
   </ul></p>
   <p>The obvious preference for the business is the first option. When a venue used their own equipment instead of renting or buying, it drastically increased profit margins. The only constraint was a single venue's inventory so we developed software to swap equipment between multiple locations. This created a much larger available inventory without any additional rental or purchasing costs.</p>
   </div>
-  <div class="video-column-1000">
+  <div class="video-desktop">
     <video autoplay loop muted playsinline poster="https://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto:best/v1578687799/erpui04_frame_f6rzbr.png">
       <source src="https://res.cloudinary.com/benludwig/video/upload/vc_auto/v1578687811/erpui_04_dkes5m.mp4">
       <source src="https://res.cloudinary.com/benludwig/video/upload/vc_auto/v1578687811/erpui_04_dkes5m.webm" type="video/webm">

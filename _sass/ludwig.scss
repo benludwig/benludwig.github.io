@@ -1,4 +1,4 @@
-@charset "utf-8";
+ @charset "utf-8";
 
 @import
   "style"
@@ -7,19 +7,35 @@
 * { box-sizing: border-box; }
 
 /*
-Nav----------------------------------
 Home---------------------------------
-Home Caption-------------------------
 Work---------------------------------
 About--------------------------------
 Contact------------------------------
 Page---------------------------------
-Flickity-----------------------------
 Footer-------------------------------
+Flickity-----------------------------
 */
 
 /*Home---------------------------------
 -------------------------------------*/
+
+.home-text {
+  padding: 100px 20px 0px 20px;
+  max-width: 1442px;
+  margin: 0 auto;
+  }
+
+@media screen and (min-width: 840px) {
+  .home-text {
+    padding: 170px 100px 80px 100px;
+    }
+}
+
+@media screen and (min-width: 1040px) {
+  .home-text {
+    padding: 200px 100px 120px 100px;
+    }
+}
 
 /*Work---------------------------------
 -------------------------------------*/
@@ -50,8 +66,6 @@ Footer-------------------------------
     grid-template-columns: 1fr 1fr;
     }
 }
-
-
 
 /*About--------------------------------
 -------------------------------------*/
@@ -104,7 +118,7 @@ Footer-------------------------------
 .page .type-column {
   max-width: 880px;
   margin: 0px auto;
-  padding: 0px 10px;
+  padding: 0px 20px;
   }
 
 @media screen and (min-width: 370px) {
@@ -121,6 +135,38 @@ Footer-------------------------------
     }
   .page .type-column {
     padding: 0px 100px 0px 100px;
+    }
+}
+
+/*Footer-------------------------------
+-------------------------------------*/
+
+.footer-container {
+  border-top: 1px solid $color-divider;
+  }
+
+.footer {
+  max-width: 1442px;
+  margin: 0 auto;
+  padding: 50px 20px;
+  }
+
+@media screen and (min-width: 840px) {
+  .footer {
+    padding: 60px 100px 50px 100px;
+    }
+}
+
+@media screen and (min-width: 1080px) {
+  .footer {
+    @include flex;
+    @include flex-justify-space-between;
+    }
+  .footer-one {
+    @include flex;
+    }
+  .footer-one .footer-col:first-child {
+    padding-right: 60px;
     }
 }
 
@@ -283,36 +329,4 @@ Footer-------------------------------
 ol.flickity-page-dots {
   visibility: hidden;
   }
-}
-
-/*Footer-------------------------------
--------------------------------------*/
-
-.footer-container {
-  border-top: 1px solid $color-divider;
-  }
-
-.footer {
-  max-width: 1442px;
-  margin: 0 auto;
-  padding: 50px 20px;
-  }
-
-@media screen and (min-width: 840px) {
-  .footer {
-    padding: 60px 100px 50px 100px;
-    }
-}
-
-@media screen and (min-width: 1080px) {
-  .footer {
-    @include flex;
-    @include flex-justify-space-between;
-    }
-  .footer-one {
-    @include flex;
-    }
-  .footer-one .footer-col:first-child {
-    padding-right: 60px;
-    }
 }

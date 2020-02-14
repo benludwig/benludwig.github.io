@@ -6,9 +6,6 @@ order: 1
 layout: standard
 ---
 <div class="page revealblock">
-  <div class="image-column-1000">
-    <img src="https://res.cloudinary.com/benludwig/image/upload/c_fill,f_auto,h_500,q_auto:best,w_1000/v1572903130/article_design_systems_vlnnbr.png" alt="Group working">
-  </div>
   <div class="type-column">
     <h1>Why design systems fail in product design</h1>
     <p>When you’ve got a new hammer, everything looks like a nail. The latest and greatest hammer in the designer’s toolbox is a design system. Easily misapplied and often misunderstood, design systems are the latest in an ongoing evolution of artifacts supporting design in software delivery.</p>
