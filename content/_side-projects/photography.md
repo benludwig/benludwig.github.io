@@ -1,5 +1,6 @@
 ---
 title: Photography
+imgsmall: "https://res.cloudinary.com/benludwig/image/upload/c_fill,f_auto,h_500,q_auto:best,w_1000/v1565232908/Rome/r5.jpg"
 img: "https://res.cloudinary.com/benludwig/image/upload/c_fill,f_auto,g_center,h_1415,q_auto:best,w_1000/v1565232908/Rome/r5.jpg"
 order: 2
 layout: standard

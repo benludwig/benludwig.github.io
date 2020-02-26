@@ -1,5 +1,6 @@
 ---
 title: Music
+imgsmall: "https://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto:best/v1582753603/music-tile-wide_u2sz92.jpg"
 img: "https://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto:best/v1582739927/music-tile_mg7dyi.jpg"
 order: 3
 layout: standard

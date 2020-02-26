@@ -1,5 +1,6 @@
 ---
 title: Building apps
+imgsmall: "https://res.cloudinary.com/benludwig/image/upload/c_fill,f_auto,g_center,h_500,q_auto:best,w_1000/v1523413625/newsrealpreview_dqprjf.png"
 img: "https://res.cloudinary.com/benludwig/image/upload/c_fill,f_auto,g_center,h_1415,q_auto:best,w_1000/v1523413625/newsrealpreview_dqprjf.png"
 order: 1
 layout: standard

@@ -374,10 +374,6 @@ a.nav-right {
   margin-bottom: 10px;
   }
 
-.preview-img img {
-  border-radius: 10px;
-  }
-
 .preview-video {
   margin-bottom: 10px;
   }
@@ -386,6 +382,7 @@ a.nav-right {
   @include type-12-caps;
   color: $color-type;
   margin-bottom: 5px;
+  display:none;
   }
 
 .preview-title {

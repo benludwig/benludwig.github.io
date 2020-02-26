@@ -46,28 +46,24 @@
   </div>
 </div>
 </div>
-
-
-
-
 <div class="preview-category">
   <div class="preview-section-title">Side projects</div>
   <div class="preview-grid three">
   {% assign blsp = site.side-projects | sort: 'order' %}
   {% for item in blsp %}
   <div class="preview">
-    <div class="preview-img"><a href="{{ item.url }}"><img src="{{ item.img }}"></a></div>
+    <div class="preview-img"><a href="{{ item.url }}">
+      <picture>
+        <source media="(max-width: 910px)" srcset="{{ item.imgsmall }}">
+        <img src="{{ item.img }}" alt="Alt text">
+      </picture>
+    </a></div>
     <div class="preview-title"><a href="{{ item.url }}">{{ item.title }}</a></div>
     <div class="preview-buttons"><a class="btn" href="{{ item.url }}">View project</a></div>
   </div>
   {% endfor %}
 </div>
 </div>
-
-
-
-
-
 <div class="preview-category">
   <div class="preview-grid">
   <div class="preview">
