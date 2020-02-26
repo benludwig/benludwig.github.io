@@ -65,6 +65,12 @@ Flickity-----------------------------
     grid-gap: 60px 30px;
     grid-template-columns: 1fr 1fr;
     }
+
+  .preview-grid.three {
+    grid-gap: 60px 30px;
+    grid-template-columns: 1fr 1fr 1fr;
+    }
+
 }
 
 /*About--------------------------------

@@ -374,6 +374,10 @@ a.nav-right {
   margin-bottom: 10px;
   }
 
+.preview-img img {
+  border-radius: 10px;
+  }
+
 .preview-video {
   margin-bottom: 10px;
   }
@@ -403,6 +407,7 @@ a.nav-right {
 
 .preview-buttons {
   margin-top: 15px;
+  display:none;
   }
 
 /*Footer-------------------------------
