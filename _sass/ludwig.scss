@@ -41,13 +41,15 @@ Flickity-----------------------------
 -------------------------------------*/
 
 .preview-container {
-  max-width: 1442px;
+  max-width: 2000px;
   margin: 0 auto;
   padding: 0px 20px 60px 20px;
   }
+
 .preview-category {
   padding-top: 80px;
   }
+
 .preview-grid {
   display: grid;
   grid-gap: 60px 0px;
@@ -60,8 +62,18 @@ Flickity-----------------------------
     }
 }
 
+
+
+
+
 @media screen and (min-width: 910px) {
-  .preview-grid {
+
+  .preview-grid.one {
+    grid-gap: 60px 30px;
+    grid-template-columns: 1fr;
+    }
+
+  .preview-grid.two {
     grid-gap: 60px 30px;
     grid-template-columns: 1fr 1fr;
     }
@@ -75,6 +87,11 @@ Flickity-----------------------------
 
 /*About--------------------------------
 -------------------------------------*/
+
+.about,
+.about.footer-container {
+  background-color: #000;
+  }
 
 .about-container {
   @include flex;

@@ -29,12 +29,34 @@ layout: standard
   <p>Hundreds of scientists at the museum regularly conduct research all over the world. Expeditions at The Field Museum was part of an initiative dedicated to following those scientists as they explored, understood, and protected the planet's diversity of plants, animals, and cultures.</p>
   <p>Users could watch video reports of their adventures, check out their weekly blogs from the field, browse galleries featuring photos of their findings, and track their research through interactive experiences and maps.</p>
   </div>
-  <div class="video-desktop">
+
+
+  <div class="video-tablet">
     <video autoplay loop muted playsinline poster="https://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto:best/v1574305898/FME_Frame_owchp6.png">
       <source src="https://res.cloudinary.com/benludwig/video/upload/vc_auto/v1574305874/FME_fnufls.mp4">
       <source src="https://res.cloudinary.com/benludwig/video/upload/vc_auto/v1574305874/FME_fnufls.webm" type="video/webm">
       Your browser does not support the video tag.
     </video>
-    <!-- <p class="caption">Expeditions from all over the world in one location.</p> -->
+    <p class="caption">Expeditions from all over the world in one location.</p>
   </div>
+
+
+  <div class="type-column">
+  <h2>Indoor Google Maps</h2>
+  <p></p>
+  </div>
+  <div class="video-mobile-landscape">
+    <video autoplay loop muted playsinline poster="https://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto:best/v1582928545/fieldmap_frame_wephra.png">
+      <source src="https://res.cloudinary.com/benludwig/video/upload/vc_auto/v1582928559/fieldmap_unyy9k.mp4">
+      <source src="https://res.cloudinary.com/benludwig/video/upload/vc_auto/v1582928559/fieldmap_unyy9k.webm" type="video/webm">
+      Your browser does not support the video tag.
+    </video>
+    <p class="caption">Expeditions from all over the world in one location.</p>
+  </div>
+
+
+
+
+
+
 </div>
