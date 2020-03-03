@@ -2,21 +2,7 @@
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
   {% include head.html %}
   <body>
-    <!-- {% include nav.html %} -->
-
-
-  <!-- <div class="video-full">
-    <video autoplay loop muted playsinline poster="https://res.cloudinary.com/benludwig/image/upload/c_scale,f_auto,q_auto:best,w_1920/v1582927100/homecube_frame_thvx7i.png">
-      <source src="https://res.cloudinary.com/benludwig/video/upload/c_scale,vc_auto,w_1920/v1582927113/homecube_pss5ki.mp4">
-      <source src="https://res.cloudinary.com/benludwig/video/upload/c_scale,vc_auto,w_1920/v1582927113/homecube_pss5ki.webm" type="video/webm">
-      Your browser does not support the video tag.
-    </video>
-  </div> -->
-
-
-    <!-- <div class="home-text revealblock">
-      <h1 class="home">Ben Ludwig <span class="home-light">Digital Product Design</span></h1>
-    </div> -->
+    {% include nav.html %}
     {% include work-previews.html %}
     {% include footer.html %}
     <script type="text/javascript" src='{{ site.baseurl }}/js/scrollreveal.min.js'></script>
