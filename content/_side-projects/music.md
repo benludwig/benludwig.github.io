@@ -16,7 +16,7 @@ layout: standard
       <source src="https://res.cloudinary.com/benludwig/video/upload/vc_auto/v1578688359/SMNGA1D_ew87l0.webm" type="video/webm">
       Your browser does not support the video tag.
     </video>
-    <p class="caption">A collection of albums on which I am the drummer.</p>
+    <p class="caption">Albums I've recorded playing drums.</p>
   </div>
 
 </div>

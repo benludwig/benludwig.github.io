@@ -35,6 +35,26 @@ dl, dd, ol, ul, figure {
   visibility: hidden;
   }
 
+.menu-left {
+  @include flex;
+  @include flex-align-center;
+  padding-left: 16px;
+  height: 100%;
+  @include standard-bold;
+  }
+
+.menu-left a  {
+  text-decoration: none;
+  }
+
+
+
+
+
+
+
+
+
 /*Typography-H1------------------------
 -------------------------------------*/
 
@@ -106,6 +126,7 @@ h2.about {
   @include type-24-medium;
   padding-top: 60px;
   margin-bottom: 6px;
+  color: #ffffff;
   }
 
 /*Typography-H3------------------------
@@ -129,6 +150,7 @@ p {
 
 p.about-p {
   padding-bottom: 20px;
+  color: #ffffff;
   }
 
 p.caption {
@@ -168,7 +190,7 @@ li {
 
 li.about-list {
   @include type-18-regular;
-  color: $color-type;
+  color: #ffffff;
   list-style-type: none;
   padding-bottom: 3px;
   }
@@ -176,7 +198,8 @@ li.about-list {
 li.about-list-muted {
   @include type-18-regular;
   list-style-type: none;
-  color: $color-type-caption;
+  // color: $color-type-caption;
+  color: #777777;
   padding-bottom: 13px;
   }
 
@@ -408,37 +431,50 @@ video {
 /*Previews-----------------------------
 -------------------------------------*/
 
-.preview-section-title {
-  @include type-24-medium;
-  color: $color-type;
-  margin-bottom: 20px;
-  }
+// .preview-section-title {
+//   @include type-19-regular;
+//   color: $color-type;
+//   margin-bottom: 20px;
+//   }
 
 .preview-img {
-  margin-bottom: 10px;
+  padding: 0px 0px 4px 0px;
   }
 
 .preview-video {
-  margin-bottom: 10px;
+
   }
 
 .preview-tag {
-  @include type-12-caps;
-  color: $color-type;
-  margin-bottom: 5px;
-  display:none;
+  @include standard-bold;
+  padding: 0px 16px;
+  }
+
+.preview-tag a  {
+  text-decoration: none;
   }
 
 .preview-title {
-  @include type-24-regular;
-  color: $color-type;
-  margin-bottom: 5px;
+  @include standard;
+  padding: 0px 16px;
   }
 
 .preview-title a {
   text-decoration: none;
   color: $color-type;
   }
+
+
+  @media screen and (min-width: 680px) {
+    .preview-tag,
+    .preview-title {
+      padding: 0px 0px;
+      }
+
+  }
+
+
+
 
 .preview-copy {
   @include type-16-regular;
@@ -447,7 +483,7 @@ video {
   }
 
 .preview-buttons {
-  margin-top: 15px;
+  // margin-top: 15px;
   display:none;
   }
 
@@ -494,7 +530,7 @@ video {
   }
 
 
-
+@media screen and (max-width: 979px) {
 
   /*Nav----------------------------------
   -------------------------------------*/
@@ -513,9 +549,11 @@ video {
     right: 0;
     z-index: 2;
     cursor: pointer;
-    width: 50px;
-    height: 50px;
+    width: 60px;
+    height: 60px;
     opacity: 0;
+    margin: 0;
+    padding: 0;
   }
 
   .menu-wrap .hamburger {
@@ -525,7 +563,7 @@ video {
     z-index: 1;
     width: 60px;
     height: 60px;
-    padding: 1rem;
+    padding: 0.5rem 1rem;
     // background-color: #ececec;
     display: flex;
     align-items: center;
@@ -639,7 +677,7 @@ video {
     list-style: none;
     color: #fff;
     font-size: 1.5rem;
-    padding: 1rem;
+    padding: 0.5rem;
   }
 
   .menu-wrap .menu > div > div > ul > li > a {
@@ -647,3 +685,41 @@ video {
     text-decoration: none;
     transition: color 0.4s ease;
   }
+
+}
+
+
+
+@media screen and (min-width: 980px) {
+
+  .menu-wrap {
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 1;
+  }
+
+.menu-wrap .toggler {
+display: none;
+}
+
+
+.menu-wrap .menu > div > div > ul {
+  @include flex;
+  @include flex-align-center;
+  height: 60px;
+  padding-right: 16px;
+}
+
+.menu-wrap .menu > div > div > ul > li {
+  @include standard;
+  list-style: none;
+  padding-left: 1.3rem;
+}
+
+.menu-wrap .menu > div > div > ul > li > a {
+  text-decoration: none;
+}
+
+
+}

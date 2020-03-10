@@ -19,23 +19,32 @@ Flickity-----------------------------
 /*Home---------------------------------
 -------------------------------------*/
 
-.home-text {
-  padding: 100px 20px 0px 20px;
-  max-width: 1442px;
-  margin: 0 auto;
+// .home-text {
+//   padding: 100px 20px 0px 20px;
+//   max-width: 1442px;
+//   margin: 0 auto;
+//   }
+//
+// @media screen and (min-width: 840px) {
+//   .home-text {
+//     padding: 170px 100px 80px 100px;
+//     }
+// }
+//
+// @media screen and (min-width: 1040px) {
+//   .home-text {
+//     padding: 200px 100px 120px 100px;
+//     }
+// }
+
+
+.main-menu {
+  position: fixed;
+  width: 100%;
+  height: 60px;
+  background-color: #fff;
   }
 
-@media screen and (min-width: 840px) {
-  .home-text {
-    padding: 170px 100px 80px 100px;
-    }
-}
-
-@media screen and (min-width: 1040px) {
-  .home-text {
-    padding: 200px 100px 120px 100px;
-    }
-}
 
 /*Work---------------------------------
 -------------------------------------*/
@@ -43,43 +52,38 @@ Flickity-----------------------------
 .preview-container {
   max-width: 2000px;
   margin: 0 auto;
-  padding: 0px 20px 60px 20px;
+  // padding: 0px 20px 60px 20px;
   }
 
-.preview-category {
-  padding-top: 80px;
+.preview-container .preview {
+  padding: 60px 0px 0px 0px;
   }
 
 .preview-grid {
   display: grid;
-  grid-gap: 60px 0px;
+  // grid-gap: 60px 0px;
   grid-template-columns: 1fr;
   }
 
-@media screen and (min-width: 840px) {
+
+@media screen and (min-width: 680px) {
+
   .preview-container {
-    padding: 0px 100px 80px 100px;
+    padding: 4% 4% 120px 4%;
     }
-}
-
-
-
-
-
-@media screen and (min-width: 910px) {
 
   .preview-grid.one {
-    grid-gap: 60px 30px;
+    grid-gap: 0px 10px;
     grid-template-columns: 1fr;
     }
 
   .preview-grid.two {
-    grid-gap: 60px 30px;
+    grid-gap: 0px 10px;
     grid-template-columns: 1fr 1fr;
     }
 
   .preview-grid.three {
-    grid-gap: 60px 30px;
+    grid-gap: 0px 10px;
     grid-template-columns: 1fr 1fr 1fr;
     }
 

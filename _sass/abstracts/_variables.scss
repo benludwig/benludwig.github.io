@@ -77,6 +77,25 @@ html {
   font-kerning: normal;
   }
 
+
+
+
+@mixin standard-bold {
+  font-family: 'GTAmericaMedium', sans-serif;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  @include font-smoothing;
+  }
+
+@mixin standard {
+  font-family: 'GTAmericaRegular', sans-serif;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  @include font-smoothing;
+  }
+
+
+
 @mixin type-42-regular {
   font-family: 'GTAmericaRegular', sans-serif;
   font-size: 2.625rem;

@@ -1,36 +1,32 @@
 <div class="preview-container">
 <div class="preview-category">
-
-
   <div class="preview-grid one">
     <div class="preview">
-      <div class="preview-img"><a href="/design-work/guiding-digital-transformation"><img src="https://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto:best/v1578346045/c_preview_tzntlu.png"></a></div>
-      <div class="preview-tag">Telecommunications</div>
+      <div class="preview-img">
+        <a href="/design-work/guiding-digital-transformation">
+          <!-- <picture>
+            <source media="(max-width: 760px)" srcset="https://res.cloudinary.com/benludwig/image/upload/c_fill,f_auto,h_1800,q_auto:best,w_1500/v1583854960/ctall_j3ou3y.png">
+            <img src="https://res.cloudinary.com/benludwig/image/upload/c_fill,f_auto,g_auto:body,h_800,q_auto:best,w_2000/v1583854959/cwide_rfiwm3.png">
+          </picture> -->
+          <picture>
+            <source media="(max-width: 760px)" srcset="https://res.cloudinary.com/benludwig/image/upload/c_fill,g_south,h_1800,w_1500/v1583867865/Friends_Connecting_mqnumz.jpg">
+            <img src="https://res.cloudinary.com/benludwig/image/upload/c_fill,f_auto,g_faces:auto,h_900,q_auto:best,w_2000/v1583867865/Friends_Connecting_mqnumz.jpg">
+          </picture>
+        </a></div>
+      <div class="preview-tag"><a href="/design-work/guiding-digital-transformation">Telecommunications</a></div>
       <div class="preview-title"><a href="/design-work/guiding-digital-transformation">Guiding a digital transformation</a></div>
-      <div class="preview-buttons"><a class="btn" href="/design-work/guiding-digital-transformation">View work</a></div>
     </div>
   </div>
-
-
-
-  <!-- <div class="preview-section-title">Design work</div> -->
-
-
-
-
-
   <div class="preview-grid two">
   <div class="preview">
     <div class="preview-img"><a href="/design-work/investing-user-research"><img src="https://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto:best/v1578346624/rig_preview_wymhrq.png"></a></div>
-    <div class="preview-tag">Logistics</div>
+    <div class="preview-tag"><a href="/design-work/investing-user-research">Logistics</a></div>
     <div class="preview-title"><a href="/design-work/investing-user-research">Investing in user research</a></div>
-    <div class="preview-buttons"><a class="btn" href="/design-work/investing-user-research">View work</a></div>
   </div>
   <div class="preview">
     <div class="preview-img"><a href="/design-work/the-field-museum"><img src="https://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto:best/v1576866363/fm-tile_bu4cdb.png"></a></div>
-    <div class="preview-tag">Not-for-profit</div>
+    <div class="preview-tag"><a href="/design-work/the-field-museum">Not-for-profit</a></div>
     <div class="preview-title"><a href="/design-work/the-field-museum">In-house design at The Field Museum</a></div>
-    <div class="preview-buttons"><a class="btn" href="/design-work/the-field-museum">View work</a></div>
   </div>
   <div class="preview">
     <div class="preview-video"><a href="/design-work/forecasting-ad-returns">
@@ -40,38 +36,34 @@
         Your browser does not support the video tag.
       </video>
     </a></div>
-    <div class="preview-tag">Analytics</div>
+    <div class="preview-tag"><a href="/design-work/forecasting-ad-returns">Analytics</a></div>
     <div class="preview-title"><a href="/design-work/forecasting-ad-returns">Forecasting digital advertising returns</a></div>
-    <div class="preview-buttons"><a class="btn" href="/design-work/forecasting-ad-returns">View work</a></div>
   </div>
   <div class="preview">
     <div class="preview-img"><a href="/design-work/building-architecture-brand"><img src="https://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto:best/v1578002399/SMNGA_preview3_pjkfvt.png"></a></div>
-    <div class="preview-tag">Architecture</div>
+    <div class="preview-tag"><a href="/design-work/building-architecture-brand">Architecture</a></div>
     <div class="preview-title"><a href="/design-work/building-architecture-brand">Building an architecture brand</a></div>
-    <div class="preview-buttons"><a class="btn" href="/design-work/building-architecture-brand">View work</a></div>
   </div>
   <div class="preview">
     <div class="preview-img"><a href="/design-work/collection"><img src="https://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto:best/v1580337064/archive_frame_vcnunl.jpg"></a></div>
-    <div class="preview-tag">Various industries</div>
+    <div class="preview-tag"><a href="/design-work/collection">Design archive</a></div>
     <div class="preview-title"><a href="/design-work/collection">A collection of additional work</a></div>
-    <div class="preview-buttons"><a class="btn" href="/design-work/collection">View work</a></div>
   </div>
 </div>
 </div>
 <div class="preview-category">
-  <div class="preview-section-title">Side projects</div>
   <div class="preview-grid three">
   {% assign blsp = site.side-projects | sort: 'order' %}
   {% for item in blsp %}
   <div class="preview">
     <div class="preview-img"><a href="{{ item.url }}">
       <picture>
-        <source media="(max-width: 910px)" srcset="{{ item.imgsmall }}">
+        <source media="(max-width: 679px)" srcset="{{ item.imgsmall }}">
         <img src="{{ item.img }}" alt="Alt text">
       </picture>
     </a></div>
-    <div class="preview-title"><a href="{{ item.url }}">{{ item.title }}</a></div>
-    <div class="preview-buttons"><a class="btn" href="{{ item.url }}">View project</a></div>
+    <div class="preview-title"><a href="{{ item.url }}">Side project</a></div>
+    <div class="preview-tag"><a href="{{ item.url }}">{{ item.title }}</a></div>
   </div>
   {% endfor %}
 </div>
@@ -81,16 +73,14 @@
   <div class="preview">
     {% assign blart = site.articles | sort: 'order' %}
     {% for item in blart %}
-    <div class="preview-section-title">Writing</div>
     <div class="preview-img"><a href="{{ item.url }}"><img src="{{ item.img }}"></a></div>
+    <div class="preview-tag"><a href="{{ item.url }}">Writing</a></div>
     <div class="preview-title"><a href="{{ item.url }}">{{ item.title }}</a></div>
-    <div class="preview-buttons"><a class="btn" href="{{ item.url }}">Read article</a></div>
     {% endfor %}
   </div>
   <div class="preview">
     {% assign bljff = site.just-for-fun | sort: 'order' %}
     {% for item in bljff %}
-    <div class="preview-section-title">Just for fun</div>
     <div class="preview-video"><a href="{{ item.url }}">
       <div class="preview-video">
         <video autoplay loop muted playsinline poster="https://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto:best/v1576683423/jack_frame_v3u0dm.png">
@@ -100,8 +90,8 @@
         </video>
       </div></a>
     </div>
+    <div class="preview-tag"><a href="{{ item.url }}">Just for fun</a></div>
     <div class="preview-title"><a href="{{ item.url }}">{{ item.title }}</a></div>
-    <div class="preview-buttons"><a class="btn" href="{{ item.url }}">View project</a></div>
     {% endfor %}
   </div>
 </div>
