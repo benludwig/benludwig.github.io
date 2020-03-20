@@ -495,12 +495,12 @@ video {
   }
 
 .text-list-section-title {
-  @include type-14-medium;
+  @include standard-bold;
   padding-bottom: 6px;
   }
 
 .list-title {
-  @include type-14-regular;
+  @include standard;
   padding-bottom: 3px;
   }
 

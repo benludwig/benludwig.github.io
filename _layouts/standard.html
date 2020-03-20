@@ -2,8 +2,9 @@
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
   {% include head.html %}
   <body>
+    {% include menu.html %}
     {{ content }}
-    {% include work-previews.html %}
+    {% include work-previews-next.html %}
     {% include footer.html %}
   <script type="text/javascript" src='{{ site.baseurl }}/js/flickity.pkgd.min.js'></script>
   <script type="text/javascript" src='{{ site.baseurl }}/js/scrollreveal.min.js'></script>

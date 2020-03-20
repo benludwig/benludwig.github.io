@@ -43,6 +43,7 @@ Flickity-----------------------------
   width: 100%;
   height: 60px;
   background-color: #fff;
+  z-index: 999;
   }
 
 
@@ -169,22 +170,22 @@ Flickity-----------------------------
 -------------------------------------*/
 
 .footer-container {
-  border-top: 1px solid $color-divider;
+  // border-top: 1px solid $color-divider;
   }
 
 .footer {
-  max-width: 1442px;
+  max-width: 2000px;
   margin: 0 auto;
-  padding: 50px 20px;
+  padding: 50px 16px;
   }
 
-@media screen and (min-width: 840px) {
+@media screen and (min-width: 680px) {
   .footer {
-    padding: 60px 100px 50px 100px;
+    padding: 4% 4% 60px 4%;
     }
 }
 
-@media screen and (min-width: 1080px) {
+@media screen and (min-width: 1200px) {
   .footer {
     @include flex;
     @include flex-justify-space-between;
