@@ -6,7 +6,7 @@ copy: "A new design strategy that changed a business"
 order: 1
 layout: standard
 ---
-<div class="page revealblock">
+<div class="page revealblock" style="background-color:#ececec;">
   <div class="type-column">
     <h1>Guiding a digital transformation</h1>
     <p>The largest private telecommunications company in America has over 6 million customers across 18 states.</p>
