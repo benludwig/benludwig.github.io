@@ -5,7 +5,7 @@ img: "https://res.cloudinary.com/benludwig/image/upload/c_fill,f_auto,g_center,h
 order: 1
 layout: standard
 ---
-<div class="page revealblock" style="background-color:blue;">
+<div class="page revealblock">
   <div class="type-column">
     <h1>News Real iOS App</h1>
     <p>Most people don't have enough time to stay politically informed, much less research the validity of news sources they do encounter. News Real, an iOS app I created with <a href="https://github.com/mlichwa" target="_blank">Michal Lichwa</a>, was our way of combating that problem.</p>
