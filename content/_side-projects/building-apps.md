@@ -5,6 +5,14 @@ img: "https://res.cloudinary.com/benludwig/image/upload/c_fill,f_auto,g_center,h
 order: 1
 layout: standard
 ---
+
+<style>
+  body,
+  .main-menu {
+  background-color: #3A4B53;
+  }
+</style>
+
 <div class="page revealblock">
   <div class="type-column">
     <h1>News Real iOS App</h1>

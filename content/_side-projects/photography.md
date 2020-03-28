@@ -5,6 +5,14 @@ img: "https://res.cloudinary.com/benludwig/image/upload/c_fill,f_auto,g_center,h
 order: 2
 layout: standard
 ---
+
+<style>
+  body,
+  .main-menu {
+  background-color: #000000;
+  }
+</style>
+
 <div class="page revealblock">
 
   <div class="carousel-container">

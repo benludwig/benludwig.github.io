@@ -6,6 +6,14 @@ copy: "A new design strategy that changed a business"
 order: 1
 layout: standard
 ---
+
+<style>
+  body,
+  .main-menu {
+  background-color: #23304B;
+  }
+</style>
+
 <div class="page revealblock">
   <div class="type-column">
     <h1>Guiding a digital transformation</h1>

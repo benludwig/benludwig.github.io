@@ -75,9 +75,10 @@ body {
 -------------------------------------*/
 
 h1 {
-  @include type-42-regular;
-  color: $color-type;
-  padding-bottom: 30px;
+  // @include type-42-regular;
+  // color: $color-type;
+  // padding-bottom: 30px;
+  display:none;
   }
 
 /*Typography-H2------------------------
@@ -217,41 +218,28 @@ video {
   height: auto;
   }
 
-.video-title {
-  width: 100%;
-  height: 100vh;
-  @include flex;
-  @include flex-direction-column;
-  @include flex-justify-center;
-  @include flex-align-center;
-  }
+
 
 @media screen and (min-width: 980px) {
+
+  .video-title {
+    width: 100%;
+    height: 100vh;
+    @include flex;
+    @include flex-direction-column;
+    @include flex-justify-center;
+    @include flex-align-center;
+    }
+
   .video-title video {
     width: 90%;
     height: auto;
     max-width: 2000px;
     box-shadow: 0 0 50px 0 rgba(0,0,0,0.35);
-    // border-top: 0px solid $color-divider;
-    // border-bottom: 0px solid $color-divider;
-      // box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
-    // border-radius: 6px;
-    // background-color: #F8F8F8;
     }
+
   }
 
-
-
-
-
-  // .video-title.analytics {
-  //   background:
-  //     -webkit-linear-gradient(135deg, hsla(208.09, 82.46%, 11.18%, 1) 15%, hsla(208.09, 82.46%, 11.18%, 0) 80%),
-  //     -webkit-linear-gradient(205deg, hsla(208.35, 79.13%, 22.55%, 1) 100%, hsla(208.35, 79.13%, 22.55%, 0) 70%);
-  //   background:
-  //     linear-gradient(315deg, hsla(208.09, 82.46%, 11.18%, 1) 15%, hsla(208.09, 82.46%, 11.18%, 0) 80%),
-  //     linear-gradient(245deg, hsla(208.35, 79.13%, 22.55%, 1) 100%, hsla(208.35, 79.13%, 22.55%, 0) 70%);
-  //   }
 
 
 
@@ -352,13 +340,11 @@ video {
 @media screen and (min-width: 620px) {
   .video-desktop {
     text-align:center;
-    margin-top: 150px;
-    margin-bottom: 150px;
-    padding-top: 150px;
-    padding-bottom: 150px;
+    margin-top: 90px;
+    margin-bottom: 95px;
     }
   .video-desktop video {
-    width: 100%;
+    width: 95%;
     height: auto;
     max-width: 1200px;
     // border-top: 0px solid $color-divider;
@@ -402,6 +388,10 @@ video {
 /*Previews-----------------------------
 -------------------------------------*/
 
+.preview-container {
+  background-color: $color-background;
+  }
+
 .preview-tag {
   @include standard-bold;
   padding: 0px 16px;
@@ -430,6 +420,10 @@ video {
 
 /*Footer-------------------------------
 -------------------------------------*/
+
+.footer-container {
+  background-color: $color-background;
+  }
 
 .text-list-group {
   padding-bottom: 30px;

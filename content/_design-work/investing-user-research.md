@@ -6,6 +6,14 @@ copy: "How prototypes delivered immediate value"
 order: 2
 layout: standard
 ---
+
+<style>
+  body,
+  .main-menu {
+  background-color: #272A2C;
+  }
+</style>
+
 <div class="page revealblock">
   <div class="type-column">
   <h1>Investing in user research</h1>

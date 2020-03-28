@@ -1,7 +1,14 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
   {% include head.html %}
-  <body class="about revealblock">
+  <body>
+    <style>
+      body,
+      .main-menu,
+      .footer-container {
+      background-color: #000000;
+      }
+    </style>
     {% include menu.html %}
     <div class="about-container">
       <div class="about-content">

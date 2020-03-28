@@ -5,6 +5,14 @@ img: "https://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto:best/v1582
 order: 3
 layout: standard
 ---
+<style>
+  body,
+  .main-menu {
+  background-color: #092230;
+  }
+</style>
+
+
 <div class="page revealblock">
 
   <!-- <div class="video-desktop">

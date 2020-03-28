@@ -101,7 +101,7 @@ Flickity-----------------------------
 -------------------------------------*/
 
 .page {
-  // padding: 100px 0px 0px 0px;
+  padding: 100px 0px 0px 0px;
   }
 
 .page .type-column {
@@ -120,10 +120,10 @@ Flickity-----------------------------
 
 @media screen and (min-width: 840px) {
   .page {
-    // padding: 180px 0px 40px 0px;
+    padding: 180px 0px 40px 0px;
     }
   .page .type-column {
-    padding: 140px 100px 0px 100px;
+    padding: 0px 100px 0px 100px;
     }
 }
 

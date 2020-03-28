@@ -3,6 +3,14 @@ title: Jack Donaghy is calling
 order: 1
 layout: standard
 ---
+
+<style>
+  body,
+  .main-menu {
+  background-color: #1E1E1E;
+  }
+</style>
+
 <div class="page revealblock">
   <div class="type-column">
   <h1>Jack Donaghy is calling</h1>

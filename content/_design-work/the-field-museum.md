@@ -3,11 +3,18 @@ title: In-house design at The Field Museum
 order: 3
 layout: standard
 ---
+
+<style>
+  body,
+  .main-menu {
+  background-color: #0A2A18;
+  }
+</style>
+
 <div class="page revealblock">
   <div class="type-column">
   <h1>In-house design at The Field Museum</h1>
-  <p>The Field Museum in Chicago is one of the largest natural history museums in the world. Since opening in 1894, it has grown to contain over 40 million artifacts &#8212; though the collection on display is less than 1% of their total inventory.</p>
-  <p>There is an expansive area underground and outside of public view that holds 99%. There, scientists are telling the stories of history using pieces of history that are literally and figuratively buried.</p>
+  <p>The Field Museum in Chicago is one of the largest natural history museums in the world. Since opening in 1894, it has grown to contain over 40 million artifacts &#8212; though the collection on display is less than 1% of their total inventory.There is an expansive area underground and outside of public view that holds 99%. There, scientists are telling the stories of history using pieces of history that are literally and figuratively buried.</p>
   <p>As part of the in-house design team at the museum, I designed responsive websites and interactive touchscreen displays for exhibits to help scientists tell those stories.</p>
   </div>
   <div class="type-column">

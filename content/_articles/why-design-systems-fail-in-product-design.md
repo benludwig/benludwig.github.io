@@ -5,6 +5,16 @@ copy: "When you’ve got a new hammer, everything looks like a nail."
 order: 1
 layout: standard
 ---
+<style>
+  body,
+  .main-menu {
+  background-color: #F1F2EB;
+  }
+  .page p {
+  color: #272A2C;  
+  }
+</style>
+
 <div class="page revealblock">
   <div class="type-column">
     <h1>Why design systems fail in product design</h1>

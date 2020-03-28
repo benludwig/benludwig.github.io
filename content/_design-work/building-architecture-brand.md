@@ -3,6 +3,14 @@ title: Building an architecture brand
 order: 5
 layout: standard
 ---
+
+<style>
+  body,
+  .main-menu {
+  background-color: #000000;
+  }
+</style>
+
 <div class="page revealblock">
   <div class="type-column">
   <h1>Building an architecture brand</h1>

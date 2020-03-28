@@ -45,7 +45,7 @@
     flex: none;
     width: 100%;
     height: 2px;
-    background: #000;
+    background: #f6f3ef;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -196,6 +196,8 @@
   @include flex;
   @include flex-align-center;
   padding-left: 16px;
+  width: 90%;
+  width: calc(100% - 60px);
   height: 100%;
   @include standard-bold;
   }
@@ -207,8 +209,10 @@
 
   .main-menu {
     position: fixed;
+    top: 0;
+    left: 0;
     width: 100%;
     height: 60px;
-    // background-color: $color-background;
+    background-color: $color-background;
     z-index: 999;
     }

@@ -3,6 +3,14 @@ title: A collection of additional work
 order: 6
 layout: standard
 ---
+
+<style>
+  body,
+  .main-menu {
+  background-color: #282828;
+  }
+</style>
+
 <div class="page">
   <div class="video-desktop collection revealblock">
     <video autoplay loop muted playsinline poster="https://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto:best/v1580337334/collection_frame_uev1xv.png">
