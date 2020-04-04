@@ -5,7 +5,7 @@ copy: "When you’ve got a new hammer, everything looks like a nail."
 order: 1
 layout: standard
 ---
-<style>
+<!-- <style>
   body,
   .main-menu {
   background-color: #F1F2EB;
@@ -13,7 +13,7 @@ layout: standard
   .page p {
   color: #272A2C;  
   }
-</style>
+</style> -->
 
 <div class="page revealblock">
   <div class="type-column">

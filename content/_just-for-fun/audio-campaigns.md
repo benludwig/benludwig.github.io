@@ -4,12 +4,12 @@ order: 1
 layout: standard
 ---
 
-<style>
+<!-- <style>
   body,
   .main-menu {
   background-color: #1E1E1E;
   }
-</style>
+</style> -->
 
 <div class="page revealblock">
   <div class="type-column">

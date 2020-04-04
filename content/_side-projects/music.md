@@ -5,15 +5,27 @@ img: "https://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto:best/v1582
 order: 3
 layout: standard
 ---
-<style>
+<!-- <style>
   body,
   .main-menu {
   background-color: #092230;
   }
-</style>
+</style> -->
 
 
 <div class="page revealblock">
+
+
+
+<div class="video-desktop title">
+  <video autoplay loop muted playsinline poster="https://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto:best/v1585933219/title_music_frame_c7xot7.png">
+    <source src="https://res.cloudinary.com/benludwig/video/upload/vc_auto/v1585933227/title_music_duk732.mp4">
+    <source src="https://res.cloudinary.com/benludwig/video/upload/vc_auto/v1585933227/title_music_duk732.webm" type="video/webm">
+    Your browser does not support the video tag.
+  </video>
+</div>
+
+
 
   <!-- <div class="video-desktop">
     <video controls poster="https://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto:best/v1584654930/music_frame_gb0uzl.png">

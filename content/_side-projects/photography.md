@@ -6,12 +6,12 @@ order: 2
 layout: standard
 ---
 
-<style>
+<!-- <style>
   body,
   .main-menu {
   background-color: #000000;
   }
-</style>
+</style> -->
 
 <div class="page revealblock">
 

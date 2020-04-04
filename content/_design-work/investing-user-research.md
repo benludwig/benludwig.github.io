@@ -7,12 +7,12 @@ order: 2
 layout: standard
 ---
 
-<style>
+<!-- <style>
   body,
   .main-menu {
   background-color: #272A2C;
   }
-</style>
+</style> -->
 
 <div class="page revealblock">
   <div class="type-column">

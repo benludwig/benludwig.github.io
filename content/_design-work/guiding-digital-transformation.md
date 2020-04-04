@@ -7,14 +7,29 @@ order: 1
 layout: standard
 ---
 
-<style>
-  body,
-  .main-menu {
-  background-color: #23304B;
-  }
-</style>
+<!--
+
+Creative direction
+Digital branding
+Interface design
+User experience design
+Design system
+Front-end development (prototyping)
+Design operations strategy
+Design operations integration
+
+
+
+-->
 
 <div class="page revealblock">
+  <div class="video-desktop title">
+    <video autoplay loop muted playsinline poster="https://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto:best/v1585948551/title_guiding_frame_vd68g9.png">
+      <source src="https://res.cloudinary.com/benludwig/video/upload/vc_auto/v1585948557/title_guiding_kn4kai.mp4">
+      <source src="https://res.cloudinary.com/benludwig/video/upload/vc_auto/v1585948557/title_guiding_kn4kai.webm" type="video/webm">
+      Your browser does not support the video tag.
+    </video>
+  </div>
   <div class="type-column">
     <h1>Guiding a digital transformation</h1>
     <p>The largest private telecommunications company in America has over 6 million customers across 18 states.</p>

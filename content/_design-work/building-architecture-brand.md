@@ -3,15 +3,14 @@ title: Building an architecture brand
 order: 5
 layout: standard
 ---
-
-<style>
-  body,
-  .main-menu {
-  background-color: #000000;
-  }
-</style>
-
 <div class="page revealblock">
+  <div class="video-desktop title">
+    <video autoplay loop muted playsinline poster="https://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto:best/v1586016273/title_architecture_frame_yopme9.png">
+      <source src="https://res.cloudinary.com/benludwig/video/upload/vc_auto/v1586016274/title_architecture_mro3vh.mp4">
+      <source src="https://res.cloudinary.com/benludwig/video/upload/vc_auto/v1586016274/title_architecture_mro3vh.webm" type="video/webm">
+      Your browser does not support the video tag.
+    </video>
+  </div>
   <div class="type-column">
   <h1>Building an architecture brand</h1>
   <p>There are many touchpoints for a single brand. Emails, print pieces, packaging, signage and digital ads all carry a brand's message with each interaction. Perhaps the most important touchpoint &#8212; the one that joins all of them together &#8212; is a brand's website.</p>

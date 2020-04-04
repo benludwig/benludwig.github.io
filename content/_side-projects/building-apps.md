@@ -5,15 +5,14 @@ img: "https://res.cloudinary.com/benludwig/image/upload/c_fill,f_auto,g_center,h
 order: 1
 layout: standard
 ---
-
-<style>
-  body,
-  .main-menu {
-  background-color: #3A4B53;
-  }
-</style>
-
 <div class="page revealblock">
+  <div class="video-desktop title">
+    <video autoplay loop muted playsinline poster="https://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto:best/v1585934127/title_apps_zapypy.png">
+      <source src="https://res.cloudinary.com/benludwig/video/upload/vc_auto/v1585934135/title_apps_vj8pye.mp4">
+      <source src="https://res.cloudinary.com/benludwig/video/upload/vc_auto/v1585934135/title_apps_vj8pye.webm" type="video/webm">
+      Your browser does not support the video tag.
+    </video>
+  </div>
   <div class="type-column">
     <h1>News Real iOS App</h1>
     <p>Most people don't have enough time to stay politically informed, much less research the validity of news sources they do encounter. News Real, an iOS app I created with <a href="https://github.com/mlichwa" target="_blank">Michal Lichwa</a>, was our way of combating that problem.</p>
