@@ -1,21 +1,18 @@
 ---
 title: Why design systems fail in product design
-img: "https://res.cloudinary.com/benludwig/image/upload/c_fill,f_auto,h_500,q_auto:best,w_1000/v1572903130/article_design_systems_vlnnbr.png"
+img: "https://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto:best/v1586105653/article_design_systems_red_lel8io.png"
 copy: "When you’ve got a new hammer, everything looks like a nail."
 order: 1
 layout: standard
 ---
-<!-- <style>
-  body,
-  .main-menu {
-  background-color: #F1F2EB;
-  }
-  .page p {
-  color: #272A2C;  
-  }
-</style> -->
-
 <div class="page revealblock">
+  <div class="video-desktop title">
+    <video autoplay loop muted playsinline poster="https://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto:best/v1586107565/title_article_frame_g4hqfj.png">
+      <source src="https://res.cloudinary.com/benludwig/video/upload/vc_auto/v1586107573/title_article_vbqbk1.mp4">
+      <source src="https://res.cloudinary.com/benludwig/video/upload/vc_auto/v1586107573/title_article_vbqbk1.webm" type="video/webm">
+      Your browser does not support the video tag.
+    </video>
+  </div>
   <div class="type-column">
     <h1>Why design systems fail in product design</h1>
     <p>When you’ve got a new hammer, everything looks like a nail. The latest and greatest hammer in the designer’s toolbox is a design system. Easily misapplied and often misunderstood, design systems are the latest in an ongoing evolution of artifacts supporting design in software delivery.</p>

@@ -24,9 +24,9 @@ Design operations integration
 
 <div class="page revealblock">
   <div class="video-desktop title">
-    <video autoplay loop muted playsinline poster="https://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto:best/v1585948551/title_guiding_frame_vd68g9.png">
-      <source src="https://res.cloudinary.com/benludwig/video/upload/vc_auto/v1585948557/title_guiding_kn4kai.mp4">
-      <source src="https://res.cloudinary.com/benludwig/video/upload/vc_auto/v1585948557/title_guiding_kn4kai.webm" type="video/webm">
+    <video autoplay loop muted playsinline poster="https://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto:best/v1586104607/title_guiding_frame_ujqnwu.png">
+      <source src="https://res.cloudinary.com/benludwig/video/upload/vc_auto/v1586104625/title_guiding_nfyuqe.mp4">
+      <source src="https://res.cloudinary.com/benludwig/video/upload/vc_auto/v1586104625/title_guiding_nfyuqe.webm" type="video/webm">
       Your browser does not support the video tag.
     </video>
   </div>
