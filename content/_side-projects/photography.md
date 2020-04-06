@@ -5,19 +5,13 @@ img: "https://res.cloudinary.com/benludwig/image/upload/c_fill,f_auto,g_center,h
 order: 2
 layout: standard
 ---
-
-<!-- <style>
-  body,
-  .main-menu {
-  background-color: #000000;
-  }
-</style> -->
-
 <div class="page revealblock">
 
   <div class="carousel-container">
     <div class="carousel" data-flickity='{ "freeScroll": true, "imagesLoaded": true }'>
+      <div class="carousel-cell"><img src="https://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto:best/v1586138275/rometitle_jcylyl.png"></div>
       <div class="carousel-cell"><img src="https://res.cloudinary.com/benludwig/image/upload/c_scale,f_auto,q_auto:best,w_1920/v1565232908/Rome/r5.jpg"></div>
+      <div class="carousel-cell"><img src="https://res.cloudinary.com/benludwig/image/upload/c_scale,f_auto,q_auto:best,w_1920/v1565232837/Rome/r11.jpg"></div>
       <div class="carousel-cell"><img src="https://res.cloudinary.com/benludwig/image/upload/c_scale,f_auto,q_auto:best,w_1920/v1565232905/Rome/r7.jpg"></div>
       <div class="carousel-cell"><img src="https://res.cloudinary.com/benludwig/image/upload/c_scale,f_auto,q_auto:best,w_1920/v1565232903/Rome/r8.jpg"></div>
       <div class="carousel-cell"><img src="https://res.cloudinary.com/benludwig/image/upload/c_scale,f_auto,q_auto:best,w_1920/v1565232897/Rome/r10.jpg"></div>
@@ -27,16 +21,16 @@ layout: standard
       <div class="carousel-cell"><img src="https://res.cloudinary.com/benludwig/image/upload/c_scale,f_auto,q_auto:best,w_1920/v1565232867/Rome/r1.jpg"></div>
       <div class="carousel-cell"><img src="https://res.cloudinary.com/benludwig/image/upload/c_scale,f_auto,q_auto:best,w_1920/v1565232866/Rome/r6.jpg"></div>
       <div class="carousel-cell"><img src="https://res.cloudinary.com/benludwig/image/upload/c_scale,f_auto,q_auto:best,w_1920/v1565232857/Rome/r3.jpg"></div>
-      <div class="carousel-cell"><img src="https://res.cloudinary.com/benludwig/image/upload/c_scale,f_auto,q_auto:best,w_1920/v1565232841/Rome/r2.jpg"></div>
-      <div class="carousel-cell"><img src="https://res.cloudinary.com/benludwig/image/upload/c_scale,f_auto,q_auto:best,w_1920/v1565232837/Rome/r11.jpg"></div>
+      <!-- <div class="carousel-cell"><img src="https://res.cloudinary.com/benludwig/image/upload/c_scale,f_auto,q_auto:best,w_1920/v1565232841/Rome/r2.jpg"></div> -->
     </div>
   </div>
 
   <div class="carousel-container">
     <div class="carousel" data-flickity='{ "freeScroll": true, "imagesLoaded": true }'>
+      <div class="carousel-cell"><img src="https://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto:best/v1586138276/caprititle_hemas6.png"></div>
       <div class="carousel-cell"><img src="https://res.cloudinary.com/benludwig/image/upload/c_scale,f_auto,q_auto:best,w_1920/v1565232224/Capri/c5.jpg"></div>
       <div class="carousel-cell"><img src="https://res.cloudinary.com/benludwig/image/upload/c_scale,f_auto,q_auto:best,w_1920/v1565232180/Capri/c2.jpg"></div>
-      <div class="carousel-cell"><img src="https://res.cloudinary.com/benludwig/image/upload/c_scale,f_auto,q_auto:best,w_1920/v1565232179/Capri/c6.jpg"></div>
+      <!-- <div class="carousel-cell"><img src="https://res.cloudinary.com/benludwig/image/upload/c_scale,f_auto,q_auto:best,w_1920/v1565232179/Capri/c6.jpg"></div> -->
       <div class="carousel-cell"><img src="https://res.cloudinary.com/benludwig/image/upload/c_scale,f_auto,q_auto:best,w_1920/v1565232178/Capri/c3.jpg"></div>
       <div class="carousel-cell"><img src="https://res.cloudinary.com/benludwig/image/upload/c_scale,f_auto,q_auto:best,w_1920/v1565232174/Capri/c1.jpg"></div>
       <div class="carousel-cell"><img src="https://res.cloudinary.com/benludwig/image/upload/c_scale,f_auto,q_auto:best,w_1920/v1565232170/Capri/c4.jpg"></div>
@@ -45,7 +39,7 @@ layout: standard
 
   <div class="carousel-container">
     <div class="carousel" data-flickity='{ "freeScroll": true, "imagesLoaded": true }'>
-      <div class="carousel-cell"><img src="https://res.cloudinary.com/benludwig/image/upload/c_scale,f_auto,q_auto:best,w_1920/v1567798063/Vatican%20City/v1.jpg"></div>
+      <div class="carousel-cell"><img src="https://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto:best/v1586138279/vaticantitle_g9cmdm.png"></div>
       <div class="carousel-cell"><img src="https://res.cloudinary.com/benludwig/image/upload/c_scale,f_auto,q_auto:best,w_1920/v1567798034/Vatican%20City/v2.jpg"></div>
       <div class="carousel-cell"><img src="https://res.cloudinary.com/benludwig/image/upload/c_scale,f_auto,q_auto:best,w_1920/v1567798036/Vatican%20City/v3.jpg"></div>
       <div class="carousel-cell"><img src="https://res.cloudinary.com/benludwig/image/upload/c_scale,f_auto,q_auto:best,w_1920/v1567798081/Vatican%20City/v4.jpg"></div>
@@ -54,7 +48,7 @@ layout: standard
       <div class="carousel-cell"><img src="https://res.cloudinary.com/benludwig/image/upload/c_scale,f_auto,q_auto:best,w_1920/v1567798042/Vatican%20City/v7.jpg"></div>
       <div class="carousel-cell"><img src="https://res.cloudinary.com/benludwig/image/upload/c_scale,f_auto,q_auto:best,w_1920/v1567798028/Vatican%20City/v8.jpg"></div>
       <div class="carousel-cell"><img src="https://res.cloudinary.com/benludwig/image/upload/c_scale,f_auto,q_auto:best,w_1920/v1567800258/Vatican%20City/v9.jpg"></div>
-      <div class="carousel-cell"><img src="https://res.cloudinary.com/benludwig/image/upload/c_scale,f_auto,q_auto:best,w_1920/v1567800277/Vatican%20City/v10.jpg"></div>
+      <!-- <div class="carousel-cell"><img src="https://res.cloudinary.com/benludwig/image/upload/c_scale,f_auto,q_auto:best,w_1920/v1567800277/Vatican%20City/v10.jpg"></div> -->
       <div class="carousel-cell"><img src="https://res.cloudinary.com/benludwig/image/upload/c_scale,f_auto,q_auto:best,w_1920/v1567797997/Vatican%20City/v11.jpg"></div>
       <div class="carousel-cell"><img src="https://res.cloudinary.com/benludwig/image/upload/c_scale,f_auto,q_auto:best,w_1920/v1567798078/Vatican%20City/v12.jpg"></div>
       <div class="carousel-cell"><img src="https://res.cloudinary.com/benludwig/image/upload/c_scale,f_auto,q_auto:best,w_1920/v1567798071/Vatican%20City/v13.jpg"></div>
@@ -65,8 +59,7 @@ layout: standard
 
   <div class="carousel-container">
     <div class="carousel" data-flickity='{ "freeScroll": true, "imagesLoaded": true }'>
-      <div class="carousel-cell"><img src="https://res.cloudinary.com/benludwig/image/upload/c_scale,f_auto,q_auto:best,w_1920/v1567801250/Venice/n1.jpg"></div>
-      <div class="carousel-cell"><img src="https://res.cloudinary.com/benludwig/image/upload/c_scale,f_auto,q_auto:best,w_1920/v1567801285/Venice/n2.jpg"></div>
+      <div class="carousel-cell"><img src="https://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto:best/v1586138275/venicetitle_iowze4.png"></div>
       <div class="carousel-cell"><img src="https://res.cloudinary.com/benludwig/image/upload/c_scale,f_auto,q_auto:best,w_1920/v1567801278/Venice/n3.jpg"></div>
       <div class="carousel-cell"><img src="https://res.cloudinary.com/benludwig/image/upload/c_scale,f_auto,q_auto:best,w_1920/v1567801299/Venice/n4.jpg"></div>
       <div class="carousel-cell"><img src="https://res.cloudinary.com/benludwig/image/upload/c_scale,f_auto,q_auto:best,w_1920/v1567801289/Venice/n5.jpg"></div>
@@ -78,25 +71,29 @@ layout: standard
       <div class="carousel-cell"><img src="https://res.cloudinary.com/benludwig/image/upload/c_scale,f_auto,q_auto:best,w_1920/v1567801320/Venice/n11.jpg"></div>
       <div class="carousel-cell"><img src="https://res.cloudinary.com/benludwig/image/upload/c_scale,f_auto,q_auto:best,w_1920/v1567801341/Venice/n12.jpg"></div>
       <div class="carousel-cell"><img src="https://res.cloudinary.com/benludwig/image/upload/c_scale,f_auto,q_auto:best,w_1920/v1567801342/Venice/n13.jpg"></div>
+      <div class="carousel-cell"><img src="https://res.cloudinary.com/benludwig/image/upload/c_scale,f_auto,q_auto:best,w_1920/v1567801250/Venice/n1.jpg"></div>
+      <div class="carousel-cell"><img src="https://res.cloudinary.com/benludwig/image/upload/c_scale,f_auto,q_auto:best,w_1920/v1567801285/Venice/n2.jpg"></div>
     </div>
   </div>
 
   <div class="carousel-container">
     <div class="carousel" data-flickity='{ "freeScroll": true, "imagesLoaded": true }'>
+      <div class="carousel-cell"><img src="https://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto:best/v1586138273/islatitle_ark14u.png"></div>
       <div class="carousel-cell"><img src="https://res.cloudinary.com/benludwig/image/upload/c_scale,f_auto,q_auto:best,w_1920/v1565231946/Isla%20Mujeres/im3.jpg"></div>
-      <div class="carousel-cell"><img src="https://res.cloudinary.com/benludwig/image/upload/c_scale,f_auto,q_auto:best,w_1920/v1565231941/Isla%20Mujeres/im7.jpg"></div>
-      <div class="carousel-cell"><img src="https://res.cloudinary.com/benludwig/image/upload/c_crop,f_auto,g_center,h_1081,q_auto:best,w_1920/v1565231904/Isla%20Mujeres/im6.jpg"></div>
+      <!-- <div class="carousel-cell"><img src="https://res.cloudinary.com/benludwig/image/upload/c_scale,f_auto,q_auto:best,w_1920/v1565231941/Isla%20Mujeres/im7.jpg"></div> -->
+      <!-- <div class="carousel-cell"><img src="https://res.cloudinary.com/benludwig/image/upload/c_crop,f_auto,g_center,h_1081,q_auto:best,w_1920/v1565231904/Isla%20Mujeres/im6.jpg"></div> -->
       <div class="carousel-cell"><img src="https://res.cloudinary.com/benludwig/image/upload/c_scale,f_auto,q_auto:best,w_1920/v1565231936/Isla%20Mujeres/im8.jpg"></div>
       <div class="carousel-cell"><img src="https://res.cloudinary.com/benludwig/image/upload/c_scale,f_auto,q_auto:best,w_1920/v1565231931/Isla%20Mujeres/im2.jpg"></div>
-      <div class="carousel-cell"><img src="https://res.cloudinary.com/benludwig/image/upload/c_scale,f_auto,q_auto:best,w_1920/v1565231942/Isla%20Mujeres/im4.jpg"></div>
+      <!-- <div class="carousel-cell"><img src="https://res.cloudinary.com/benludwig/image/upload/c_scale,f_auto,q_auto:best,w_1920/v1565231942/Isla%20Mujeres/im4.jpg"></div> -->
     </div>
   </div>
 
   <div class="carousel-container">
     <div class="carousel" data-flickity='{ "freeScroll": true, "imagesLoaded": true }'>
+      <div class="carousel-cell"><img src="https://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto:best/v1586138279/lithuaniatitle_ifxwg4.png"></div>
       <div class="carousel-cell"><img src="https://res.cloudinary.com/benludwig/image/upload/c_scale,f_auto,q_auto:best,w_1920/v1567803182/Lithuania/l1.jpg"></div>
-      <div class="carousel-cell"><img src="https://res.cloudinary.com/benludwig/image/upload/c_scale,f_auto,q_auto:best,w_1920/v1567802091/Lithuania/l2.jpg"></div>
-      <div class="carousel-cell"><img src="https://res.cloudinary.com/benludwig/image/upload/c_scale,f_auto,q_auto:best,w_1920/v1567802085/Lithuania/l3.jpg"></div>
+      <!-- <div class="carousel-cell"><img src="https://res.cloudinary.com/benludwig/image/upload/c_scale,f_auto,q_auto:best,w_1920/v1567802091/Lithuania/l2.jpg"></div> -->
+      <!-- <div class="carousel-cell"><img src="https://res.cloudinary.com/benludwig/image/upload/c_scale,f_auto,q_auto:best,w_1920/v1567802085/Lithuania/l3.jpg"></div> -->
       <div class="carousel-cell"><img src="https://res.cloudinary.com/benludwig/image/upload/c_scale,f_auto,q_auto:best,w_1920/v1567803290/Lithuania/l4.jpg"></div>
       <div class="carousel-cell"><img src="https://res.cloudinary.com/benludwig/image/upload/c_scale,f_auto,q_auto:best,w_1920/v1567802158/Lithuania/l6.jpg"></div>
       <div class="carousel-cell"><img src="https://res.cloudinary.com/benludwig/image/upload/c_scale,f_auto,q_auto:best,w_1920/v1567802165/Lithuania/l7.jpg"></div>
