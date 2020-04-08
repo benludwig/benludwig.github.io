@@ -7,14 +7,17 @@ order: 2
 layout: standard
 ---
 
-<!-- <style>
-  body,
-  .main-menu {
-  background-color: #272A2C;
-  }
-</style> -->
-
 <div class="page revealblock">
+
+<div class="video-desktop">
+  <video autoplay loop muted playsinline poster="https://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto:best/v1578350399/erp1d_frame_mkbddx.png">
+    <source src="https://res.cloudinary.com/benludwig/video/upload/vc_auto/v1578350413/erp1d_ff9nbl.mp4">
+    <source src="https://res.cloudinary.com/benludwig/video/upload/vc_auto/v1578350413/erp1d_ff9nbl.webm" type="video/webm">
+    Your browser does not support the video tag.
+  </video>
+  <p class="caption">Making equipment selections across multiple inventories.</p>
+</div>
+
   <div class="type-column">
   <h1>Investing in user research</h1>
   <p>The leading provider of audiovisual services for hotels, conference centers and resorts throughout North America, Asia and Australia is known for supporting massive events like the International Consumer Electronics Show which is attended annually by over 170,000 people.</p>
@@ -33,14 +36,7 @@ layout: standard
   <p>We streamlined data-heavy pages by focusing on manageable tasks, gave the user more meaningful feedback and prioritized the most commonly used fields. To validate our design strategy we created prototypes. It increased alignment between teams and helped us all make more informed design decisions.</p>
   <p>Once everyone was aligned on what we were building, we introduced a schedule for continuous user testing. The acceptance feedback after each round ensured that we were building the right feature before we started development.</p>
   </div>
-  <div class="video-desktop">
-    <video autoplay loop muted playsinline poster="https://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto:best/v1578350399/erp1d_frame_mkbddx.png">
-      <source src="https://res.cloudinary.com/benludwig/video/upload/vc_auto/v1578350413/erp1d_ff9nbl.mp4">
-      <source src="https://res.cloudinary.com/benludwig/video/upload/vc_auto/v1578350413/erp1d_ff9nbl.webm" type="video/webm">
-      Your browser does not support the video tag.
-    </video>
-    <p class="caption">Making equipment selections across multiple inventories.</p>
-  </div>
+
   <div class="type-column">
   <h2>Automating inventories</h2>
   <p>One of the more complex operational procedures we solved ultimately had one of the largest impacts on the business. There had been three methods for sourcing equipment before any given event:

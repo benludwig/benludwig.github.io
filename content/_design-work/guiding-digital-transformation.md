@@ -23,21 +23,19 @@ Design operations integration
 -->
 
 <div class="page revealblock">
-  <div class="video-desktop title">
+  <!-- <div class="video-desktop title">
     <video autoplay loop muted playsinline poster="https://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto:best/v1586104607/title_guiding_frame_ujqnwu.png">
       <source src="https://res.cloudinary.com/benludwig/video/upload/vc_auto/v1586104625/title_guiding_nfyuqe.mp4">
       <source src="https://res.cloudinary.com/benludwig/video/upload/vc_auto/v1586104625/title_guiding_nfyuqe.webm" type="video/webm">
       Your browser does not support the video tag.
     </video>
+  </div> -->
+
+  <div class="title">
+    <div><h1>Guiding a digital transformation</h1></div>
+    <div><p>A new design strategy that changed a business</p></div>
   </div>
-  <div class="type-column">
-    <h1>Guiding a digital transformation</h1>
-    <p>The largest private telecommunications company in America has over 6 million customers across 18 states.</p>
-    <p>As the company's Agency of Record for over 8 years, FCB created campaigns for TV, digital marketing and out-of-home advertising. The success of consolidating all of their marketing and media accounts within one agency led to more work related to their online experience &#8212; the largest growing portion of the account since 2015.</p>
-    <p>Our team was in charge of making sure their digital products and e-commerce platform came together for customers in a coherent way. Creating a true end-to-end experience at an enterprise level required strategic and operational shifts. In the midst of those shifts, a company-wide rebrand was initiated.</p>
-    <h2>A new brand, a new experience</h2>
-    <p>The new brand was friendlier, more approachable and embraced the idea that technology could bring people closer together. Capturing moments of real connection was the inspiration behind the logo and a concept that was applied to every aspect of the brand. I traveled to San Francisco and met with their branding agency to identify the ways digital experiences could propel this idea.</p>
-  </div>
+
   <div class="video-desktop">
     <video autoplay loop muted playsinline poster="https://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto:best/v1581539190/brand_frame_jykrbq.png">
       <source src="https://res.cloudinary.com/benludwig/video/upload/vc_auto/v1581539054/brand_dot3ar.mp4">
@@ -46,6 +44,15 @@ Design operations integration
     </video>
     <p class="caption">A friendlier, more approachable new brand</p>
   </div>
+
+  <div class="type-column">
+    <p>The largest private telecommunications company in America has over 6 million customers across 18 states.</p>
+    <p>As the company's Agency of Record for over 8 years, FCB created campaigns for TV, digital marketing and out-of-home advertising. The success of consolidating all of their marketing and media accounts within one agency led to more work related to their online experience &#8212; the largest growing portion of the account since 2015.</p>
+    <p>Our team was in charge of making sure their digital products and e-commerce platform came together for customers in a coherent way. Creating a true end-to-end experience at an enterprise level required strategic and operational shifts. In the midst of those shifts, a company-wide rebrand was initiated.</p>
+    <h2>A new brand, a new experience</h2>
+    <p>The new brand was friendlier, more approachable and embraced the idea that technology could bring people closer together. Capturing moments of real connection was the inspiration behind the logo and a concept that was applied to every aspect of the brand. I traveled to San Francisco and met with their branding agency to identify the ways digital experiences could propel this idea.</p>
+  </div>
+
   <div class="type-column">
     <h2>The digital adaptation</h2>
     <p>I experimented with everything from typography scales to full responsive layouts while finding a balance between brand expression and realistic implementation. As refinement continued, the digital adaptation of the brand started to take shape. One of the biggest shifts from their previous design approach was a new way to think about layouts.</p>

@@ -21,10 +21,11 @@ Flickity-----------------------------
 .preview-container {
   max-width: 2000px;
   margin: 0 auto;
+  padding: 80px 4%;
   }
 
 .preview-container .preview {
-  padding: 60px 0px 0px 0px;
+  padding: 0px 0px 60px 0px;
   }
 
 .preview-grid {
@@ -34,10 +35,6 @@ Flickity-----------------------------
 
 
 @media screen and (min-width: 680px) {
-
-  .preview-container {
-    padding: 4% 4% 120px 4%;
-    }
 
   .preview-grid.one {
     grid-gap: 0px 2%;
@@ -56,6 +53,39 @@ Flickity-----------------------------
 
 }
 
+
+
+
+/*Page---------------------------------
+-------------------------------------*/
+
+.title {
+  max-width: 2000px;
+  margin: 0 auto;
+  padding: 120px 4% 0px 4%;
+  display: grid;
+  grid-template-columns: 1fr;
+  }
+
+@media screen and (min-width: 680px) {
+  .title {
+    grid-gap: 0px 2%;
+    grid-template-columns: 1fr 1fr;
+    }
+}
+
+.type-column {
+  max-width: 880px;
+  margin: 0px auto;
+  padding: 0px 4%;
+  }
+
+
+
+
+
+
+
 /*About--------------------------------
 -------------------------------------*/
 
@@ -64,7 +94,7 @@ Flickity-----------------------------
   @include flex-direction-column;
   max-width: 1442px;
   margin: 0 auto;
-  padding: 80px 20px 60px 20px;
+  padding: 80px 4% 60px 4%;
   }
 
 .about-content {
@@ -78,7 +108,7 @@ Flickity-----------------------------
 @media screen and (min-width: 840px) {
   .about-container {
     @include flex-direction-row;
-    padding: 60px 100px 120px 100px;
+    padding: 60px 4% 120px 4%;
     }
   .about-content {
     order: 1;
@@ -97,35 +127,6 @@ Flickity-----------------------------
     }
 }
 
-/*Page---------------------------------
--------------------------------------*/
-
-.page {
-  padding: 100px 0px 0px 0px;
-  }
-
-.page .type-column {
-  max-width: 880px;
-  margin: 0px auto;
-  padding: 0px 20px;
-  }
-
-@media screen and (min-width: 370px) {
-  .page .type-column {
-    max-width: 880px;
-    margin: 0px auto;
-    padding: 0px 40px;
-    }
-  }
-
-@media screen and (min-width: 840px) {
-  .page {
-    padding: 100px 0px 40px 0px;
-    }
-  .page .type-column {
-    padding: 0px 100px 0px 100px;
-    }
-}
 
 /*Footer-------------------------------
 -------------------------------------*/
@@ -133,14 +134,8 @@ Flickity-----------------------------
 .footer {
   max-width: 2000px;
   margin: 0 auto;
-  padding: 50px 16px;
+  padding: 4% 4% 60px 4%;
   }
-
-@media screen and (min-width: 680px) {
-  .footer {
-    padding: 4% 4% 60px 4%;
-    }
-}
 
 @media screen and (min-width: 1200px) {
   .footer {

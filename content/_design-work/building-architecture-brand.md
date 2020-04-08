@@ -4,18 +4,18 @@ order: 5
 layout: standard
 ---
 <div class="page revealblock">
-  <div class="video-desktop title">
+  <!-- <div class="video-desktop title">
     <video autoplay loop muted playsinline poster="https://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto:best/v1586016273/title_architecture_frame_yopme9.png">
       <source src="https://res.cloudinary.com/benludwig/video/upload/vc_auto/v1586016274/title_architecture_mro3vh.mp4">
       <source src="https://res.cloudinary.com/benludwig/video/upload/vc_auto/v1586016274/title_architecture_mro3vh.webm" type="video/webm">
       Your browser does not support the video tag.
     </video>
-  </div>
-  <div class="type-column">
-  <h1>Building an architecture brand</h1>
-  <p>There are many touchpoints for a single brand. Emails, print pieces, packaging, signage and digital ads all carry a brand's message with each interaction. Perhaps the most important touchpoint &#8212; the one that joins all of them together &#8212; is a brand's website.</p>
-  <p>Hub and Spoke is a term used to describe this common ecosystem; the website being the hub and everything else a spoke. SMNGA, a boutique architecture firm, had all of their spokes but no true hub. Their existing web presence didn't convey their comprehensive experience to potential clients looking to hire an architecture firm.</p>
-  </div>
+  </div> -->
+
+
+
+
+
   <div class="video-desktop">
     <video autoplay loop muted playsinline poster="https://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto:best/v1578688255/SMNGA1D_Frame_ndy771.png">
       <source src="https://res.cloudinary.com/benludwig/video/upload/vc_auto/v1578688359/SMNGA1D_ew87l0.mp4">
@@ -24,6 +24,12 @@ layout: standard
     </video>
     <p class="caption">Selecting case studies using simple terms like Play, Work and Live.</p>
   </div>
+
+  <div class="type-column">
+  <p>There are many touchpoints for a single brand. Emails, print pieces, packaging, signage and digital ads all carry a brand's message with each interaction. Perhaps the most important touchpoint &#8212; the one that joins all of them together &#8212; is a brand's website.</p>
+  <p>Hub and Spoke is a term used to describe this common ecosystem; the website being the hub and everything else a spoke. SMNGA, a boutique architecture firm, had all of their spokes but no true hub. Their existing web presence didn't convey their comprehensive experience to potential clients looking to hire an architecture firm.</p>
+  </div>
+
   <div class="type-column">
   <h2>Strategy</h2>
   <p>We met with the owners of the company to determine what the hub should entail. During our content audits, we identified what the business wanted and what their customers expected.</p>

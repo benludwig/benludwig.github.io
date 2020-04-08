@@ -38,33 +38,6 @@ body {
   color: $color-type;
   }
 
-
-
-.big-title {
-  width: 100%;
-  height: 100vh;
-  @include flex;
-  @include flex-justify-center;
-  @include flex-align-center;
-  }
-
-// .big-title.analytics {
-//     background:
-//       -webkit-linear-gradient(315deg, hsla(26.84, 62.3%, 52.16%, 1) 0%, hsla(26.84, 62.3%, 52.16%, 0) 70%),
-//       -webkit-linear-gradient(65deg, hsla(212.31, 28.63%, 55.49%, 1) 10%, hsla(212.31, 28.63%, 55.49%, 0) 80%),
-//       -webkit-linear-gradient(135deg, hsla(213.06, 38.89%, 50.59%, 1) 15%, hsla(213.06, 38.89%, 50.59%, 0) 80%),
-//       -webkit-linear-gradient(205deg, hsla(212.73, 57.89%, 22.35%, 1) 100%, hsla(212.73, 57.89%, 22.35%, 0) 70%);
-//     background:
-//       linear-gradient(135deg, hsla(26.84, 62.3%, 52.16%, 1) 0%, hsla(26.84, 62.3%, 52.16%, 0) 70%),
-//       linear-gradient(25deg, hsla(212.31, 28.63%, 55.49%, 1) 10%, hsla(212.31, 28.63%, 55.49%, 0) 80%),
-//       linear-gradient(315deg, hsla(213.06, 38.89%, 50.59%, 1) 15%, hsla(213.06, 38.89%, 50.59%, 0) 80%),
-//       linear-gradient(245deg, hsla(212.73, 57.89%, 22.35%, 1) 100%, hsla(212.73, 57.89%, 22.35%, 0) 70%);
-//     }
-
-
-
-
-
 /*Reveal Effect----------------------*/
 
 .revealblock {
@@ -75,10 +48,9 @@ body {
 -------------------------------------*/
 
 h1 {
-  // @include type-42-regular;
-  // color: $color-type;
-  // padding-bottom: 30px;
-  display:none;
+  @include type-42-regular;
+  color: $color-type;
+  padding-bottom: 30px;
   }
 
 /*Typography-H2------------------------
@@ -122,16 +94,17 @@ p.about-p {
   }
 
 p.caption {
-  @include type-14-regular;
-  color: $color-type-muted;
-  padding: 10px 20px 20px 20px;
+  // @include type-14-regular;
+  // color: $color-type-muted;
+  // padding: 10px 20px 20px 20px;
+  display:none;
   }
 
-@media screen and (min-width: 620px) {
-  p.caption {
-    padding: 20px 20px 20px 20px;
-    }
-}
+// @media screen and (min-width: 620px) {
+//   p.caption {
+//     padding: 20px 20px 20px 20px;
+//     }
+// }
 
 /*Typography-li------------------------
 -------------------------------------*/
@@ -201,13 +174,18 @@ img {
   height: auto;
   }
 
-.image-column-1000 {
+.image-column-1000,
+.image-column-1400 {
   text-align:center;
   padding-bottom: 30px;
   }
 
 .image-column-1000 img {
   max-width: 1000px;
+  }
+
+.image-column-1400 img {
+  max-width: 1400px;
   }
 
 /*Video--------------------------------
@@ -217,35 +195,6 @@ video {
   width: 100%;
   height: auto;
   }
-
-
-
-// @media screen and (min-width: 980px) {
-//
-//   .video-title {
-//     width: 100%;
-//     height: 100vh;
-//     @include flex;
-//     @include flex-direction-column;
-//     @include flex-justify-center;
-//     @include flex-align-center;
-//     }
-//
-//   .video-title video {
-//     width: 90%;
-//     height: auto;
-//     max-width: 2000px;
-//     box-shadow: 0 0 50px 0 rgba(0,0,0,0.35);
-//     }
-//
-//   }
-
-
-
-
-
-
-
 
 .video-mobile {
   text-align:center;
@@ -326,33 +275,33 @@ video {
 
 
 .video-desktop {
-  text-align:center;
-  margin-top: 10px;
-  margin-bottom: 20px;
+  // text-align:center;
+  // margin-top: 10px;
+  // margin-bottom: 20px;
+  max-width: 2000px;
+  margin: 0 auto;
+  padding: 0px 4% 0px 4%;
+  display: grid;
+  grid-template-columns: 1fr;
   }
 
-.video-desktop.title {
-  margin-bottom: 60px;
-  }
-
-
-@media screen and (min-width: 620px) {
-  .video-desktop {
-    text-align:center;
-    margin-top: 90px;
-    margin-bottom: 95px;
-    }
-  .video-desktop video {
-    width: 95%;
-    height: auto;
-    max-width: 1200px;
-    }
-  .video-desktop.title {
-    margin-top: 0px;
-    margin-bottom: 60px;
-    }
-
-  }
+// @media screen and (min-width: 620px) {
+//   .video-desktop {
+//     text-align:center;
+//     margin-top: 90px;
+//     margin-bottom: 95px;
+//     }
+//   .video-desktop video {
+//     width: 95%;
+//     height: auto;
+//     max-width: 1200px;
+//     }
+//   .video-desktop.title {
+//     margin-top: 0px;
+//     margin-bottom: 60px;
+//     }
+//
+//   }
 
 
 
@@ -405,42 +354,22 @@ video {
 /*Previews-----------------------------
 -------------------------------------*/
 
-.preview-container {
-  background-color: $color-background;
-  }
-
 .preview-tag {
   @include standard-bold;
-  padding: 0px 16px;
   }
 
-.preview-tag a  {
+.preview-tag a,
+.preview-title a  {
   text-decoration: none;
   }
 
 .preview-title {
   @include standard;
   color: $color-type-muted;
-  padding: 0px 16px;
-  }
-
-.preview-title a {
-  text-decoration: none;
-  }
-
-@media screen and (min-width: 680px) {
-  .preview-tag,
-  .preview-title {
-    padding: 0px 0px;
-  }
   }
 
 /*Footer-------------------------------
 -------------------------------------*/
-
-.footer-container {
-  background-color: $color-background;
-  }
 
 .text-list-group {
   padding-bottom: 30px;
