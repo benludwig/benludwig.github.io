@@ -5,7 +5,6 @@ $color-type: #f6f3ef;
 $color-type-muted: #b3b3b3;
 $color-type-highlight: #FCF113;/*This is text highlight*/
 $color-background: #000000;
-$color-divider: #F2F2F2;/*Frames around video*/
 
 /*Font Files---------------------------
 -------------------------------------*/
@@ -37,14 +36,15 @@ src: url('../fonts/GTAmerica/GTAmerica-Bold.eot'), /* IE9 Compat Modes */
     url('../fonts/GTAmerica/GTAmerica-Bold.svg') format('svg'); /* Legacy iOS */
     }
 
-@font-face {
-font-family: 'GTAmericaCompressedBold';
-src: url('../fonts/GTAmerica/GTAmerica-CompressedBold.eot'), /* IE9 Compat Modes */
-    url('../fonts/GTAmerica/GTAmerica-CompressedBold.woff2') format('woff2'), /* Super Modern Browsers */
-    url('../fonts/GTAmerica/GTAmerica-CompressedBold.woff') format('woff'), /* Pretty Modern Browsers */
-    url('../fonts/GTAmerica/GTAmerica-CompressedBold.ttf')  format('truetype'), /* Safari, Android, iOS */
-    url('../fonts/GTAmerica/GTAmerica-CompressedBold.svg') format('svg'); /* Legacy iOS */
-    }
+/*Resets-------------------------------
+-------------------------------------*/
+
+body, h1, h2, h3, h4, h5, h6,
+p, blockquote, pre, hr,
+dl, dd, ol, ul, figure {
+  margin: 0;
+  padding: 0;
+  }
 
 /*Typography---------------------------
 -------------------------------------*/
@@ -75,21 +75,9 @@ html {
   font-kerning: normal;
   }
 
+// Standard Type
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-@mixin standard-bold {
+@mixin standard-medium {
   font-family: 'GTAmericaMedium', sans-serif;
   font-size: 1.25rem;
   line-height: 1.75rem;
@@ -103,23 +91,16 @@ html {
   @include font-smoothing;
   }
 
+// H1
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+@mixin type-55-medium {
+  font-family: 'GTAmericaMedium', sans-serif;
+  font-size: 3.4375rem;
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+  @include kerning;
+  @include font-smoothing;
+  }
 
 @mixin type-42-regular {
   font-family: 'GTAmericaRegular', sans-serif;
@@ -130,6 +111,8 @@ html {
   @include font-smoothing;
   }
 
+// H2
+
 @mixin type-28 {
   font-family: 'GTAmericaMedium', sans-serif;
   font-size: 1.75rem;
@@ -138,6 +121,8 @@ html {
   @include font-smoothing;
   }
 
+// H2 About
+
 @mixin type-24-medium {
   font-family: 'GTAmericaMedium', sans-serif;
   font-size: 1.5rem;
@@ -145,16 +130,7 @@ html {
   @include font-smoothing;
   }
 
-
-
-@mixin type-24-regular {
-  font-family: 'GTAmericaRegular', sans-serif;
-  font-size: 1.5rem;
-  line-height: 1.4;
-  @include font-smoothing;
-  }
-
-
+// H3
 
 @mixin type-20-medium {
   font-family: 'GTAmericaMedium', sans-serif;
@@ -163,12 +139,16 @@ html {
   @include font-smoothing;
   }
 
+// Paragraphs
+
 @mixin type-19-regular {
   font-family: 'GTAmericaRegular', sans-serif;
   font-size: 1.1875rem;
   line-height: 1.5;
   @include font-smoothing;
   }
+
+// Lists
 
 @mixin type-18-regular {
   font-family: 'GTAmericaRegular', sans-serif;
@@ -177,39 +157,12 @@ html {
   @include font-smoothing;
   }
 
-@mixin type-16-medium {
-  font-family: 'GTAmericaMedium', sans-serif;
-  font-size: 1rem;
-  line-height: 1.5;
-  @include font-smoothing;
-  }
-
-@mixin type-16-regular {
-  font-family: 'GTAmericaRegular', sans-serif;
-  font-size: 1rem;
-  line-height: 1.35;
-  @include font-smoothing;
-  }
-
-@mixin type-14-medium {
-  font-family: 'GTAmericaMedium', sans-serif;
-  font-size: 0.875rem;
-  line-height: 1.5;
-  @include font-smoothing;
-  }
+// Captions
 
 @mixin type-14-regular {
   font-family: 'GTAmericaRegular', sans-serif;
   font-size: 0.875rem;
   line-height: 1.5;
-  @include font-smoothing;
-  }
-
-@mixin type-12-caps {
-  font-family: 'GTAmericaBold', sans-serif;
-  font-size: 0.75rem;
-  line-height: 1.5;
-  text-transform: uppercase;
   @include font-smoothing;
   }
 

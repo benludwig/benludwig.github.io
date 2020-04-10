@@ -3,15 +3,7 @@ title: Alec Baldwin is calling
 order: 1
 layout: standard
 ---
-<div class="page revealblock">
 
-  <!-- <div class="video-desktop title">
-    <video autoplay loop muted playsinline poster="https://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto:best/v1586103473/title_jack_frame_uavuzm.png">
-      <source src="https://res.cloudinary.com/benludwig/video/upload/vc_auto/v1586103487/title_jack_r6aqls.mp4">
-      <source src="https://res.cloudinary.com/benludwig/video/upload/vc_auto/v1586103487/title_jack_r6aqls.webm" type="video/webm">
-      Your browser does not support the video tag.
-    </video>
-  </div> -->
 
   <div class="type-column">
   <h1>Jack Donaghy is calling</h1>
@@ -149,4 +141,3 @@ layout: standard
     <li class="type-list-muted">David Ortiz and Derek Jeter</li>
   </ul>
   </div>
-</div>

@@ -3,14 +3,7 @@ title: In-house design at The Field Museum
 order: 3
 layout: standard
 ---
-<div class="page revealblock">
-  <!-- <div class="video-desktop title">
-    <video autoplay loop muted playsinline poster="https://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto:best/v1585964776/title_field_frame_fo7drw.png">
-      <source src="https://res.cloudinary.com/benludwig/video/upload/vc_auto/v1585964785/title_field_esescr.mp4">
-      <source src="https://res.cloudinary.com/benludwig/video/upload/vc_auto/v1585964785/title_field_esescr.webm" type="video/webm">
-      Your browser does not support the video tag.
-    </video>
-  </div> -->
+
 
   <div class="video-desktop">
     <video autoplay loop muted playsinline poster="https://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto:best/v1583170820/birds_frame_jyki3h.png">
@@ -70,4 +63,3 @@ layout: standard
     </video>
     <p class="caption">An interactive for the Biomechanics exhibit.</p>
   </div>
-</div>

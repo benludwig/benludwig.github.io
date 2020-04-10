@@ -1,25 +1,3 @@
-
-@import "abstracts/variables";
-@import "nav";
-
-/*
-Resets-------------------------------
-Reveal Effect------------------------
-Typography-H1------------------------
-Typography-H2------------------------
-Typography-H3------------------------
-Typography-p-------------------------
-Typography-li------------------------
-Links--------------------------------
-Buttons------------------------------
-Images-------------------------------
-Nav----------------------------------
-Home---------------------------------
-Work---------------------------------
-Locked-Panel-------------------------
-Footer-------------------------------
-*/
-
 /*Resets-------------------------------
 -------------------------------------*/
 
@@ -29,7 +7,6 @@ dl, dd, ol, ul, figure {
     margin: 0;
     padding: 0;
     }
-
 
 /*Colors-----------------------------*/
 
@@ -49,16 +26,23 @@ body {
 
 h1 {
   @include type-42-regular;
-  color: $color-type;
   padding-bottom: 30px;
   }
+
+@media screen and (min-width: 1040px) {
+
+  h1 {
+    @include type-55-medium;
+    padding-bottom: 30px;
+    }
+
+}
 
 /*Typography-H2------------------------
 -------------------------------------*/
 
 h2 {
   @include type-28;
-  color: $color-type;
   padding-bottom: 10px;
   }
 
@@ -66,7 +50,6 @@ h2.about {
   @include type-24-medium;
   padding-top: 60px;
   margin-bottom: 6px;
-  color: #ffffff;
   }
 
 /*Typography-H3------------------------
@@ -74,7 +57,6 @@ h2.about {
 
 h3 {
   @include type-20-medium;
-  color: $color-type;
   padding-bottom: 5px;
   }
 
@@ -83,14 +65,12 @@ h3 {
 
 p {
   @include type-19-regular;
-  color: $color-type;
   @include kerning;
   padding-bottom: 40px;
   }
 
 p.about-p {
   padding-bottom: 20px;
-  color: #ffffff;
   }
 
 p.caption {
@@ -125,7 +105,6 @@ ul.type-unordered-list {
 
 li {
   @include type-19-regular;
-  color: $color-type;
   @include kerning;
   list-style-type: circle;
   }
@@ -145,7 +124,6 @@ li.about-list-muted {
 
 li.type-list {
   @include type-18-regular;
-  color: $color-type;
   list-style-type: none;
   padding-top: 15px;
   padding-bottom: 3px;
@@ -153,7 +131,6 @@ li.type-list {
 
 li.type-list-muted {
   @include type-18-regular;
-  color: $color-type-muted;
   list-style-type: none;
   padding-bottom: 3px;
   }
@@ -165,197 +142,11 @@ a {
   color: inherit;
   }
 
-
-/*Images-------------------------------
--------------------------------------*/
-
-img {
-  width: 100%;
-  height: auto;
-  }
-
-.image-column-1000,
-.image-column-1400 {
-  text-align:center;
-  padding-bottom: 30px;
-  }
-
-.image-column-1000 img {
-  max-width: 1000px;
-  }
-
-.image-column-1400 img {
-  max-width: 1400px;
-  }
-
-/*Video--------------------------------
--------------------------------------*/
-
-video {
-  width: 100%;
-  height: auto;
-  }
-
-.video-mobile {
-  text-align:center;
-  margin-top: 20px;
-  margin-bottom: 40px;
-  }
-
-.video-mobile video {
-  width: 60%;
-  height: auto;
-  // border: 1px solid $color-divider;
-  // border-radius: 6px;
-  }
-
-@media screen and (min-width: 620px) {
-  .video-mobile {
-    margin-top: 95px;
-    margin-bottom: 90px;
-    }
-  .video-mobile video {
-    max-width: 400px;
-    border: 0px;
-    // box-shadow: 0 0 50px 0 rgba(0,0,0,0.35);
-    }
-}
-
-.video-mobile-landscape {
-  text-align:center;
-  margin-top: 10px;
-  margin-bottom: 20px;
-  }
-
-.video-mobile-landscape video {
-  // border-top: 1px solid $color-divider;
-  // border-bottom: 1px solid $color-divider;
-  }
-
-@media screen and (min-width: 620px) {
-  .video-mobile-landscape {
-    text-align:center;
-    margin-top: 90px;
-    margin-bottom: 95px;
-    }
-  .video-mobile-landscape video {
-    width: 80%;
-    height: auto;
-    max-width: 900px;
-    // box-shadow: 0 0 50px 0 rgba(0,0,0,0.35);
-    // border-radius: 6px;
-    // background-color: #F8F8F8;
-    }
-}
-
-.video-tablet {
-  text-align:center;
-  margin-top: 10px;
-  margin-bottom: 20px;
-  }
-
-@media screen and (min-width: 620px) {
-  .video-tablet {
-    text-align:center;
-    margin-top: 90px;
-    margin-bottom: 95px;
-    }
-  .video-tablet video {
-    width: 80%;
-    height: auto;
-    max-width: 900px;
-    }
-}
-
-
-
-
-
-
-
-
-.video-desktop {
-  // text-align:center;
-  // margin-top: 10px;
-  // margin-bottom: 20px;
-  max-width: 2000px;
-  margin: 0 auto;
-  padding: 0px 4% 0px 4%;
-  display: grid;
-  grid-template-columns: 1fr;
-  }
-
-// @media screen and (min-width: 620px) {
-//   .video-desktop {
-//     text-align:center;
-//     margin-top: 90px;
-//     margin-bottom: 95px;
-//     }
-//   .video-desktop video {
-//     width: 95%;
-//     height: auto;
-//     max-width: 1200px;
-//     }
-//   .video-desktop.title {
-//     margin-top: 0px;
-//     margin-bottom: 60px;
-//     }
-//
-//   }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.video-embed {
-  text-align: center;
-  }
-
-@media screen and (min-width: 620px) {
-  .video-embed {
-    max-width: 2000px;
-    margin: 0 auto;
-    padding: 0px 4%;
-  }
-}
-
-.embed-container {
-  position: relative;
-  padding-bottom: 56.25%;
-  height: 0;
-  overflow: hidden;
-  max-width: 100%;
-  }
-
-.embed-container iframe,
-.embed-container object,
-.embed-container embed {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
-
 /*Previews-----------------------------
 -------------------------------------*/
 
 .preview-tag {
-  @include standard-bold;
+  @include standard-medium;
   }
 
 .preview-tag a,
@@ -376,7 +167,7 @@ video {
   }
 
 .text-list-section-title {
-  @include standard-bold;
+  @include standard-medium;
   padding-bottom: 6px;
   }
 

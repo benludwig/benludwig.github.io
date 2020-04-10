@@ -5,7 +5,7 @@ img: "https://res.cloudinary.com/benludwig/image/upload/c_fill,f_auto,g_center,h
 order: 2
 layout: standard
 ---
-<div class="page revealblock">
+
 
   <div class="carousel-container">
     <div class="carousel" data-flickity='{ "freeScroll": true, "imagesLoaded": true }'>
@@ -103,4 +103,3 @@ layout: standard
       <div class="carousel-cell"><img src="https://res.cloudinary.com/benludwig/image/upload/c_scale,f_auto,q_auto:best,w_1920/v1567802173/Lithuania/l11.jpg"></div>
     </div>
   </div>
-</div>

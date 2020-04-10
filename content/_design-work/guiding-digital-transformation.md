@@ -18,25 +18,16 @@ Front-end development (prototyping)
 Design operations strategy
 Design operations integration
 
-
-
 -->
 
-<div class="page revealblock">
-  <!-- <div class="video-desktop title">
-    <video autoplay loop muted playsinline poster="https://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto:best/v1586104607/title_guiding_frame_ujqnwu.png">
-      <source src="https://res.cloudinary.com/benludwig/video/upload/vc_auto/v1586104625/title_guiding_nfyuqe.mp4">
-      <source src="https://res.cloudinary.com/benludwig/video/upload/vc_auto/v1586104625/title_guiding_nfyuqe.webm" type="video/webm">
-      Your browser does not support the video tag.
-    </video>
-  </div> -->
+
 
   <div class="title">
     <div><h1>Guiding a digital transformation</h1></div>
     <div><p>A new design strategy that changed a business</p></div>
   </div>
 
-  <div class="video-desktop">
+  <div class="video-desktop background-desktop">
     <video autoplay loop muted playsinline poster="https://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto:best/v1581539190/brand_frame_jykrbq.png">
       <source src="https://res.cloudinary.com/benludwig/video/upload/vc_auto/v1581539054/brand_dot3ar.mp4">
       <source src="https://res.cloudinary.com/benludwig/video/upload/vc_auto/v1581539054/brand_dot3ar.webm" type="video/webm">
@@ -77,7 +68,7 @@ Design operations integration
     <h2>Design software</h2>
     <p>It was important for us to give more design control to a larger group. And most people outside of the design department could comfortably navigate the interface of Sketch. When paired with Abstract &#8212; a collaboration tool that controls versions of Sketch files &#8212; we didn't have to spend hours digging through file variations, hoping to find the right version. As resources changed, other people could jump in and start contributing faster than before.</p>
   </div>
-  <div class="video-desktop">
+  <div class="video-desktop background-desktop">
     <video autoplay loop muted playsinline poster="https://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto:best/v1580335706/beforeafter_h6rjof.png">
       <source src="https://res.cloudinary.com/benludwig/video/upload/vc_auto/v1580335696/beforeafter_ztr5qj.mp4">
       <source src="https://res.cloudinary.com/benludwig/video/upload/vc_auto/v1580335696/beforeafter_ztr5qj.webm" type="video/webm">
@@ -135,4 +126,3 @@ Design operations integration
     <li>Our team was the largest contributor to our client's evaluation of agency performance in 2018 and 2019 that led to the highest rating in partnership history</li>
     </ul></p>
   </div>
-</div>

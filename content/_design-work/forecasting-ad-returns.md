@@ -3,14 +3,7 @@ title: Forecasting digital advertising returns
 order: 4
 layout: standard
 ---
-<div class="page revealblock">
-  <!-- <div class="video-desktop title">
-    <video autoplay loop muted playsinline poster="https://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto:best/v1586011302/title_forecasting_frame_lttccn.png">
-      <source src="https://res.cloudinary.com/benludwig/video/upload/vc_auto/v1586011309/title_forecasting_zrf84a.mp4">
-      <source src="https://res.cloudinary.com/benludwig/video/upload/vc_auto/v1586011309/title_forecasting_zrf84a.webm" type="video/webm">
-      Your browser does not support the video tag.
-    </video>
-  </div>   -->
+
 
   <div class="video-desktop">
     <video autoplay loop muted playsinline poster="https://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto:best/v1574882030/RIC1_Frame_wgaz0z.png">
@@ -63,4 +56,3 @@ layout: standard
   <h2>Results</h2>
   <p>Comparing and forecasting data at every level provided a view of information that wasn't available on any other platform. Features like automated dashboards, cross-department reporting, cross-category reporting, location segmentation and custom date ranges further propelled our digital product as one of the company's main differentiators.</p>
   </div>
-</div>

@@ -3,14 +3,7 @@ title: Building an architecture brand
 order: 5
 layout: standard
 ---
-<div class="page revealblock">
-  <!-- <div class="video-desktop title">
-    <video autoplay loop muted playsinline poster="https://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto:best/v1586016273/title_architecture_frame_yopme9.png">
-      <source src="https://res.cloudinary.com/benludwig/video/upload/vc_auto/v1586016274/title_architecture_mro3vh.mp4">
-      <source src="https://res.cloudinary.com/benludwig/video/upload/vc_auto/v1586016274/title_architecture_mro3vh.webm" type="video/webm">
-      Your browser does not support the video tag.
-    </video>
-  </div> -->
+
 
 
 
@@ -63,4 +56,3 @@ layout: standard
   <h2>Results</h2>
   <p>The website became their main library of work and allowed potential clients to swiftly browse and research the company's capabilities during the decision-making process. An important sales tool in their collection of touchpoints &#8212; it was one that also joined them all together.</p>
   </div>
-</div>

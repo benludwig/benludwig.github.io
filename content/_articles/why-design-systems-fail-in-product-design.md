@@ -5,14 +5,6 @@ copy: "When you’ve got a new hammer, everything looks like a nail."
 order: 1
 layout: standard
 ---
-<div class="page revealblock">
-  <!-- <div class="video-desktop title">
-    <video autoplay loop muted playsinline poster="https://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto:best/v1586107565/title_article_frame_g4hqfj.png">
-      <source src="https://res.cloudinary.com/benludwig/video/upload/vc_auto/v1586107573/title_article_vbqbk1.mp4">
-      <source src="https://res.cloudinary.com/benludwig/video/upload/vc_auto/v1586107573/title_article_vbqbk1.webm" type="video/webm">
-      Your browser does not support the video tag.
-    </video>
-  </div> -->
 
   <div class="image-column-1400">
     <img src="https://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto:best/v1586202165/article_design_systems_red_dark_2_fmw90o.png" alt="NASA Brand Standards">
@@ -52,4 +44,3 @@ layout: standard
     <p>I’m excited to see where design systems are headed and what new techniques emerge. There are additional considerations about governance, maintenance, and implementing your design system on legacy products. At the core of the value is how they are utilized, and how faithfully they are maintained and managed. It’s a great new tool in the toolbox.</p>
     <p><a href="https://medium.com/@benludwig/why-design-systems-fail-in-product-design-f002744f26fc" target="_blank">View on Medium</a></p>
   </div>
-</div>

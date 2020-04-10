@@ -3,9 +3,11 @@
   {% include head.html %}
   <body>
     {% include menu.html %}
+    <div class="page revealblock">
     {{ content }}
     {% include work-previews-next.html %}
     {% include footer.html %}
+    </div>
   <script type="text/javascript" src='{{ site.baseurl }}/js/flickity.pkgd.min.js'></script>
   <script type="text/javascript" src='{{ site.baseurl }}/js/scrollreveal.min.js'></script>
   <script>

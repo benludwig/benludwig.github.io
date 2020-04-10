@@ -7,7 +7,7 @@ order: 2
 layout: standard
 ---
 
-<div class="page revealblock">
+
 
 <div class="video-desktop">
   <video autoplay loop muted playsinline poster="https://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto:best/v1578350399/erp1d_frame_mkbddx.png">
@@ -61,4 +61,3 @@ layout: standard
   <p>Thousands of employees were fully migrated to the new platform when it was released. User feedback and page performance reinforced the qualitative and quantitative value of our work. Tasks were being completed faster than ever before. People were finding the right information in the right place at the right time. Executives had a birds-eye view of the entire thing.</p>
   <p>By making the small up-front investment of researching with users we avoided building something people didn't need or want. And in turn, we designed a product that vastly increased the value of the business.</p>
   </div>
-</div>
