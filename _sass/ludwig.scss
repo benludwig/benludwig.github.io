@@ -11,9 +11,13 @@
 -------------------------------------*/
 
 .page {
+  padding-top: 140px;
+  }
+
+section {
   max-width: 2000px;
   margin: 0 auto;
-  padding: 60px 4% 4% 4%;
+  padding: 4%;
   }
 
 /*Work---------------------------------
@@ -54,7 +58,7 @@
 .title {
   display: grid;
   grid-template-columns: 1fr;
-  padding: 120px 4% 0px 4%;
+  // padding: 120px 4% 0px 4%;
   }
 
 @media screen and (min-width: 600px) and (max-width: 800px) {
@@ -67,10 +71,17 @@
   .title {
     grid-template-columns: 1fr 1fr;
     grid-gap: 0px 2%;
-    padding: 160px 4% 60px 4%;
+    // padding: 160px 4% 60px 4%;
     }
 }
 
+
+
+.detail-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 0px 2%;
+  }
 
 
 
@@ -115,6 +126,7 @@ video {
 .video-mobile video {
   width: 60%;
   height: auto;
+  border-radius: 4px;
   }
 
 @media screen and (min-width: 620px) {
@@ -123,7 +135,7 @@ video {
     margin-bottom: 90px;
     }
   .video-mobile video {
-    max-width: 400px;
+    max-width: 300px;
     border: 0px;
     }
 }
@@ -177,17 +189,26 @@ video {
 .video-desktop {
   display: grid;
   grid-template-columns: 1fr;
-  margin: 4%;
+  // margin: 4%;
   }
 
-.video-desktop.background-desktop {
-  background-color: brown;
+
+
+.video-background {
   padding: 6% 8%;
   }
 
-
-
-
+// .video-desktop.background-desktop {
+//   background-color: brown;
+//   padding: 6% 8%;
+//   }
+//
+//
+//
+// .video-mobile.background-mobile {
+//   background-color: #028399;
+//   padding: 6% 8%;
+//   }
 
 
 
@@ -205,15 +226,9 @@ video {
 
 .video-embed {
   text-align: center;
+  max-width: 2000px;
+  margin: 0 auto;
   }
-
-@media screen and (min-width: 620px) {
-  .video-embed {
-    max-width: 2000px;
-    margin: 0 auto;
-    padding: 0px 4%;
-  }
-}
 
 .embed-container {
   position: relative;
@@ -259,36 +274,24 @@ video {
 .type-column {
   max-width: 880px;
   margin: 0px auto;
-  padding: 0px 4%;
+  // padding: 0px 4%;
   }
+
+
+
+
+
+
 
 /*About--------------------------------
 -------------------------------------*/
 
-.about-container {
-  @include flex;
-  @include flex-direction-column;
-  }
-
-.about-content {
-  order: 2;
-  }
-
-.about-photo {
-  order: 1;
-  }
-
 @media screen and (min-width: 840px) {
   .about-container {
-    @include flex-direction-row;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     }
-  .about-content {
-    order: 1;
-    width: 60%;
-    }
-  .about-photo {
-    order: 2;
-    }
+
   .about-photo-sticky {
     position: -webkit-sticky;
     position: sticky;

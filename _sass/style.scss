@@ -70,6 +70,7 @@ p {
   }
 
 p.about-p {
+  @include standard;
   padding-bottom: 20px;
   }
 
@@ -103,24 +104,49 @@ ul.type-unordered-list {
   padding-bottom: 40px;
   }
 
+ul.detail {
+  padding-left: 0px;
+  padding-bottom: 10px;
+  }
+
+
+
 li {
   @include type-19-regular;
   @include kerning;
   list-style-type: circle;
   }
 
+
+li.detail {
+  @include type-14-regular;
+  @include kerning;
+  list-style-type: none;
+  }
+
+
+li.detail-muted {
+  @include type-14-regular;
+  @include kerning;
+  color: $color-type-muted;
+  list-style-type: none;
+  }
+
 li.about-list {
-  @include type-18-regular;
+  // @include type-18-regular;
+    @include standard;
   list-style-type: none;
   padding-bottom: 3px;
   }
 
 li.about-list-muted {
-  @include type-18-regular;
+  // @include type-18-regular;
+    @include standard;
   color: $color-type-muted;
   list-style-type: none;
   padding-bottom: 13px;
   }
+
 
 li.type-list {
   @include type-18-regular;

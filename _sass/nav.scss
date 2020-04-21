@@ -162,7 +162,8 @@
   .menu-wrap {
     position: fixed;
     top: 0;
-    right: 0;
+    // right: 0;
+    right: 4%;
     z-index: 1;
   }
 
@@ -175,7 +176,7 @@
   @include flex;
   @include flex-align-center;
   height: 60px;
-  padding-right: 16px;
+  // padding-right: 16px;
 }
 
 .menu-wrap .menu > div > div > ul > li {
@@ -195,7 +196,7 @@
 .menu-left {
   @include flex;
   @include flex-align-center;
-  padding-left: 16px;
+  // padding-left: 16px;
   width: 90%;
   width: calc(100% - 60px);
   height: 100%;
@@ -215,4 +216,5 @@
     height: 60px;
     background-color: $color-background;
     z-index: 999;
+    padding-left: 4%;
     }
