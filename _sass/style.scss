@@ -175,15 +175,40 @@ a {
   @include standard-medium;
   }
 
-.preview-tag a,
-.preview-title a  {
-  text-decoration: none;
-  }
-
 .preview-title {
   @include standard;
   color: $color-type-muted;
   }
+
+.preview-tag a,
+.preview-title a,
+.preview-full a  {
+  text-decoration: none;
+  }
+
+@media screen and (max-width: 579px) {
+
+.preview-full img,
+.preview-img img,
+.preview-video video {
+  border-radius: 4px;
+  }
+}
+
+
+@media screen and (min-width: 580px) {
+
+.preview-full .preview-tag {
+  @include standard;
+  color: $color-type-light;
+  }
+
+.preview-full .preview-title {
+  color: $color-type-light;
+  }
+
+}
+
 
 /*Footer-------------------------------
 -------------------------------------*/

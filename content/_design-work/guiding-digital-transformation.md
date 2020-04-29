@@ -38,7 +38,7 @@ layout: standard
           <li class="detail-muted">Digital branding</li>
           <li class="detail-muted">User interface design</li>
           <li class="detail-muted">User experience design</li>
-          <li class="detail-muted">Design system development</li>
+          <li class="detail-muted">Design systems</li>
           <li class="detail-muted">Front-end development (prototyping)</li>
           <li class="detail-muted">Design operations strategy</li>
           <li class="detail-muted">Design operations integration</li>
@@ -195,9 +195,9 @@ layout: standard
 
 <section>
   <div class="video-desktop video-background" style="background-color:#028399;">
-    <video autoplay loop muted playsinline poster="https://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto:best/v1581013220/connected_home_frame_mf6act.png">
-      <source src="https://res.cloudinary.com/benludwig/video/upload/vc_auto/v1581013170/connected_home_hliaqg.mp4">
-      <source src="https://res.cloudinary.com/benludwig/video/upload/vc_auto/v1581013170/connected_home_hliaqg.webm" type="video/webm">
+    <video autoplay loop muted playsinline poster="https://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto:best/v1588023186/c_home_frame_tuc8ye.png">
+      <source src="https://res.cloudinary.com/benludwig/video/upload/vc_auto/v1588023202/c_home_o4ei61.mp4">
+      <source src="https://res.cloudinary.com/benludwig/video/upload/vc_auto/v1588023202/c_home_o4ei61.webm" type="video/webm">
       Your browser does not support the video tag.
     </video>
     <p class="caption">Home automation and internet service working together in the connected home</p>
@@ -207,11 +207,9 @@ layout: standard
 <section>
   <div class="type-column">
     <h2>User testing</h2>
-    <p>Each feature we designed had conditions: considerations for a specific type of user. If someone was a potential customer, that was a single condition. User testing was essential when we had many of them.</p>
-    <p>For larger features with high visibility, complex conditions and greater potential impact &#8212; like the connected home &#8212; we released fully-designed features to specific markets. Page flow data, heat maps and user submitted feedback told us what to refine before releasing to a larger customer base.</p>
+    <p>Each feature we designed had conditions: considerations for a specific type of user. If someone was a potential customer, that was a single condition. User testing was essential when we had many of them. For larger features with high visibility, complex conditions and greater potential impact &#8212; like the connected home &#8212; we released fully-designed features to specific markets. Page flow data, heat maps and user submitted feedback told us what to refine before releasing to a larger customer base.</p>
     <h2>Results</h2>
-    <p>From purchasing products to paying bills online, we tackled all the complex design challenges of an e-commerce platform to improve the customer journey and ultimately drive higher revenues for our client.</p>
-    <p>The business value of our design became clear. Our client began setting company sales records &#8212; and more specifically &#8212; online sales accounted for more transactions than ever before.</p>
+    <p>From purchasing products to paying bills online, we tackled all the complex design challenges of an e-commerce platform to improve the customer journey and ultimately drive higher revenues for our client. The business value of our design became clear. Our client began setting company sales records &#8212; and more specifically &#8212; online sales accounted for more transactions than ever before.</p>
     <p>Later, at an InVision conference, our team presented specific results:
     <ul>
     <li>Online sales increased 23% and is now the largest channel share in the company's history</li>

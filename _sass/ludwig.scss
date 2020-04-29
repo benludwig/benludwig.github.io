@@ -10,9 +10,16 @@
 /*Page---------------------------------
 -------------------------------------*/
 
-.page {
-  padding-top: 140px;
+.page,
+.page-home {
+  padding-top: 120px;
   }
+
+@media screen and (min-width: 580px) {
+.page-home {
+  padding-top: 0px;
+  }
+}
 
 section {
   max-width: 2000px;
@@ -22,6 +29,67 @@ section {
 
 /*Work---------------------------------
 -------------------------------------*/
+
+@media screen and (max-width: 579px) {
+
+  .preview-full {
+    padding: 4%;
+    }
+  }
+
+
+
+@media screen and (max-width: 579px) {
+  .preview-full-text-right {
+    display: none;
+    }
+}
+
+@media screen and (min-width: 580px) {
+
+  .preview-full {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    }
+
+  .preview-full img {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    }
+
+  .preview-full a {
+    display: block;
+    }
+
+  .preview-full-text-left {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 4%;
+    }
+
+  .preview-full-text-right {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    padding: 4%;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 .preview-container .preview {
   padding: 0px 0px 60px 0px;
@@ -58,7 +126,6 @@ section {
 .title {
   display: grid;
   grid-template-columns: 1fr;
-  // padding: 120px 4% 0px 4%;
   }
 
 @media screen and (min-width: 600px) and (max-width: 800px) {
@@ -71,11 +138,8 @@ section {
   .title {
     grid-template-columns: 1fr 1fr;
     grid-gap: 0px 2%;
-    // padding: 160px 4% 60px 4%;
     }
 }
-
-
 
 .detail-section {
   display: grid;
@@ -189,7 +253,6 @@ video {
 .video-desktop {
   display: grid;
   grid-template-columns: 1fr;
-  // margin: 4%;
   }
 
 
@@ -198,17 +261,7 @@ video {
   padding: 6% 8%;
   }
 
-// .video-desktop.background-desktop {
-//   background-color: brown;
-//   padding: 6% 8%;
-//   }
-//
-//
-//
-// .video-mobile.background-mobile {
-//   background-color: #028399;
-//   padding: 6% 8%;
-//   }
+
 
 
 

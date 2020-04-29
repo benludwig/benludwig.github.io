@@ -1,6 +1,6 @@
 
 
-@media screen and (max-width: 979px) {
+@media screen and (max-width: 579px) {
 
   /*Nav----------------------------------
   -------------------------------------*/
@@ -157,12 +157,40 @@
 
 }
 
-@media screen and (min-width: 980px) {
+
+
+.menu-left {
+  @include flex;
+  @include flex-align-center;
+  width: 90%;
+  width: calc(100% - 60px);
+  height: 100%;
+  @include standard-medium;
+  }
+
+.menu-left a  {
+  text-decoration: none;
+  }
+
+.main-menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 60px;
+  background-color: $color-background;
+  z-index: 999;
+  padding-left: 4%;
+  }
+
+
+
+
+@media screen and (min-width: 580px) {
 
   .menu-wrap {
     position: fixed;
     top: 0;
-    // right: 0;
     right: 4%;
     z-index: 1;
   }
@@ -176,7 +204,6 @@
   @include flex;
   @include flex-align-center;
   height: 60px;
-  // padding-right: 16px;
 }
 
 .menu-wrap .menu > div > div > ul > li {
@@ -189,32 +216,9 @@
   text-decoration: none;
 }
 
+.main-menu.menu-home {
+  background-color: rgba(0, 0, 0, 0);
+  color: $color-type-light;
+  }
 
 }
-
-
-.menu-left {
-  @include flex;
-  @include flex-align-center;
-  // padding-left: 16px;
-  width: 90%;
-  width: calc(100% - 60px);
-  height: 100%;
-  @include standard-medium;
-  }
-
-.menu-left a  {
-  text-decoration: none;
-  }
-
-
-  .main-menu {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 60px;
-    background-color: $color-background;
-    z-index: 999;
-    padding-left: 4%;
-    }
