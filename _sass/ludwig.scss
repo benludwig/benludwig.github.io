@@ -37,8 +37,6 @@ section {
     }
   }
 
-
-
 @media screen and (max-width: 579px) {
   .preview-full-text-right {
     display: none;
@@ -120,7 +118,7 @@ section {
 
 }
 
-/*Page Title---------------------------
+/*Title--------------------------------
 -------------------------------------*/
 
 .title {
@@ -173,6 +171,11 @@ img {
   max-width: 1400px;
   }
 
+
+
+
+
+
 /*Video--------------------------------
 -------------------------------------*/
 
@@ -181,10 +184,13 @@ video {
   height: auto;
   }
 
+
+
+
 .video-mobile {
   text-align:center;
-  margin-top: 20px;
-  margin-bottom: 40px;
+  // margin-top: 20px;
+  // margin-bottom: 40px;
   }
 
 .video-mobile video {
@@ -195,8 +201,8 @@ video {
 
 @media screen and (min-width: 620px) {
   .video-mobile {
-    margin-top: 95px;
-    margin-bottom: 90px;
+    // margin-top: 95px;
+    // margin-bottom: 90px;
     }
   .video-mobile video {
     max-width: 300px;
@@ -204,18 +210,24 @@ video {
     }
 }
 
+
+
+
+
+
+
 .video-mobile-landscape {
   text-align:center;
-  margin-top: 10px;
-  margin-bottom: 20px;
+  // margin-top: 10px;
+  // margin-bottom: 20px;
   }
 
 
 @media screen and (min-width: 620px) {
   .video-mobile-landscape {
     text-align:center;
-    margin-top: 90px;
-    margin-bottom: 95px;
+    // margin-top: 90px;
+    // margin-bottom: 95px;
     }
   .video-mobile-landscape video {
     width: 80%;
@@ -224,17 +236,21 @@ video {
     }
 }
 
+
+
+
+
 .video-tablet {
   text-align:center;
-  margin-top: 10px;
-  margin-bottom: 20px;
+  // margin-top: 10px;
+  // margin-bottom: 20px;
   }
 
 @media screen and (min-width: 620px) {
   .video-tablet {
     text-align:center;
-    margin-top: 90px;
-    margin-bottom: 95px;
+    // margin-top: 90px;
+    // margin-bottom: 95px;
     }
   .video-tablet video {
     width: 80%;
@@ -311,6 +327,30 @@ video {
 
 
 
+
+
+
+
+
+
+
+/*Split Column-------------------------
+-------------------------------------*/
+
+.split-column {
+  display: grid;
+  grid-template-columns: 1fr;
+  }
+
+@media screen and (min-width: 800px) {
+  .split-column {
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 0px 2%;
+    }
+  .split-column-images {
+    padding-top: 60%;
+    }
+}
 
 
 

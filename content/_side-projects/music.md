@@ -5,13 +5,21 @@ img: "https://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto:best/v1582
 order: 3
 layout: standard
 ---
+<section>
+    <div class="title">
+      <div>
+        <h1>Music</h1>
+      </div>
+        <div>
+        <p>I've played drums in fourteen different bands. For some, I joined for a few weeks to fill-in. Other bands I joined for years, playing shows around the Midwest, South and East Coast.</p>
+    </div>
+  </div>
+</section>
 
-<!-- My favorite parts from some of the albums I've recorded on drums over the last fifteen years. -->
-
-
-
+<section>
 <div class="video-embed">
   <div class='embed-container'>
   <iframe src='https://player.vimeo.com/video/399478355' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
   </div>
 </div>
+</section>

@@ -1,9 +1,39 @@
+.menu-left {
+  @include flex;
+  @include flex-align-center;
+  width: 30%;
+  height: 100%;
+  @include standard-medium;
+  }
 
+.menu-left a  {
+  text-decoration: none;
+  }
+
+.main-menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 60px;
+  z-index: 999;
+  padding-left: 4%;
+  transition: top 0.3s;
+  }
+
+.main-menu-standard {
+  background-color: rgba(0, 0, 0, .9);
+  color: $color-type;
+  }
 
 @media screen and (max-width: 579px) {
 
   /*Nav----------------------------------
   -------------------------------------*/
+
+#nav {
+  color:#ffffff !important;
+  }
 
   /* MENU STYLES */
   .menu-wrap {
@@ -157,36 +187,11 @@
 
 }
 
-
-
-.menu-left {
-  @include flex;
-  @include flex-align-center;
-  width: 90%;
-  width: calc(100% - 60px);
-  height: 100%;
-  @include standard-medium;
-  }
-
-.menu-left a  {
-  text-decoration: none;
-  }
-
-.main-menu {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 60px;
-  background-color: $color-background;
-  z-index: 999;
-  padding-left: 4%;
-  }
-
-
-
-
 @media screen and (min-width: 580px) {
+
+#nav {
+  color: #423f3f;
+  }
 
   .menu-wrap {
     position: fixed;
@@ -215,10 +220,5 @@
 .menu-wrap .menu > div > div > ul > li > a {
   text-decoration: none;
 }
-
-.main-menu.menu-home {
-  background-color: rgba(0, 0, 0, 0);
-  color: $color-type-light;
-  }
 
 }

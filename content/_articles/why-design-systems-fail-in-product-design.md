@@ -5,10 +5,24 @@ copy: "When you’ve got a new hammer, everything looks like a nail."
 order: 1
 layout: standard
 ---
+<section>
+    <div class="title">
+      <div>
+        <h1>Why design systems fail in product design</h1>
+      </div>
+        <div>
+        <p>An article I wrote for Devbridge group about some of the misconceptions surrounding design systems.</p>
+    </div>
+  </div>
+</section>
+
 
   <div class="image-column-1400">
     <img src="https://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto:best/v1586202165/article_design_systems_red_dark_2_fmw90o.png" alt="NASA Brand Standards">
   </div>
+
+
+
 
 
   <div class="type-column">
@@ -26,6 +40,14 @@ layout: standard
     <p>A design system is defined as a “comprehensive set of values, semantics, syntax, and context that form the foundation of a shared design language.” The term design system is often used interchangeably with pattern library, style guide, and component library. However, these three terms are actually the pieces that make up a design system.</p>
     <p>The benefit of consistent design is validated throughout the history of products. One of the greatest early examples is the NASA Style Guide. The meticulous and thoughtful documentation of the use of NASA’s brand accelerated and cemented it’s iconic role as a symbol of American power.</p>
   </div>
+
+
+
+
+
+
+
+
 <div class="image-column-1000">
   <img src="https://res.cloudinary.com/benludwig/image/upload/c_fill,f_auto,q_auto:best,w_1000/v1573511599/002_NASA-2500_ecaeci.jpg" alt="NASA Brand Standards">
 </div>

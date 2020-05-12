@@ -3,10 +3,18 @@ title: Alec Baldwin is calling
 order: 1
 layout: standard
 ---
-
+<section>
+    <div class="title">
+      <div>
+        <h1>Alec Baldwin is calling</h1>
+      </div>
+        <div>
+        <p>When I was an audio engineer, I created customizable voice messages for a startup. Each one served as an interactive piece to a traditional advertising campaign and they became massively popular.</p>
+    </div>
+  </div>
+</section>
 
   <div class="type-column">
-  <h1>Jack Donaghy is calling</h1>
   <p>There were very few ways to digitally share a brand's campaign in 2006. You could post on a message board, update your MySpace page background or maybe text someone on your Motorola Razr (T9!). None of these were very engaging, memorable or measurable.</p>
   <p>Around that same time, 6 people in a Chicago loft created software that enabled a new kind of sharing by personalizing phone calls. This idea sounds archaic now but in many ways it's emblematic of how a sponsored post operates today: connect with a brand's story, add your own messaging on a website and share it. Except back then, there were no iPhones, hashtags or influencers.</p>
   <p>After the first few campaigns garnered <a href="https://www.cnet.com/news/snakes-on-a-phone-call-from-samuel-l-jackson/" target="_blank">national media attention</a>, engagement skyrocketed and millions of messages were sent.</p>

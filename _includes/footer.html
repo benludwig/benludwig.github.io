@@ -4,14 +4,14 @@
       <div class="footer-one">
         <div class="footer-col">
           <div class="text-list-group">
-            <div class="text-list-section-title">Design work</div>
+            <div class="text-list-section-title">Work</div>
             {% assign bldw = site.design-work | sort: 'order' %}
             {% for item in bldw %}
               <div class="list-title"><a href="{{ item.url }}">{{ item.title }}</a></div>
             {% endfor %}
           </div>
           <div class="text-list-group">
-            <div class="text-list-section-title">Side projects</div>
+            <div class="text-list-section-title">Play</div>
             {% assign bllsp = site.side-projects | sort: 'order' %}
             {% for item in bllsp %}
               <div class="list-title"><a href="{{ item.url }}">{{ item.title }}</a></div>
