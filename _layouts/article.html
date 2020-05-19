@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+  {% include head.html %}
+  <body>
+    {% include menu.html %}
+    <div class="page revealblock">
+    {{ content }}
+    <section style="padding-top:0%;"><div class="type-column"><h3>View on Medium</h3><div id="medium-widget"></div></div></section>
+    {% include work-previews-next.html %}
+    {% include footer.html %}
+    </div>
+    <script src="https://medium-widget.pixelpoint.io/widget.js"></script>
+    <script>MediumWidget.Init({renderTo: '#medium-widget', params: {"resource":"https://medium.com/@benludwig","postsPerLine":1,"limit":1,"picture":"none","fields":["description","author","claps"],"ratio":"original"}})</script>
+  <script type="text/javascript" src='{{ site.baseurl }}/js/flickity.pkgd.min.js'></script>
+  <script type="text/javascript" src='{{ site.baseurl }}/js/scrollreveal.min.js'></script>
+  <script>
+  window.sr = ScrollReveal();
+  sr.reveal('.revealblock', { duration: 1000, distance: '2px', scale: 1, viewFactor: 0.05 });
+  </script>
+</body>
+</html>

@@ -43,7 +43,7 @@ layout: standard
 </section>
 
 <section>
-  <div class="video-tablet video-background" style="background-color:#cac8c8;">
+  <div class="video-tablet video-background" style="background-color:#F3EDDE;">
     <video autoplay loop muted playsinline poster="https://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto:best/v1574305898/FME_Frame_owchp6.png">
       <source src="https://res.cloudinary.com/benludwig/video/upload/vc_auto/v1574305874/FME_fnufls.mp4">
       <source src="https://res.cloudinary.com/benludwig/video/upload/vc_auto/v1574305874/FME_fnufls.webm" type="video/webm">
@@ -65,6 +65,7 @@ layout: standard
               <li class="detail-muted">User experience design</li>
               <li class="detail-muted">User research</li>
               <li class="detail-muted">Front-end development</li>
+              <li class="detail-muted">Back-end development</li>
             </ul>
           </div>
           <div>
@@ -95,7 +96,8 @@ layout: standard
           <div>
             <ul class="detail">
               <li class="detail">Focus</li>
-              <li class="detail-muted">Strategy</li>
+              <li class="detail-muted">User research</li>
+              <li class="detail-muted">Wayfinding</li>
               <li class="detail-muted">Geolocation data</li>
             </ul>
           </div>
@@ -111,7 +113,7 @@ layout: standard
 </section>
 
 <section>
-  <div class="video-mobile-landscape video-background" style="background-color:#c8c5ba; padding: 16% 8%;">
+  <div class="video-mobile-landscape video-background" style="background-color:#969797; padding: 16% 8%;">
     <video autoplay loop muted playsinline poster="https://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto:best/v1582928545/fieldmap_frame_wephra.png">
       <source src="https://res.cloudinary.com/benludwig/video/upload/vc_auto/v1582928559/fieldmap_unyy9k.mp4">
       <source src="https://res.cloudinary.com/benludwig/video/upload/vc_auto/v1582928559/fieldmap_unyy9k.webm" type="video/webm">
@@ -156,5 +158,5 @@ layout: standard
 </section>
 
 <section style="padding-top:0%;">
-<img src="https://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto:best/v1588196936/display_v8mqzt.png">
+  <img src="https://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto:best/v1588196936/display_v8mqzt.png">
 </section>

@@ -359,18 +359,21 @@ video {
 
 
 
-
-
 /*Type Column--------------------------
 -------------------------------------*/
 
 .type-column {
-  max-width: 880px;
+  max-width: 700px;
   margin: 0px auto;
   // padding: 0px 4%;
   }
 
-
+#medium-widget {
+  background-color: #FFFFFF;
+  border-radius: 4px;
+  font-family: 'GTAmericaRegular', sans-serif;
+  @include font-smoothing;
+  }
 
 
 
@@ -378,6 +381,10 @@ video {
 
 /*About--------------------------------
 -------------------------------------*/
+
+.about-photo-sticky img {
+  width: 60%;
+  }
 
 @media screen and (min-width: 840px) {
   .about-container {

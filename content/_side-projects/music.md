@@ -11,7 +11,7 @@ layout: standard
         <h1>Music</h1>
       </div>
         <div>
-        <p>I've played drums in fourteen different bands. For some, I joined for a few weeks to fill-in. Other bands I joined for years, playing shows around the Midwest, South and East Coast.</p>
+        <p>I've played drums in fourteen bands. Some I joined for a few weeks to fill-in. Other bands I joined for years, playing shows around the Midwest, South and East Coast.</p>
     </div>
   </div>
 </section>
