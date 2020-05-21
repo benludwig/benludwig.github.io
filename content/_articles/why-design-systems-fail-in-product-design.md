@@ -11,7 +11,7 @@ layout: article
         <h1>Why design systems fail in product design</h1>
       </div>
         <div>
-        <p>An article I wrote for Devbridge group about things to consider before starting a design system.</p>
+        <p>An article I wrote about things to consider before starting a design system.</p>
     </div>
   </div>
 </section>

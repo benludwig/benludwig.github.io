@@ -23,3 +23,12 @@ layout: standard
   </div>
 </div>
 </section>
+
+<div class="carousel-container">
+  <div class="carousel" data-flickity='{ "freeScroll": true, "imagesLoaded": true }'>
+    <div class="carousel-cell"><img src="https://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto:best/v1590004023/m01_oyc7fl.png"></div>
+    <div class="carousel-cell"><img src="https://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto:best/v1590004024/m02_ruhcxc.png"></div>
+    <div class="carousel-cell"><img src="https://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto:best/v1590004023/m03_buwyos.png"></div>
+    <div class="carousel-cell"><img src="https://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto:best/v1590004023/m04_irwroi.png"></div>
+  </div>
+</div>

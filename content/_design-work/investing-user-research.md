@@ -56,7 +56,29 @@ layout: standard
 </div>
 </section>
 
+<section>
+  <div class="split-column">
+    <div>
+      <h2>Research</h2>
+    </div>
+    <div>
+      <p>The leading provider of audiovisual services for hotels, conference centers and resorts throughout North America, Asia and Australia is known for supporting massive events like the International Consumer Electronics Show which is attended annually by over 170,000 people.</p>
+      <p>As the company grew it acquired many smaller, regional brands. Each region had their own software and their own unique way of doing business. We standardized both and created one software platform to replace all legacy systems.</p>
+      <p>It's a challenge many companies face: How do you combine multiple outdated systems into one experience? How do you know that you're building the right thing? How do you figure it out without the process taking years?</p>
+    </div>
+  </div>
+</section>
 
+
+<div class="carousel-container">
+  <div class="carousel" data-flickity='{ "freeScroll": true, "imagesLoaded": true }'>
+    <div class="carousel-cell"><img src="https://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto:best/v1590007793/eosa_ywteks.png"></div>
+    <div class="carousel-cell"><img src="https://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto:best/v1590007793/eosb_sxrvaf.png"></div>
+    <div class="carousel-cell"><img src="https://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto:best/v1590007793/eosc_hye3me.png"></div>
+    <div class="carousel-cell"><img src="https://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto:best/v1590007793/eosd_zqgaas.png"></div>
+    <div class="carousel-cell"><img src="https://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto:best/v1590007795/eose_eeweno.png"></div>
+  </div>
+</div>
 
 <section>
   <div class="split-column">
@@ -64,9 +86,6 @@ layout: standard
       <h2>Design strategy</h2>
     </div>
     <div>
-      <p>The leading provider of audiovisual services for hotels, conference centers and resorts throughout North America, Asia and Australia is known for supporting massive events like the International Consumer Electronics Show which is attended annually by over 170,000 people.</p>
-      <p>As the company grew it acquired many smaller, regional brands. Each region had their own software and their own unique way of doing business. We standardized both and created one software platform to replace all legacy systems.</p>
-      <p>It's a challenge many companies face: How do you combine multiple outdated systems into one experience? How do you know that you're building the right thing? How do you figure it out without the process taking years?</p>
       <p>To create a platform that supported the business instead of one the business was required to support, we started with the people who would ultimately rely on what we design. And to better understand the complexities of their operations we traveled to their largest market, Las Vegas.</p>
       <p>We were able to quickly identify areas for improvement, shedding light on what at times could be an overwhelming and confusing experience. Based on what we found, we developed a plan for moving forward:
       <ul>
@@ -81,16 +100,12 @@ layout: standard
   </div>
 </section>
 
-<section>
-  <div class="video-desktop video-background" style="background-color:#143357;">
-    <video autoplay loop muted playsinline poster="https://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto:best/v1578687799/erpui04_frame_f6rzbr.png">
-      <source src="https://res.cloudinary.com/benludwig/video/upload/vc_auto/v1578687811/erpui_04_dkes5m.mp4">
-      <source src="https://res.cloudinary.com/benludwig/video/upload/vc_auto/v1578687811/erpui_04_dkes5m.webm" type="video/webm">
-      Your browser does not support the video tag.
-    </video>
+<div class="carousel-container">
+  <div class="carousel" data-flickity='{ "freeScroll": true, "imagesLoaded": true }'>
+    <div class="carousel-cell"><img src="https://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto:best/v1590007790/eos01_cjrddj.png"></div>
+    <div class="carousel-cell"><img src="https://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto:best/v1590007790/eos02_lascwo.png"></div>
   </div>
-</section>
-
+</div>
 
 <section>
   <div class="split-column">
@@ -110,7 +125,15 @@ layout: standard
   </div>
 </section>
 
-
+<section>
+  <div class="video-desktop video-background" style="background-color:#143357;">
+    <video autoplay loop muted playsinline poster="https://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto:best/v1578687799/erpui04_frame_f6rzbr.png">
+      <source src="https://res.cloudinary.com/benludwig/video/upload/vc_auto/v1578687811/erpui_04_dkes5m.mp4">
+      <source src="https://res.cloudinary.com/benludwig/video/upload/vc_auto/v1578687811/erpui_04_dkes5m.webm" type="video/webm">
+      Your browser does not support the video tag.
+    </video>
+  </div>
+</section>
 
 <section>
   <div class="split-column">

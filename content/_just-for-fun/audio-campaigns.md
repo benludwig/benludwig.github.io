@@ -18,7 +18,6 @@ layout: standard
   <img src="https://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto:best/v1589833997/recording_ptdltg.png">
 </section>
 
-
 <section>
   <div class="split-column">
     <div>
@@ -28,14 +27,13 @@ layout: standard
       </ul>
     </div>
     <div>
-      <p>Excerpts from <a href="https://www.nytimes.com/2006/12/19/arts/television/19bald.html" target="_blank">The New York Times</a> describing our campaign for 30 Rock and the technology behind it:</p>
+      <p>Excerpts from a <a href="https://www.nytimes.com/2006/12/19/arts/television/19bald.html" target="_blank">New York Times article</a> describing our campaign for 30 Rock and the technology behind it:</p>
 
       <p>&quot;Tens of thousands of fans of the NBC show 30 Rock have had the unusual experience over the last week of picking up their phones to hear the voice of Alec Baldwin addressing them by name and wishing them a happy holiday.</p>
 
       <p>While the messages are obviously recorded, Mr. Baldwin can also be heard relating details about the recipient, like the person’s job and hobbies, as well as complimenting his or her physique. The promotion, using the fledgling technology of a company called Varitalk, is being mounted by the NBC Universal Television Studio, which produces 30 Rock.</p>
 
       <p>Those who have received the messages, which sound so seamless, have surely been left with a more pressing question: How do they do it?</p>
-
 
       <p>People who try to send such a message quickly discover that it is like the old, fill-in-the-blank children’s game of Mad Libs. During a session in a Manhattan recording studio that lasted just a half hour, Mr. Baldwin recorded about 500 first names from which the sender may choose.</p>
 
@@ -44,16 +42,6 @@ layout: standard
     </div>
   </div>
 </section>
-
-
-
-
-
-
-
-
-
-
 
   <section>
     <div class="video-desktop video-background" style="background-color:#E1E0E5;">
@@ -68,10 +56,10 @@ layout: standard
 <section>
   <div class="split-column">
     <div>
-      <h2>Recording hundreds more</h2>
+      <h2>30 Rock led to ADIDAS and Disney</h2>
     </div>
     <div>
-    <p>After the success of our early campaigns, we went on to create many more &#8212; traveling to record actors, athletes and musicians with our mobile recording studio.</p>
+    <p>After the success of our early campaigns, we went on to create many more:</p>
     <ul class="type-unordered-list">
       <li class="type-list">Adidas: Brotherhood</li>
       <li class="type-list-muted">Chauncey Billups, Dwight Howard, Gilbert Arenas, Kevin Garnett, Tim Duncan, Tracy McGrady</li>

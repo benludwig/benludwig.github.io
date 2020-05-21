@@ -100,13 +100,13 @@ layout: standard
 
 <div class="carousel-container">
   <div class="carousel" data-flickity='{ "freeScroll": true, "imagesLoaded": true }'>
-    <div class="carousel-cell"><img src="https://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto:best/v1587155800/s1_u0tai2.png"></div>
+    <div class="carousel-cell"><img src="https://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto:best/v1590004660/ui_ufft29.png"></div>
     <div class="carousel-cell"><img src="https://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto:best/v1587155791/s2_lxkkiq.png"></div>
     <div class="carousel-cell"><img src="https://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto:best/v1587155801/s3_odomfp.png"></div>
     <div class="carousel-cell"><img src="https://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto:best/v1587155809/s4_rwdv0h.png"></div>
-    <div class="carousel-cell"><img src="https://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto:best/v1587155805/s7_l32hkk.png"></div>
+    <!-- <div class="carousel-cell"><img src="https://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto:best/v1587155805/s7_l32hkk.png"></div> -->
     <div class="carousel-cell"><img src="https://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto:best/v1587155803/s9_dddf45.png"></div>
-    <div class="carousel-cell"><img src="https://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto:best/v1587155805/s10_tgrs1u.png"></div>
+    <!-- <div class="carousel-cell"><img src="https://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto:best/v1587155805/s10_tgrs1u.png"></div> -->
   </div>
 </div>
 
