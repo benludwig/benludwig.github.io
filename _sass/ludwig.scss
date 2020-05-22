@@ -139,11 +139,18 @@ section {
     }
 }
 
-.detail-section {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 0px 2%;
-  }
+
+
+
+@media screen and (min-width: 500px) {
+  .detail-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 0px 2%;
+    }
+}
+
+
 
 
 
@@ -381,6 +388,10 @@ video {
 
 /*About--------------------------------
 -------------------------------------*/
+
+.about-photo-sticky {
+  padding-bottom: 15%;
+  }
 
 .about-photo-sticky img {
   width: 60%;

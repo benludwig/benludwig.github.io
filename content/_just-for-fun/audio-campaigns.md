@@ -15,7 +15,7 @@ layout: standard
 </section>
 
 <section>
-  <img src="https://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto:best/v1589833997/recording_ptdltg.png">
+  <img src="https://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto:best/v1590090470/ab_recording_hxvzl0.png">
 </section>
 
 <section>
@@ -44,10 +44,10 @@ layout: standard
 </section>
 
   <section>
-    <div class="video-desktop video-background" style="background-color:#E1E0E5;">
-    <video controls poster="https://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto:best/v1576776149/jackaudio_frame_j9agtw.png">
-      <source src="https://res.cloudinary.com/benludwig/video/upload/vc_auto/v1576786663/jackaudio_medium_render_ayojqg.mp4">
-      <source src="https://res.cloudinary.com/benludwig/video/upload/vc_auto/v1576786663/jackaudio_medium_render_ayojqg.webm" type="video/webm">
+    <div class="video-desktop video-background" style="background-color:#303030;">
+    <video controls poster="https://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto:best/v1590111256/audio_frame_wuzp2o.png">
+      <source src="https://res.cloudinary.com/benludwig/video/upload/vc_auto/v1590112113/audio_med_bitrate_pa0rwq.mp4">
+      <source src="https://res.cloudinary.com/benludwig/video/upload/vc_auto/v1590112113/audio_med_bitrate_pa0rwq.webm" type="video/webm">
       Your browser does not support the video tag.
     </video>
   </div>

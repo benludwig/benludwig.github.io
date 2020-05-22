@@ -11,7 +11,8 @@ layout: article
         <h1>Why design systems fail in product design</h1>
       </div>
         <div>
-        <p>An article I wrote about things to consider before starting a design system.</p>
+        <p>When you’ve got a new hammer, everything looks like a nail. The latest and greatest hammer in the designer’s toolbox is a design system. Easily misapplied and often misunderstood, design systems are the latest in an ongoing evolution of artifacts supporting design in software delivery.</p>
+        <p>In this article, we’ll discuss the three conversations you should have before leveraging a design system for your next digital product.</p>
     </div>
   </div>
 </section>
@@ -22,8 +23,6 @@ layout: article
 
 <section>
 <div class="type-column">
-  <p>When you’ve got a new hammer, everything looks like a nail. The latest and greatest hammer in the designer’s toolbox is a design system. Easily misapplied and often misunderstood, design systems are the latest in an ongoing evolution of artifacts supporting design in software delivery.</p>
-  <p>In this article, we’ll discuss the three conversations you should have before leveraging a design system for your next digital product.</p>
   <p>In practice, building and implementing a design system should be approached with the same measurement of risk and investment as any other product. Whether you’re convincing leadership at your organization or in talks with a product design team, validate your effort with these three questions:
   <ul>
   <li>What is the benefit you expect?</li>
