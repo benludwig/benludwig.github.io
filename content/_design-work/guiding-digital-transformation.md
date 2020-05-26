@@ -103,7 +103,7 @@ layout: standard
     <div class="carousel-cell"><img src="https://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto:best/v1590004660/ui_ufft29.png"></div>
     <div class="carousel-cell"><img src="https://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto:best/v1587155791/s2_lxkkiq.png"></div>
     <div class="carousel-cell"><img src="https://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto:best/v1587155801/s3_odomfp.png"></div>
-    <div class="carousel-cell"><img src="https://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto:best/v1587155809/s4_rwdv0h.png"></div>
+    <!-- <div class="carousel-cell"><img src="https://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto:best/v1587155809/s4_rwdv0h.png"></div> -->
     <!-- <div class="carousel-cell"><img src="https://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto:best/v1587155805/s7_l32hkk.png"></div> -->
     <div class="carousel-cell"><img src="https://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto:best/v1587155803/s9_dddf45.png"></div>
     <!-- <div class="carousel-cell"><img src="https://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto:best/v1587155805/s10_tgrs1u.png"></div> -->
@@ -185,13 +185,23 @@ layout: standard
     </div>
     <div>
       <p>Historically, a lot of time had been spent discussing and considering all the technical aspects of design. We wanted to change that and our operational shifts helped get us there. We found as we established more design consistency, we spent more and more of our time focused on creating the story of an experience.</p>
-      <p>All of our client's home automation products and internet services worked seamlessly together &#8212; an important differentiator when compared to other smart home devices. To drive this further to potential customers, the connected home experience we designed visualized all of their products and services together in one home.</p>
-      <p>It was an integral part of a much larger campaign that included TV spots, out-of-home advertisements, digital marketing and radio. All of those campaign pieces drove new customers to the connected home as the beginning of the purchasing flow.</p>
+      <!-- <p>All of our client's home automation products and internet services worked seamlessly together &#8212; an important differentiator when compared to other smart home devices. To drive this further to potential customers, the connected home experience we designed visualized all of their products and services together in one home.</p>
+      <p>It was an integral part of a much larger campaign that included TV spots, out-of-home advertisements, digital marketing and radio. All of those campaign pieces drove new customers to the connected home as the beginning of the purchasing flow.</p> -->
     </div>
   </div>
 </section>
 
 <section>
+  <div class="video-desktop video-background" style="background-color:#b9c9d2; padding: 10% 8%;">
+    <video autoplay loop muted playsinline poster="https://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto:best/v1590528451/wifi_page_frame_iaahcp.png">
+      <source src="https://res.cloudinary.com/benludwig/video/upload/vc_auto/v1590528468/Wifi_page_jm4gad.mp4">
+      <source src="https://res.cloudinary.com/benludwig/video/upload/vc_auto/v1590528468/Wifi_page_jm4gad.webm" type="video/webm">
+      Your browser does not support the video tag.
+    </video>
+  </div>
+</section>
+
+<!-- <section>
   <div class="video-desktop video-background" style="background-color:#028399;">
     <video autoplay loop muted playsinline poster="https://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto:best/v1588023186/c_home_frame_tuc8ye.png">
       <source src="https://res.cloudinary.com/benludwig/video/upload/vc_auto/v1588023202/c_home_o4ei61.mp4">
@@ -199,7 +209,7 @@ layout: standard
       Your browser does not support the video tag.
     </video>
   </div>
-</section>
+</section> -->
 
 <section>
   <div class="split-column">
@@ -207,13 +217,13 @@ layout: standard
       <h2>Results</h2>
     </div>
     <div>
-      <p>Each feature we designed had conditions: considerations for a specific type of user. If someone was a potential customer, that was a single condition. User testing was essential when we had many of them. For larger features with high visibility, complex conditions and greater potential impact &#8212; like the connected home &#8212; we released fully-designed features to specific markets. Page flow data, heat maps and user submitted feedback told us what to refine before releasing to a larger customer base.</p>
+      <p>Each feature we designed had conditions: considerations for a specific type of user. If someone was a potential customer, that was a single condition. User testing was essential when we had many of them. For larger features with high visibility, complex conditions and greater potential impact we released fully-designed features to specific markets. Page flow data, heat maps and user submitted feedback told us what to refine before releasing to a larger customer base.</p>
       <p>From purchasing products to paying bills online, we tackled all the complex design challenges of an e-commerce platform to improve the customer journey and ultimately drive higher revenues for our client. The business value of our design became clear. Our client began setting company sales records &#8212; and more specifically &#8212; online sales accounted for more transactions than ever before.</p>
-      <p>Later, at an InVision conference, our team presented specific results:
+      <p>
       <ul>
-      <li>Online sales increased 23% and is now the largest channel share in the company's history</li>
+      <li>Online sales increased 23% and became the largest channel share in the company's history</li>
       <li>10% increase in self-service transactions online in 2019</li>
-      <li>84% of customer service transactions in 2019 were digitally assisted or self-service</li>
+      <li>84% of customer service transactions were digitally assisted or self-service</li>
       <li>My Account &#8212; the section of the site where customers can pay their bill and modify their services &#8212; saw a 62% reduction in bounce rate and subsequently decreased call center costs</li>
       <li>The number of features completed from the previous year increased from 53 to over 800</li>
       <li>Our design system grew to contain 900+ interface assets, 300+ layout containers and 48 pages of documentation</li>
