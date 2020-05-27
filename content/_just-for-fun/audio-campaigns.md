@@ -59,7 +59,7 @@ layout: standard
       <h2>30 Rock led to ADIDAS and Disney</h2>
     </div>
     <div>
-    <p>After the success of our early campaigns, we went on to create many more:</p>
+    <p>After the success of our early campaigns, we went on to create many more.</p>
     <ul class="type-unordered-list">
       <li class="type-list">Adidas: Brotherhood</li>
       <li class="type-list-muted">Chauncey Billups, Dwight Howard, Gilbert Arenas, Kevin Garnett, Tim Duncan, Tracy McGrady</li>

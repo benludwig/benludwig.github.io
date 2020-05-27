@@ -26,10 +26,10 @@ layout: standard
             <li class="detail">Role</li>
             <li class="detail-muted">Associate Creative Director</li>
           </ul>
-          <ul class="detail">
+          <!-- <ul class="detail">
             <li class="detail">Industry</li>
             <li class="detail-muted">Telecommunications</li>
-          </ul>
+          </ul> -->
         </div>
         <div>
         <ul class="detail">
@@ -217,7 +217,7 @@ layout: standard
       <h2>Results</h2>
     </div>
     <div>
-      <p>Each feature we designed had conditions: considerations for a specific type of user. If someone was a potential customer, that was a single condition. User testing was essential when we had many of them. For larger features with high visibility, complex conditions and greater potential impact we released fully-designed features to specific markets. Page flow data, heat maps and user submitted feedback told us what to refine before releasing to a larger customer base.</p>
+      <!-- <p>Each feature we designed had conditions: considerations for a specific type of user. If someone was a potential customer, that was a single condition. User testing was essential when we had many of them. For larger features with high visibility, complex conditions and greater potential impact we released fully-designed features to specific markets. Page flow data, heat maps and user submitted feedback told us what to refine before releasing to a larger customer base.</p> -->
       <p>From purchasing products to paying bills online, we tackled all the complex design challenges of an e-commerce platform to improve the customer journey and ultimately drive higher revenues for our client. The business value of our design became clear. Our client began setting company sales records &#8212; and more specifically &#8212; online sales accounted for more transactions than ever before.</p>
       <p>
       <ul>

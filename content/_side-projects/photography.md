@@ -81,10 +81,10 @@ layout: standard
       <div class="carousel-cell"><img src="https://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto:best/v1586138273/islatitle_ark14u.png"></div>
       <div class="carousel-cell"><img src="https://res.cloudinary.com/benludwig/image/upload/c_scale,f_auto,q_auto:best,w_1920/v1565231946/Isla%20Mujeres/im3.jpg"></div>
       <!-- <div class="carousel-cell"><img src="https://res.cloudinary.com/benludwig/image/upload/c_scale,f_auto,q_auto:best,w_1920/v1565231941/Isla%20Mujeres/im7.jpg"></div> -->
-      <!-- <div class="carousel-cell"><img src="https://res.cloudinary.com/benludwig/image/upload/c_crop,f_auto,g_center,h_1081,q_auto:best,w_1920/v1565231904/Isla%20Mujeres/im6.jpg"></div> -->
+      <div class="carousel-cell"><img src="https://res.cloudinary.com/benludwig/image/upload/c_crop,f_auto,g_center,h_1081,q_auto:best,w_1920/v1565231904/Isla%20Mujeres/im6.jpg"></div>
       <div class="carousel-cell"><img src="https://res.cloudinary.com/benludwig/image/upload/c_scale,f_auto,q_auto:best,w_1920/v1565231936/Isla%20Mujeres/im8.jpg"></div>
       <div class="carousel-cell"><img src="https://res.cloudinary.com/benludwig/image/upload/c_scale,f_auto,q_auto:best,w_1920/v1565231931/Isla%20Mujeres/im2.jpg"></div>
-      <!-- <div class="carousel-cell"><img src="https://res.cloudinary.com/benludwig/image/upload/c_scale,f_auto,q_auto:best,w_1920/v1565231942/Isla%20Mujeres/im4.jpg"></div> -->
+      <div class="carousel-cell"><img src="https://res.cloudinary.com/benludwig/image/upload/c_scale,f_auto,q_auto:best,w_1920/v1565231942/Isla%20Mujeres/im4.jpg"></div>
     </div>
   </div>
 

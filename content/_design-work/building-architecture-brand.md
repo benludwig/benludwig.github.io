@@ -23,10 +23,10 @@ layout: standard
             <li class="detail">Role</li>
             <li class="detail-muted">Senior Interactive Designer</li>
           </ul>
-          <ul class="detail">
+          <!-- <ul class="detail">
             <li class="detail">Industry</li>
             <li class="detail-muted">Architecture</li>
-          </ul>
+          </ul> -->
         </div>
         <div>
         <ul class="detail">
