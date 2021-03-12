@@ -44,7 +44,7 @@ layout: standard
 
 <section>
   <div class="video-tablet video-background" style="background-color:#F3EDDE;">
-    <video autoplay loop muted playsinline poster="https://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto:best/v1574305898/FME_Frame_owchp6.png">
+    <video autoplay loop muted playsinline controls poster="https://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto:best/v1574305898/FME_Frame_owchp6.png">
       <source src="https://res.cloudinary.com/benludwig/video/upload/vc_auto/v1574305874/FME_fnufls.mp4">
       <source src="https://res.cloudinary.com/benludwig/video/upload/vc_auto/v1574305874/FME_fnufls.webm" type="video/webm">
       Your browser does not support the video tag.
@@ -80,7 +80,7 @@ layout: standard
 
 <section>
   <div class="video-desktop video-background" style="background-color:#0a2a34;">
-    <video autoplay loop muted playsinline poster="https://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto:best/v1583170820/birds_frame_jyki3h.png">
+    <video autoplay loop muted playsinline controls poster="https://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto:best/v1583170820/birds_frame_jyki3h.png">
       <source src="https://res.cloudinary.com/benludwig/video/upload/vc_auto/v1583170837/birdsscreen_vsa9ig.mp4">
       <source src="https://res.cloudinary.com/benludwig/video/upload/vc_auto/v1583170837/birdsscreen_vsa9ig.webm" type="video/webm">
       Your browser does not support the video tag.
@@ -114,7 +114,7 @@ layout: standard
 
 <section>
   <div class="video-mobile-landscape video-background" style="background-color:#969797; padding: 16% 8%;">
-    <video autoplay loop muted playsinline poster="https://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto:best/v1582928545/fieldmap_frame_wephra.png">
+    <video autoplay loop muted playsinline controls poster="https://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto:best/v1582928545/fieldmap_frame_wephra.png">
       <source src="https://res.cloudinary.com/benludwig/video/upload/vc_auto/v1582928559/fieldmap_unyy9k.mp4">
       <source src="https://res.cloudinary.com/benludwig/video/upload/vc_auto/v1582928559/fieldmap_unyy9k.webm" type="video/webm">
       Your browser does not support the video tag.
@@ -144,16 +144,6 @@ layout: standard
         <p>The release of the iPad created a whole new way for visitors to experience the museum. Our team designed touchscreen interfaces for exhibits so visitors could listen to audio clips of animals, watch animated lifespans and migration patterns, visualize what their lives would be like in other areas of the world and more.</p>
         <p>An emerging technology at the time, we worked with engineers from the exhibits department to fabricate steel casings that held each iPad in specific areas along each route. This interactive piece of a physical space created an environment that was more playful and engaging while still being educational.</p>
     </div>
-  </div>
-</section>
-
-<section style="padding-bottom:1%;">
-  <div class="video-tablet video-background" style="background-color:#dddcdc;">
-    <video autoplay loop muted playsinline poster="https://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto:best/v1583185569/fmtouch_panel_ir16el.png">
-      <source src="https://res.cloudinary.com/benludwig/video/upload/vc_auto/v1583185584/fmtouch_vogstp.mp4">
-      <source src="https://res.cloudinary.com/benludwig/video/upload/vc_auto/v1583185584/fmtouch_vogstp.webm" type="video/webm">
-      Your browser does not support the video tag.
-    </video>
   </div>
 </section>
 

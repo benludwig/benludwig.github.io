@@ -23,10 +23,6 @@ layout: standard
             <li class="detail">Role</li>
             <li class="detail-muted">Senior Interactive Designer</li>
           </ul>
-          <!-- <ul class="detail">
-            <li class="detail">Industry</li>
-            <li class="detail-muted">Architecture</li>
-          </ul> -->
         </div>
         <div>
         <ul class="detail">
@@ -45,7 +41,7 @@ layout: standard
 
 <section>
   <div class="video-desktop video-background" style="background-color:#aaaeb6;">
-    <video autoplay loop muted playsinline poster="https://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto:best/v1578688255/SMNGA1D_Frame_ndy771.png">
+    <video autoplay loop muted playsinline controls poster="https://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto:best/v1578688255/SMNGA1D_Frame_ndy771.png">
       <source src="https://res.cloudinary.com/benludwig/video/upload/vc_auto/v1578688359/SMNGA1D_ew87l0.mp4">
       <source src="https://res.cloudinary.com/benludwig/video/upload/vc_auto/v1578688359/SMNGA1D_ew87l0.webm" type="video/webm">
       Your browser does not support the video tag.
@@ -69,7 +65,7 @@ layout: standard
 
 <section>
   <div class="video-mobile video-background" style="background-color:#d4d4d6;">
-    <video autoplay loop muted playsinline poster="https://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto:best/v1577999883/SMNGA2B_Frame_djjbyy.png">
+    <video autoplay loop muted playsinline controls poster="https://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto:best/v1577999883/SMNGA2B_Frame_djjbyy.png">
       <source src="https://res.cloudinary.com/benludwig/video/upload/vc_auto/v1577999906/SMNGA2B_mxadia.mp4">
       <source src="https://res.cloudinary.com/benludwig/video/upload/vc_auto/v1577999906/SMNGA2B_mxadia.webm" type="video/webm">
       Your browser does not support the video tag.
@@ -91,7 +87,7 @@ layout: standard
 
 <section>
   <div class="video-desktop video-background" style="background-color:#aaaeb6;">
-    <video autoplay loop muted playsinline poster="https://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto:best/v1578689899/SMNGA1E_Frame_prdmky.png">
+    <video autoplay loop muted playsinline controls poster="https://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto:best/v1578689899/SMNGA1E_Frame_prdmky.png">
       <source src="https://res.cloudinary.com/benludwig/video/upload/vc_auto/v1578689919/SMNGA1E_ruerga.mp4">
       <source src="https://res.cloudinary.com/benludwig/video/upload/vc_auto/v1578689919/SMNGA1E_ruerga.webm" type="video/webm">
       Your browser does not support the video tag.

@@ -37,7 +37,7 @@ layout: standard
 
 <section>
   <div class="video-desktop video-background" style="background-color:#1F629D; padding: 10% 8%;">
-    <video autoplay loop muted playsinline poster="https://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto:best/v1574882030/RIC1_Frame_wgaz0z.png">
+    <video autoplay loop muted playsinline controls poster="https://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto:best/v1574882030/RIC1_Frame_wgaz0z.png">
       <source src="https://res.cloudinary.com/benludwig/video/upload/vc_auto/v1574882045/RIC1_bhltc4.mp4">
       <source src="https://res.cloudinary.com/benludwig/video/upload/vc_auto/v1574882045/RIC1_bhltc4.webm" type="video/webm">
       Your browser does not support the video tag.
@@ -60,7 +60,7 @@ layout: standard
 
 <section>
   <div class="video-desktop video-background" style="background-color:#262E3B;">
-    <video autoplay loop muted playsinline poster="https://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto:best/v1589827329/ricr2_pl2_frame_dcntd3.png">
+    <video autoplay loop muted playsinline controls poster="https://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto:best/v1589827329/ricr2_pl2_frame_dcntd3.png">
       <source src="https://res.cloudinary.com/benludwig/video/upload/vc_auto/v1589827345/ricr2_pl2_iw3rep.mp4">
       <source src="https://res.cloudinary.com/benludwig/video/upload/vc_auto/v1589827345/ricr2_pl2_iw3rep.webm" type="video/webm">
       Your browser does not support the video tag.
@@ -83,7 +83,7 @@ layout: standard
 
 <section>
   <div class="video-desktop video-background" style="background-color:#15365c; padding: 10% 8%;">
-    <video autoplay loop muted playsinline poster="https://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto:best/v1574882057/RIC2_Frame_eutiym.png">
+    <video autoplay loop muted playsinline controls poster="https://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto:best/v1574882057/RIC2_Frame_eutiym.png">
       <source src="https://res.cloudinary.com/benludwig/video/upload/vc_auto/v1574882079/RIC2_alarkx.mp4">
       <source src="https://res.cloudinary.com/benludwig/video/upload/vc_auto/v1574882079/RIC2_alarkx.webm" type="video/webm">
       Your browser does not support the video tag.

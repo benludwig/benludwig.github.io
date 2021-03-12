@@ -26,10 +26,6 @@ layout: standard
             <li class="detail">Role</li>
             <li class="detail-muted">Senior Product Designer</li>
           </ul>
-          <!-- <ul class="detail">
-            <li class="detail">Industry</li>
-            <li class="detail-muted">Events</li>
-          </ul> -->
         </div>
         <div>
         <ul class="detail">
@@ -48,7 +44,7 @@ layout: standard
 
 <section>
 <div class="video-desktop video-background" style="background-color:#215185;">
-  <video autoplay loop muted playsinline poster="https://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto:best/v1578350399/erp1d_frame_mkbddx.png">
+  <video autoplay loop muted playsinline controls poster="https://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto:best/v1578350399/erp1d_frame_mkbddx.png">
     <source src="https://res.cloudinary.com/benludwig/video/upload/vc_auto/v1578350413/erp1d_ff9nbl.mp4">
     <source src="https://res.cloudinary.com/benludwig/video/upload/vc_auto/v1578350413/erp1d_ff9nbl.webm" type="video/webm">
     Your browser does not support the video tag.
@@ -127,7 +123,7 @@ layout: standard
 
 <section>
   <div class="video-desktop video-background" style="background-color:#143357;">
-    <video autoplay loop muted playsinline poster="https://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto:best/v1578687799/erpui04_frame_f6rzbr.png">
+    <video autoplay loop muted playsinline controls poster="https://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto:best/v1578687799/erpui04_frame_f6rzbr.png">
       <source src="https://res.cloudinary.com/benludwig/video/upload/vc_auto/v1578687811/erpui_04_dkes5m.mp4">
       <source src="https://res.cloudinary.com/benludwig/video/upload/vc_auto/v1578687811/erpui_04_dkes5m.webm" type="video/webm">
       Your browser does not support the video tag.

@@ -26,10 +26,6 @@ layout: standard
             <li class="detail">Role</li>
             <li class="detail-muted">Associate Creative Director</li>
           </ul>
-          <!-- <ul class="detail">
-            <li class="detail">Industry</li>
-            <li class="detail-muted">Telecommunications</li>
-          </ul> -->
         </div>
         <div>
         <ul class="detail">
@@ -51,7 +47,7 @@ layout: standard
 
 <section>
 <div class="video-desktop">
-  <video autoplay loop muted playsinline poster="https://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto:best/v1581539190/brand_frame_jykrbq.png">
+  <video autoplay loop muted playsinline controls poster="https://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto:best/v1581539190/brand_frame_jykrbq.png">
     <source src="https://res.cloudinary.com/benludwig/video/upload/vc_auto/v1581539054/brand_dot3ar.mp4">
     <source src="https://res.cloudinary.com/benludwig/video/upload/vc_auto/v1581539054/brand_dot3ar.webm" type="video/webm">
     Your browser does not support the video tag.
@@ -92,7 +88,7 @@ layout: standard
       <h2>The digital adaptation</h2>
     </div>
     <div>
-      <p>I experimented with everything from typography scales to full responsive layouts while finding a balance between brand expression and realistic implementation. As refinement continued, the digital adaptation of the brand started to take shape. One of the biggest shifts from their previous design approach was a new way to think about layouts.</p>
+      <p>Our team experimented with everything from typography scales to full responsive layouts while finding a balance between brand expression and realistic implementation. As refinement continued, the digital adaptation of the brand started to take shape. One of the biggest shifts from their previous design approach was a new way to think about layouts.</p>
       <p>When a platform has hundreds of pages and ever-shifting content, layouts will move and expand. To prevent those layouts from breaking we created a system of visually wrapped containers. We could then anticipate dynamic content outside of our control, programmatically test multiple layouts in different markets and measure the effectiveness of each container.</p>
     </div>
   </div>
@@ -103,10 +99,7 @@ layout: standard
     <div class="carousel-cell"><img src="https://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto:best/v1590004660/ui_ufft29.png"></div>
     <div class="carousel-cell"><img src="https://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto:best/v1587155791/s2_lxkkiq.png"></div>
     <div class="carousel-cell"><img src="https://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto:best/v1587155801/s3_odomfp.png"></div>
-    <!-- <div class="carousel-cell"><img src="https://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto:best/v1587155809/s4_rwdv0h.png"></div> -->
-    <!-- <div class="carousel-cell"><img src="https://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto:best/v1587155805/s7_l32hkk.png"></div> -->
     <div class="carousel-cell"><img src="https://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto:best/v1587155803/s9_dddf45.png"></div>
-    <!-- <div class="carousel-cell"><img src="https://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto:best/v1587155805/s10_tgrs1u.png"></div> -->
   </div>
 </div>
 
@@ -123,13 +116,13 @@ layout: standard
 </section>
 
 <section>
-<div class="video-mobile video-background" style="background-color:#028399;">
-  <video autoplay loop muted playsinline poster="https://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto:best/v1580334525/mobile_frame_zeu65u.png">
-    <source src="https://res.cloudinary.com/benludwig/video/upload/vc_auto/v1580334514/mobile_demc9m.mp4" type="video/mp4">
-    <source src="https://res.cloudinary.com/benludwig/video/upload/vc_auto/v1580334514/mobile_demc9m.webm" type="video/webm">
-    Your browser does not support the video tag.
-  </video>
-</div>
+  <div class="video-desktop video-background" style="background-color:#b9c9d2;">
+    <video autoplay loop muted playsinline controls poster="https://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto:best/v1587160755/beforeafter2_frame_zpi5ce.png">
+      <source src="https://res.cloudinary.com/benludwig/video/upload/vc_auto/v1587160758/beforeafter2_i96hlc.mp4">
+      <source src="https://res.cloudinary.com/benludwig/video/upload/vc_auto/v1587160758/beforeafter2_i96hlc.webm" type="video/webm">
+      Your browser does not support the video tag.
+    </video>
+  </div>
 </section>
 
 <section>
@@ -145,32 +138,8 @@ layout: standard
 </section>
 
 <section>
-  <div class="video-desktop video-background" style="background-color:#b9c9d2;">
-    <video autoplay loop muted playsinline poster="https://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto:best/v1587160755/beforeafter2_frame_zpi5ce.png">
-      <source src="https://res.cloudinary.com/benludwig/video/upload/vc_auto/v1587160758/beforeafter2_i96hlc.mp4">
-      <source src="https://res.cloudinary.com/benludwig/video/upload/vc_auto/v1587160758/beforeafter2_i96hlc.webm" type="video/webm">
-      Your browser does not support the video tag.
-    </video>
-  </div>
-</section>
-
-<section>
-  <div class="split-column">
-    <div>
-      <h2>Atomic design and distribution</h2>
-    </div>
-    <div>
-      <p>A ubiquitous term in the world of websites and apps, we adopted aspects of atomic design concepts in Sketch. We designed small pieces that merged to form larger components. If those pieces changed, updates were reflected in each instance. We then documented our atomic design approach in parallel with each asset we designed.</p>
-      <p>The standards manual produced by the branding agency was a good starting point for our documentation because it contained overarching brand guidelines. Our digital-specific documentation, paired with assets, incorporated the standards manual and grew to become our design system.</p>
-      <p>Our designers could put together pages with more speed and accuracy than ever before. The design files were version-controlled with Abstract and our styles were linked together. It was both efficient and consistent &#8212; but only for our team. Building on our success we opened our design system to other teams, too.</p>
-      <p>InVision's Design System Manager became the home for documentation, guidelines, design assets and development specs. It was quickly adopted as an essential resource in guiding many different teams &#8212; marketing, sales, front-end development, SEO, accessibility, design, UX and digital marketing &#8212; to ensure the brand's voice was communicated correctly.</p>
-    </div>
-  </div>
-</section>
-
-<section>
   <div class="video-desktop video-background" style="background-color:#028399;">
-    <video autoplay loop muted playsinline poster="https://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto:best/v1581107226/dsm_frame_smxjrv.png">
+    <video autoplay loop muted playsinline controls poster="https://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto:best/v1581107226/dsm_frame_smxjrv.png">
       <source src="https://res.cloudinary.com/benludwig/video/upload/vc_auto/v1581107215/dsm_demo_tcricc.mp4">
       <source src="https://res.cloudinary.com/benludwig/video/upload/vc_auto/v1581107215/dsm_demo_tcricc.webm" type="video/webm">
       Your browser does not support the video tag.
@@ -184,16 +153,18 @@ layout: standard
       <h2>Consistency enabled creativity</h2>
     </div>
     <div>
+      <p>A ubiquitous term in the world of websites and apps, we adopted aspects of atomic design concepts in Sketch. We designed small pieces that merged to form larger components. If those pieces changed, updates were reflected in each instance. We then documented our atomic design approach in parallel with each asset we designed.</p>
+      <p>The standards manual produced by the branding agency was a good starting point for our documentation because it contained overarching brand guidelines. Our digital-specific documentation, paired with assets, incorporated the standards manual and grew to become our design system.</p>
+      <p>Our designers could put together pages with more speed and accuracy than ever before. The design files were version-controlled with Abstract and our styles were linked together. It was both efficient and consistent &#8212; but only for our team. Building on our success we opened our design system to other teams, too.</p>
+      <p>InVision's Design System Manager became the home for documentation, guidelines, design assets and development specs. It was quickly adopted as an essential resource in guiding many different teams &#8212; marketing, sales, front-end development, SEO, accessibility, design, UX and digital marketing &#8212; to ensure the brand's voice was communicated correctly.</p>
       <p>Historically, a lot of time had been spent discussing and considering all the technical aspects of design. We wanted to change that and our operational shifts helped get us there. We found as we established more design consistency, we spent more and more of our time focused on creating the story of an experience.</p>
-      <!-- <p>All of our client's home automation products and internet services worked seamlessly together &#8212; an important differentiator when compared to other smart home devices. To drive this further to potential customers, the connected home experience we designed visualized all of their products and services together in one home.</p>
-      <p>It was an integral part of a much larger campaign that included TV spots, out-of-home advertisements, digital marketing and radio. All of those campaign pieces drove new customers to the connected home as the beginning of the purchasing flow.</p> -->
     </div>
   </div>
 </section>
 
 <section>
   <div class="video-desktop video-background" style="background-color:#b9c9d2; padding: 10% 8%;">
-    <video autoplay loop muted playsinline poster="https://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto:best/v1590528451/wifi_page_frame_iaahcp.png">
+    <video autoplay loop muted playsinline controls poster="https://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto:best/v1590528451/wifi_page_frame_iaahcp.png">
       <source src="https://res.cloudinary.com/benludwig/video/upload/vc_auto/v1590528468/Wifi_page_jm4gad.mp4">
       <source src="https://res.cloudinary.com/benludwig/video/upload/vc_auto/v1590528468/Wifi_page_jm4gad.webm" type="video/webm">
       Your browser does not support the video tag.
@@ -201,23 +172,12 @@ layout: standard
   </div>
 </section>
 
-<!-- <section>
-  <div class="video-desktop video-background" style="background-color:#028399;">
-    <video autoplay loop muted playsinline poster="https://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto:best/v1588023186/c_home_frame_tuc8ye.png">
-      <source src="https://res.cloudinary.com/benludwig/video/upload/vc_auto/v1588023202/c_home_o4ei61.mp4">
-      <source src="https://res.cloudinary.com/benludwig/video/upload/vc_auto/v1588023202/c_home_o4ei61.webm" type="video/webm">
-      Your browser does not support the video tag.
-    </video>
-  </div>
-</section> -->
-
 <section>
   <div class="split-column">
     <div>
       <h2>Results</h2>
     </div>
     <div>
-      <!-- <p>Each feature we designed had conditions: considerations for a specific type of user. If someone was a potential customer, that was a single condition. User testing was essential when we had many of them. For larger features with high visibility, complex conditions and greater potential impact we released fully-designed features to specific markets. Page flow data, heat maps and user submitted feedback told us what to refine before releasing to a larger customer base.</p> -->
       <p>From purchasing products to paying bills online, we tackled all the complex design challenges of an e-commerce platform to improve the customer journey and ultimately drive higher revenues for our client. The business value of our design became clear. Our client began setting company sales records &#8212; and more specifically &#8212; online sales accounted for more transactions than ever before.</p>
       <p>
       <ul>
@@ -228,6 +188,7 @@ layout: standard
       <li>The number of features completed from the previous year increased from 53 to over 800</li>
       <li>Our design system grew to contain 900+ interface assets, 300+ layout containers and 48 pages of documentation</li>
       <li>Our team was the largest contributor to our client's evaluation of agency performance in 2018 and 2019 leading to the highest rating in partnership history</li>
+      <li>In 2020, Adweek named FCB their Agency of the Year</li>
       </ul></p>
     </div>
   </div>
