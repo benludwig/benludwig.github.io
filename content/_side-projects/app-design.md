@@ -11,7 +11,7 @@ layout: standard
         <h1>News Real iOS App</h1>
       </div>
         <div>
-        <p>Most people don't have enough time to stay politically informed, much less research the validity of news sources they do encounter. News Real, an iOS app I created with <a href="https://github.com/mlichwa" target="_blank">Michal Lichwa</a>, was our way of combating that problem.</p>
+        <p>Most people don't have enough time to stay politically informed or even research the validity of news sources they do encounter. News Real, an iOS app I created with <a href="https://github.com/mlichwa" target="_blank">Michal Lichwa</a>, was our way of combating that problem.</p>
     </div>
   </div>
 </section>
