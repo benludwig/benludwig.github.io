@@ -1,12 +1,4 @@
-/*Resets-------------------------------
--------------------------------------*/
-
-body, h1, h2, h3, h4, h5, h6,
-p, blockquote, pre, hr,
-dl, dd, ol, ul, figure {
-    margin: 0;
-    padding: 0; 
-    }
+/*Apply tokens to elements*/
 
 /*Colors-----------------------------*/
 
@@ -15,79 +7,55 @@ body {
   color: $color-type;
   }
 
-/*Reveal Effect----------------------*/
-
-.revealblock {
-  visibility: hidden;
-  }
-
-/*Typography-H1------------------------
+/*H1-----------------------------------
 -------------------------------------*/
 
 h1 {
-  @include type-42-regular;
-  padding-bottom: 30px;
+
   }
 
 @media screen and (min-width: 1040px) {
 
   h1 {
-    @include type-55-medium;
-    padding-bottom: 30px;
+
     }
 
 }
 
-/*Typography-H2------------------------
+/*H2-----------------------------------
 -------------------------------------*/
 
 h2 {
-  @include type-28;
-  padding-bottom: 10px;
+
   }
 
 h2.about {
-  @include type-24-medium;
-  // padding-top: 60px;
-  margin-bottom: 6px;
+
   }
 
-/*Typography-H3------------------------
+/*H3-----------------------------------
 -------------------------------------*/
 
 h3 {
-  @include type-20-medium;
-  padding-bottom: 5px;
+
   }
 
-/*Typography-p-------------------------
+/*Paragraphs---------------------------
 -------------------------------------*/
 
 p {
-  @include type-19-regular;
-  @include kerning;
-  padding-bottom: 40px;
+
   }
 
 p.about-p {
-  @include standard;
-  padding-bottom: 20px;
+
   }
 
 p.caption {
-  // @include type-14-regular;
-  // color: $color-type-muted;
-  // padding: 10px 20px 20px 20px;
-  display:none;
+
   }
 
-// @media screen and (min-width: 620px) {
-//   p.caption {
-//     padding: 20px 20px 20px 20px;
-//     }
-// }
-
-/*Typography-li------------------------
+/*Unordered list-----------------------
 -------------------------------------*/
 
 ul {
@@ -110,7 +78,8 @@ ul.detail {
   padding-bottom: 10px;
   }
 
-
+/*List item----------------------------
+-------------------------------------*/
 
 li {
   @include type-19-regular;
@@ -118,13 +87,11 @@ li {
   list-style-type: circle;
   }
 
-
 li.detail {
   @include type-14-regular;
   @include kerning;
   list-style-type: none;
   }
-
 
 li.detail-muted {
   @include type-14-regular;
@@ -134,20 +101,17 @@ li.detail-muted {
   }
 
 li.about-list {
-  // @include type-18-regular;
-    @include standard;
+  @include standard;
   list-style-type: none;
   padding-bottom: 3px;
   }
 
 li.about-list-muted {
-  // @include type-18-regular;
-    @include standard;
+  @include standard;
   color: $color-type-muted;
   list-style-type: none;
   padding-bottom: 13px;
   }
-
 
 li.type-list {
   @include type-18-regular;
@@ -161,95 +125,4 @@ li.type-list-muted {
   list-style-type: none;
   padding-bottom: 3px;
   color: $color-type-muted;
-  }
-
-/*Links--------------------------------
--------------------------------------*/
-
-a {
-  color: inherit;
-  }
-
-/*Previews-----------------------------
--------------------------------------*/
-
-.preview-tag {
-  @include standard-medium;
-  }
-
-.preview-title {
-  @include standard;
-  color: $color-type-muted;
-  }
-
-.preview-tag a,
-.preview-title a,
-.preview-full a  {
-  text-decoration: none;
-  }
-
-@media screen and (max-width: 579px) {
-
-.preview-full img,
-.preview-img img,
-.preview-video video {
-  border-radius: 4px;
-  }
-}
-
-
-@media screen and (min-width: 580px) {
-
-.preview-full .preview-tag {
-  @include standard;
-  color: $color-type-light;
-  }
-
-.preview-full .preview-title {
-  color: $color-type-light;
-  }
-
-}
-
-
-/*Footer-------------------------------
--------------------------------------*/
-
-.text-list-group {
-  padding-bottom: 30px;
-  }
-
-.text-list-section-title {
-  @include standard-medium;
-  padding-bottom: 6px;
-  }
-
-.list-title {
-  @include standard;
-  color: $color-type-muted;
-  padding-bottom: 3px;
-  }
-
-.footer a {
-  text-decoration: none;
-  @include transition;
-  }
-
-.footer a:hover {
-  text-decoration: underline;
-  }
-
-.footer i {
-  padding-right: 5px;
-  }
-
-/*Highlights---------------------------
--------------------------------------*/
-
-::selection {
-  background-color: $color-type-highlight;
-  }
-
-::-moz-selection {
-  background-color: $color-type-highlight;
   }

@@ -1,9 +1,12 @@
+/*Creating tokens overrides and reset behavior*/
+
+
 /*Colors-------------------------------
 -------------------------------------*/
 
 $color-type: #f6f3ef;
-$color-type-muted: #757575; /*#757575 b3b3b3*/
-$color-type-highlight: #FCF113;/*This is text highlight*/
+$color-type-muted: #757575;
+$color-type-highlight: #FCF113;
 $color-type-light: #423f3f;
 $color-type-light-muted: #737373;
 $color-background: #000000;
@@ -46,6 +49,30 @@ p, blockquote, pre, hr,
 dl, dd, ol, ul, figure {
   margin: 0;
   padding: 0;
+  }
+
+* { box-sizing: border-box; }
+
+a {
+  color: inherit;
+  }
+
+/*Highlights---------------------------
+-------------------------------------*/
+
+::selection {
+  background-color: $color-type-highlight;
+  }
+
+::-moz-selection {
+  background-color: $color-type-highlight;
+  }
+
+/*Reveal effect------------------------
+-------------------------------------*/
+
+.revealblock {
+  visibility: hidden;
   }
 
 /*Typography---------------------------

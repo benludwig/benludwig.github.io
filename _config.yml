@@ -13,12 +13,11 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Ben Ludwig - Digital Product Design
-email: hello@benludwig.com
-description: A collection of design work, articles and side projects.
+title: Ben Ludwig
+email: ben.tyler.ludwig@gmail.com
+description: The work of American designer, Ben Ludwig.
 baseurl: ""
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: bnldwg
 github_username:  benludwig
 permalink: pretty
 google_analytics: UA-156252964-1
