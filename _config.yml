@@ -15,7 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 title: Ben Ludwig
 email: ben.tyler.ludwig@gmail.com
-description: The work of American designer, Ben Ludwig.
+description: The work of Ben Ludwig.
 baseurl: ""
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  benludwig
@@ -42,4 +42,8 @@ collections:
   just-for-fun:
     output: true
   side-projects:
+    output: true
+  design:
+    output: true
+  other:
     output: true

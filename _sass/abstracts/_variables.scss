@@ -11,6 +11,8 @@ $color-type-light: #423f3f;
 $color-type-light-muted: #737373;
 $color-background: #000000;
 
+$color-red: #ff0000;
+
 /*Font Files---------------------------
 -------------------------------------*/
 
@@ -82,11 +84,11 @@ html {
   font-size: 100%;
   }
 
-@media screen and (min-width: 1600px) {
-  html {
-    font-size: 120%;
-    }
-}
+// @media screen and (min-width: 1600px) {
+//   html {
+//     font-size: 120%;
+//     }
+// }
 
 @mixin font-smoothing {
   -moz-osx-font-smoothing: grayscale;
@@ -103,6 +105,45 @@ html {
   font-feature-settings:         "kern" 1;
   font-kerning: normal;
   }
+
+
+
+
+
+@mixin headline-hero {
+  font-family: 'GTAmericaRegular', sans-serif;
+  text-align: center;
+  font-size: 3.4375rem;
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+  @include kerning;
+  @include font-smoothing;
+  }
+
+@mixin base-text-hero {
+  font-family: 'GTAmericaRegular', sans-serif;
+  text-align: center;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  @include font-smoothing;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // Standard Type
 

@@ -1,0 +1,15 @@
+<div class-"summary-items">
+  {% assign design = site.design | sort: 'order' %}
+  {% for item in design %}
+    {% if page.url != item.url %}
+    <div>
+      <a href="{{ item.url }}">
+        <img src="{{ item.img }}">
+        {{ item.intro }}
+        {{ item.title }}
+        {{ item.description }}
+      </a>
+    </div>
+    {% endif %}
+  {% endfor %}
+</div>
