@@ -1,7 +1,8 @@
 @charset "utf-8";
 @import "abstracts/variables";
-@import "abstracts/summary-item-hero";
 @import "navigation";
+@import "footer";
+@import "cards";
 @import "stylesheet";
 @import "flickity";
 
@@ -43,10 +44,7 @@
 /*Page---------------------------------
 -------------------------------------*/
 
-.page,
-.page-home {
-  padding-top: 120px;
-  }
+
 
 @media screen and (min-width: 580px) {
 .page-home {
@@ -440,21 +438,5 @@ video {
     position: -webkit-sticky;
     position: sticky;
     top: 120px;
-    }
-}
-
-/*Footer-------------------------------
--------------------------------------*/
-
-@media screen and (min-width: 1200px) {
-  .footer {
-    @include flex;
-    @include flex-justify-space-between;
-    }
-  .footer-one {
-    @include flex;
-    }
-  .footer-one .footer-col:first-child {
-    padding-right: 60px;
     }
 }

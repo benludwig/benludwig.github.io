@@ -1,3 +1,37 @@
+.navigation {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr [col-start]);
+  align-items: center;
+  margin: 80px 0px 80px 0px;
+}
+
+.navigation-back {
+  grid-column: 1 / span 1;
+}
+
+.navigation-title {
+  grid-column: 2 / span 10;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .menu-left {
   @include flex;
   @include flex-align-center;

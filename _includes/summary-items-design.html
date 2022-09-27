@@ -1,15 +1,13 @@
-<div class-"summary-items">
   {% assign design = site.design | sort: 'order' %}
   {% for item in design %}
     {% if page.url != item.url %}
-    <div>
+    <div class="card">
       <a href="{{ item.url }}">
         <img src="{{ item.img }}">
-        {{ item.intro }}
-        {{ item.title }}
-        {{ item.description }}
+        <div class="card-intro">{{ item.intro }}</div>
+        <div class="card-title">{{ item.title }}</div>
+        <!-- {{ item.description }} -->
       </a>
     </div>
     {% endif %}
   {% endfor %}
-</div>

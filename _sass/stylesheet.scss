@@ -1,3 +1,49 @@
 body {
-  background-color: #fff;
+  font-family: 'GTAmericaRegular', sans-serif;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-weight: normal;
+  font-style: normal;
+  -moz-font-feature-settings:    "kern" 1;
+  -ms-font-feature-settings:     "kern" 1;
+  -o-font-feature-settings:      "kern" 1;
+  -webkit-font-feature-settings: "kern" 1;
+  font-feature-settings:         "kern" 1;
+  font-kerning: normal;
+  color:#000;
+  background-color:#fff;
+}
+
+.page {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr [col-start]);
+}
+
+.navigation {
+  grid-column: 2 / span 10;
+}
+
+.footer {
+  grid-column: 2 / span 4;
+}
+
+.text {
+  grid-column: 4 / span 6;
+  margin:40px 0px 40px 0px;
+}
+
+.cards {
+  grid-column: 2 / span 10;
+}
+
+.image {
+  grid-column: 2 / span 10;
+}
+
+h1 {
+  font-size: 4rem;
+  line-height: 5rem;
+  font-weight:400;
 }
