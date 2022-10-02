@@ -1,5 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500&display=swap');
+
 body {
-  font-family: 'GTAmericaRegular', sans-serif;
+  font-family: 'Inter Tight', sans-serif;
+  font-weight: 200;
+  // font-family: 'GTAmericaRegular', sans-serif;
   font-size: 1.25rem;
   line-height: 1.75rem;
   -moz-osx-font-smoothing: grayscale;
@@ -31,7 +35,6 @@ body {
 
 .text {
   grid-column: 4 / span 6;
-  margin:40px 0px 40px 0px;
 }
 
 .cards {
@@ -42,8 +45,22 @@ body {
   grid-column: 2 / span 10;
 }
 
+.image img {
+  border-radius:8px;
+}
+
 h1 {
   font-size: 4rem;
   line-height: 5rem;
+  font-weight:500;
+}
+
+p {
   font-weight:400;
+}
+
+span.caption {
+  font-size: 1rem;
+  line-height: 1.25rem;
+  color:#757575;
 }

@@ -1,3 +1,5 @@
+
+
 .navigation {
   display: grid;
   grid-template-columns: repeat(12, 1fr [col-start]);
@@ -12,6 +14,10 @@
 .navigation-title {
   grid-column: 2 / span 10;
   text-align: center;
+}
+
+.navigation-title a {
+  text-decoration: none;
 }
 
 
