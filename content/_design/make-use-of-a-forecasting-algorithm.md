@@ -1,7 +1,7 @@
 ---
 img: "https://via.placeholder.com/728x728.png"
 intro: Helping marketers
-title: Create a forecasting algorithm
+title: Algorithmic forecasting
 description: Description
 order: 6
 layout: design

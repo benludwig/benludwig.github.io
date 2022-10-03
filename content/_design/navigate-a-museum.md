@@ -1,7 +1,7 @@
 ---
 img: "https://via.placeholder.com/728x728.png"
 intro: Helping visitors
-title: Navigate a museum
+title: Wayfinding
 description: Description
 order: 3
 layout: design

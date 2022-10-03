@@ -1,7 +1,7 @@
 ---
 img: "https://via.placeholder.com/728x728.png"
 intro: Helping fans
-title: Send messages to friends
+title: Variable audio
 description: Description
 order: 7
 layout: design
