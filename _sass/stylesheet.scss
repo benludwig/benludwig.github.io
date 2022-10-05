@@ -21,7 +21,14 @@ body {
 }
 
 .navigation {
-  grid-column: 2 / span 10;
+  margin:60px 0px;
+  padding-top:20px;
+  grid-column: 2 / span 2;
+}
+
+.site-title {
+  margin:80px 0px;
+  grid-column: 4 / span 6;
 }
 
 .cards {
