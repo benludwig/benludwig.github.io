@@ -4,15 +4,10 @@
   <body>
     <div class="page">
       {{ content }}
-      <div class="cards revealblock">
+      <div class="cards">
         {% include summary-items-design.html %}
       </div>
       {% include footer.html %}
     </div>
-    <script type="text/javascript" src='{{ site.baseurl }}/js/scrollreveal.min.js'></script>
-    <script>
-    window.sr = ScrollReveal();
-    sr.reveal('.revealblock', { duration: 1000, distance: '2px', scale: 1, viewFactor: 0.05 });
-    </script>
   </body>
 </html>

@@ -3,26 +3,9 @@
   {% include head.html %}
   <body>
     {% include menu-home.html %}
-    <div class="page-home revealblock">
+    <div class="page-home">
     {% include work-previews.html %}
     {% include footer.html %}
     </div>
-    <script type="text/javascript" src='{{ site.baseurl }}/js/scrollreveal.min.js'></script>
-    <script>
-    window.sr = ScrollReveal();
-    sr.reveal('.revealblock', { duration: 1000, distance: '2px', scale: 1, viewFactor: 0.05 });
-    </script>
-    <script>
-    window.onscroll = function() {scrollFunction()};
-          function scrollFunction() {
-            if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
-              document.getElementById("nav").style.backgroundColor = "rgba(0,0,0,.9)";
-              document.getElementById("nav").style.color = "#ffffff";
-            } else {
-              document.getElementById("nav").style.backgroundColor = "rgba(0,0,0,0)";
-              document.getElementById("nav").style.color = "#423f3f";
-            }
-          }
-    </script>
   </body>
 </html>
