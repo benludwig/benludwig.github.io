@@ -1,8 +1,6 @@
 ---
 img: "https://via.placeholder.com/728x728.png"
-intro:
 title: Speaking about design
-description: Description
 order: 9
 layout: design
 ---

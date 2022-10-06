@@ -37,6 +37,7 @@ body {
 
 .footer {
   grid-column: 2 / span 10;
+  margin: 80px 0px 80px 0px;
 }
 
 @media screen and (min-width: 600px) {
@@ -69,6 +70,23 @@ body {
   border-radius:8px;
 }
 
+html {
+  font-size: 100%;
+  }
+
+body, h1, h2, h3, h4, h5, h6,
+p, blockquote, pre, hr,
+dl, dd, ol, ul, figure {
+  margin: 0;
+  padding: 0;
+  }
+
+* { box-sizing: border-box; }
+
+a {
+  color: inherit;
+  }
+
 h1 {
   font-size:inherit;
   line-height:inherit;
@@ -82,3 +100,11 @@ p {
 span.caption {
   color:#757575;
 }
+
+::selection {
+  background-color: #FCF113;
+  }
+
+::-moz-selection {
+  background-color: #FCF113;
+  }

@@ -1,8 +1,6 @@
 ---
 img: "https://via.placeholder.com/728x728.png"
-intro: Helping renters and home owners
 title: Shopping
-description: Description
 order: 5
 layout: design
 ---

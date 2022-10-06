@@ -33,17 +33,7 @@ exclude:
 # Collections
 collections_dir: content
 collections:
-  articles:
-    output: true
-  case-studies:
-    output: true
-  design-work:
-    output: true
-  just-for-fun:
-    output: true
   side-projects:
     output: true
   design:
-    output: true
-  other:
     output: true
