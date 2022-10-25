@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Lusitana&display=swap');
+
+html {
+  font-size: 100%;
+  }
+
+body, h1, h2, h3, h4, h5, h6,
+p, blockquote, pre, hr,
+dl, dd, ol, ul, figure {
+  margin: 0;
+  padding: 0;
+  }
+
+* { box-sizing: border-box; }
+
+a {
+  color: inherit;
+  }
+
+body {
+  font-family: 'Inter', sans-serif;
+  font-weight: 300;
+  font-size: 1rem;
+  line-height: 1.641rem;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-weight: normal;
+  font-style: normal;
+  color:#000;
+  background-color:#fff;
+}
+
+.site-title {
+
+}
+
+.card-title {
+  font-family: 'Lusitana', serif;
+  font-size: 1rem;
+  line-height: 1.6rem;
+  font-weight:400;
+}
+
+.footer {
+
+}
+
+h1 {
+  font-family: 'Lusitana', serif;
+  font-size: 2rem;
+  line-height: 3.2rem;
+  font-weight:400;
+  padding-bottom:10px;
+}
+
+h2 {
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 1.6rem;
+  color:#757575;
+  padding-bottom:10px;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 1.6rem;
+  font-weight:400;
+  padding-bottom:30px;
+}
+
+span.duration {
+  font-weight: 600;
+  font-size: 0.8rem;
+  line-height: 1.6rem;
+  color:#757575;
+  display:flex;
+}
+
+span.material-symbols-outlined{
+  padding-right:5px;
+}
+
+span.caption {
+  color:#757575;
+}

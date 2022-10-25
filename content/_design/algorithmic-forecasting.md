@@ -1,7 +1,7 @@
 ---
 img: "https://via.placeholder.com/728x728.png"
 title: Algorithmic forecasting
-order: 6
+order: 4
 layout: design
 ---
 <div class="text">

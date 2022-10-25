@@ -33,7 +33,5 @@ exclude:
 # Collections
 collections_dir: content
 collections:
-  side-projects:
-    output: true
   design:
     output: true

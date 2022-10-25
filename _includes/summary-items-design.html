@@ -2,10 +2,8 @@
   {% for item in design %}
     {% if page.url != item.url %}
     <a href="{{ item.url }}">
-      <div class="card">
           <img src="{{ item.img }}">
           <div class="card-title">{{ item.title }}</div>
-      </div>
     </a>
     {% endif %}
   {% endfor %}
