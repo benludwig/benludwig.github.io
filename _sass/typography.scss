@@ -1,4 +1,21 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Lusitana&display=swap');
+@font-face {
+font-family: 'GTAmericaRegular';
+src: url('../fonts/GTAmerica/GTAmerica-Regular.eot'), /* IE9 Compat Modes */
+     url('../fonts/GTAmerica/GTAmerica-Regular.woff2') format('woff2'), /* Super Modern Browsers */
+     url('../fonts/GTAmerica/GTAmerica-Regular.woff') format('woff'), /* Pretty Modern Browsers */
+     url('../fonts/GTAmerica/GTAmerica-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+     url('../fonts/GTAmerica/GTAmerica-Regular.svg') format('svg'); /* Legacy iOS */
+     }
+
+@font-face {
+font-family: 'GTAmericaThin';
+src: url('../fonts/GTAmerica/GTAmerica-Thin.eot'), /* IE9 Compat Modes */
+    url('../fonts/GTAmerica/GTAmerica-Thin.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../fonts/GTAmerica/GTAmerica-Thin.woff') format('woff'), /* Pretty Modern Browsers */
+    url('../fonts/GTAmerica/GTAmerica-Thin.ttf')  format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/GTAmerica/GTAmerica-Thin.svg') format('svg'); /* Legacy iOS */
+    }
+
 
 html {
   font-size: 100%;
@@ -13,73 +30,24 @@ dl, dd, ol, ul, figure {
 
 * { box-sizing: border-box; }
 
-a {
-  color: inherit;
-  }
-
 body {
-  font-family: 'Inter', sans-serif;
-  font-weight: 300;
-  font-size: 1rem;
-  line-height: 1.641rem;
+  font-family: "GTAmericaRegular",sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 0.875rem;
+  line-height: 1.0625rem;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   font-weight: normal;
   font-style: normal;
-  color:#000;
-  background-color:#fff;
-}
-
-.site-title {
-
-}
-
-.card-title {
-  font-family: 'Lusitana', serif;
-  font-size: 1rem;
-  line-height: 1.6rem;
-  font-weight:400;
-}
-
-.footer {
-
+  color:#fff;
+  background-color:#252524;
 }
 
 h1 {
-  font-family: 'Lusitana', serif;
-  font-size: 2rem;
-  line-height: 3.2rem;
-  font-weight:400;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.5rem;
+  line-height: 1.8125rem;
   padding-bottom:10px;
-}
-
-h2 {
-  font-weight: 600;
-  font-size: 1rem;
-  line-height: 1.6rem;
-  color:#757575;
-  padding-bottom:10px;
-}
-
-p {
-  font-size: 1rem;
-  line-height: 1.6rem;
-  font-weight:400;
-  padding-bottom:30px;
-}
-
-span.duration {
-  font-weight: 600;
-  font-size: 0.8rem;
-  line-height: 1.6rem;
-  color:#757575;
-  display:flex;
-}
-
-span.material-symbols-outlined{
-  padding-right:5px;
-}
-
-span.caption {
-  color:#757575;
 }
