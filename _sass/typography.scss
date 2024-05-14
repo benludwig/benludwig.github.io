@@ -61,39 +61,12 @@ h1 {
 .home h1 {
   font-family: "GTAmericaRegular",sans-serif;
   font-style: normal;
-  font-size: 18px;
+  font-size: 1rem;
   padding-bottom:0px;
   color: #fff;
   text-align: center;
   padding-bottom: 0px;
   line-height: 1.25rem;
-}
-
-.home h2 {
-  font-family: "GTAmericaBold",sans-serif;
-  font-style: normal;
-  font-size: 18px;
-  padding-bottom:0px;
-  color: #fff;
-  text-align: center;
-}
-
-.home-desc {
-  font-family: "GTAmericaThin",sans-serif;
-  font-style: normal;
-  font-size: 1rem;
-  padding-bottom:0px;
-  color: #fff;
-  text-align: center;
-  display:flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.home-desc .material-symbols-outlined {
-    font-size: 1rem;
-    color: #fff;
-    padding: 3px 0px 0px 4px;
 }
 
 .email {
