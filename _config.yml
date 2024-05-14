@@ -15,7 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 title: Ben Ludwig
 email: ben.tyler.ludwig@gmail.com
-description: Interaction Design
+description:
 baseurl: ""
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  benludwig
@@ -33,5 +33,5 @@ exclude:
 # Collections
 collections_dir: content
 collections:
-  design:
+  work:
     output: true

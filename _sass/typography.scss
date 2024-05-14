@@ -16,6 +16,14 @@ src: url('../fonts/GTAmerica/GTAmerica-Thin.eot'), /* IE9 Compat Modes */
     url('../fonts/GTAmerica/GTAmerica-Thin.svg') format('svg'); /* Legacy iOS */
     }
 
+@font-face {
+font-family: 'GTAmericaBold';
+src: url('../fonts/GTAmerica/GTAmerica-Bold.eot'), /* IE9 Compat Modes */
+    url('../fonts/GTAmerica/GTAmerica-Bold.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../fonts/GTAmerica/GTAmerica-Bold.woff') format('woff'), /* Pretty Modern Browsers */
+    url('../fonts/GTAmerica/GTAmerica-Bold.ttf')  format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/GTAmerica/GTAmerica-Bold.svg') format('svg'); /* Legacy iOS */
+    }
 
 html {
   font-size: 100%;
@@ -32,10 +40,8 @@ dl, dd, ol, ul, figure {
 
 body {
   font-family: "GTAmericaRegular",sans-serif;
-  font-weight: 400;
   font-style: normal;
-  font-size: 0.875rem;
-  line-height: 1.0625rem;
+  font-size: 20px;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   font-weight: normal;
@@ -43,9 +49,75 @@ body {
 }
 
 h1 {
-  font-weight: 400;
+  font-family: "GTAmericaRegular",sans-serif;
   font-style: normal;
-  font-size: 1.5rem;
-  line-height: 1.8125rem;
-  padding-bottom:10px;
+  font-size: 58px;
+  line-height: 64px;
+  color: #fff;
+  font-weight:normal;
+  padding-bottom: 20px;
+}
+
+.home h1 {
+  font-family: "GTAmericaRegular",sans-serif;
+  font-style: normal;
+  font-size: 18px;
+  padding-bottom:0px;
+  color: #fff;
+  text-align: center;
+  padding-bottom: 0px;
+  line-height: 1.25rem;
+}
+
+.home h2 {
+  font-family: "GTAmericaBold",sans-serif;
+  font-style: normal;
+  font-size: 18px;
+  padding-bottom:0px;
+  color: #fff;
+  text-align: center;
+}
+
+.home-desc {
+  font-family: "GTAmericaThin",sans-serif;
+  font-style: normal;
+  font-size: 1rem;
+  padding-bottom:0px;
+  color: #fff;
+  text-align: center;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-desc .material-symbols-outlined {
+    font-size: 1rem;
+    color: #fff;
+    padding: 3px 0px 0px 4px;
+}
+
+.email {
+  font-family: "GTAmericaRegular",sans-serif;
+  font-style: normal;
+  font-size: 1rem;
+  padding-bottom:0px;
+  color: #fff;
+  text-align: center;
+}
+
+.email a {
+  color: #fff;
+}
+
+.title {
+  font-family: "GTAmericaThin",sans-serif;
+  font-style: normal;
+  font-size: 1rem;
+  padding-bottom:0px;
+  color: #fff;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
 }

@@ -1,1 +1,274 @@
+body {
+  margin: 0;
+  padding: 0;
+}
 
+img {
+  width: 100%;
+  height: auto;
+}
+
+.home {
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #000;
+  height: 100vh;
+}
+
+.home-top {
+  padding: 30px 0px 0px 0px;
+}
+
+.tiles {
+  flex-grow: 1;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-auto-rows: 1fr;
+  gap: 30px 30px;
+  padding:30px;
+}
+
+.tile {
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding:6px;
+  border-radius: 12px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+}
+
+
+.tile-image{
+  flex-grow: 1;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 12px;
+}
+
+.title {
+  padding: 20px 0px 10px 0px;
+}
+
+.tile-image.analytics {
+  background-image: url("https://res.cloudinary.com/benludwig/image/upload/c_scale,f_auto,q_auto:best,w_2000/v1714020973/analytics_cvftkt.png");
+}
+
+.tile-image.ecommerce {
+  background-image: url("https://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto:best/v1715220861/commerce_a1prre.png");
+}
+
+.tile-image.events {
+  background-image: url("https://res.cloudinary.com/benludwig/image/upload/c_fill,f_auto,g_center,h_2000,q_auto:best,w_2000/v1712694224/equipment_gn1oze.jpg");
+}
+
+.tile-image.exhibits {
+  background-image: url("https://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto:best/v1715262876/exhibits_q17etp.png");
+}
+
+.tile-image.maps {
+  background-image: url("https://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto:best/v1714020705/maps_utrpp3.png");
+}
+
+.tile-image.voice {
+  background-image: url("https://res.cloudinary.com/benludwig/image/upload/c_scale,f_auto,q_auto:best,w_2000/v1712694235/voice_o5fv7p.jpg");
+}
+
+.detail {
+  display: flex;
+  flex-direction: column;
+  padding:0px 20px 20px 20px;
+  min-height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.detail.analytics {
+  background-image:url("https://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto:best/v1714021221/analytics_mobile_xqge8i.png");
+}
+
+.detail.ecommerce {
+  background-image:url("https://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto:best/v1713631490/commerce_mobile_sppzih.png");
+}
+
+.detail.events {
+  background-image:url("https://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto:best/v1714019760/events_mobile_hfsdta.png");
+}
+
+.detail.exhibits {
+  background-image:url("https://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto:best/v1715262870/exhibits_mobile_yjp0pe.png");
+}
+
+.detail.maps {
+  background-image:url("https://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto:best/v1713631546/maps_mobile_bz3zrc.png");
+}
+
+.detail.voice {
+  background-image:url("https://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto:best/v1713631618/voice_mobile_iqlkmo.png");
+}
+
+.detail-close {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  display:flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 20px 0px;
+}
+
+.detail-close a {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 180px;
+  padding: 20px;
+}
+
+.material-symbols-outlined {
+  font-size: 40px;
+  color:#fff;
+}
+
+.detail-top-image {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: flex-end;
+  height: 40vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.detail-top-image.analytics {
+  background-image: url("https://res.cloudinary.com/benludwig/image/upload/c_scale,f_auto,q_auto:best,w_2000/v1714020973/analytics_cvftkt.png");
+}
+
+.detail-top-image.ecommerce {
+  background-image: url("https://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto:best/v1715220861/commerce_a1prre.png");
+}
+
+.detail-top-image.events {
+  background-image: url("https://res.cloudinary.com/benludwig/image/upload/c_scale,f_auto,q_auto:best,w_2000/v1712694224/equipment_gn1oze.jpg");
+}
+
+.detail-top-image.exhibits {
+  background-image: url("https://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto:best/v1715262876/exhibits_q17etp.png");
+}
+
+.detail-top-image.maps {
+  background-image: url("https://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto:best/v1714020705/maps_utrpp3.png");
+}
+
+.detail-top-image.voice {
+  background-image: url("https://res.cloudinary.com/benludwig/image/upload/c_scale,f_auto,q_auto:best,w_2000/v1712694235/voice_o5fv7p.jpg");
+}
+
+.detail-title {
+  width: 75%;
+  margin-bottom: 20px;
+}
+
+.detail-content {
+  color: #fff;
+  padding: 20px 20px 20px 20px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+}
+
+.detail-content p {
+  width: 75%;
+  margin-bottom: 20px;
+}
+
+.detail-content p.last {
+  margin-bottom: 0px;
+}
+
+@media screen and (min-width: 1000px) {
+
+  .tiles {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .detail {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0px 20px;
+    padding: 0px 20px;
+    min-height: 100vh;
+    align-content: start;
+  }
+
+  .detail-close {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-bottom: 20px;
+    padding-top:20px;
+    align-self: start
+  }
+
+  .left {
+    grid-area: 1 / 1 / 3 / 2;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding: 70px;
+  }
+
+  .detail-top-image {
+    flex: 1;
+    height: auto;
+    margin-bottom: 0px;
+  }
+
+  .right {
+    grid-column-start: 2;
+  }
+
+  .detail-content {
+    padding: 20px 20px 70px 20px;
+  }
+
+  .detail.analytics {
+    background-image:url("https://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto:best/v1715112736/analytics_desktop_dppdh7.png");
+  }
+
+  .detail.ecommerce {
+    background-image:url("https://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto:best/v1715112737/commerce_desktop_o9yrtf.png");
+  }
+
+  .detail.events {
+    background-image:url("https://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto:best/v1715112736/events_desktop_jiga2w.png");
+  }
+
+  .detail.exhibits {
+    background-image:url("https://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto:best/v1715262870/exhibits_desktop_w351te.png");
+  }
+
+  .detail.maps {
+    background-image:url("https://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto:best/v1715112736/maps_desktop_finado.png");
+  }
+
+  .detail.voice {
+    background-image:url("https://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto:best/v1715112737/voice_desktop_z0bnbo.png");
+  }
+
+}
