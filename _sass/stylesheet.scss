@@ -14,10 +14,11 @@ img {
   justify-content: space-between;
   background-color: #000;
   height: 100vh;
+  height: 100dvh;
 }
 
 .home-top {
-  padding: 30px 0px 0px 0px;
+  padding: 20px 0px 6px 0px;
 }
 
 .tiles {
@@ -25,8 +26,8 @@ img {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-auto-rows: 1fr;
-  gap: 20px 20px;
-  padding:20px;
+  gap: 14px 14px;
+  padding:14px;
 }
 
 .tile {
@@ -50,7 +51,7 @@ img {
 }
 
 .title {
-  padding: 20px 0px 10px 0px;
+  padding: 10px 0px 10px 0px;
 }
 
 .tile-image.analytics {
@@ -67,6 +68,10 @@ img {
 
 .tile-image.exhibits {
   background-image: url("https://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto:best/v1715262876/exhibits_q17etp.png");
+}
+
+.tile-image.google {
+  background-image: url("https://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto:best/v1715803656/google_yq50rj.png");
 }
 
 .tile-image.maps {
@@ -101,6 +106,10 @@ img {
 
 .detail.exhibits {
   background-image:url("https://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto:best/v1715262870/exhibits_mobile_yjp0pe.png");
+}
+
+.detail.google {
+  background-image:url("https://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto:best/v1715803656/google_mobile_srrrjz.png");
 }
 
 .detail.maps {
@@ -164,6 +173,10 @@ img {
 
 .detail-top-image.exhibits {
   background-image: url("https://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto:best/v1715262876/exhibits_q17etp.png");
+}
+
+.detail-top-image.google {
+  background-image: url("https://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto:best/v1715803656/google_yq50rj.png");
 }
 
 .detail-top-image.maps {
@@ -260,6 +273,10 @@ img {
 
   .detail.exhibits {
     background-image:url("https://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto:best/v1715262870/exhibits_desktop_w351te.png");
+  }
+
+  .detail.google {
+    background-image:url("https://res.cloudinary.com/benludwig/image/upload/f_auto,q_auto:best/v1715890480/google_desktop_gwbqkw.png");
   }
 
   .detail.maps {

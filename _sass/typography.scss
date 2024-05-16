@@ -85,6 +85,12 @@ a {
   text-decoration: none;
 }
 
+a.italic {
+  text-decoration:none;
+  color:#fff;
+  font-style: italic;
+}
+
 @media screen and (min-width: 1000px) {
 
   h1 {
