@@ -10,9 +10,8 @@ layout: detail
     <div class="right">
       <div class="detail-content">
         <div class="detail-title"><h1>Google</h1></div>
-          <!-- <p>Software for mobile developers to build, maintain, troubleshoot&mdash;and earn revenue from&mdash;their apps.</p>
-          <p>We make Google products that are not only functional but also enjoyable and user-friendly while incorporating the latest advancements in AI and Machine Learning.</p>
-          <p class="last"><a class="italic" href="https://gemini.google.com/app" target="_blank">Written with Gemini ✨</a></p> -->
+          <p>Software for mobile developers to build, distribute and earn revenue from their apps.</p>
+          <p class="last">Over 1 million apps from 200 countries, including 81% of the Android top 1,000, use it today.</p>
       </div>
     </div>
 </div>
