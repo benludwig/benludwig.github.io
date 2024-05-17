@@ -15,7 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 title: Ben Ludwig
 email: ben.tyler.ludwig@gmail.com
-description: Ben Ludwig is an Interaction Designer at Google. For over 15 years, he has created apps, websites and software used by over a billion people around the world.
+description: Ben Ludwig is an Interaction Designer at Google. For over 15 years, he has helped create apps, websites and software used by over a billion people around the world.
 baseurl: ""
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  benludwig
