@@ -87,13 +87,21 @@ a {
 
 @media screen and (min-width: 1000px) {
 
+  body {
+    font-size: 1.4rem;
+  }
+
   h1 {
-    font-family: "GTAmericaRegular",sans-serif;
-    font-style: normal;
     font-size: 3rem;
-    color: #fff;
-    font-weight:normal;
-    padding-bottom: 20px;
+  }
+
+  .home h1 {
+    font-size: 1.2rem;
+    line-height: 1.75rem;
+  }
+
+  .email {
+    font-size: 1.2rem;
   }
 
 }
