@@ -1,5 +1,5 @@
 ---
-title: Voice messaging
+title: Maps
 layout: detail
 ---
 <div class="detail maps">

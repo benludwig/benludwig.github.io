@@ -1,5 +1,5 @@
 ---
-title: Voice messaging
+title: Exhibits
 layout: detail
 ---
 <div class="detail exhibits">

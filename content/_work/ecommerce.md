@@ -1,5 +1,5 @@
 ---
-title: Voice messaging
+title: E-commerce
 layout: detail
 ---
 <div class="detail ecommerce">

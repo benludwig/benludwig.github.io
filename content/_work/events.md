@@ -1,5 +1,5 @@
 ---
-title: Voice messaging
+title: Events
 layout: detail
 ---
 <div class="detail events">
